@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 120">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g>
+    <g id="22-22-list-add" transform="translate(13)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 10,5 a 1,1 0 0 1 2,0 v 5 h 5 a 1,1 0 0 1 0,2 h -5 v 5 a 1,1 0 0 1 -2,0 v -5 h -5 a 1,1 0 0 1 0,-2 h 5 z"/>
+    </g>
+    <g id="32-32-list-add" transform="translate(8,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 14,8 a 2,2 0 0 1 4,0 v 6 h 6 a 1,1 0 0 1 0,4 h -6 v 6 a 1,1 0 0 1 -4,0 v -6 h -6 a 1,1 0 0 1 0,-4 h 6 z"/>
+    </g>
+    <g id="list-add" transform="translate(0,72)">
+      <rect style="fill:none" width="48" height="48"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 22,12 a 2,2 0 0 1 4,0 v 10 h 10 a 1,1 0 0 1 0,4 h -10 v 10 a 1,1 0 0 1 -4,0 v -10 h -10 a 1,1 0 0 1 0,-4 h 10 z"/>
+    </g>
+  </g>
+  <g transform="translate(48)">
+    <g id="22-22-list-remove" transform="translate(13)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 5,12 a 1,1 0 0 1 0,-2 h 12 a 1,1 0 0 1 0,2 z"/>
+    </g>
+    <g id="32-32-list-remove" transform="translate(8,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 8,18 a 2,2 0 0 1 0,-4 h 16 a 2,2 0 0 1 0,4 z"/>
+    </g>
+    <g id="list-remove" transform="translate(0,72)">
+      <rect style="fill:none" width="48" height="48"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 12,26 a 2,2 0 0 1 0,-4 h 24 a 2,2 0 0 1 0,4 z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 120">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+      .ColorScheme-ButtonFocus { color: #2670D0 }
+    </style>
+  </defs>
+  <g>
+    <g id="22-22-input-keyboard" transform="translate(13)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(2,5)">
+        <path d="M 1,0 a 1,1 0 0 0 -1,1 v 10 a 1,1 0 0 0 1,1 h 16 a 1,1 0 0 0 1,-1 v -10 a 1,1 0 0 0 -1,-1 z
+          M 2,2 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2
+          M 2,5 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2
+          M 5,8 l 8 0 0 2 -8 0"/>
+      </g>
+    </g>
+    <g id="32-32-input-keyboard" transform="translate(8,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(3,7)">
+        <path d="M 1.5,0 a 1.5,1.5 0 0 0 -1.5,1.5 v 15 a 1.5,1.5 0 0 0 1.5,1.5 h 23 a 1.5,1.5 0 0 0 1.5,-1.5 v -15 a 1.5,1.5 0 0 0 -1.5,-1.5 z
+          M 2.5,3 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3
+          M 2.5,7.5 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3
+          M 7,12 l 12 0 0 3 -12 0"/>
+      </g>
+    </g>
+    <g id="input-keyboard" transform="translate(0,72)">
+      <rect style="fill:none" width="48" height="48"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(3,9)">
+        <path d="M 2,0 a 2,2 0 0 0 -2,2 v 26 a 2,2 0 0 0 2,2 h 38 a 2,2 0 0 0 2,-2 v -26 a 2,2 0 0 0 -2,-2 z
+          M 4,4 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4
+          M 4,10 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4
+          M 4,16 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4
+          M 10,22 l 22 0 0 4 -22 0"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(48)">
+    <g id="22-22-input-keyboard-brightness" transform="translate(13)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 5,13 a 1,1 0 0 1 1,-1 h 10 a 1,1 0 0 1 1,1 v 2 h -12 z"/>
+        <g style="fill-opacity:0.75" transform="translate(11,19)">
+          <path transform="rotate(11.25)" d="M -1,-14 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+          <path transform="rotate(33.75)" d="M -1,-14 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+          <path transform="rotate(-11.25)" d="M -1,-14 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+          <path transform="rotate(-33.75)" d="M -1,-14 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+        </g>
+      </g>
+    </g>
+    <g id="32-32-input-keyboard-brightness" transform="translate(8,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 8,21 a 2,2 0 0 1 2,-2 h 12 a 2,2 0 0 1 2,2 v 2 h -16 z"/>
+        <g style="fill-opacity:0.75" transform="translate(16,30)">
+          <path transform="rotate(11.25)" d="M -1,-21 a 1,1 0 0 1 2,0 v 4 a 1,1 0 0 1 -2,0 z"/>
+          <path transform="rotate(33.75)" d="M -1,-21 a 1,1 0 0 1 2,0 v 4 a 1,1 0 0 1 -2,0 z"/>
+          <path transform="rotate(-11.25)" d="M -1,-21 a 1,1 0 0 1 2,0 v 4 a 1,1 0 0 1 -2,0 z"/>
+          <path transform="rotate(-33.75)" d="M -1,-21 a 1,1 0 0 1 2,0 v 4 a 1,1 0 0 1 -2,0 z"/>
+        </g>
+      </g>
+    </g>
+    <g id="input-keyboard-brightness" transform="translate(0,72)">
+      <rect style="fill:none" width="48" height="48"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 12,28 a 2,2 0 0 1 2,-2 h 20 a 2,2 0 0 1 2,2 v 4 h -24 z"/>
+        <g style="fill-opacity:0.75" transform="translate(24,40)">
+          <path transform="rotate(11.25)" d="M -1,-28 a 1,1 0 0 1 2,0 v 6 a 1,1 0 0 1 -2,0 z"/>
+          <path transform="rotate(33.75)" d="M -1,-28 a 1,1 0 0 1 2,0 v 6 a 1,1 0 0 1 -2,0 z"/>
+          <path transform="rotate(-11.25)" d="M -1,-28 a 1,1 0 0 1 2,0 v 6 a 1,1 0 0 1 -2,0 z"/>
+          <path transform="rotate(-33.75)" d="M -1,-28 a 1,1 0 0 1 2,0 v 6 a 1,1 0 0 1 -2,0 z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(96)">
+    <g id="22-22-input-keyboard-virtual-on" transform="translate(13)">
+      <rect style="fill:none" width="22" height="22"/>
+      <circle class="ColorScheme-ButtonFocus" style="fill:currentColor" cx="11" cy="11" r="8"/>
+    </g>
+    <g id="input-keyboard-virtual-on" transform="translate(12,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="ColorScheme-ButtonFocus" style="fill:currentColor" cx="12" cy="12" r="8"/>
+    </g>
+  </g>
+
+  <g transform="translate(144)">
+    <g id="22-22-input-keyboard-virtual-off" transform="translate(13)">
+      <rect style="fill:none" width="22" height="22"/>
+      <circle class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.5" cx="11" cy="11" r="8"/>
+    </g>
+    <g id="input-keyboard-virtual-off" transform="translate(12,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.5" cx="12" cy="12" r="8"/>
+    </g>
+  </g>
+
+  <g transform="translate(192)">
+    <g id="22-22-input-caps-on" transform="translate(13)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" transform="translate(-1,-1)" d="M12 8.41l3.89 3.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L12.71 6.3c-.39-.39-1.02-.39-1.41 0l-4.6 4.59c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 8.41zM7 18h10c.55 0 1-.45 1-1s-.45-1-1-1H7c-.55 0-1 .45-1 1s.45 1 1 1z"/>
+    </g>
+    <g id="input-caps-on" transform="translate(12,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="M12 8.41l3.89 3.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L12.71 6.3c-.39-.39-1.02-.39-1.41 0l-4.6 4.59c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 8.41zM7 18h10c.55 0 1-.45 1-1s-.45-1-1-1H7c-.55 0-1 .45-1 1s.45 1 1 1z"/>
+    </g>
+  </g>
+
+  <!-- TODO: input-num-on -->
+
+  <g transform="translate(240)">
+    <g id="22-22-input-keyboard-battery" transform="translate(13)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(-1,-1)">
+        <!-- Keyboard -->
+        <g style="opacity:0.5" transform="translate(2,5)">
+          <path style="fill-opacity:0.375" d="m 1,0 a 1,1 0 0 0 -1,1 v 10 a 1,1 0 0 0 1,1 h 10 v -7 a 1,1 0 0 1 1,-1 h 1 v -1 a 1,1 0 0 1 1,-1 h 4 v -1 a 1,1 0 0 0 -1,-1 z"/>
+          <path d="M 2,2 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2 "/>
+          <path d="M 2,5 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2 m 3,0 l 2 0 0 2 -2 0 0 -2"/>
+          <path d="M 5,8 l 6 0 0 2 -6 0"/>
+        </g>
+        <!-- Battery -->
+        <g transform="translate(15,9)">
+          <path d="m 2,1 a 1,1 0 0 1 1,-1 h 2 a 1,1 0 0 1 1,1 h -4"/>
+          <rect y="2" width="8" height="12" rx="1" ry="1"/>
+        </g>
+      </g>
+    </g>
+    <g id="32-32-input-keyboard-battery" transform="translate(8,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <!-- Keyboard -->
+        <g style="opacity:0.5" transform="translate(3,7)">
+          <path style="fill-opacity:0.375" d="m 1.5,0 a 1.5,1.5 0 0 0 -1.5,1.5 v 15 a 1.5,1.5 0 0 0 1.5,1.5 h 15.5 v -8 a 1,1 0 0 1 1,-1 h 1 v -1 a 1,1 0 0 1 1,-1 h 6 v -5.5 a 1.5,1.5 0 0 0 -1.5,-1.5 z"/>
+          <path d="M 2.5,3 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3"/>
+          <path d="M 2.5,7.5 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 h 3 v 1.5 h -1 a 1,1 0 0 0 -1,1 v 0.5 h -1"/>
+          <path d="M 7,12 l 10 0 0 3 -10 0"/>
+        </g>
+        <!-- Battery -->
+        <g transform="translate(22,16)">
+          <path d="m 2,1 a 1,1 0 0 1 1,-1 h 2 a 1,1 0 0 1 1,1 h -4"/>
+          <rect y="2" width="8" height="12" rx="1" ry="1"/>
+        </g>
+      </g>
+    </g>
+    <g id="input-keyboard-battery" transform="translate(0,72)">
+      <rect style="fill:none" width="48" height="48"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <!-- Keyboard -->
+        <g style="opacity:0.5" transform="translate(3,9)">
+          <path style="fill-opacity:0.375" d="m 2,0 a 2,2 0 0 0 -2,2 v 26 a 2,2 0 0 0 2,2 h 27 v -13 a 1,1 0 0 1 1,-1 h 2 v -2 a 1,1 0 0 1 1,-1 h 8 a 1,1 0 0 1 1,1 v -12 a 2,2 0 0 0 -2,-2 z"/>
+          <path d="M 4,4 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4"/>
+          <path d="M 4,10 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 3 -4 0 0 -3"/>
+          <path d="M 4,16 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 l 4 0 0 4 -4 0 0 -4 m 6,0 h 2 a 1,1 0 0 0 -1,1 v 3 h -1 z"/>
+          <path d="m 10,22 l 19 0 0 4 -19 0"/>
+        </g>
+        <!-- Battery -->
+        <g transform="translate(34,25)">
+          <path d="m 3,1 a 1,1 0 0 1 1,-1 h 4 a 1,1 0 0 1 1,1 v 1 h -6"/>
+          <rect y="3" width="12" height="18" rx="1" ry="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(288)">
+    <g id="22-22-input-mouse-battery" transform="translate(13)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(-1,-1)">
+        <!-- Mouse -->
+        <g style="opacity:0.5">
+          <path d="m 4,9 a 8,8 0 0 1 7,-7.94 v 7.94 z"/>
+          <path d="M 13 1.061 L 13 9 L 14 9 L 15 9 L 15 8 A 1 1 0 0 1 16 7 L 19.74 7 A 8 8 0 0 0 13 1.061 z"/>
+          <path d="M 4 11 L 4 15 A 8 8 0 0 0 13 22.93 L 13 11 L 4 11 z"/>
+        </g>
+        <!-- Battery -->
+        <g transform="translate(15,9)">
+          <path d="m 2,1 a 1,1 0 0 1 1,-1 h 2 a 1,1 0 0 1 1,1 h -4"/>
+          <rect y="2" width="8" height="12" rx="1" ry="1"/>
+        </g>
+      </g>
+    </g>
+    <g id="32-32-input-mouse-battery" transform="translate(8,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <!-- Mouse -->
+        <g style="opacity:0.5">
+          <path d="m 6,12 a 10,10 0 0 1 9,-9.94 v 10 z"/>
+          <path d="m 17,12 v -9.94 a 10,10 0 0 1 9,9.94  z"/>
+          <path d="M 6 14 L 6 20 A 10 10 0 0 0 20 29.15 L 20 17 A 1 1 0 0 1 21 16 L 22 16 L 22 15 A 1 1 0 0 1 23 14 L 6 14 z"/>
+        </g>
+        <!-- Battery -->
+        <g transform="translate(22,16)">
+          <path d="m 2,1 a 1,1 0 0 1 1,-1 h 2 a 1,1 0 0 1 1,1 h -4"/>
+          <rect y="2" width="8" height="12" rx="1" ry="1"/>
+        </g>
+      </g>
+    </g>
+    <g id="input-mouse-battery" transform="translate(0,72)">
+      <rect style="fill:none" width="48" height="48"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <!-- Mouse -->
+        <g style="opacity:0.5">
+          <path d="m 8,18 a 16,16 0 0 1 15,-15.97 v 15.97 z"/>
+          <path d="m 25,18 v -15.97 a 16,16 0 0 1 15,15.97 z"/>
+          <path d="M 8 20 L 8 30 A 16 16 0 0 0 32 43.83 L 32 26 A 1 1 0 0 1 33 25 L 35 25 L 35 23 A 1 1 0 0 1 36 22 L 40 22 L 40 20 L 8 20 z "/>
+        </g>
+        <!-- Battery -->
+        <g transform="translate(34,25)">
+          <path d="m 3,1 a 1,1 0 0 1 1,-1 h 4 a 1,1 0 0 1 1,1 v 1 h -6"/>
+          <rect y="3" width="12" height="18" rx="1" ry="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

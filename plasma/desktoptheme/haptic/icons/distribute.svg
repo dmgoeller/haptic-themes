@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 72">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g>
+    <g id="16-16-distribute-horizontal-x" transform="translate(4,4)">
+      <rect style="fill:none" width="16" height="16"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 2,1 a 1,1 0 0 0 -2,0 v 14 a 1,1 0 0 0 2,0"/>
+        <path d="m 16,1 a 1,1 0 0 0 -2,0 v 14 a 1,1 0 0 0 2,0"/>
+        <path d="m 6,8 v -2.79 c 0,-0.45 -0.54,-0.67 -0.85,-0.36 l -2.79,2.79 c -0.2,0.2 -0.2,0.52 0,0.72 l 2.79,2.79 c 0.31,0.31 0.85,0.09 0.85,-0.36"/>
+        <path d="m 10,8 v 2.79 c 0,0.45 0.54,0.67 0.85,0.36 l 2.79,-2.79 c 0.2,-0.2 0.2,-0.52 0,-0.72 l -2.79,-2.79 c -0.31,-0.31 -0.85,-0.09 -0.85,0.36"/>
+        <circle cx="8" cy="8" r="1"/>
+      </g>
+    </g>
+    <g id="22-22-distribute-horizontal-x" transform="translate(1,24)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(-1,-1)">
+        <path d="m 4,5 a 1,1 0 0 0 -2,0 v 14 a 1,1 0 0 0 2,0"/>
+        <path d="m 22,5 a 1,1 0 0 0 -2,0 v 14 a 1,1 0 0 0 2,0"/>
+        <path d="m 8,12 v -2.79 c 0,-0.45 -0.54,-0.67 -0.85,-0.36 l -2.79,2.79 c -0.2,0.2 -0.2,0.52 0,0.72 l 2.79,2.79 c 0.31,0.31 0.85,0.09 0.85,-0.36"/>
+        <path d="m 16,12 v 2.79 c 0,0.45 0.54,0.67 0.85,0.36 l 2.79,-2.79 c 0.2,-0.2 0.2,-0.52 0,-0.72 l -2.79,-2.79 c -0.31,-0.31 -0.85,-0.09 -0.85,0.36"/>
+        <circle cx="10.33" cy="12" r="1"/>
+        <circle cx="13.67" cy="12" r="1"/>
+      </g>
+    </g>
+    <g id="distribute-horizontal-x" transform="translate(0,48)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 4,5 a 1,1 0 0 0 -2,0 v 14 a 1,1 0 0 0 2,0"/>
+        <path d="m 22,5 a 1,1 0 0 0 -2,0 v 14 a 1,1 0 0 0 2,0"/>
+        <path d="m 8,12 v -2.79 c 0,-0.45 -0.54,-0.67 -0.85,-0.36 l -2.79,2.79 c -0.2,0.2 -0.2,0.52 0,0.72 l 2.79,2.79 c 0.31,0.31 0.85,0.09 0.85,-0.36"/>
+        <path d="m 16,12 v 2.79 c 0,0.45 0.54,0.67 0.85,0.36 l 2.79,-2.79 c 0.2,-0.2 0.2,-0.52 0,-0.72 l -2.79,-2.79 c -0.31,-0.31 -0.85,-0.09 -0.85,0.36"/>
+        <circle cx="10.33" cy="12" r="1"/>
+        <circle cx="13.67" cy="12" r="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

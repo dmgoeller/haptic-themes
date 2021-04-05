@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-ButtonFocus { color: #2670D0 }
+    </style>
+  </defs>
+  <g transform="translate(24,0)">
+    <rect id="north-active-tab-center" style="fill:none" x="4" y="4" width="16" height="16"/>
+    <rect id="north-active-tab-bottom" class="ColorScheme-ButtonFocus" style="fill:currentColor" x="4" y="20" width="16" height="3"/>
+  </g>
+  <g transform="translate(24,48)">
+    <rect id="south-active-tab-top" class="ColorScheme-ButtonFocus" style="fill:currentColor" x="4" y="1" width="16" height="3"/>
+    <rect id="south-active-tab-center" style="fill:none" x="4" y="4" width="16" height="16"/>
+  </g>
+  <g transform="translate(0,24)">
+    <rect id="west-active-tab-center" style="fill:none" x="4" y="4" width="16" height="16"/>
+    <rect id="west-active-tab-right" class="ColorScheme-ButtonFocus" style="fill:currentColor" x="20" y="4" width="3" height="16"/>
+  </g>
+  <g transform="translate(48,24)">
+    <rect id="east-active-tab-left" class="ColorScheme-ButtonFocus" style="fill:currentColor" x="1" y="4" width="3" height="16"/>
+    <rect id="east-active-tab-center" style="fill:none" x="4" y="4" width="16" height="16"/>
+  </g>
+</svg>

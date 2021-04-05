@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 136">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #F0F0F0 }
+    </style>
+    <style type="text/css">
+      .Background { fill: #303030; fill-opacity: 0.0625 }
+      .Border { fill: #303030; fill-opacity: 0.25 }
+    </style>
+  </defs>
+  <g>
+    <rect id="north-top" class="Background" y="0" width="78" height="1"/>
+    <rect id="north-center" class="Background" y="1" width="78" height="36"/>
+    <rect id="north-bottom" class="Border" y="37" width="78" height="1"/>
+  </g>
+  <g transform="translate(0,40)">
+    <rect id="west-left" class="Background"  width="1" height="56"/>
+    <rect id="west-center" class="Background" x="1" width="36" height="56"/>
+    <rect id="west-right" class="Border" x="37" width="1" height="56"/>
+  </g>
+  <g transform="translate(40,40)">
+    <rect id="east-left" class="Border" width="1" height="56"/>
+    <rect id="east-center" class="Background" x="1" width="36" height="56"/>
+    <rect id="east-right" class="Background" x="37" width="1" height="56"/>
+  </g>
+  <g transform="translate(0,98)">
+    <rect id="south-top" class="Border" width="78" height="1"/>
+    <rect id="south-center" class="Background" y="1" width="78" height="36"/>
+    <rect id="south-bottom" class="Background" y="37" width="78" height="1"/>
+  </g>
+
+  <g class="ColorScheme-Text" style="fill:currentColor">
+    <g id="north-minslider" transform="translate(4)">
+      <rect style="fill:none" width="30" height="19"/>
+      <path style="fill-opacity:0.5" d="m 0,2 0,16 13.86,-8"/>
+      <rect x="14" y="2" width="2" height="16"/>
+    </g>
+    <g id="north-maxslider" transform="translate(4,19)">
+      <rect style="fill:none" width="30" height="19"/>
+      <path style="fill-opacity:0.5" d="m 30,1 0,16 -13.86,-8"/>
+      <rect x="14" y="1" width="2" height="16"/>
+    </g>
+    <g id="north-offsetslider" transform="translate(51,19)">
+      <rect style="fill:none" width="16" height="19"/>
+      <path d="m 0,18 16,0 -8,-13.86"/>
+    </g>
+
+    <g id="west-minslider" transform="translate(0,44)">
+      <rect style="fill:none" width="19" height="30"/>
+      <path style="fill-opacity:0.5" d="m 2,30 16,0 -8,-13.86"/>
+      <rect x="2" y="14" width="16" height="2"/>
+    </g>
+    <g id="west-maxslider" transform="translate(19,44)">
+      <rect style="fill:none" width="19" height="30"/>
+      <path style="fill-opacity:0.5" d="m 1,0 16,0 -8,13.86"/>
+      <rect x="1" y="14" width="16" height="2"/>
+    </g>
+    <g id="west-offsetslider" transform="translate(19,76)">
+      <rect style="fill:none" width="19" height="16"/>
+      <path d="m 18,0 0,16 -13.86,-8"/>
+    </g>
+
+    <g id="east-minslider" transform="translate(59,44)">
+      <rect style="fill:none" width="19" height="30"/>
+      <path style="fill-opacity:0.5" d="m 1,30 16,0 -8,-13.86"/>
+      <rect x="1" y="14" width="16" height="2"/>
+    </g>
+    <g id="east-maxslider" transform="translate(40,44)">
+      <rect style="fill:none" width="19" height="30"/>
+      <path style="fill-opacity:0.5" d="m 2,0 16,0 -8,13.86"/>
+      <rect x="2" y="14" width="16" height="2"/>
+    </g>
+    <g id="east-offsetslider" transform="translate(40,76)">
+      <rect style="fill:none" width="19" height="16"/>
+      <path d="m 1,0 0,16 13.86,-8"/>
+    </g>
+
+    <g id="south-maxslider" transform="translate(4,98)">
+      <rect style="fill:none" width="30" height="19"/>
+      <path style="fill-opacity:0.5" d="m 0,2 0,16 13.86,-8"/>
+      <rect x="14" y="2" width="2" height="16"/>
+    </g>
+    <g id="south-minslider" transform="translate(4,117)">
+      <rect style="fill:none" width="30" height="19"/>
+      <path style="fill-opacity:0.5" d="m 30,1 0,16 -13.86,-8"/>
+      <rect x="14" y="1" width="2" height="16"/>
+    </g>
+    <g id="south-offsetslider" transform="translate(51,98)">
+      <rect style="fill:none" width="16" height="19"/>
+      <path d="m 0,1 16,0 -8,13-86"/>
+    </g>
+
+    <g style="fill-opacity:0.25">
+      <g id="horizontal-centerindicator" transform="translate(58)">
+        <rect style="fill:none" width="2" height="38"/>
+        <rect x="0.5" width="1" height="38"/>
+      </g>
+      <g id="vertical-centerindicator" transform="translate(0,83)">
+        <rect style="fill:none" width="38" height="2"/>
+        <rect y="0.5" width="38" height="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

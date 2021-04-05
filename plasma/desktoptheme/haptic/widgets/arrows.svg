@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #606060 }
+    </style>
+  </defs>
+  <g id="up-arrow" transform="translate(24,0)">
+    <rect style="fill:none;" width="24" height="24"/>
+    <path class="ColorScheme-Text" style="fill:currentColor" d="m 4,16 l 8,-8 8,8 z"/>
+  </g>
+  <g id="down-arrow" transform="translate(24,48)">
+    <rect style="fill:none;" width="24" height="24"/>
+    <path class="ColorScheme-Text" style="fill:currentColor" d="m 4,8 l 8,8 8,-8 z"/>
+  </g>
+  <g id="left-arrow" transform="translate(0,24)">
+    <rect style="fill:none;" width="24" height="24"/>
+    <path class="ColorScheme-Text" style="fill:currentColor" d="m 16,4 l -8,8 8,8 z"/>
+  </g>
+  <g id="right-arrow" transform="translate(48,24)">
+    <rect style="fill:none;" width="24" height="24"/>
+    <path class="ColorScheme-Text" style="fill:currentColor" d="m 8,4 l 8,8 -8,8 z"/>
+  </g>
+</svg>

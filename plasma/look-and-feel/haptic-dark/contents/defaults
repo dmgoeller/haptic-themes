@@ -1,0 +1,22 @@
+[kdeglobals][KDE]
+widgetStyle=kvantum-dark
+
+[kdeglobals][General]
+ColorScheme=Haptic Dark
+
+[kdeglobals][Icons]
+Theme=haptic-dark
+
+[plasmarc][Theme]
+name=haptic-dark
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.breezeenhanced
+theme=BreezeEnhanced
+
+[kcminputrc][Mouse]
+cursorSize=32
+cursorTheme=Google_Cursor
+
+[Wallpaper]
+Image=haptic-dark

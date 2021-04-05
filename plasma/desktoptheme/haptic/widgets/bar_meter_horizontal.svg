@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-ButtonFocus { color: #2670D0 }
+      .ColorScheme-ViewText { color: #303030 }
+    </style>
+  </defs>
+  <g transform="translate(0, 2)">
+    <g class="ColorScheme-ViewText" style="fill:currentColor;opacity:0.125">
+      <path id="bar-inactive-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+      <rect id="bar-inactive-top" x="4" width="16" height="4"/>
+      <path id="bar-inactive-topright" d="m 20,0 a 4,4 0 0 1 4,4 h -4 z"/>
+      <path id="bar-inactive-bottomleft" d="m 0,4 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+      <rect id="bar-inactive-bottom" x="4" y="4" width="16" height="4"/>
+      <path id="bar-inactive-bottomright" d="m 20,4 h 4 a 4,4 0 0 1 -4,4 v -4 z"/>
+    </g>
+    <g style="fill:none">
+      <rect id="bar-inactive-left" y="4" width="4" height="0.01"/>
+      <rect id="bar-inactive-center" x="4" y="3" width="16" height="0.01"/>
+      <rect id="bar-inactive-right" x="20" y="4" width="4" height="0.01"/>
+    </g>
+  </g>
+  <g transform="translate(0, 14)">
+    <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
+      <path id="bar-active-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+      <rect id="bar-active-top" x="4" width="16" height="4"/>
+      <path id="bar-active-topright" d="m 20,0 a 4,4 0 0 1 4,4 h -4 z"/>
+      <path id="bar-active-bottomleft" d="m 0,4 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+      <rect id="bar-active-bottom" x="4" y="4" width="16" height="4"/>
+      <path id="bar-active-bottomright" d="m 20,4 h 4 a 4,4 0 0 1 -4,4 v -4 z"/>
+    </g>
+    <g style="fill:none">
+      <rect id="bar-active-left" y="4" width="4" height="0.01"/>
+      <rect id="bar-active-center" x="4" y="4" width="16" height="0.01"/>
+      <rect id="bar-active-right" x="20" y="4" width="4" height="0.01"/>
+    </g>
+  </g>
+</svg>

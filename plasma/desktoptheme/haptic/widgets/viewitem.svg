@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 24">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-ButtonFocus { color: #2670D0 }
+      .ColorScheme-ViewText { color: #303030 }
+    </style>
+  </defs>
+  <g>
+    <g id="hover-topleft">
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.25" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+      <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 1 h -2 a 1,1 0 0 0 -1,1 v 2 h -1 z"/>
+    </g>
+    <g id="hover-top" transform="translate(4,0)">
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.25" width="16" height="4"/>
+      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="16" height="1"/>
+    </g>
+    <g id="hover-topright" transform="translate(20,0)">
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.25" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+      <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -1 v -2 a 1,1 0 0 0 -1,-1 h -2 z"/>
+    </g>
+    <g id="hover-left" transform="translate(0,4)">
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.25" width="4" height="16"/>
+      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="1" height="16"/>
+    </g>
+    <g id="hover-center" transform="translate(4,4)">
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.25" width="16" height="16"/>
+    </g>
+    <g id="hover-right" transform="translate(20,4)">
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.25" width="4" height="16"/>
+      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="16"/>
+    </g>
+    <g id="hover-bottomleft" transform="translate(0,20)">
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.25" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+      <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" d="m 0,0 h 1 v 2 a 1,1 0 0 0 1,1 h 2 v 1 h -2 a 2,2 0 0 1 -2,-2 z"/>
+    </g>
+    <g id="hover-bottom" transform="translate(4,20)">
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.25" width="16" height="4"/>
+      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="3" width="16" height="1"/>
+    </g>
+    <g id="hover-bottomright" transform="translate(20,20)">
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.25" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+      <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" d="m 3,0 h 1 v 2 a 2,2 0 0 1 -2,2 h -2 v -1 h 2 a 1,1 0 0 0 1,-1"/>
+    </g>
+  </g>
+  <g transform="translate(28,0)">
+    <g id="selected-topleft">
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.5" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+      <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 1 h -2 a 1,1 0 0 0 -1,1 v 2 h -1 z"/>
+    </g>
+    <g id="selected-top" transform="translate(4,0)">
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.5" width="16" height="4"/>
+      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="16" height="1"/>
+    </g>
+    <g id="selected-topright" transform="translate(20,0)">
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.5" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+      <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -1 v -2 a 1,1 0 0 0 -1,-1 h -2 z"/>
+    </g>
+    <g id="selected-left" transform="translate(0,4)">
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.5" width="4" height="16"/>
+      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="1" height="16"/>
+    </g>
+    <g id="selected-center" transform="translate(4,4)">
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.5" width="16" height="16"/>
+    </g>
+    <g id="selected-right" transform="translate(20,4)">
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.5" width="4" height="16"/>
+      <rect class="ColorScheme-ViewText" x="3" style="fill:currentColor;fill-opacity:0.125" width="1" height="16"/>
+    </g>
+    <g id="selected-bottomleft" transform="translate(0,20)">
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.5" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+      <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" d="m 0,0 h 1 v 2 a 1,1 0 0 0 1,1 h 2 v 1 h -2 a 2,2 0 0 1 -2,-2 z"/>
+    </g>
+    <g id="selected-bottom" transform="translate(4,20)">
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.5" width="16" height="4"/>
+      <rect class="ColorScheme-ViewText" y="3" style="fill:currentColor;fill-opacity:0.125" width="16" height="1"/>
+    </g>
+    <g id="selected-bottomright" transform="translate(20,20)">
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.5" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+      <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" d="m 3,0 h 1 v 2 a 2,2 0 0 1 -2,2 h -2 v -1 h 2 a 1,1 0 0 0 1,-1"/>
+    </g>
+  </g>
+</svg>

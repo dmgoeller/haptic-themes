@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 120">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g id="22-22-klipper" transform="translate(13)">
+    <rect style="fill:none" width="22" height="22"/>
+    <g class="ColorScheme-Text" style="fill:currentColor">
+      <path style="fill-opacity:0.75"
+            d="m 5,2 h -1 a 2,2 0 0 0 -2,2 v 16 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -16 a 2,2 0 0 0 -2,-2
+               h -1 v 4 a 2,2 0 0 1 -2,2 h -8 a 2,2 0 0 1 -2,-2 z"/>
+      <path d="m 6,2 v 4 a 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 v -4 h -2.175 a 3,3 0 0 0 -5.65,0 z
+               m 5,0 a 1,1 0 0 1 0,2 a 1,1 0 0 1 0,-2"/>
+    </g>
+  </g>
+  <g id="32-32-klipper" transform="translate(8,32)">
+    <rect style="fill:none" width="32" height="32"/>
+    <g class="ColorScheme-Text" style="fill:currentColor">
+      <path style="fill-opacity:0.75"
+            d="m 8,4 h -2 a 2,2 0 0 0 -2,2 v 22 a 2,2 0 0 0 2,2 h 20 a 2,2 0 0 0 2,-2 v -22 a 2,2 0 0 0 -2,-2
+               h -2 v 6 a 2,2 0 0 1 -2,2 h -12 a 2,2 0 0 1 -2,-2 z"/>
+      <path d="m 9,4 v 6 a 1,1 0 0 0 1,1 h 12 a 1,1 0 0 0 1,-1 v -6 h -3.13 a 4,4 0 0 0 -7.74,0 z
+               m 7,-1 a 1.5,1.5 0 0 1 0,3 a 1.5,1.5 0 0 1 0,-3"/>
+    </g>
+  </g>
+  <g id="klipper" transform="translate(0,72)">
+    <rect style="fill:none" width="48" height="48"/>
+    <g class="ColorScheme-Text" style="fill:currentColor">
+      <path style="fill-opacity:0.75"
+            d="m 13,6 h -5 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 32 a 2,2 0 0 0 2,-2 v -36 a 2,2 0 0 0 -2,-2
+               h -5 v 8 a 3,3 0 0 1 -3,3 h -16 a 3,3 0 0 1 -3,-3"/>
+      <path d="m 14,6 v 8 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -8 h -6 a 4,4 0 0 0 -8,0 z
+               m 10,-2 a 2,2 0 0 1 0,4 a 2,2 0 0 1 0,-4"/>
+    </g>
+  </g>
+</svg>

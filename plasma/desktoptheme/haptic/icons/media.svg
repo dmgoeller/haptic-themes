@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 96">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g>
+    <g id="22-22-media-playback-start" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(11,11)">
+        <path d="M -4,-6.39 -4,6.39 8,0 z"/>
+      </g>
+    </g>
+    <g id="media-playback-start" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(12,12)">
+        <path d="M -4,-6.39 -4,6.39 8,0 z"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(0,48)">
+    <g id="22-22-media-playback-playing" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" transform="translate(11,11)">
+        <path style="fill:currentColor" d="M -3,-5.2 -3,5.2 6,0 z"/>
+        <circle style="fill:none;stroke:currentColor;stroke-width:2" r="9"/>
+      </g>
+    </g>
+    <g id="media-playback-playing" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" transform="translate(12,12)">
+        <path style="fill:currentColor" d="M -3,-5.2 -3,5.2 6,0 z"/>
+        <circle style="fill:none;stroke:currentColor;stroke-width:2" r="9"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(24)">
+    <g id="22-22-media-playback-pause" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <rect x="5" y="5" width="4" height="12"/>
+        <rect x="13" y="5" width="4" height="12"/>
+      </g>
+    </g>
+    <g id="media-playback-pause" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <rect x="6" y="6" width="4" height="12"/>
+        <rect x="14" y="6" width="4" height="12"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(24,48)">
+    <g id="22-22-media-playback-paused" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" transform="translate(11,11)">
+        <rect style="fill:currentColor" x="-4" y="-4" width="3" height="8"/>
+        <rect style="fill:currentColor" x="1" y="-4" width="3" height="8"/>
+        <circle style="fill:none;stroke:currentColor;stroke-width:2" r="9"/>
+      </g>
+    </g>
+    <g id="media-playback-paused" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" transform="translate(12,12)">
+        <rect style="fill:currentColor" x="-4" y="-4" width="3" height="8"/>
+        <rect style="fill:currentColor" x="1" y="-4" width="3" height="8"/>
+        <circle style="fill:none;stroke:currentColor;stroke-width:2" r="9"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(48)">
+    <g id="22-22-media-playback-stop" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="5" y="5" width="12" height="12"/>
+    </g>
+    <g id="media-playback-stop" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="6" y="6" width="12" height="12"/>
+    </g>
+  </g>
+
+  <g transform="translate(48,48)">
+    <g id="22-22-media-playback-stopped" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" transform="translate(11,11)">
+        <rect style="fill:currentColor" x="-4" y="-4" width="8" height="8"/>
+        <circle style="fill:none;stroke:currentColor;stroke-width:2" r="9"/>
+      </g>
+    </g>
+    <g id="media-playback-stopped" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" transform="translate(12,12)">
+        <rect style="fill:currentColor" x="-4" y="-4" width="8" height="8"/>
+        <circle style="fill:none;stroke:currentColor;stroke-width:2" r="9"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(72)">
+    <g id="22-22-media-seek-backward" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 10,16 v -10 l -8.66 5 z"/>
+        <path d="m 19,16 v -10 l -8.66 5 z"/>
+      </g>
+    </g>
+    <g id="media-seek-backward" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 11,17 v -10 l -8.66 5 z"/>
+        <path d="m 20,17 v -10 l -8.66 5 z"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(96)">
+    <g id="22-22-media-seek-forward" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 3,16 v -10 l 8.66 5 z"/>
+        <path d="m 12,16 v -10 l 8.66 5 z"/>
+      </g>
+    </g>
+    <g id="media-seek-forward" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 4,17 v -10 l 8.66 5 z"/>
+        <path d="m 13,17 v -10 l 8.66 5 z"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(120)">
+    <g id="22-22-media-skip-backward" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <rect x="1" y="6" width="2" height="10"/>
+        <path d="m 12,16 v -10 l -8.66 5 z"/>
+        <path d="m 21,16 v -10 l -8.66 5 z"/>
+      </g>
+    </g>
+    <g id="media-skip-backward" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <rect x="2" y="7" width="2" height="10"/>
+        <path d="m 13,17 v -10 l -8.66 5 z"/>
+        <path d="m 22,17 v -10 l -8.66 5 z"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(144)">
+    <g id="22-22-media-skip-forward" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 2,16 v -10 l 8.66 5 z"/>
+        <path d="m 11,16 v -10 l 8.66 5 z"/>
+        <rect x="20" y="6" width="2" height="10"/>
+      </g>
+    </g>
+    <g id="media-skip-forward" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 3,17 v -10 l 8.66 5 z"/>
+        <path d="m 12,17 v -10 l 8.66 5 z"/>
+        <rect x="21" y="7" width="2" height="10"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(168)">
+    <g id="22-22-media-eject" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="M 5,12 l 12,0 -6,-6 z"/>
+        <rect x="5" y="14" width="12" height="2"/>
+      </g>
+    </g>
+    <g id="media-eject" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="M 6,13 l 12,0 -6,-6 z"/>
+        <rect x="6" y="15" width="12" height="2"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(192)">
+    <g id="22-22-media-record" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <circle style="fill:#EF5350" cx="11" cy="11" r="6"/> <!-- Red 400 -->
+    </g>
+    <g id="media-record" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle style="fill:#EF5350" cx="12" cy="12" r="6"/> <!-- Red 400 -->
+    </g>
+  </g>
+</svg>

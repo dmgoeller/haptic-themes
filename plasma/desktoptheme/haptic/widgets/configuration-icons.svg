@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 48">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #606060 }
+    </style>
+  </defs>
+  <g id="rotate">
+    <rect style="fill:none" width="24" height="24"/>
+    <path class="ColorScheme-Text" style="fill:currentColor"
+          d="M14.83 4.83L12.7 2.7c-.62-.62-1.7-.18-1.7.71v.66C7.06 4.56 4 7.92 4 12c0 3.64 2.43 6.71 5.77 7.68.62.18 1.23-.32 1.23-.96v-.03c0-.43-.27-.82-.68-.94C7.82 17.03 6 14.73 6 12c0-2.97 2.16-5.43 5-5.91v1.53c0 .89 1.07 1.33 1.7.71l2.13-2.08c.4-.38.4-1.02 0-1.42zm4.84 4.93c-.16-.55-.38-1.08-.66-1.59-.31-.57-1.1-.66-1.56-.2l-.01.01c-.31.31-.38.78-.17 1.16.2.37.36.76.48 1.16.12.42.51.7.94.7h.02c.65 0 1.15-.62.96-1.24zM13 18.68v.02c0 .65.62 1.14 1.24.96.55-.16 1.08-.38 1.59-.66.57-.31.66-1.1.2-1.56l-.02-.02c-.31-.31-.78-.38-1.16-.17-.37.21-.76.37-1.16.49-.41.12-.69.51-.69.94zm4.44-2.65c.46.46 1.25.37 1.56-.2.28-.51.5-1.04.67-1.59.18-.62-.31-1.24-.96-1.24h-.02c-.44 0-.82.28-.94.7-.12.4-.28.79-.48 1.17-.21.38-.13.86.17 1.16z"/>
+  </g>
+
+  <g id="configure" transform="translate(24)">
+    <rect style="fill:none" width="24" height="24"/>
+    <g class="ColorScheme-Text" style="fill:currentColor">
+      <path d="m 8,2 a 4,4 0 0 0 0,8 h 8 a 4,4 0 0 0 0,-8 z m 0,1 h 8 a 3,3 0 0 1 0,6 h -8 a 3,3 0 0 1 0,-6 z"/>
+      <circle cx="8" cy="6" r="2"/>
+      <path d="m 8,14 a 4,4 0 0 0 0,8 h 8 a 4,4 0 0 0 0,-8 z m 8,1.5 a 2.5,2.5 0 0 1 0,5 a 2.5,2.5 0 0 1 0,-5 z"/>
+    </g>
+  </g>
+
+  <g id="showbackground" transform="translate(48)">
+    <rect style="fill:none" width="24" height="24"/>
+    <path class="ColorScheme-Text" style="fill:currentColor"
+          d="m 4,2 a 2,2 0 0 0 -2,2 v 16 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -16 a 2,2 0 0 0 -2,-2 z
+             m 16,2 v 16 h -16"/>
+  </g>
+
+  <g id="maximize" transform="translate(0,24)">
+    <rect style="fill:none" width="24" height="24"/>
+    <g class="ColorScheme-Text" style="fill:currentColor">
+      <path d="m 4,2 a 2,2 0 0 0 -2,2 v 16 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -7 a 1,1 0 0 0 -2,0 v 7 h -16 v -16 h 7 a 1,1 0 0 0 0,-2"/>
+      <path d="m 22,4 a 2,2 0 0 0 -2,-2 h -5 a 1,1 0 0 0 0,2 h 3.6 l -6.4,6.4 a 1,1 0 0 0 1.4,1.4 l 6.4,-6.4 v 3.6 a 1,1 0 0 0 2,0"/>
+    </g>
+  </g>
+
+  <g id="delete" transform="translate(48,24)">
+    <rect style="fill:none" width="24" height="24"/>
+    <path class="ColorScheme-Text" style="fill:currentColor"
+          d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/>
+  </g>
+</svg>

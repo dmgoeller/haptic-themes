@@ -1,0 +1,2077 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 1312">
+  <defs>
+    <linearGradient id="checkbox-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0" style="stop-color:black;stop-opacity:0"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0.0625"/>
+    </linearGradient>
+    <radialGradient id="radio-button-background" cx="0.5" cy="0" r="1">
+      <stop offset="0.2" style="stop-color:black;stop-opacity:0"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0.0625"/>
+    </radialGradient>
+    <style type="text/css">
+
+      /* Common theme classes */
+
+      .accent-color                    { fill: #2670D0 }
+      .accent-color-2                  { fill: #9AB7DB }
+      .button-text                     { fill: #181818 }
+      .checkbox-background             { fill: url(#checkbox-background) }
+      .disabled                        { opacity: 0.5 }
+      .field                           { fill: #303030; fill-opacity: 0.125 }
+      .field-focused                   { fill: #303030; fill-opacity: 0.1875 }
+      .field-pressed                   { fill: #303030; fill-opacity: 0.25 }
+      .fill-none                       { fill: none }
+      .focused-tab-indicator           { fill: #A8A8A8 }
+      .groupbox                        { fill: #303030; fill-opacity: 0.0625 }
+      .menu                            { fill: white; opacity: 0.75 }
+      .menuitem                        { fill: #606060 }
+      .menuitem-focused                { fill: white }
+      .menuitem-separator              { fill: #A8A8A8 }
+      .progress-disabled               { fill: #909090 /*; fill-opacity: 0.0625*/ }
+      .radio-button-background         { fill: url(#radio-button-background) }
+      .scrollbar                       { fill: #909090 }
+      .scrollbar-focused               { fill: #787878 }
+      .separator                       { fill: #A8A8A8 }
+      .slider-handle                   { fill: white; stroke: #606060 }
+      .surface-border-bottom           { fill: black; fill-opacity:0.25 }
+      .surface-border-top              { fill: white; fill-opacity:0.125 }
+      .stroke-menuitem                 { stroke: #303030 }
+      .stroke-menuitem-focused         { stroke: white }
+      .stroke-rounded                  { stroke-linecap: round; stroke-linejoin: round }
+      .stroke-width-1_5                { stroke-width: 1.5 }
+      .stroke-width-2                  { stroke-width: 2 }
+      .stroke-window-text              { stroke: #606060 }
+      .stroke-window-text-focused      { stroke: #606060 }
+      .stroke-window-text-pressed      { stroke: #606060 }
+      .tree-arrow                      { fill: #909090 }
+      .toolbutton-focused              { fill: #303030; fill-opacity: 0.125 }
+      .toolbutton-pressed              { fill: #303030; fill-opacity: 0.25 }
+      .tooltip                         { fill: #303030; fill-opacity: 0.875 }
+      .view-text                       { fill: #303030 }
+      .window-text                     { fill: #606060 }
+      .window-text-focused             { fill: #606060 }
+      .window-text-pressed             { fill: #606060 }
+
+      /* Opaque theme classes */
+
+      .opaque-button                   { fill: #B4B4B4 }
+      .opaque-button-focused           { fill: #A8A8A8 }
+      .opaque-button-pressed           { fill: #9C9C9C }
+      .opaque-button-default           { fill: #0064DE; fill-opacity: 0.75 /*#2670D0; fill-opacity: 0.375*/ }
+      .opaque-docktitle                { fill: #E4E4E4 }
+      .opaque-header                   { fill: #F0F0F0 }
+      .opaque-itemview-focused         { fill: #C0C0C0; fill-opacity: 0.5 }
+      .opaque-itemview-pressed         { fill: #C0C0C0 }
+      .opaque-line                     { fill: #C0C0C0 }
+      .opaque-tabbar                   { fill: #E4E4E4 }
+      .opaque-tab-focused              { fill: #D8D8D8 }
+      .opaque-view                     { fill: white }
+      .opaque-window                   { fill: #F0F0F0 }
+
+      /* Translucent theme classes */
+
+      .translucent-button              { fill: #303030; fill-opacity: 0.3125 }
+      .translucent-button-focused      { fill: #303030; fill-opacity: 0.375 }
+      .translucent-button-pressed      { fill: #303030; fill-opacity: 0.4375 }
+      .translucent-button-default      { fill: #0064DE; fill-opacity: 0.75 /*#2670D0; fill-opacity: 0.375*/ }
+      .translucent-docktitle,
+      .translucent-header              { fill: #303030; fill-opacity: 0.0625 }
+      .translucent-itemview-focused    { fill: #303030; fill-opacity: 0.125 }
+      .translucent-itemview-pressed,
+      .translucent-line                { fill: #303030; fill-opacity: 0.25 }
+      .translucent-menubar,
+      .translucent-statusbar           { fill: #F0F0F0; fill-opacity: 0.75 }
+      .translucent-tabbar,
+      .translucent-tab-focused         { fill: #303030; fill-opacity: 0.0625 }
+      .translucent-view                { fill: white; fill-opacity: 0.5 }
+      .translucent-window              { fill: #F0F0F0; fill-opacity: 0.75 }
+
+      /* Helper classes */
+
+      .frame                           { fill: none; stroke: black; stroke-width: 0.5; stroke-dasharray: 2 2; opacity: 0.5 }
+      .hint                            { fill: #546E7A }
+      text                             { font-family: sans-serif }
+      text.label                       { fill: #424242; font-size: 12px; text-anchor: end }
+
+    </style>
+
+    <!-- Shadows -->
+
+    <linearGradient id="ambient-light-shadow-6dp-linear">
+      <stop offset="0.4" style="stop-color:black;stop-opacity:0.125"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </linearGradient>
+
+    <radialGradient id="ambient-light-shadow-6dp-radial">
+      <stop offset="0.4" style="stop-color:black;stop-opacity:0.125"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </radialGradient>
+
+    <linearGradient id="ambient-light-shadow-6dp-top" xlink:href="#ambient-light-shadow-6dp-linear"
+                    x1="0" y1="10" x2="0" y2="0" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="ambient-light-shadow-6dp-left" xlink:href="#ambient-light-shadow-6dp-linear"
+                    x1="10" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="ambient-light-shadow-6dp-right" xlink:href="#ambient-light-shadow-6dp-linear"
+                    x1="2" y1="0" x2="12" y2="0" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="ambient-light-shadow-6dp-bottom" xlink:href="#ambient-light-shadow-6dp-linear"
+                    x1="0" y1="2" x2="0" y2="12" gradientUnits="userSpaceOnUse"/>
+    <radialGradient id="ambient-light-shadow-6dp-topleft" xlink:href="#ambient-light-shadow-6dp-linear"
+                    cx="10" cy="10" r="10" gradientUnits="userSpaceOnUse"/>
+    <radialGradient id="ambient-light-shadow-6dp-topright" xlink:href="#ambient-light-shadow-6dp-linear"
+                    cx="2" cy="10" r="10" gradientUnits="userSpaceOnUse"/>
+    <radialGradient id="ambient-light-shadow-6dp-bottomleft" xlink:href="#ambient-light-shadow-6dp-linear"
+                    cx="10" cy="2" r="10" gradientUnits="userSpaceOnUse"/>
+    <radialGradient id="ambient-light-shadow-6dp-bottomright" xlink:href="#ambient-light-shadow-6dp-linear"
+                    cx="2" cy="2" r="10" gradientUnits="userSpaceOnUse"/>
+
+    <linearGradient id="key-light-shadow-6dp-linear">
+      <stop offset="0" style="stop-color:black;stop-opacity:0.375"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </linearGradient>
+
+    <radialGradient id="key-light-shadow-6dp-radial">
+      <stop offset="0" style="stop-color:black;stop-opacity:0.375"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </radialGradient>
+
+    <linearGradient id="key-light-shadow-6dp-left" xlink:href="#key-light-shadow-6dp-linear"
+                    x1="10" y1="0" x2="4" y2="0" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="key-light-shadow-6dp-right" xlink:href="#key-light-shadow-6dp-linear"
+                    x1="2" y1="0" x2="8" y2="0" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="key-light-shadow-6dp-bottom" xlink:href="#key-light-shadow-6dp-linear"
+                    x1="0" y1="6" x2="0" y2="12" gradientUnits="userSpaceOnUse"/>
+    <radialGradient id="key-light-shadow-6dp-topleft" xlink:href="#key-light-shadow-6dp-linear"
+                    cx="10" cy="12" r="6" gradientUnits="userSpaceOnUse"/>
+    <radialGradient id="key-light-shadow-6dp-topright" xlink:href="#key-light-shadow-6dp-linear"
+                    cx="2" cy="12" r="6" gradientUnits="userSpaceOnUse"/>
+    <radialGradient id="key-light-shadow-6dp-bottomleft" xlink:href="#key-light-shadow-6dp-linear"
+                    cx="10" cy="6" r="6" gradientUnits="userSpaceOnUse"/>
+    <radialGradient id="key-light-shadow-6dp-bottomright" xlink:href="#key-light-shadow-6dp-linear"
+                    cx="2" cy="6" r="6" gradientUnits="userSpaceOnUse"/>
+  </defs>
+
+  <!-- Background and headers-->
+
+  <rect style="fill:#FFF" width="160" height="100%"/>
+  <rect style="fill:#BDBDBD" x="160" width="160" height="100%"/>
+  <rect style="fill:#E0E0E0" x="320" width="160" height="100%"/>
+  <rect style="fill:#EEEEEE" x="480" width="160" height="100%"/>
+  <rect style="fill:#EEEEEE" x="640" width="160" height="100%"/>
+
+  <g style="font-size:8px;text-anchor:middle">
+    <g style="fill:#424242">
+      <g transform="translate(160)">
+        <text x="80" y="11">Opaque</text>
+        <g transform="translate(0,24)">
+          <text x="16">Normal</text>
+          <text x="48">Focused</text>
+          <text x="80">Pressed</text>
+          <text x="112">Toggled</text>
+          <text x="144">Disabled</text>
+        </g>
+      </g>
+      <g transform="translate(320)">
+        <text x="80" y="11">Translucent</text>
+        <g transform="translate(0,24)">
+          <text x="16">Normal</text>
+          <text x="48">Focused</text>
+          <text x="80">Pressed</text>
+          <text x="112">Toggled</text>
+          <text x="144">Disabled</text>
+        </g>
+      </g>
+      <g transform="translate(480)">
+        <g transform="translate(0,24)">
+          <text x="16">Normal</text>
+          <text x="48">Focused</text>
+          <text x="80">Pressed</text>
+          <text x="112">Toggled</text>
+          <text x="144">Disabled</text>
+        </g>
+      </g>
+      <g transform="translate(640)">
+        <g transform="translate(0,24)">
+          <text x="16">Normal</text>
+          <text x="48">Focused</text>
+          <text x="80">Pressed</text>
+          <text x="112">Toggled</text>
+          <text x="144">Disabled</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Windows-->
+
+  <g transform="translate(0,32)">
+    <text class="label" x="144" y="20">Windows</text>
+    <g transform="translate(160)">
+      <rect id="opaque-window-normal" class="opaque-window" x="4" y="4" width="24" height="24"/>
+    </g>
+    <g transform="translate(320)">
+      <rect id="translucent-window-normal" class="translucent-window" x="4" y="4" width="24" height="24"/>
+    </g>
+  </g>
+
+  <!-- Views -->
+
+  <g transform="translate(0,64)">
+    <text class="label" x="144" y="20">Views</text>
+    <g transform="translate(160)">
+      <rect id="opaque-view-normal" class="opaque-view" x="4" y="4" width="24" height="24"/>
+    </g>
+    <g transform="translate(320)">
+      <rect id="translucent-view-normal" class="translucent-view" x="4" y="4" width="24" height="24"/>
+    </g>
+  </g>
+
+  <!-- Menu bars and toolbars -->
+
+  <g transform="translate(0,96)">
+    <text class="label" x="144" y="20">Menu bars and toolbars</text>
+    <g transform="translate(160)">
+      <rect id="opaque-menubar-normal" class="opaque-window" x="4" y="4" width="24" height="23"/>
+      <rect id="opaque-menubar-normal-bottom" class="opaque-line" x="4" y="27" width="24" height="1"/>
+    </g>
+    <g transform="translate(320)">
+      <rect id="translucent-menubar-normal" class="translucent-menubar" x="4" y="4" width="24" height="23"/>
+      <rect id="translucent-menubar-normal-bottom" class="translucent-line" x="4" y="27" width="24" height="1"/>
+    </g>
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="320" height="32"/>
+
+      <rect id="menubaritem-pressed" class="accent-color" x="68" y="4" width="24" height="24"/>
+      <rect id="menubaritem-toggled" class="toolbutton-focused" x="100" y="4" width="24" height="24"/>
+
+      <g id="toolbar-separator" transform="translate(172,8)" >
+        <rect style="fill:none" width="9" height="16"/>
+        <rect class="separator" x="4" width="1" height="16"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Status bars -->
+
+  <g transform="translate(0,128)">
+    <text class="label" x="144" y="20">Status bars</text>
+    <g transform="translate(160)">
+      <rect id="opaque-statusbar-normal-top" class="opaque-line" x="4" y="4" width="24" height="1"/>
+      <rect id="opaque-statusbar-normal" class="opaque-window" x="4" y="5" width="24" height="23"/>
+    </g>
+    <g transform="translate(320)">
+      <rect id="translucent-statusbar-normal-top" class="translucent-line" x="4" y="4" width="24" height="1"/>
+      <rect id="translucent-statusbar-normal" class="translucent-statusbar" x="4" y="5" width="24" height="23"/>
+    </g>
+  </g>
+
+  <!-- Docks -->
+
+  <g transform="translate(0,160)">
+    <text class="label" x="144" y="20">Docks</text>
+
+    <g transform="translate(160)">
+      <rect class="opaque-window" x="4" y="4" width="24" height="24"/>
+      <rect id="dock-normal-topleft" style="fill:white;fill-opacity:0.09" x="4" y="4" width="1" height="1"/>
+      <rect id="dock-normal-top" style="fill:white;fill-opacity:0.12" x="5" y="4" width="22" height="1"/>
+      <rect id="dock-normal-topright" style="fill:white;fill-opacity:0.09" x="27" y="4" width="1" height="1"/>
+      <rect id="dock-normal-left" style="fill:white;fill-opacity:0.06" class="dock-border" x="4" y="5" width="1" height="22"/>
+      <rect id="dock-normal-right" style="fill:white;fill-opacity:0.06" x="27" y="5" width="1" height="22"/>
+      <rect id="dock-normal-bottomleft" style="fill:none" x="4" y="27" width="1" height="1"/>
+      <rect id="dock-normal-bottom" style="fill:black;fill-opacity:0.06" x="5" y="27" width="22" height="1"/>
+      <rect id="dock-normal-bottomright" style="fill:none" x="27" y="27" width="1" height="1"/>
+    </g>
+  </g>
+
+  <!-- Dock titles -->
+
+  <g transform="translate(0,192)">
+    <text class="label" x="144" y="20">Dock titles</text>
+
+    <g transform="translate(160)">
+      <rect id="opaque-docktitle-normal" class="opaque-docktitle" x="4" y="4" width="24" height="20"/>
+      <g id="opaque-docktitle-normal-bottom" transform="translate(4,24)">
+        <rect class="opaque-docktitle" width="24" height="3"/>
+        <rect class="opaque-line" y="3" width="24" height="1"/>
+      </g>
+    </g>
+    <g transform="translate(320)">
+      <rect id="translucent-docktitle-normal" class="translucent-docktitle" x="4" y="4" width="24" height="20"/>
+      <g id="translucent-docktitle-normal-bottom" transform="translate(4,24)">
+        <rect class="translucent-docktitle" width="24" height="3"/>
+        <rect class="translucent-line" y="3" width="24" height="1"/>
+      </g>
+    </g>
+    <g transform="translate(480)">
+      <rect class="opaque-docktitle" width="320" height="32"/>
+
+      <g id="dock-close" transform="translate(10,10)">
+        <rect style="fill:none" width="12" height="12"/>
+        <path class="fill-none stroke-window-text stroke-width-1_5 stroke-rounded" d="m 2,2 l 8,8 M 2,10 l 8,-8"/>
+      </g>
+
+      <g id="dock-restore" transform="translate(170,10)">
+        <rect style="fill:none" width="12" height="12"/>
+        <path class="fill-none stroke-window-text stroke-width-1_5" d="m 1,6 5,-5 5,5 -5,5 z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tab bars -->
+
+  <g transform="translate(0,224)">
+    <text class="label" x="144" y="20">Tab bars</text>
+    <g transform="translate(160)">
+      <rect id="opaque-tabbar-normal" class="opaque-tabbar" x="4" y="4" width="24" height="23"/>
+      <rect id="opaque-tabbar-normal-bottom" class="opaque-line" x="4" y="27" width="24" height="1"/>
+    </g>
+    <g transform="translate(320)">
+      <rect id="translucent-tabbar-normal" class="translucent-tabbar" x="4" y="4" width="24" height="24"/>
+      <rect id="translucent-tabbar-normal-bottom" class="translucent-line" x="4" y="27" width="24" height="1"/>
+    </g>
+  </g>
+
+  <!-- Floating tabs -->
+
+  <g transform="translate(0,256)">
+    <text class="label" x="144" y="20">Floating tabs</text>
+    <g transform="translate(160)">
+      <rect class="opaque-tabbar" width="160" height="32"/>
+
+      <g style="fill:none">
+        <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>
+        <rect id="floating-tab-normal-left" x="4" y="5" width="2" height="20"/>
+        <rect id="floating-tab-normal" x="6" y="5" width="20" height="20"/>
+        <rect id="floating-tab-normal-right" x="26" y="5" width="2" height="20"/>
+        <rect id="floating-tab-normal-bottomleft" x="4" y="24" width="2" height="4"/>
+        <rect id="floating-tab-normal-bottom" x="6" y="24" width="20" height="4"/>
+        <rect id="floating-tab-normal-bottomright" x="26" y="24" width="2" height="4"/>
+      </g>
+      <g transform="translate(32)">
+        <g class="opaque-tab-focused">
+          <rect id="floating-tab-focused-left" x="4" y="4" width="2" height="20"/>
+          <rect id="floating-tab-focused" x="6" y="4" width="20" height="20"/>
+          <rect id="floating-tab-focused-right" x="26" y="4" width="2" height="20"/>
+        </g>
+        <g class="focused-tab-indicator">
+          <g id="floating-tab-focused-bottomleft" transform="translate(4,24)">
+            <rect style="fill:none" width="2" height="4"/>
+            <rect width="2" height="3"/>
+          </g>
+          <g id="floating-tab-focused-bottom" transform="translate(6,24)">
+            <rect style="fill:none" width="20" height="4"/>
+            <rect width="20" height="3"/>
+          </g>
+          <g id="floating-tab-focused-bottomright" transform="translate(26,24)">
+            <rect style="fill:none" width="2" height="4"/>
+            <rect width="2" height="3"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(96)">
+        <g class="opaque-tabbar" style="opacity:0.75">
+          <rect id="floating-tab-toggled-left" x="4" y="4" width="2" height="20"/>
+          <rect id="floating-tab-toggled" x="6" y="4" width="20" height="20"/>
+          <rect id="floating-tab-toggled-right" x="26" y="4" width="2" height="20"/>
+        </g>
+        <g class="accent-color">
+          <g id="floating-tab-toggled-bottomleft" transform="translate(4,24)">
+            <rect style="fill:none" width="2" height="4"/>
+            <rect width="2" height="3"/>
+          </g>
+          <g id="floating-tab-toggled-bottom" transform="translate(6,24)">
+            <rect style="fill:none" width="20" height="4"/>
+            <rect width="20" height="3"/>
+          </g>
+          <g id="floating-tab-toggled-bottomright" transform="translate(26,24)">
+            <rect style="fill:none" width="2" height="4"/>
+            <rect width="2" height="3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(320)">
+      <rect class="translucent-window" width="160" height="32"/>
+      <rect class="translucent-tabbar" width="160" height="32"/>
+
+      <g style="fill:none">
+        <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>
+        <rect id="floating-translucent-tab-normal-left" x="4" y="5" width="2" height="20"/>
+        <rect id="floating-translucent-tab-normal" x="6" y="5" width="20" height="20"/>
+        <rect id="floating-translucent-tab-normal-right" x="26" y="5" width="2" height="20"/>
+        <rect id="floating-translucent-tab-normal-bottomleft" x="4" y="24" width="2" height="4"/>
+        <rect id="floating-translucent-tab-normal-bottom" x="6" y="24" width="20" height="4"/>
+        <rect id="floating-translucent-tab-normal-bottomright" x="26" y="24" width="2" height="4"/>
+      </g>
+      <g transform="translate(32)">
+        <g class="translucent-tab-focused">
+          <rect id="floating-translucent-tab-focused-left" x="4" y="4" width="2" height="20"/>
+          <rect id="floating-translucent-tab-focused" x="6" y="4" width="20" height="20"/>
+          <rect id="floating-translucent-tab-focused-right" x="26" y="4" width="2" height="20"/>
+        </g>
+        <g class="focused-tab-indicator">
+          <g id="floating-translucent-tab-focused-bottomleft" transform="translate(4,24)">
+            <rect style="fill:none" width="2" height="4"/>
+            <rect width="2" height="3"/>
+          </g>
+          <g id="floating-translucent-tab-focused-bottom" transform="translate(6,24)">
+            <rect style="fill:none" width="20" height="4"/>
+            <rect width="20" height="3"/>
+          </g>
+          <g id="floating-translucent-tab-focused-bottomright" transform="translate(26,24)">
+            <rect style="fill:none" width="2" height="4"/>
+            <rect width="2" height="3"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(96)">
+        <g class="fill-none">
+          <rect id="floating-translucent-tab-toggled-left" x="4" y="4" width="2" height="20"/>
+          <rect id="floating-translucent-tab-toggled" x="6" y="4" width="20" height="20"/>
+          <rect id="floating-translucent-tab-toggled-right" x="26" y="4" width="2" height="20"/>
+        </g>
+        <g class="accent-color">
+          <g id="floating-translucent-tab-toggled-bottomleft" transform="translate(4,24)">
+            <rect style="fill:none" width="2" height="4"/>
+            <rect width="2" height="3"/>
+          </g>
+          <g id="floating-translucent-tab-toggled-bottom" transform="translate(6,24)">
+            <rect style="fill:none" width="20" height="4"/>
+            <rect width="20" height="3"/>
+          </g>
+          <g id="floating-translucent-tab-toggled-bottomright" transform="translate(26,24)">
+            <rect style="fill:none" width="2" height="4"/>
+            <rect width="2" height="3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(480)">
+      <rect class="opaque-tabbar" width="320" height="32"/>
+
+      <g id="tab-close-normal" transform="translate(4,4)">
+        <rect style="fill:none" width="24" height="24"/>
+        <path class="fill-none stroke-window-text stroke-width-2 stroke-rounded" d="M 8,8 l 8,8 M 8,16 l 8,-8"/>
+      </g>
+      <g id="tab-close-focused" transform="translate(36,4)">
+        <rect style="fill:none" width="24" height="24"/>
+        <circle class="toolbutton-focused" cx="12" cy="12" r="12"/>
+        <path class="fill-none stroke-window-text-focused stroke-width-2 stroke-rounded" d="M 8,8 l 8,8 M 8,16 l 8,-8"/>
+      </g>
+      <g id="tab-close-pressed" transform="translate(68,4)">
+        <rect style="fill:none" width="24" height="24"/>
+        <circle class="toolbutton-pressed" cx="12" cy="12" r="12"/>
+        <path class ="fill-none stroke-window-text-focused stroke-width-2 stroke-rounded" d="M 8,8 l 8,8 M 8,16 l 8,-8"/>
+      </g>
+      <g id="tab-close-disabled" transform="translate(132,4)">
+        <rect style="fill:none" width="24" height="24"/>
+        <path class="fill-none stroke-window-text disabled stroke-width-2 stroke-rounded" d="M 8,8 l 8,8 M 8,16 l 8,-8"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tabs -->
+
+  <g transform="translate(0,288)">
+    <text class="label" x="144" y="20">Tabs</text>
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="32"/>
+
+      <g style="fill:none">
+        <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>
+        <rect id="tab-normal-left" x="4" y="4" width="2" height="20"/>
+        <rect id="tab-normal" x="6" y="4" width="20" height="20"/>
+        <rect id="tab-normal-right" x="26" y="4" width="2" height="20"/>
+        <rect id="tab-normal-bottomleft" x="4" y="24" width="2" height="4"/>
+        <rect id="tab-normal-bottom" x="6" y="24" width="20" height="4"/>
+        <rect id="tab-normal-bottomright" x="26" y="24" width="2" height="4"/>
+      </g>
+      <g transform="translate(32)">
+        <g id="tab-focused-bottom" transform="translate(6,24)">
+          <rect style="fill:none" width="20" height="4"/>
+          <rect class="focused-tab-indicator" width="20" height="3"/>
+        </g>
+      </g>
+      <g transform="translate(96)">
+        <g id="tab-toggled-bottom" transform="translate(6,24)">
+          <rect style="fill:none" width="20" height="4"/>
+          <rect class="accent-color" width="20" height="3"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(320)">
+      <rect class="translucent-window" width="160" height="32"/>
+
+      <g style="fill:none">
+        <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>
+        <rect id="translucent-tab-normal-left" x="4" y="4" width="2" height="20"/>
+        <rect id="translucent-tab-normal" x="6" y="4" width="20" height="20"/>
+        <rect id="translucent-tab-normal-right" x="26" y="4" width="2" height="20"/>
+        <rect id="translucent-tab-normal-bottomleft" x="4" y="24" width="2" height="4"/>
+        <rect id="translucent-tab-normal-bottom" x="6" y="24" width="20" height="4"/>
+        <rect id="translucent-tab-normal-bottomright" x="26" y="24" width="2" height="4"/>
+      </g>
+      <g transform="translate(32)">
+        <g id="translucent-tab-focused-bottom" transform="translate(6,24)">
+          <rect style="fill:none" width="20" height="4"/>
+          <rect class="focused-tab-indicator" width="20" height="3"/>
+        </g>
+      </g>
+      <g transform="translate(96)">
+        <g id="translucent-tab-toggled-bottom" transform="translate(6,24)">
+          <rect style="fill:none" width="20" height="4"/>
+          <rect class="accent-color" width="20" height="3"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(480)">
+      <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>
+      <g id="tab-tear" transform="translate(4,4)">
+        <rect style="fill:none" width="2" height="24"/>
+      </g>
+    </g>
+    <g transform="translate(640)">
+      <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>
+      <g id="translucent-tab-tear" transform="translate(4,4)">
+        <rect style="fill:none" width="2" height="24"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Group boxes -->
+
+  <g transform="translate(0,320)">
+    <text class="label" x="144" y="20">Group boxes</text>
+
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="32"/>
+
+      <g class="groupbox">
+        <path id="group-normal-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="group-normal-top" x="8" y="4" width="16" height="4"/>
+        <path id="group-normal-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="group-normal-left" x="4" y="8" width="4" height="16"/>
+        <rect id="group-normal" x="8" y="8" width="16" height="16"/>
+        <rect id="group-normal-right" x="24" y="8" width="4" height="16"/>
+        <path id="group-normal-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="group-normal-bottom" x="8" y="24" width="16" height="4"/>
+        <path id="group-normal-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Buttons -->
+
+  <g transform="translate(0,352)">
+    <text class="label" x="144" y="20">Buttons</text>
+
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="64"/>
+
+      <rect id="button-default-indicator" style="fill:none" width="1" height="1"/>
+
+      <g class="opaque-button">
+        <path id="opaque-button-normal-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="opaque-button-normal-top" transform="translate(8,4)" width="16" height="4"/>
+        <path id="opaque-button-normal-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="opaque-button-normal-left" transform="translate(4,8)" width="4" height="16"/>
+        <rect id="opaque-button-normal" transform="translate(8,8)" width="16" height="16"/>
+        <rect id="opaque-button-normal-right" transform="translate(24,8)" width="4" height="16"/>
+        <path id="opaque-button-normal-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="opaque-button-normal-bottom" transform="translate(8,24)" width="16" height="4"/>
+        <path id="opaque-button-normal-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+      <g transform="translate(32)" class="opaque-button-focused">
+        <path id="opaque-button-focused-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="opaque-button-focused-top" transform="translate(8,4)" width="16" height="4"/>
+        <path id="opaque-button-focused-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="opaque-button-focused-left" transform="translate(4,8)" width="4" height="16"/>
+        <rect id="opaque-button-focused" transform="translate(8,8)" width="16" height="16"/>
+        <rect id="opaque-button-focused-right" transform="translate(24,8)" width="4" height="16"/>
+        <path id="opaque-button-focused-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="opaque-button-focused-bottom" transform="translate(8,24)" width="16" height="4"/>
+        <path id="opaque-button-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+      <g transform="translate(64)" class="opaque-button-pressed">
+        <path id="opaque-button-pressed-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="opaque-button-pressed-top" transform="translate(8,4)" width="16" height="4"/>
+        <path id="opaque-button-pressed-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="opaque-button-pressed-left" transform="translate(4,8)" width="4" height="16"/>
+        <rect id="opaque-button-pressed" transform="translate(8,8)" width="16" height="16"/>
+        <rect id="opaque-button-pressed-right" transform="translate(24,8)" width="4" height="16"/>
+        <path id="opaque-button-pressed-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="opaque-button-pressed-bottom" transform="translate(8,24)" width="16" height="4"/>
+        <path id="opaque-button-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+
+      <rect class="opaque-button" x="100" y="4" width="24" height="24" rx="4" ry="4"/>
+
+      <g class="opaque-button-default" transform="translate(96)">
+        <path id="opaque-button-default-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="opaque-button-default-top" transform="translate(8,4)" width="16" height="4"/>
+        <path id="opaque-button-default-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="opaque-button-default-left" x="4" y="8"  width="4" height="16"/>
+        <rect id="opaque-button-default" x="8" y="8" width="16" height="16"/>
+        <rect id="opaque-button-default-right" x="24" y="8" width="4" height="16"/>
+        <path id="opaque-button-default-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="opaque-button-default-bottom" transform="translate(8,24)" x="0" y="0" width="16" height="4"/>
+        <path id="opaque-button-default-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+      <!--<rect class="accent-color" y="16" width="32" height="16"/>-->
+    </g>
+    <g transform="translate(320)">
+      <rect class="translucent-window" width="160" height="32"/>
+
+      <g class="translucent-button">
+        <path id="translucent-button-normal-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="translucent-button-normal-top" transform="translate(8,4)" width="16" height="4"/>
+        <path id="translucent-button-normal-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="translucent-button-normal-left" transform="translate(4,8)" width="4" height="16"/>
+        <rect id="translucent-button-normal" transform="translate(8,8)" width="16" height="16"/>
+        <rect id="translucent-button-normal-right" transform="translate(24,8)" width="4" height="16"/>
+        <path id="translucent-button-normal-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="translucent-button-normal-bottom" transform="translate(8,24)" width="16" height="4"/>
+        <path id="translucent-button-normal-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+      <g transform="translate(32)" class="translucent-button-focused">
+        <path id="translucent-button-focused-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="translucent-button-focused-top" transform="translate(8,4)" width="16" height="4"/>
+        <path id="translucent-button-focused-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="translucent-button-focused-left" transform="translate(4,8)" width="4" height="16"/>
+        <rect id="translucent-button-focused" transform="translate(8,8)" width="16" height="16"/>
+        <rect id="translucent-button-focused-right" transform="translate(24,8)" width="4" height="16"/>
+        <path id="translucent-button-focused-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="translucent-button-focused-bottom" transform="translate(8,24)" width="16" height="4"/>
+        <path id="translucent-button-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+      <g transform="translate(64)" class="translucent-button-pressed">
+        <path id="translucent-button-pressed-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="translucent-button-pressed-top" transform="translate(8,4)" width="16" height="4"/>
+        <path id="translucent-button-pressed-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="translucent-button-pressed-left" transform="translate(4,8)" width="4" height="16"/>
+        <rect id="translucent-button-pressed" transform="translate(8,8)" width="16" height="16"/>
+        <rect id="translucent-button-pressed-right" transform="translate(24,8)" width="4" height="16"/>
+        <path id="translucent-button-pressed-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="translucent-button-pressed-bottom" transform="translate(8,24)" width="16" height="4"/>
+        <path id="translucent-button-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+
+      <rect class="translucent-button" x="100" y="4" width="24" height="24" rx="4" ry="4"/>
+
+      <g class="translucent-button-default" transform="translate(96)">
+        <path id="translucent-button-default-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="translucent-button-default-top" transform="translate(8,4)" width="16" height="4"/>
+        <path id="translucent-button-default-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="translucent-button-default-left" x="4" y="8"  width="4" height="16"/>
+        <rect id="translucent-button-default" x="8" y="8" width="16" height="16"/>
+        <rect id="translucent-button-default-right" x="24" y="8" width="4" height="16"/>
+        <path id="translucent-button-default-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="translucent-button-default-bottom" transform="translate(8,24)" x="0" y="0" width="16" height="4"/>
+        <path id="translucent-button-default-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+    </g>
+
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="320" height="32"/>
+      <rect class="opaque-button" width="128" height="32"/>
+      <rect class="opaque-button" style="opacity:0.67" x="128" width="32" height="32"/>
+      <rect class="opaque-button" x="160" width="128" height="32"/>
+      <rect class="opaque-button" style="opacity:0.67" x="288" width="32" height="32"/>
+
+      <g class="button-text">
+        <g>
+          <g id="button-arrow-left-normal" transform="translate(2,10)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 9,0 -6,6 6,6 z"/>
+          </g>
+          <g id="button-arrow-right-normal" transform="translate(18,10)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 3,0 6,6 -6,6 z"/>
+          </g>
+        </g>
+        <g transform="translate(160)">
+          <g id="button-arrow-up-normal" transform="translate(10,2)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 0,9 6,-6 6,6 z"/>
+          </g>
+          <g id="button-arrow-down-normal" transform="translate(10,18)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 0,3 6,6 6,-6 z"/>
+          </g>
+        </g>
+      </g>
+      <g class="button-text disabled">
+        <g transform="translate(128)">
+          <g id="button-arrow-left-disabled" transform="translate(2,10)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 9,0 -6,6 6,6 z"/>
+          </g>
+          <g id="button-arrow-right-disabled" transform="translate(18,10)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 3,0 6,6 -6,6 z"/>
+          </g>
+        </g>
+        <g transform="translate(288)">
+          <g id="button-arrow-up-disabled" transform="translate(10,2)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 0,9 6,-6 6,6 z"/>
+          </g>
+          <g id="button-arrow-down-disabled" transform="translate(10,18)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 0,3 6,6 6,-6 z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tool buttons -->
+
+  <g transform="translate(0,384)">
+    <text class="label" x="144" y="20">Tool buttons</text>
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="32"/>
+
+      <g style="fill:none">
+        <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>
+        <rect id="toolbutton-normal-topleft" x="4" y="4" height="4" width="4"/>
+        <rect id="toolbutton-normal-top" x="8" y="4" height="4" width="16"/>
+        <rect id="toolbutton-normal-topright"  x="24" y="4" height="4" width="4"/>
+        <rect id="toolbutton-normal-left" x="4" y="8" height="16" width="4"/>
+        <rect id="toolbutton-normal" x="8" y="8" height="16" width="16"/>
+        <rect id="toolbutton-normal-right" x="24" y="8" height="16" width="4"/>
+        <rect id="toolbutton-normal-bottomleft" x="4" y="24" height="4" width="4"/>
+        <rect id="toolbutton-normal-bottom" x="8" y="24" height="4" width="16"/>
+        <rect id="toolbutton-normal-bottomright" x="24" y="24" height="4" width="4"/>
+      </g>
+      <g transform="translate(32)" class="toolbutton-focused">
+        <path id="toolbutton-focused-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+        <rect id="toolbutton-focused-top" x="8" y="4" width="16" height="4"/>
+        <path id="toolbutton-focused-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <rect id="toolbutton-focused-left" x="4" y="8" height="16" width="4"/>
+        <rect id="toolbutton-focused" x="8" y="8" height="16" width="16"/>
+        <rect id="toolbutton-focused-right" x="24" y="8" height="16" width="4"/>
+        <path id="toolbutton-focused-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <rect id="toolbutton-focused-bottom" x="8" y="24" width="16" height="4"/>
+        <path id="toolbutton-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+      </g>
+      <g transform="translate(64)" class="toolbutton-pressed">
+        <path id="toolbutton-pressed-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+        <rect id="toolbutton-pressed-top" x="8" y="4" width="16" height="4"/>
+        <path id="toolbutton-pressed-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <rect id="toolbutton-pressed-left" x="4" y="8" height="16" width="4"/>
+        <rect id="toolbutton-pressed" x="8" y="8" height="16" width="16"/>
+        <rect id="toolbutton-pressed-right" x="24" y="8" height="16" width="4"/>
+        <path id="toolbutton-pressed-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <rect id="toolbutton-pressed-bottom" x="8" y="24" width="16" height="4"/>
+        <path id="toolbutton-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+      </g>
+      <g transform="translate(96)" class="accent-color-2">
+        <path id="toolbutton-toggled-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+        <rect id="toolbutton-toggled-top" x="8" y="4" width="16" height="4"/>
+        <path id="toolbutton-toggled-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <rect id="toolbutton-toggled-left" x="4" y="8" height="16" width="4"/>
+        <rect id="toolbutton-toggled" x="8" y="8" height="16" width="16"/>
+        <rect id="toolbutton-toggled-right" x="24" y="8" height="16" width="4"/>
+        <path id="toolbutton-toggled-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <rect id="toolbutton-toggled-bottom" x="8" y="24" width="16" height="4"/>
+        <path id="toolbutton-toggled-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Toolbar buttons -->
+
+  <g transform="translate(0,416)">
+    <text class="label" x="144" y="20">Toolbar buttons</text>
+    <g transform="translate(160,0)">
+      <rect class="opaque-window" width="160" height="32"/>
+
+      <g style="fill:none">
+        <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>
+        <rect id="toolbar-button-normal-topleft" x="4" y="4" height="4" width="4"/>
+        <rect id="toolbar-button-normal-top" x="8" y="4" height="4" width="16"/>
+        <rect id="toolbar-button-normal-topright" x="24" y="4" height="4" width="4"/>
+        <rect id="toolbar-button-normal-left" x="4" y="8" height="16" width="4"/>
+        <rect id="toolbar-button-normal" x="8" y="8" height="16" width="16"/>
+        <rect id="toolbar-button-normal-right" x="24" y="8" height="16" width="4"/>
+        <rect id="toolbar-button-normal-bottomleft" x="4" y="24" height="4" width="4"/>
+        <rect id="toolbar-button-normal-bottom" x="8" y="24" height="4" width="16"/>
+        <rect id="toolbar-button-normal-bottomright" x="24" y="24" height="4" width="4"/>
+      </g>
+      <g transform="translate(32)" class="toolbutton-focused">
+        <path id="toolbar-button-focused-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+        <rect id="toolbar-button-focused-top" x="8" y="4" width="16" height="4"/>
+        <path id="toolbar-button-focused-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <rect id="toolbar-button-focused-left" x="4" y="8" height="16" width="4"/>
+        <rect id="toolbar-button-focused" x="8" y="8" height="16" width="16"/>
+        <rect id="toolbar-button-focused-right" x="24" y="8" height="16" width="4"/>
+        <path id="toolbar-button-focused-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <rect id="toolbar-button-focused-bottom" x="8" y="24" width="16" height="4"/>
+        <path id="toolbar-button-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+      </g>
+      <g transform="translate(64)" class="toolbutton-focused">
+        <path id="toolbar-button-pressed-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+        <rect id="toolbar-button-pressed-top" x="8" y="4" width="16" height="4"/>
+        <path id="toolbar-button-pressed-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <rect id="toolbar-button-pressed-left" x="4" y="8" height="16" width="4"/>
+        <rect id="toolbar-button-pressed" x="8" y="8" height="16" width="16"/>
+        <rect id="toolbar-button-pressed-right" x="24" y="8" height="16" width="4"/>
+        <path id="toolbar-button-pressed-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <rect id="toolbar-button-pressed-bottom" transform="translate(8,24)" x="0" y="0" width="16" height="4"/>
+        <path id="toolbar-button-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+      </g>
+      <g transform="translate(96)" class="toolbutton-pressed">
+        <path id="toolbar-button-toggled-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+        <rect id="toolbar-button-toggled-top" x="8" y="4" width="16" height="4"/>
+        <path id="toolbar-button-toggled-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <rect id="toolbar-button-toggled-left" x="4" y="8" height="16" width="4"/>
+        <rect id="toolbar-button-toggled" x="8" y="8" height="16" width="16"/>
+        <rect id="toolbar-button-toggled-right" x="24" y="8" height="16" width="4"/>
+        <path id="toolbar-button-toggled-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <rect id="toolbar-button-toggled-bottom" x="8" y="24" width="16" height="4"/>
+        <path id="toolbar-button-toggled-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Line edits -->
+
+  <g transform="translate(0,448)">
+    <text class="label" x="144" y="20">Line edits</text>
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="32"/>
+      <g class="field">
+        <path id="lineedit-normal-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="lineedit-normal-top" x="8" y="4" width="16" height="4"/>
+        <path id="lineedit-normal-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="lineedit-normal-left" x="4" y="8" height="16" width="4"/>
+        <rect id="lineedit-normal" x="8" y="8" height="16" width="16"/>
+        <rect id="lineedit-normal-right" x="24" y="8" height="16" width="4"/>
+        <path id="lineedit-normal-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="lineedit-normal-bottom" x="8" y="24" width="16" height="4"/>
+        <path id="lineedit-normal-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+    </g>
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="160" height="32"/>
+      <g>
+        <path class="field" d="m 0,4 h 24 a 4,4 0 0 1 4,4 v 16 a 4,4 0 0 1 -4,4 h -24 z"/>
+        <g id="combobox-indicator-normal" transform="translate(8,8)">
+          <rect style="fill:none" width="16" height="16"/>
+          <path class="window-text" d="m 4,5 6,6 6,-6 z"/>
+        </g>
+        <g id="combobox-indicator-separator-top-normal" transform="translate(8,4)">
+          <rect style="fill:none" width="4" height="4"/>
+          <rect class="opaque-window" width="1" height="4"/>
+        </g>
+        <g id="combobox-indicator-separator-normal" transform="translate(8,8)">
+          <rect style="fill:none" width="4" height="16"/>
+          <rect class="opaque-window" width="1" height="16"/>
+        </g>
+        <g id="combobox-indicator-separator-bottom-normal" transform="translate(8,24)">
+          <rect style="fill:none" width="4" height="4"/>
+          <rect class="opaque-window" width="1" height="4"/>
+        </g>
+      </g>
+      <g transform="translate(128)">
+        <path class="field" style="opacity:0.5" d="m 0,4 h 24 a 4,4 0 0 1 4,4 v 16 a 4,4 0 0 1 -4,4 h -24 z"/>
+        <g id="combobox-indicator-disabled" transform="translate(8,8)">
+          <rect style="fill:none" width="16" height="16"/>
+          <path class="window-text disabled" d="m 4,5 6,6 6,-6 z"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(640)">
+      <rect class="opaque-window" width="160" height="32"/>
+      <g>
+        <rect class="field" y="6" width="28" height="20"/>
+        <g id="frameless-combobox-indicator-normal" transform="translate(11,8)">
+          <rect style="fill:none" width="16" height="16"/>
+          <path class="window-text" d="m 1,5 6,6 6,-6 z"/>
+        </g>
+        <g id="frameless-combobox-indicator-separator-top-normal" transform="translate(8,4)">
+          <rect style="fill:none" width="2" height="2"/>
+        </g>
+        <g id="frameless-combobox-indicator-separator-normal" transform="translate(8,6)">
+          <rect style="fill:none" width="2" height="20"/>
+          <rect class="opaque-window" width="1" height="20"/>
+        </g>
+        <g id="frameless-combobox-indicator-separator-bottom-normal" transform="translate(8,26)">
+          <rect style="fill:none" width="2" height="2"/>
+        </g>
+      </g>
+      <g transform="translate(128)">
+        <rect class="field" style="opacity:0.5" y="6" width="28" height="20"/>
+        <g id="frameless-combobox-indicator-disabled" transform="translate(11,8)">
+          <rect style="fill:none" width="16" height="16"/>
+          <path class="window-text disabled" d="m 1,5 6,6 6,-6 z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Spin boxes -->
+
+  <g transform="translate(0,480)">
+    <text class="label" x="144" y="20">Spin boxes</text>
+
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="32"/>
+      <g>
+        <rect class="field" x="4" y="4" width="4" height="24"/>
+        <g class="field">
+          <rect id="spinbox-normal-top" x="8" y="4" width="16" height="4"/>
+          <path id="spinbox-normal-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+          <rect id="spinbox-normal" x="8" y="8" height="16" width="16"/>
+          <rect id="spinbox-normal-right" x="24" y="8" height="16" width="4"/>
+          <rect id="spinbox-normal-bottom" x="8" y="24" width="16" height="4"/>
+          <path id="spinbox-normal-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+        </g>
+        <g id="spin-separator-top-normal" transform="translate(8,4)">
+          <rect style="fill:none" width="4" height="4"/>
+          <rect class="opaque-window" width="1" height="4"/>
+        </g>
+        <g id="spin-separator-normal" transform="translate(8,8)">
+          <rect style="fill:none" width="4" height="16"/>
+          <rect class="opaque-window" width="1" height="16"/>
+        </g>
+        <g id="spin-separator-bottom-normal" transform="translate(8,24)">
+          <rect style="fill:none" width="4" height="4"/>
+          <rect class="opaque-window" width="1" height="4"/>
+        </g>
+      </g>
+      <g transform="translate(32)">
+        <rect class="field" x="4" y="4" width="4" height="24"/>
+        <g class="field-focused">
+          <rect id="spinbox-focused-top" x="8" y="4" width="16" height="4"/>
+          <path id="spinbox-focused-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+          <rect id="spinbox-focused" x="8" y="8" height="16" width="16"/>
+          <rect id="spinbox-focused-right" x="24" y="8" height="16" width="4"/>
+          <rect id="spinbox-focused-bottom" x="8" y="24" width="16" height="4"/>
+          <path id="spinbox-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+        </g>
+        <rect class="opaque-window" x="8" y="4" width="1" height="24"/>
+      </g>
+      <g transform="translate(64)">
+        <rect class="field" x="4" y="4" width="4" height="24"/>
+        <g class="field-pressed">
+          <rect id="spinbox-pressed-top" x="8" y="4" width="16" height="4"/>
+          <path id="spinbox-pressed-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+          <rect id="spinbox-pressed" x="8" y="8" height="16" width="16"/>
+          <rect id="spinbox-pressed-right" x="24" y="8" height="16" width="4"/>
+          <rect id="spinbox-pressed-bottom" x="8" y="24" width="16" height="4"/>
+          <path id="spinbox-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+        </g>
+        <rect class="opaque-window" x="8" y="4" width="1" height="24"/>
+      </g>
+    </g>
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="160" height="32"/>
+      <rect class="field" width="160" height="32"/>
+
+      <g>
+        <g id="spin-minus-normal" transform="translate(2,10)">
+          <g id="spin-down-normal">
+            <rect style="fill:none" width="12" height="12"/>
+            <path class="fill-none stroke-window-text stroke-width-2 stroke-rounded" d="m 2,6 h 8"/>
+          </g>
+        </g>
+        <g id="spin-plus-normal" transform="translate(18,10)">
+          <g id="spin-up-normal">
+            <rect style="fill:none" width="12" height="12"/>
+            <path class="fill-none stroke-window-text stroke-width-2 stroke-rounded" d="M 2,6 h 8 M 6,2 v 8"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(32)">
+        <g id="spin-minus-focused" transform="translate(2,10)">
+          <g id="spinbox-down-focused">
+            <rect style="fill:none" width="12" height="12"/>
+            <path  class="fill-none stroke-window-text-focused stroke-width-2 stroke-rounded" d="m 2,6 h 8"/>
+          </g>
+        </g>
+        <g id="spin-plus-focused" transform="translate(18,10)">
+          <g id="spin-up-focused">
+            <rect style="fill:none" width="12" height="12"/>
+            <path class="fill-none stroke-window-text-focused stroke-width-2 stroke-rounded" d="M 2,6 h 8 M 6,2 v 8"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(64)">
+        <g id="spin-minus-pressed" transform="translate(2,10)">
+          <g id="spin-down-pressed">
+            <rect style="fill:none" width="12" height="12"/>
+            <path class="fill-none stroke-window-text-pressed stroke-width-2 stroke-rounded" d="m 2,6 h 8"/>
+          </g>
+        </g>
+        <g id="spin-plus-pressed" transform="translate(18,10)">
+          <g id="spin-up-pressed">
+            <rect style="fill:none" width="12" height="12"/>
+            <path class="fill-none stroke-window-text-pressed stroke-width-2 stroke-rounded" d="M 2,6 h 8 M 6,2 v 8"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(128)">
+        <g id="spin-minus-disabled" transform="translate(2,10)">
+          <g id="spin-down-disabled">
+            <rect style="fill:none" width="12" height="12"/>
+            <path class="fill-none stroke-window-text disabled stroke-width-2 stroke-rounded" d="m 2,6 h 8"/>
+          </g>
+        </g>
+        <g id="spin-plus-disabled" transform="translate(18,10)">
+          <g id="spin-up-disabled">
+            <rect style="fill:none" width="12" height="12"/>
+            <path class="fill-none stroke-window-text disabled stroke-width-2 stroke-rounded" d="M 2,6 h 8 M 6,2 v 8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Progress bars -->
+
+  <g transform="translate(0,512)">
+    <text class="label" x="144" y="20">Progress bars</text>
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="32"/>
+
+      <g class="field">
+        <path id="progressbar-normal-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+        <rect id="progressbar-normal-top" x="8" y="4" width="16" height="4"/>
+        <path id="progressbar-normal-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+        <rect id="progressbar-normal-left" x="4" y="8" height="16" width="4"/>
+        <rect id="progressbar-normal" x="8" y="8" height="16" width="16"/>
+        <rect id="progressbar-normal-right" x="24" y="8" height="16" width="4"/>
+        <path id="progressbar-normal-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        <rect id="progressbar-normal-bottom" x="8" y="24" width="16" height="4"/>
+        <path id="progressbar-normal-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+      </g>
+    </g>
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="320" height="32"/>
+      <g>
+        <rect class="field" y="4" width="32" height="24"/>
+
+        <g class="accent-color">
+          <path id="progress-normal-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+          <rect id="progress-normal-top" x="8" y="4" width="16" height="4"/>
+          <path id="progress-normal-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+          <rect id="progress-normal-left" x="4" y="8" height="16" width="4"/>
+          <rect id="progress-normal" x="8" y="8" height="16" width="16"/>
+          <rect id="progress-normal-right" x="24" y="8" height="16" width="4"/>
+          <path id="progress-normal-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+          <rect id="progress-normal-bottom" x="8" y="24" width="16" height="4"/>
+          <path id="progress-normal-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+        </g>
+      </g>
+      <g transform="translate(128)">
+        <rect class="field" y="4" width="32" height="24"/>
+
+        <g class="progress-disabled">
+          <path id="progress-disabled-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+          <rect id="progress-disabled-top" x="8" y="4" width="16" height="4"/>
+          <path id="progress-disabled-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
+          <rect id="progress-disabled-left" x="4" y="8" height="16" width="4"/>
+          <rect id="progress-disabled" x="8" y="8" height="16" width="16"/>
+          <rect id="progress-disabled-right" x="24" y="8" height="16" width="4"/>
+          <path id="progress-disabled-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+          <rect id="progress-disabled-bottom" x="8" y="24" width="16" height="4"/>
+          <path id="progress-disabled-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Checkboxes -->
+
+  <g transform="translate(0,544)">
+    <text class="label" x="144" y="20">Checkboxes</text>
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="320" height="32"/>
+
+      <g id="checkbox-normal" transform="translate(7,7)">
+        <rect class="checkbox-background stroke-window-text stroke-width-2" width="18" height="18" rx="1" ry="1"/>
+      </g>
+      <g id="checkbox-checked-normal" transform="translate(102,6)">
+        <rect class="checkbox-background" width="20" height="20" rx="1" ry="1"/>
+        <path class="window-text" d="m 2,0 a 2,2 0 0 0 -2,2 v 16 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -16 a 2,2 0 0 0 -2,-2 z m 13.9,4.5 c 1.2,0.1 2.3,1.8 1.2,3 l -7.6,7.5 a 1.785,1.77 0 0 1 -2.5,0 l -3.9,-3.8 c -1.7,-1.6 0.8,-4.1 2.6,-2.5 l 2.6,2.5 6.3,-6.2 c 0.4,-0.4 0.9,-0.5 1.3,-0.5 z"/>
+      </g>
+      <g id="checkbox-tristate-normal" transform="translate(262,6)">
+        <rect class="checkbox-background" width="20" height="20" rx="1" ry="1"/>
+        <path class="window-text" d="m 2,0 a 2,2 0 0 0 -2,2 v 16 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -16 a 2,2 0 0 0 -2,-2 z m 2,8 h 12 a 2,2 0 0 1 0,4 h -12 a 2,2 0 0 1 0,-4 z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Radio buttons -->
+
+  <g transform="translate(0,576)">
+    <text class="label" x="144" y="20">Radio buttons</text>
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="320" height="32"/>
+
+      <g id="radio-button-normal" transform="translate(16,16)">
+        <path class="radio-button-background" d="m -8,0 a 8,8 0 0 0 16,0 z"/>
+        <circle class="fill-none stroke-window-text stroke-width-2" cx="0" cy="0" r="9"/>
+      </g>
+      <g id="radio-button-checked-normal" transform="translate(112,16)">
+        <path class="radio-button-background" d="m -8,0 a 8,8 0 0 0 16,0 z"/>
+        <circle class="fill-none stroke-window-text stroke-width-2" cx="0" cy="0" r="9"/>
+        <circle class="window-text" cx="0" cy="0" r="6"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Sliders -->
+
+  <g transform="translate(0,608)">
+    <text class="label" x="144" y="20">Sliders</text>
+
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="32"/>
+
+      <g class="field">
+        <g id="slider-normal-topleft" transform="translate(12,2)">
+          <rect style="fill:none" width="4" height="6"/>
+          <path d="m 0,6 a 4,4 0 0 1 4,-4 v 4 z"/>
+        </g>
+        <g id="slider-normal-topright" transform="translate(16,2)">
+          <rect style="fill:none" width="4" height="6"/>
+          <path d="m 0,2 a 4,4 0 0 1 4,4 h -4 z"/>
+        </g>
+        <rect id="slider-normal-left" x="12" y="8" width="4" height="16"/>
+        <rect id="slider-normal-right" x="16" y="8" width="4" height="16"/>
+
+        <g id="slider-normal-bottomleft" transform="translate(12,24)">
+          <rect style="fill:none" width="4" height="6"/>
+          <path d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        </g>
+        <g id="slider-normal-bottomright" transform="translate(16,24)">
+          <rect style="fill:none" width="4" height="6"/>
+          <path d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+        </g>
+      </g>
+      <g class="accent-color" transform="translate(96)">
+        <g id="slider-toggled-topleft" transform="translate(12,2)">
+          <rect style="fill:none" width="4" height="6"/>
+          <path d="m 0,6 a 4,4 0 0 1 4,-4 v 4 z"/>
+        </g>
+        <g id="slider-toggled-topright" transform="translate(16,2)">
+          <rect style="fill:none" width="4" height="6"/>
+          <path d="m 0,2 a 4,4 0 0 1 4,4 h -4 z"/>
+        </g>
+        <rect id="slider-toggled-left" x="12" y="8" width="4" height="16"/>
+        <rect id="slider-toggled-right" x="16" y="8" width="4" height="16"/>
+
+        <g id="slider-toggled-bottomleft" transform="translate(12,24)">
+          <rect style="fill:none" width="4" height="6"/>
+          <path d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        </g>
+        <g id="slider-toggled-bottomright" transform="translate(16,24)">
+          <rect style="fill:none" width="4" height="6"/>
+          <path d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="320" height="32"/>
+      <defs>
+        <radialGradient id="slider-cursor-shadow">
+          <stop offset="85%" stop-color="black" stop-opacity="0.25"/>
+          <stop offset="100%" stop-color="black" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <g>
+        <rect class="field" y="12" width="32" height="8"/>
+        <rect class="accent-color" y="12" width="16" height="8"/>
+
+        <g id="sliderhandle-normal" transform="translate(2,2)">
+          <rect style="fill:none" width="28" height="28"/>
+          <circle style="fill:url('#slider-cursor-shadow')" cx="14" cy="14" r="14"/>
+          <circle class="slider-handle" cx="14" cy="14" r="11.5"/>
+        </g>
+      </g>
+      <g transform="translate(128)">
+        <rect class="field" y="12" width="32" height="8"/>
+
+        <g id="sliderhandle-disabled" transform="translate(2,2)">
+          <rect style="fill:none;" width="28" height="28"/>
+          <circle style="fill:url('#slider-cursor-shadow')" cx="14" cy="14" r="14"/>
+          <circle class="slider-handle disabled" cx="14" cy="14" r="11.5"/>
+        </g>
+      </g>
+      <g transform="translate(160)">
+        <rect id="slider-tick-normal" class="window-text disabled" x="14" y="15" width="4" height="1"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tickless sliders -->
+
+  <g transform="translate(0,640)">
+    <text class="label" x="144" y="20">Tickless sliders</text>
+
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="320" height="32"/>
+      <defs>
+        <radialGradient id="tickless-slider-cursor-shadow">
+          <stop offset="75%" stop-color="black" stop-opacity="0.125"/>
+          <stop offset="100%" stop-color="black" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <g>
+        <rect class="field" y="12" width="32" height="8"/>
+        <rect class="accent-color" y="12" width="16" height="8"/>
+
+        <g id="sliderhandle-tickless-normal" transform="translate(8,8)">
+          <rect style="fill:none" width="16" height="16"/>
+          <circle style="fill:url('#tickless-slider-cursor-shadow')" cx="8" cy="8" r="8"/>
+          <circle class="slider-handle" cx="8" cy="8" r="5.5"/>
+        </g>
+      </g>
+      <g transform="translate(128)">
+        <rect class="field" y="12" width="32" height="8"/>
+
+        <g id="sliderhandle-tickless-disabled" transform="translate(8,8)">
+          <rect style="fill:none" width="16" height="16"/>
+          <circle style="fill:url('#tickless-slider-cursor-shadow')" cx="8" cy="8" r="8"/>
+          <circle class="slider-handle disabled" cx="8" cy="8" r="5.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Scrollbars -->
+
+  <g transform="translate(0,672)">
+    <text class="label" x="144" y="20">Scrollbars</text>
+
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="32"/>
+
+      <g class="scrollbar">
+        <g id="scrollbarslider-normal-topleft" transform="translate(8,2)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 4,6 a 4,4 0 0 1 4,-4 v 4 z"/>
+        </g>
+        <g id="scrollbarslider-normal-topright" transform="translate(16,2)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 0,2 a 4,4 0 0 1 4,4 h -4 z"/>
+        </g>
+        <g id="scrollbarslider-normal-left" transform="translate(8,8)">
+          <rect style="fill:none" width="8" height="16"/>
+          <rect x="4" width="4" height="16"/>
+        </g>
+        <g id="scrollbarslider-normal-right" transform="translate(16,8)">
+          <rect style="fill:none" width="8" height="16"/>
+          <rect width="4" height="16"/>
+        </g>
+        <g id="scrollbarslider-normal-bottomleft" transform="translate(8,24)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 4,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        </g>
+        <g id="scrollbarslider-normal-bottomright" transform="translate(16,24)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+        </g>
+      </g>
+      <g class="scrollbar-focused" transform="translate(32)">
+        <g id="scrollbarslider-focused-topleft" transform="translate(8,2)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 4,6 a 4,4 0 0 1 4,-4 v 4 z"/>
+        </g>
+        <g id="scrollbarslider-focused-topright" transform="translate(16,2)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 0,2 a 4,4 0 0 1 4,4 h -4 z"/>
+        </g>
+        <g id="scrollbarslider-focused-left" transform="translate(8,8)">
+          <rect style="fill:none" width="8" height="16"/>
+          <rect x="4" width="4" height="16"/>
+        </g>
+        <g id="scrollbarslider-focused-right" transform="translate(16,8)">
+          <rect style="fill:none" width="8" height="16"/>
+          <rect width="4" height="16"/>
+        </g>
+        <g id="scrollbarslider-focused-bottomleft" transform="translate(8,24)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 4,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        </g>
+        <g id="scrollbarslider-focused-bottomright" transform="translate(16,24)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+        </g>
+      </g>
+      <g class="scrollbar-focused" transform="translate(64)"> <!-- don't change color when pressed -->
+        <g id="scrollbarslider-pressed-topleft" transform="translate(8,2)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 4,6 a 4,4 0 0 1 4,-4 v 4 z"/>
+        </g>
+        <g id="scrollbarslider-pressed-topright" transform="translate(16,2)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 0,2 a 4,4 0 0 1 4,4 h -4 z"/>
+        </g>
+        <g id="scrollbarslider-pressed-left" transform="translate(8,8)">
+          <rect style="fill:none" width="8" height="16"/>
+          <rect x="4" width="4" height="16"/>
+        </g>
+        <g id="scrollbarslider-pressed-right" transform="translate(16,8)">
+          <rect style="fill:none" width="8" height="16"/>
+          <rect width="4" height="16"/>
+        </g>
+        <g id="scrollbarslider-pressed-bottomleft" transform="translate(8,24)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 4,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+        </g>
+        <g id="scrollbarslider-pressed-bottomright" transform="translate(16,24)">
+          <rect style="fill:none" width="8" height="6"/>
+          <path d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(480,0)">
+      <rect class="opaque-window" width="320" height="32"/>
+
+      <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>
+      <rect style="fill:none" id="grip-focused" width="1" height="1"/>
+      <rect style="fill:none" id="grip-pressed" width="1" height="1"/>
+    </g>
+  </g>
+
+  <!-- Splitters -->
+
+  <g transform="translate(0,704)">
+    <text class="label" x="144" y="20">Splitters</text>
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="32"/>
+
+      <g id="opaque-splitter-normal" transform="translate(15.5,4)">
+        <rect class="opaque-line" width="1" height="24"/>
+      </g>
+    </g>
+    <g transform="translate(320)">
+      <rect class="translucent-window" width="160" height="32"/>
+
+      <g id="translucent-splitter-normal" transform="translate(15.5,4)">
+        <rect class="translucent-line" width="1" height="24"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Headers -->
+
+  <g transform="translate(0,736)">
+    <text class="label" x="144" y="20">Headers</text>
+    <g transform="translate(160)">
+      <rect class="opaque-view" width="160" height="32"/>
+
+      <g class="opaque-header">
+        <g id="opaque-header-normal-topleft" transform="translate(4,4)">
+          <rect class="opaque-line" width="1" height="1"/>
+          <rect y="1" width="1" height="3"/>
+        </g>
+        <g id="opaque-header-normal-top" transform="translate(5,4)">
+          <rect class="opaque-line" width="22" height="1"/>
+          <rect y="1" width="22" height="3"/>
+        </g>
+        <g id="opaque-header-normal-topright" transform="translate(27,4)">
+          <rect class="opaque-line" width="1" height="1"/>
+          <rect y="1" width="1" height="3"/>
+        </g>
+        <rect id="opaque-header-normal-left" x="4" y="8" width="1" height="16"/>
+        <rect id="opaque-header-normal" x="5" y="8" width="22" height="16"/>
+        <rect id="opaque-header-normal-right" x="27" y="8" width="1" height="16"/>
+
+        <g id="opaque-header-normal-bottomleft" transform="translate(4,24)">
+          <rect width="1" height="3"/>
+          <rect class="opaque-line" y="3" width="1" height="1"/>
+        </g>
+        <g id="opaque-header-normal-bottom" transform="translate(5,24)">
+          <rect width="22" height="3"/>
+          <rect class="opaque-line" y="3" width="22" height="1"/>
+        </g>
+        <g id="opaque-header-normal-bottomright" transform="translate(27,24)">
+          <rect width="1" height="3"/>
+          <rect class="opaque-line" y="3" width="1" height="1"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(320)">
+      <rect class="translucent-window" width="160" height="32"/>
+      <rect class="translucent-view" width="160" height="32"/>
+
+      <g class="translucent-header">
+        <g id="translucent-header-normal-topleft" transform="translate(4,4)">
+          <rect class="translucent-line" width="1" height="1"/>
+          <rect y="1" width="1" height="3"/>
+        </g>
+        <g id="translucent-header-normal-top" transform="translate(5,4)">
+          <rect class="translucent-line" width="22" height="1"/>
+          <rect y="1" width="22" height="3"/>
+        </g>
+        <g id="translucent-header-normal-topright" transform="translate(27,4)">
+          <rect class="translucent-line" width="1" height="1"/>
+          <rect y="1" width="1" height="3"/>
+        </g>
+        <rect id="translucent-header-normal-left" x="4" y="8" width="1" height="16"/>
+        <rect id="translucent-header-normal" x="5" y="8" width="22" height="16"/>
+        <rect id="translucent-header-normal-right" x="27" y="8" width="1" height="16"/>
+
+        <g id="translucent-header-normal-bottomleft" transform="translate(4,24)">
+          <rect width="1" height="3"/>
+          <rect class="translucent-line" y="3" width="1" height="1"/>
+        </g>
+        <g id="translucent-header-normal-bottom" transform="translate(5,24)">
+          <rect width="22" height="3"/>
+          <rect class="translucent-line" y="3" width="22" height="1"/>
+        </g>
+        <g id="translucent-header-normal-bottomright" transform="translate(27,24)">
+          <rect width="1" height="3"/>
+          <rect class="translucent-line" y="3" width="1" height="1"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(480)">
+      <rect class="opaque-header" width="320" height="32"/>
+      <rect class="separator" id="header-separator" x="15" y="8" width="1" height="16"/>
+    </g>
+  </g>
+
+  <!-- List views -->
+
+  <g transform="translate(0,768)">
+    <text class="label" x="144" y="20">List views</text>
+    <g transform="translate(160)">
+      <rect class="opaque-window" width="160" height="32"/>
+
+      <g transform="translate(32)" class="opaque-itemview-focused">
+        <rect id="opaque-itemview-focused-topleft" x="4" y="4" width="4" height="4"/>
+        <rect id="opaque-itemview-focused-top" x="8" y="4" width="16" height="4" />
+        <rect id="opaque-itemview-focused-topright" x="24" y="4" width="4" height="4"/>
+        <rect id="opaque-itemview-focused-left" x="4" y="8" width="4" height="16"/>
+        <rect id="opaque-itemview-focused" x="8" y="8" width="16" height="16"/>
+        <rect id="opaque-itemview-focused-right" x="24" y="8" width="4" height="16"/>
+        <rect id="opaque-itemview-focused-bottomleft" x="4" y="24" width="4" height="4"/>
+        <rect id="opaque-itemview-focused-bottom" x="8" y="24" width="16" height="4"/>
+        <rect id="opaque-itemview-focused-bottomright" x="24" y="24" width="4" height="4"/>
+      </g>
+      <g transform="translate(64)" class="opaque-itemview-pressed">
+        <rect id="opaque-itemview-pressed-topleft" x="4" y="4" width="4" height="4"/>
+        <rect id="opaque-itemview-pressed-top" x="8" y="4" width="16" height="4" />
+        <rect id="opaque-itemview-pressed-topright" x="24" y="4" width="4" height="4"/>
+        <rect id="opaque-itemview-pressed-left" x="4" y="8" width="4" height="16"/>
+        <rect id="opaque-itemview-pressed" x="8" y="8" width="16" height="16"/>
+        <rect id="opaque-itemview-pressed-right" x="24" y="8" width="4" height="16"/>
+        <rect id="opaque-itemview-pressed-bottomleft" x="4" y="24" width="4" height="4"/>
+        <rect id="opaque-itemview-pressed-bottom" x="8" y="24" width="16" height="4"/>
+        <rect id="opaque-itemview-pressed-bottomright" x="24" y="24" width="4" height="4"/>
+      </g>
+      <g transform="translate(96)" class="opaque-itemview-pressed">
+        <rect id="opaque-itemview-toggled-topleft" x="4" y="4" width="4" height="4"/>
+        <rect id="opaque-itemview-toggled-top" x="8" y="4" width="16" height="4" />
+        <rect id="opaque-itemview-toggled-topright" x="24" y="4" width="4" height="4"/>
+        <rect id="opaque-itemview-toggled-left" x="4" y="8" width="4" height="16"/>
+        <rect id="opaque-itemview-toggled" x="8" y="8" width="16" height="16"/>
+        <rect id="opaque-itemview-toggled-right" x="24" y="8" width="4" height="16"/>
+        <rect id="opaque-itemview-toggled-bottomleft" x="4" y="24" width="4" height="4"/>
+        <rect id="opaque-itemview-toggled-bottom" x="8" y="24" width="16" height="4"/>
+        <rect id="opaque-itemview-toggled-bottomright" x="24" y="24" width="4" height="4"/>
+      </g>
+    </g>
+    <g transform="translate(320)">
+      <rect class="translucent-window" width="160" height="32"/>
+
+      <g transform="translate(32)" class="translucent-itemview-focused">
+        <rect id="translucent-itemview-focused-topleft" x="4" y="4" width="4" height="4"/>
+        <rect id="translucent-itemview-focused-top" x="8" y="4" width="16" height="4" />
+        <rect id="translucent-itemview-focused-topright" x="24" y="4" width="4" height="4"/>
+        <rect id="translucent-itemview-focused-left" x="4" y="8" width="4" height="16"/>
+        <rect id="translucent-itemview-focused" x="8" y="8" width="16" height="16"/>
+        <rect id="translucent-itemview-focused-right" x="24" y="8" width="4" height="16"/>
+        <rect id="translucent-itemview-focused-bottomleft" x="4" y="24" width="4" height="4"/>
+        <rect id="translucent-itemview-focused-bottom" x="8" y="24" width="16" height="4"/>
+        <rect id="translucent-itemview-focused-bottomright" x="24" y="24" width="4" height="4"/>
+      </g>
+      <g transform="translate(64)" class="translucent-itemview-pressed">
+        <rect id="translucent-itemview-pressed-topleft" x="4" y="4" width="4" height="4"/>
+        <rect id="translucent-itemview-pressed-top" x="8" y="4" width="16" height="4" />
+        <rect id="translucent-itemview-pressed-topright" x="24" y="4" width="4" height="4"/>
+        <rect id="translucent-itemview-pressed-left" x="4" y="8" width="4" height="16"/>
+        <rect id="translucent-itemview-pressed" x="8" y="8" width="16" height="16"/>
+        <rect id="translucent-itemview-pressed-right" x="24" y="8" width="4" height="16"/>
+        <rect id="translucent-itemview-pressed-bottomleft" x="4" y="24" width="4" height="4"/>
+        <rect id="translucent-itemview-pressed-bottom" x="8" y="24" width="16" height="4"/>
+        <rect id="translucent-itemview-pressed-bottomright" x="24" y="24" width="4" height="4"/>
+      </g>
+      <g transform="translate(96)" class="translucent-itemview-pressed">
+        <rect id="translucent-itemview-toggled-topleft" x="4" y="4" width="4" height="4"/>
+        <rect id="translucent-itemview-toggled-top" x="8" y="4" width="16" height="4" />
+        <rect id="translucent-itemview-toggled-topright" x="24" y="4" width="4" height="4"/>
+        <rect id="translucent-itemview-toggled-left" x="4" y="8" width="4" height="16"/>
+        <rect id="translucent-itemview-toggled" x="8" y="8" width="16" height="16"/>
+        <rect id="translucent-itemview-toggled-right" x="24" y="8" width="4" height="16"/>
+        <rect id="translucent-itemview-toggled-bottomleft" x="4" y="24" width="4" height="4"/>
+        <rect id="translucent-itemview-toggled-bottom" x="8" y="24" width="16" height="4"/>
+        <rect id="translucent-itemview-toggled-bottomright" x="24" y="24" width="4" height="4"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tree views -->
+
+  <g transform="translate(0,800)">
+    <text class="label" x="144" y="20">Tree views</text>
+    <g transform="translate(480)">
+      <rect class="opaque-view" width="320" height="32"/>
+
+      <g id="tree-plus-normal" transform="translate(8,8)">
+        <rect style="fill:none" width="16" height="16"/>
+        <path class="tree-arrow" d="m 5,0 8,8 -8,8 z"/>
+      </g>
+      <g id="tree-minus-normal" transform="translate(168,8)">
+        <rect style="fill:none" width="16" height="16"/>
+        <path class="tree-arrow" d="m 0,5 8,8 8,-8 z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Arrows -->
+
+  <g transform="translate(0,832)">
+    <text class="label" x="144" y="20">Arrows</text>
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="320" height="32"/>
+
+      <g class="window-text">
+        <g>
+          <g id="arrow-left-normal" transform="translate(2,10)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 9,0 -6,6 6,6 z"/>
+          </g>
+          <g id="arrow-right-normal" transform="translate(18,10)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 3,0 6,6 -6,6 z"/>
+          </g>
+        </g>
+        <g transform="translate(160)">
+          <g id="arrow-up-normal" transform="translate(10,2)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 0,9 6,-6 6,6 z"/>
+          </g>
+          <g id="arrow-down-normal" transform="translate(10,18)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 0,3 6,6 6,-6 z"/>
+          </g>
+        </g>
+      </g>
+      <g class="window-text disabled">
+        <g transform="translate(128)">
+          <g id="arrow-left-disabled" transform="translate(2,10)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 9,0 -6,6 6,6 z"/>
+          </g>
+          <g id="arrow-right-disabled" transform="translate(18,10)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 3,0 6,6 -6,6 z"/>
+          </g>
+        </g>
+        <g transform="translate(288)">
+          <g id="arrow-up-disabled" transform="translate(10,2)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 0,9 6,-6 6,6 z"/>
+          </g>
+          <g id="arrow-down-disabled" transform="translate(10,18)">
+            <rect style="fill:none" width="12" height="12"/>
+            <path d="m 0,3 6,6 6,-6 z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Menus -->
+
+  <g transform="translate(0,864)">
+    <text class="label" x="144" y="20">Menus</text>
+    <g transform="translate(158,-2)">
+      <rect class="opaque-window" style="opacity:0" width="40" height="40"/>
+      <rect id="menu-shadow-hint-left" class="hint" y="17" width="6" height="2"/>
+      <rect id="menu-shadow-hint-right" class="hint" x="30" y="17" width="6" height="2"/>
+      <rect id="menu-shadow-hint-top" class="hint" x="17" width="2" height="6"/>
+      <rect id="menu-shadow-hint-bottom" class="hint" x="17" y="30" width="2" height="6"/>
+
+      <g class="menu">
+        <g id="menu-shadow-topleft">
+          <rect style="fill:none" width="12" height="12"/>
+          <path style="fill:url(#ambient-light-shadow-6dp-topleft)" d="m 0,0 h 12 v 6 h -2 a 4,4 0 0 0 -4,4 h -6 z"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-left)" y="10" width="6" height="2"/>
+          <path style="fill:url(#key-light-shadow-6dp-topleft)" d="m 0,6 h 10 a 4,4 0 0 0 -4,4 v 2 h -6 z"/>
+
+          <g id="menu-normal-topleft">
+            <path d="m 6,10 a 4,4 0 0 1 4,-4 h 2 v 6 h -6 z"/>
+            <path class="surface-border-top" d="m 6,10 a 4,4 0 0 1 4,-4 h 2 v 1 h -2 a 4,3 0 0 0 -4,3 z"/>
+          </g>
+        </g>
+        <g id="menu-shadow-top" transform="translate(12)">
+          <rect style="fill:none" width="12" height="12"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-top)" width="12" height="6"/>
+
+          <g id="menu-normal-top">
+            <rect y="6" width="12" height="6"/>
+            <rect class="surface-border-top" y="6" width="12" height="1"/>
+          </g>
+        </g>
+        <g id="menu-shadow-topright" transform="translate(24)">
+          <rect style="fill:none" width="12" height="12"/>
+          <path style="fill:url(#ambient-light-shadow-6dp-topright)" d="m 0,0 h 12 v 10 h -6 a 4,4 0 0 0 -4,-4 h -2 z"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-right)" x="6" y="10" width="6" height="2"/>
+          <path style="fill:url(#key-light-shadow-6dp-topright)" d="m 2,6 h 10 v 6 h -6 v -2 a 4,4 0 0 0 -4,-4 z"/>
+
+          <g id="menu-normal-topright">
+            <path d="m 0,6 h 2 a 4,4 0 0 1 4,4 v 2 h -6 z"/>
+            <path class="surface-border-top" d="m 0,6 h 2 a 4,4 0 0 1 4,4 a 4,3 0 0 0 -4,-3 h -2 z"/>
+          </g>
+        </g>
+        <g id="menu-shadow-left" transform="translate(0,12)">
+          <rect style="fill:none" width="12" height="12"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-left)" width="6" height="12"/>
+          <rect style="fill:url(#key-light-shadow-6dp-left)" x="4" width="2" height="12"/>
+
+          <rect id="menu-normal-left" x="6" width="6" height="12"/>
+        </g>
+        <rect id="menu-normal" x="12" y="12" height="12" width="12"/>
+
+        <g id="menu-shadow-right" transform="translate(24,12)">
+          <rect style="fill:none" width="12" height="12"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-right)" x="6" width="6" height="12"/>
+          <rect style="fill:url(#key-light-shadow-6dp-right)" x="6" width="6" height="12"/>
+
+          <rect id="menu-normal-right" width="6" height="12"/>
+        </g>
+        <g id="menu-shadow-bottomleft" transform="translate(0,24)">
+          <rect style="fill:none" width="12" height="12"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-left)" width="6" height="2"/>
+          <path style="fill:url(#ambient-light-shadow-6dp-bottomleft)" d="m 0,2 h 6 a 4,4 0 0 0 4,4 v 6 h -10 z"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-bottom)" x="10" y="6" width="2" height="6"/>
+          <path style="fill:url(#key-light-shadow-6dp-left)" d="m 0,0 h 6 v 2 a 4,4 0 0 0 4,4 h -10 z"/>
+          <rect style="fill:url(#key-light-shadow-6dp-bottomleft)" y="6" width="10" height="6"/>
+          <rect style="fill:url(#key-light-shadow-6dp-bottom)" x="10" y="6" width="2" height="6"/>
+
+          <g id="menu-normal-bottomleft">
+            <path d="m 6,0 h 6 v 6 h -2 a 4,4 0 0 1 -4,-4 z"/>
+            <path class="surface-border-bottom" d="m 6,2 a 4,3 0 0 0 4,3 h 2 v 1 h -2 a 4,4 0 0 1 -4,-4 z"/>
+          </g>
+        </g>
+        <g id="menu-shadow-bottom" transform="translate(12,24)">
+          <rect style="fill:none" width="12" height="12"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-bottom)" y="6" width="12" height="6"/>
+          <rect style="fill:url(#key-light-shadow-6dp-bottom)" y="6" width="12" height="6"/>
+
+          <g id="menu-normal-bottom">
+            <rect width="12" height="6"/>
+            <rect class="surface-border-bottom" y="5" width="12" height="1"/>
+          </g>
+        </g>
+        <g id="menu-shadow-bottomright" transform="translate(24,24)">
+          <rect style="fill:none" width="12" height="12"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-right)" x="6" width="6" height="2"/>
+          <path style="fill:url(#ambient-light-shadow-6dp-bottomright)" d="m 2,6 a 4,4 0 0 0 4,-4 h 6 v 10 h -10 z"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-bottom)" y="6" width="2" height="6"/>
+          <path style="fill:url(#key-light-shadow-6dp-right)" d="m 2,6 a 4,4 0 0 0 4,-4 v -2  h 2 v 6 z"/>
+          <rect style="fill:url(#key-light-shadow-6dp-bottomright)" x="2" y="6" width="6" height="6"/>
+          <rect style="fill:url(#key-light-shadow-6dp-bottom)" x="0" y="6" width="2" height="6"/>
+
+          <g id="menu-normal-bottomright">
+            <path d="m 0,0 h 6 v 2 a 4,4 0 0 1 -4,4 h -2 z"/>
+            <path class="surface-border-bottom" d="m 0,5 h 2 a 4,3 0 0 0 4,-3 a 4,4 0 0 1 -4,4 h -2 z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(480)">
+      <rect class="menu" width="320" height="32"/>
+
+      <g class="accent-color">
+        <rect id="menuitem-normal-topleft" x="4" y="4" width="1" height="1"/>
+        <rect id="menuitem-normal-top" x="5" y="4" width="22" height="1"/>
+        <rect id="menuitem-normal-topright" x="27" y="4" width="1" height="1"/>
+        <rect id="menuitem-normal-left" x="4" y="5" width="1" height="22"/>
+        <rect id="menuitem-normal" x="5" y="5" width="22" height="22"/>
+        <rect id="menuitem-normal-right" x="27" y="5" width="1" height="22"/>
+        <rect id="menuitem-normal-bottomleft" x="4" y="27" width="1" height="1"/>
+        <rect id="menuitem-normal-bottom" x="5" y="27" width="22" height="1"/>
+        <rect id="menuitem-normal-bottomright" x="27" y="27" width="1" height="1"/>
+      </g>
+
+      <g id="menuitem-separator" transform="translate(164,11.5)">
+        <rect style="fill:none" width="24" height="9"/>
+        <rect class="menuitem-separator" y="4" height="1" width="24"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(0,896)">
+    <text class="label" x="144" y="20">Menu checkboxes</text>
+    <g transform="translate(480)">
+      <rect class="menu" width="320" height="64"/>
+      <rect class="accent-color" x="32" width="32" height="32"/>
+      <rect class="accent-color" x="192" width="32" height="64"/>
+
+      <g id="menu-checkbox-normal" transform="translate(6,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <rect class="fill-none stroke-menuitem stroke-width-1_5" x="2.75" y="2.75" width="14.5" height="14.5" rx="2" ry="2"/>
+      </g>
+      <g id="menu-checkbox-focused" transform="translate(38,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <rect class="fill-none stroke-menuitem-focused stroke-width-1_5" x="2.75" y="2.75" width="14.5" height="14.5" rx="2" ry="2"/>
+      </g>
+      <g id="menu-checkbox-disabled" transform="translate(134,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <rect class="fill-none stroke-menuitem disabled stroke-width-1_5" x="2.75" y="2.75" width="14.5" height="14.5" rx="2" ry="2"/>
+      </g>
+      <g id="menu-checkbox-checked-normal" transform="translate(166,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="menuitem" d="m 4,2 c -1.1,0 -2,0.9 -2,2 v 12 c 0,1.1 0.9,2 2,2 h 12 c 1.1,0 2,-0.9 2,-2 v -12 c 0,-1.1 -0.9,-2 -2,-2 z m 10.5,3.6 c 1.1,0.1 2,1.4 1,2.4 l -6,6 a 1.414,1.414 0 0 1 -2,0 l -3,-3 c -1.3,-1.3 0.7,-3.3 2,-2 l 2,2 5,-5 c 0.3,-0.3 0.7,-0.4 1,-0.4 z"/>
+      </g>
+      <g id="menu-checkbox-checked-focused" transform="translate(198,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="menuitem-focused" d="m 4,2 c -1.1,0 -2,0.9 -2,2 v 12 c 0,1.1 0.9,2 2,2 h 12 c 1.1,0 2,-0.9 2,-2 v -12 c 0,-1.1 -0.9,-2 -2,-2 z m 10.5,3.6 c 1.1,0.1 2,1.4 1,2.4 l -6,6 a 1.414,1.414 0 0 1 -2,0 l -3,-3 c -1.3,-1.3 0.7,-3.3 2,-2 l 2,2 5,-5 c 0.3,-0.3 0.7,-0.4 1,-0.4 z"/>
+      </g>
+      <g id="menu-checkbox-checked-disabled" transform="translate(294,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="menuitem disabled" d="m 4,2 c -1.1,0 -2,0.9 -2,2 v 12 c 0,1.1 0.9,2 2,2 h 12 c 1.1,0 2,-0.9 2,-2 v -12 c 0,-1.1 -0.9,-2 -2,-2 z m 10.5,3.6 c 1.1,0.1 2,1.4 1,2.4 l -6,6 a 1.414,1.414 0 0 1 -2,0 l -3,-3 c -1.3,-1.3 0.7,-3.3 2,-2 l 2,2 5,-5 c 0.3,-0.3 0.7,-0.4 1,-0.4 z"/>
+      </g>
+      <g id="menu-checkbox-tristate-normal" transform="translate(166,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="menuitem" d="m 4,2 c -1.1,0 -2,0.9 -2,2 v 12 c 0,1.1 0.9,2 2,2 h 12 c 1.1,0 2,-0.9 2,-2 v -12 c 0,-1.1 -0.9,-2 -2,-2 z m 1,6.5 h 10 a 1.5,1.5 0 0 1 0,3 h -10 a 1.5,1.5 0 0 1 0,-3 z"/>
+      </g>
+      <g id="menu-checkbox-tristate-focused" transform="translate(198,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="menuitem-focused" d="m 4,2 c -1.1,0 -2,0.9 -2,2 v 12 c 0,1.1 0.9,2 2,2 h 12 c 1.1,0 2,-0.9 2,-2 v -12 c 0,-1.1 -0.9,-2 -2,-2 z m 1,6.5 h 10 a 1.5,1.5 0 0 1 0,3 h -10 a 1.5,1.5 0 0 1 0,-3 z"/>
+      </g>
+      <g id="menu-checkbox-tristate-disabled" transform="translate(294,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="menuitem disabled" d="m 4,2 c -1.1,0 -2,0.9 -2,2 v 12 c 0,1.1 0.9,2 2,2 h 12 c 1.1,0 2,-0.9 2,-2 v -12 c 0,-1.1 -0.9,-2 -2,-2 z m 1,6.5 h 10 a 1.5,1.5 0 0 1 0,3 h -10 a 1.5,1.5 0 0 1 0,-3 z"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(0,960)">
+    <text class="label" x="144" y="20">Menu radio buttons</text>
+    <g transform="translate(480)">
+      <rect class="menu" width="320" height="32"/>
+      <rect class="accent-color" x="32" width="32" height="32"/>
+      <rect class="accent-color" x="192" width="32" height="32"/>
+
+      <g id="menu-radio-normal" transform="translate(8,8)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="fill-none stroke-menuitem stroke-width-1_5" cx="10" cy="10" r="7.25"/>
+      </g>
+      <g id="menu-radio-focused" transform="translate(38,8)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="fill-none stroke-menuitem-focused stroke-width-1_5" cx="10" cy="10" r="7.25"/>
+      </g>
+      <g id="menu-radio-disabled" transform="translate(134,8)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="fill-none stroke-menuitem disabled stroke-width-1_5" cx="10" cy="10" r="7.25"/>
+      </g>
+      <g id="menu-radio-checked-normal" transform="translate(166,8)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="fill-none stroke-menuitem stroke-width-1_5" cx="10" cy="10" r="7.25"/>
+        <circle class="menuitem" cx="10" cy="10" r="5"/>
+      </g>
+      <g id="menu-radio-checked-focused" transform="translate(198,8)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="fill-none stroke-menuitem-focused stroke-width-1_5" cx="10" cy="10" r="7.25"/>
+        <circle class="menuitem-focused" cx="10" cy="10" r="5"/>
+      </g>
+      <g id="menu-radio-checked-disabled" transform="translate(294,8)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="fill-none stroke-menuitem disabled stroke-width-1_5" cx="10" cy="10" r="7.25"/>
+        <circle class="menuitem disabled" cx="10" cy="10" r="5"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(0,992)">
+    <text class="label" x="144" y="20">Menu arrows</text>
+    <g transform="translate(480)">
+      <rect class="menu" width="320" height="32"/>
+      <rect class="accent-color" x="32" width="32" height="32"/>
+      <rect class="accent-color" x="192" width="32" height="32"/>
+
+      <g id="menuitem-left-normal" transform="translate(8,8)">
+        <rect style="fill:none" width="16" height="16"/>
+        <path class="menuitem" d="m 8,0 l -8 8 8 8 z"/>
+      </g>
+      <g id="menuitem-left-focused" transform="translate(40,8)">
+        <rect style="fill:none" width="16" height="16"/>
+        <path class="menuitem-focused" d="m 8,0 l -8 8 8 8 z"/>
+      </g>
+      <g id="menuitem-left-disabled" transform="translate(136,8)">
+        <rect style="fill:none" width="16" height="16"/>
+        <path class="menuitem disabled" d="m 8,0 l -8 8 8 8 z"/>
+      </g>
+      <g id="menuitem-right-normal" transform="translate(168,8)">
+        <rect style="fill:none" width="16" height="16"/>
+        <path class="menuitem" d="m 8,0 l 8 8 -8 8 z"/>
+      </g>
+      <g id="menuitem-right-focused" transform="translate(200,8)">
+        <rect style="fill:none" width="16" height="16"/>
+        <path class="menuitem-focused" d="m 8,0 l 8 8 -8 8 z"/>
+      </g>
+      <g id="menuitem-right-disabled" transform="translate(296,8)">
+        <rect style="fill:none" width="16" height="16"/>
+        <path class="menuitem disabled" d="m 8,0 l 8 8 -8 8 z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tooltips -->
+
+  <g transform="translate(0,1024)">
+    <text class="label" x="144" y="20">Tooltips</text>
+    <g transform="translate(158,-2)">
+      <rect class="opaque-window" style="opacity:0" width="40" height="40"/>
+      <rect id="tooltip-shadow-hint-left" class="hint" y="17" width="6" height="2"/>
+      <rect id="tooltip-shadow-hint-right" class="hint" x="30" y="17" width="6" height="2"/>
+      <rect id="tooltip-shadow-hint-top" class="hint" x="17" width="2" height="6"/>
+      <rect id="tooltip-shadow-hint-bottom" class="hint" x="17" y="30" width="2" height="6"/>
+
+      <g id="tooltip-shadow-topleft">
+        <rect style="fill:none" width="12" height="12"/>
+        <g style="opacity: 0.375">
+          <path style="fill:url(#ambient-light-shadow-6dp-topleft)" d="m 0,0 h 12 v 6 h -2 a 4,4 0 0 0 -4,4 h -6 z"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-left)" y="10" width="6" height="2"/>
+          <path style="fill:url(#key-light-shadow-6dp-topleft)" d="m 0,6 h 10 a 4,4 0 0 0 -4,4 v 2 h -6 z"/>
+        </g>
+        <path id="tooltip-normal-topleft" class="tooltip" d="m 6,10 a 4,4 0 0 1 4,-4 h 2 v 6 h -6 z"/>
+        <path class="surface-border-top" d="m 6,10 a 4,4 0 0 1 4,-4 h 2 v 1 h -2 a 4,3 0 0 0 -4,3 z"/>
+      </g>
+      <g id="tooltip-shadow-top" transform="translate(12)">
+        <rect style="fill:none" width="12" height="12"/>
+        <g style="opacity: 0.375">
+          <rect style="fill:url(#ambient-light-shadow-6dp-top)" width="12" height="6"/>
+        </g>
+        <rect id="tooltip-normal-top" class="tooltip" y="6" width="12" height="6"/>
+        <rect class="surface-border-top" y="6" width="12" height="1"/>
+      </g>
+      <g id="tooltip-shadow-topright" transform="translate(24)">
+        <rect style="fill:none" width="12" height="12"/>
+        <g style="opacity: 0.375">
+          <path style="fill:url(#ambient-light-shadow-6dp-topright)" d="m 0,0 h 12 v 10 h -6 a 4,4 0 0 0 -4,-4 h -2 z"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-right)" x="6" y="10" width="6" height="2"/>
+          <path style="fill:url(#key-light-shadow-6dp-topright)" d="m 2,6 h 10 v 6 h -6 v -2 a 4,4 0 0 0 -4,-4 z"/>
+        </g>
+        <path id="tooltip-normal-topright" class="tooltip" d="m 0,6 h 2 a 4,4 0 0 1 4,4 v 2 h -6 z"/>
+        <path class="surface-border-top" d="m 0,6 h 2 a 4,4 0 0 1 4,4 a 4,3 0 0 0 -4,-3 h -2 z"/>
+      </g>
+      <g id="tooltip-shadow-left" transform="translate(0,12)">
+        <rect style="fill:none" width="12" height="12"/>
+        <g style="opacity: 0.375">
+          <rect style="fill:url(#ambient-light-shadow-6dp-left)" width="6" height="12"/>
+          <rect style="fill:url(#key-light-shadow-6dp-left)" x="4" width="2" height="12"/>
+        </g>
+        <rect id="tooltip-normal-left" class="tooltip" x="6" width="6" height="12"/>
+      </g>
+      <rect id="tooltip-normal" class="tooltip" x="12" y="12" height="12" width="12"/>
+
+      <g id="tooltip-shadow-right" transform="translate(24,12)">
+        <rect style="fill:none" width="12" height="12"/>
+        <g style="opacity: 0.375">
+          <rect style="fill:url(#ambient-light-shadow-6dp-right)" x="6" width="6" height="12"/>
+          <rect style="fill:url(#key-light-shadow-6dp-right)" x="6" width="6" height="12"/>
+        </g>
+        <rect id="tooltip-normal-right" class="tooltip" width="6" height="12"/>
+      </g>
+      <g id="tooltip-shadow-bottomleft" transform="translate(0,24)">
+        <rect style="fill:none" width="12" height="12"/>
+        <g style="opacity: 0.375">
+          <rect style="fill:url(#ambient-light-shadow-6dp-left)" width="6" height="2"/>
+          <path style="fill:url(#ambient-light-shadow-6dp-bottomleft)" d="m 0,2 h 6 a 4,4 0 0 0 4,4 v 6 h -10 z"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-bottom)" x="10" y="6" width="2" height="6"/>
+          <path style="fill:url(#key-light-shadow-6dp-left)" d="m 0,0 h 6 v 2 a 4,4 0 0 0 4,4 h -10 z"/>
+          <rect style="fill:url(#key-light-shadow-6dp-bottomleft)" y="6" width="10" height="6"/>
+          <rect style="fill:url(#key-light-shadow-6dp-bottom)" x="10" y="6" width="2" height="6"/>
+        </g>
+        <path id="tooltip-normal-bottomleft" class="tooltip" d="m 6,0 h 6 v 6 h -2 a 4,4 0 0 1 -4,-4 z"/>
+        <path class="surface-border-bottom" d="m 6,2 a 4,3 0 0 0 4,3 h 2 v 1 h -2 a 4,4 0 0 1 -4,-4 z"/>
+      </g>
+      <g id="tooltip-shadow-bottom" transform="translate(12,24)">
+        <rect style="fill:none" width="12" height="12"/>
+        <g style="opacity: 0.375">
+          <rect style="fill:url(#ambient-light-shadow-6dp-bottom)" y="6" width="12" height="6"/>
+          <rect style="fill:url(#key-light-shadow-6dp-bottom)" y="6" width="12" height="6"/>
+        </g>
+        <rect id="tooltip-normal-bottom" class="tooltip" width="12" height="6"/>
+        <rect class="surface-border-bottom" y="5" width="12" height="1"/>
+      </g>
+      <g id="tooltip-shadow-bottomright" transform="translate(24,24)">
+        <rect style="fill:none" width="12" height="12"/>
+        <g style="opacity: 0.375">
+          <rect style="fill:url(#ambient-light-shadow-6dp-right)" x="6" width="6" height="2"/>
+          <path style="fill:url(#ambient-light-shadow-6dp-bottomright)" d="m 2,6 a 4,4 0 0 0 4,-4 h 6 v 10 h -10 z"/>
+          <rect style="fill:url(#ambient-light-shadow-6dp-bottom)" y="6" width="2" height="6"/>
+          <path style="fill:url(#key-light-shadow-6dp-right)" d="m 2,6 a 4,4 0 0 0 4,-4 v -2  h 2 v 6 z"/>
+          <rect style="fill:url(#key-light-shadow-6dp-bottomright)" x="2" y="6" width="6" height="6"/>
+          <rect style="fill:url(#key-light-shadow-6dp-bottom)" x="0" y="6" width="2" height="6"/>
+        </g>
+        <path id="tooltip-normal-bottomright" class="tooltip" d="m 0,0 h 6 v 2 a 4,4 0 0 1 -4,4 h -2 z"/>
+        <path class="surface-border-bottom" d="m 0,5 h 2 a 4,3 0 0 0 4,-3 a 4,4 0 0 1 -4,4 h -2 z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Dials -->
+
+  <g transform="translate(0,1120)">
+    <text class="label" x="144" y="20">Dials</text>
+    <rect class="opaque-window" x="160" y="-32" width="160" height="96"/>
+
+    <g transform="translate(168,-8)">
+      <g id="dial">
+        <rect style="fill:none" width="48" height="48"/>
+        <defs>
+          <radialGradient id="dial-shadow">
+            <stop offset="90%" stop-color="black" stop-opacity="0.125"/>
+            <stop offset="100%" stop-color="black" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle style="fill:url(#dial-shadow)" cx="24" cy="24" r="24"/>
+        <circle class="opaque-button" cx="24" cy="24" r="22"/>
+      </g>
+      <rect id="dial-notches" style="fill:none" width="48" height="48"/>
+      <circle id="dial-handle" class="button-text" cx="24" cy="10" r="4"/>
+    </g>
+  </g>
+
+  <!-- MDI window buttons -->
+
+  <g transform="translate(0,1184)">
+    <text class="label" x="144" y="52">MDI window buttons</text>
+    <g transform="translate(480)">
+      <rect class="opaque-window" width="320" height="96"/>
+
+      <g id="window-close-normal" transform="translate(6,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="fill-none stroke-window-text stroke-width-1_5 stroke-rounded" d="m 6,6 l 8,8 M 6,14 l 8,-8"/>
+      </g>
+      <g id="window-close-focused" transform="translate(38,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="toolbutton-focused" cx="10" cy="10" r="10"/>
+        <path class="fill-none stroke-window-text-focused stroke-width-1_5 stroke-rounded" d="m 6,6 l 8,8 M 6,14 l 8,-8"/>
+      </g>
+      <g id="window-close-pressed" transform="translate(70,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="toolbutton-pressed" cx="10" cy="10" r="10"/>
+        <path class="fill-none stroke-window-text-pressed stroke-width-1_5 stroke-rounded" d="m 6,6 l 8,8 M 6,14 l 8,-8"/>
+      </g>
+      <g id="window-close-disabled" transform="translate(134,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="fill-none stroke-window-text disabled stroke-width-1_5 stroke-rounded" d="m 6,6 l 8,8 M 6,14 l 8,-8"/>
+      </g>
+
+      <g id="window-minimize-normal" transform="translate(6,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="fill-none stroke-window-text stroke-width-1_5 stroke-rounded" d="m 4,8 6,6 6,-6"/>
+      </g>
+      <g id="window-minimize-focused" transform="translate(38,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="toolbutton-focused" cx="10" cy="10" r="10"/>
+        <path class="fill-none stroke-window-text-focused stroke-width-1_5 stroke-rounded" d="m 4,8 6,6 6,-6"/>
+      </g>
+      <g id="window-minimize-pressed" transform="translate(70,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="toolbutton-pressed" cx="10" cy="10" r="10"/>
+        <path class="fill-none stroke-window-text-pressed stroke-width-1_5 stroke-rounded" d="m 4,8 6,6 6,-6"/>
+      </g>
+      <g id="window-minimize-disabled" transform="translate(134,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="fill-none stroke-window-text disabled stroke-width-1_5 stroke-rounded" d="m 4,8 6,6 6,-6"/>
+      </g>
+
+      <g id="window-maximize-normal" transform="translate(166,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="fill-none stroke-window-text stroke-width-1_5 stroke-rounded" d="m 4,12 6,-6 6,6"/>
+      </g>
+      <g id="window-maximize-focused" transform="translate(198,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="toolbutton-focused" cx="10" cy="10" r="10"/>
+        <path class="fill-none stroke-window-text-focused stroke-width-1_5 stroke-rounded" d="m 4,12 6,-6 6,6"/>
+      </g>
+      <g id="window-maximize-pressed" transform="translate(230,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="toolbutton-pressed" cx="10" cy="10" r="10"/>
+        <path class="fill-none stroke-window-text-pressed stroke-width-1_5 stroke-rounded" d="m 4,12 6,-6 6,6"/>
+      </g>
+      <g id="window-maximize-disabled" transform="translate(294,38)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="fill-none stroke-window-text disabled stroke-width-1_5 stroke-rounded" d="m 4,12 6,-6 6,6"/>
+      </g>
+
+      <g id="window-restore-normal" transform="translate(166,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="fill-none stroke-window-text stroke-width-1_5" d="m 4,10 l 6,-6 6,6 -6,6 z"/>
+      </g>
+      <g id="window-restore-focused" transform="translate(198,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="toolbutton-focused" cx="10" cy="10" r="10"/>
+        <path class="fill-none stroke-window-text-focused stroke-width-1_5" d="m 4,10 l 6,-6 6,6 -6,6 z"/>
+      </g>
+      <g id="window-restore-pressed" transform="translate(230,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <circle class="toolbutton-pressed" cx="10" cy="10" r="10"/>
+        <path class="fill-none stroke-window-text-pressed stroke-width-1_5" d="m 4,10 l 6,-6 6,6 -6,6 z"/>
+      </g>
+      <g id="window-restore-disabled" transform="translate(294,6)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="fill-none stroke-window-text disabled stroke-width-1_5" d="m 4,10 l 6,-6 6,6 -6,6 z"/>
+      </g>
+
+      <g id="window-menu-normal" transform="translate(6,70)">
+        <rect style="fill:none" width="20" height="20"/>
+        <path class="fill-none stroke-window-text stroke-width-1_5 stroke-rounded" d="M 4,5 16,5 M 4,10 16,10 M 4,15 16,15"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Transparent elements -->
+
+  <g transform="translate(0,1280)">
+    <text class="label" x="144" y="20">Transparent elements</text>
+    <g transform="translate(160)" style="fill:none">
+      <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>
+      <rect id="transparent-normal-topleft" x="4" y="4" width="4" height="4"/>
+      <rect id="transparent-normal-top" x="8" y="4" width="16" height="4" />
+      <rect id="transparent-normal-topright" x="24" y="4" width="4" height="4"/>
+      <rect id="transparent-normal-left" x="4" y="8" width="4" height="16"/>
+      <rect id="transparent-normal" x="8" y="8" width="16" height="16"/>
+      <rect id="transparent-normal-right" x="24" y="8" width="4" height="16"/>
+      <rect id="transparent-normal-bottomleft" x="4" y="24" width="4" height="4"/>
+      <rect id="transparent-normal-bottom" x="8" y="24" width="16" height="4"/>
+      <rect id="transparent-normal-bottomright" x="24" y="24" width="4" height="4"/>
+    </g>
+  </g>
+
+  <!-- Grid -->
+  <!--
+  <defs>
+    <pattern id="grid-32px" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path style="fill:none;stroke:black;stroke-width:0.5;opacity:0.5" d="M 32 0 L 0 0 0 32"/>
+    </pattern>
+    <pattern id="grid-4px" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path style="fill:none;stroke:black;stroke-width:0.1;opacity:0.25" d="M 4 0 L 0 0 0 4"/>
+    </pattern>
+    <pattern id="grid-1px" width="1" height="1" patternUnits="userSpaceOnUse">
+      <path style="fill:none;stroke:black;stroke-width:0.1;opacity:0.125" d="M 1 0 L 0 0 0 1"/>
+    </pattern>
+  </defs>
+
+  <g transform="translate(160,32)">
+    <rect style="fill:url(#grid-1px)" width="640" height="1280"/>
+    <rect style="fill:url(#grid-4px)" width="640" height="1280"/>
+    <rect style="fill:url(#grid-32px)" width="640" height="1280"/>
+  </g>
+  -->
+</svg>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 0 240 48">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <!-- wireless -->
+  <g>
+    <g id="22-22-network-wireless-100">
+      <g id="22-22-network-wireless-on" transform="translate(1)">
+        <rect style="fill:none" width="22" height="22"/>
+        <path class="ColorScheme-Text" style="fill:currentColor" d="m 0,8 2,2 c 4.97,-4.97 13.03,-4.97 18,0 l 2,-2 c -6.07,-6.07 -15.92,-6.07 -22,0 z m 8,8 3,3 3,-3 c -1.65,-1.66 -4.34,-1.66 -6,0 z m -4,-4 2,2 c 2.76,-2.76 7.24,-2.76 10,0 l 2,-2 c -3.86,-3.86 -10.13,-3.86 -14,0 z"/>
+      </g>
+    </g>
+    <g id="network-wireless-100" transform="translate(0,24)">
+      <g id="network-wireless-on">
+        <rect style="fill:none" width="24" height="24"/>
+        <path class="ColorScheme-Text" style="fill:currentColor" d="m 1,9 2,2 c 4.97,-4.97 13.03,-4.97 18,0 l 2,-2 c -6.07,-6.07 -15.92,-6.07 -22,0 z m 8,8 3,3 3,-3 c -1.65,-1.66 -4.34,-1.66 -6,0 z m -4,-4 2,2 c 2.76,-2.76 7.24,-2.76 10,0 l 2,-2 c -3.86,-3.86 -10.13,-3.86 -14,0 z"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(24)">
+    <g id="22-22-network-wireless-80" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 8,16 3,3 3,-3 c -1.66,-1.66 -4.34,-1.66 -6,0 z"/>
+        <path d="m 4,12 2,2 c 2.75,-2.75 7.25,-2.75 10,0 l 2,-2 c -3.87,-3.875 -10.125,-3.875 -14,0 z"/>
+        <path style="fill-opacity:0.75" d="m 0,8 2,2 c 5,-5 13,-5 18,0 l 2,-2 c -6,-6 -16,-6 -22,0 z"/>
+      </g>
+    </g>
+    <g id="network-wireless-80" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 9,17 3,3 3,-3 c -1.66,-1.66 -4.34,-1.66 -6,0 z"/>
+        <path d="m 5,13 2,2 c 2.75,-2.75 7.25,-2.75 10,0 l 2,-2 c -3.87,-3.875 -10.125,-3.875 -14,0 z"/>
+        <path style="fill-opacity:0.75" d="m 1,9 2,2 c 5,-5 13,-5 18,0 l 2,-2 c -6,-6 -16,-6 -22,0 z"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(48)">
+    <g id="22-22-network-wireless-60" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 8,16 3,3 3,-3 c -1.66,-1.66 -4.34,-1.66 -6,0 z"/>
+        <path d="m 4,12 2,2 c 2.75,-2.75 7.25,-2.75 10,0 l 2,-2 c -3.87,-3.875 -10.125,-3.875 -14,0 z"/>
+        <path style="fill-opacity:0.5" d="m 0,8 2,2 c 5,-5 13,-5 18,0 l 2,-2 c -6,-6 -16,-6 -22,0 z"/>
+      </g>
+    </g>
+    <g id="network-wireless-60" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 9,17 3,3 3,-3 c -1.66,-1.66 -4.34,-1.66 -6,0 z"/>
+        <path d="m 5,13 2,2 c 2.75,-2.75 7.25,-2.75 10,0 l 2,-2 c -3.87,-3.875 -10.125,-3.875 -14,0 z"/>
+        <path style="fill-opacity:0.5" d="m 1,9 2,2 c 5,-5 13,-5 18,0 l 2,-2 c -6,-6 -16,-6 -22,0 z"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(72)">
+    <g id="22-22-network-wireless-40" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 8,16 3,3 3,-3 c -1.66,-1.66 -4.34,-1.66 -6,0 z"/>
+        <path style="fill-opacity:0.75" d="m 4,12 2,2 c 2.75,-2.75 7.25,-2.75 10,0 l 2,-2 c -3.87,-3.875 -10.125,-3.875 -14,0 z"/>
+        <path style="fill-opacity:0.5" d="m 0,8 2,2 c 5,-5 13,-5 18,0 l 2,-2 c -6,-6 -16,-6 -22,0 z"/>
+      </g>
+    </g>
+    <g id="network-wireless-40" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 9,17 3,3 3,-3 c -1.66,-1.66 -4.34,-1.66 -6,0 z"/>
+        <path style="fill-opacity:0.75" d="m 5,13 2,2 c 2.75,-2.75 7.25,-2.75 10,0 l 2,-2 c -3.87,-3.875 -10.125,-3.875 -14,0 z"/>
+        <path style="fill-opacity:0.5" d="m 1,9 2,2 c 5,-5 13,-5 18,0 l 2,-2 c -6,-6 -16,-6 -22,0 z"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(96)">
+    <g id="22-22-network-wireless-20" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 8,16 3,3 3,-3 c -1.66,-1.66 -4.34,-1.66 -6,0 z"/>
+        <path style="fill-opacity:0.5" d="m 4,12 2,2 c 2.75,-2.75 7.25,-2.75 10,0 l 2,-2 c -3.87,-3.875 -10.125,-3.875 -14,0 z"/>
+        <path style="fill-opacity:0.5" d="m 0,8 2,2 c 5,-5 13,-5 18,0 l 2,-2 c -6,-6 -16,-6 -22,0 z"/>
+      </g>
+    </g>
+    <g id="network-wireless-20" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 9,17 3,3 3,-3 c -1.66,-1.66 -4.34,-1.66 -6,0 z"/>
+        <path style="fill-opacity:0.5" d="m 5,13 2,2 c 2.75,-2.75 7.25,-2.75 10,0 l 2,-2 c -3.87,-3.875 -10.125,-3.875 -14,0 z"/>
+        <path style="fill-opacity:0.5" d="m 1,9 2,2 c 5,-5 13,-5 18,0 l 2,-2 c -6,-6 -16,-6 -22,0 z"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(120)">
+    <g id="22-22-network-wireless-0" transform="translate(1)">
+      <g id="22-22-network-wireless-available">
+        <rect style="fill:none" width="22" height="22"/>
+        <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.5">
+          <path d="m 8,16 3,3 3,-3 c -1.66,-1.66 -4.34,-1.66 -6,0 z"/>
+          <path d="m 4,12 2,2 c 2.75,-2.75 7.25,-2.75 10,0 l 2,-2 c -3.87,-3.875 -10.125,-3.875 -14,0 z"/>
+          <path d="m 0,8 2,2 c 5,-5 13,-5 18,0 l 2,-2 c -6,-6 -16,-6 -22,0 z"/>
+        </g>
+      </g>
+    </g>
+    <g id="network-wireless-0" transform="translate(0,24)">
+      <g id="network-wireless-available">
+        <rect style="fill:none" width="24" height="24"/>
+        <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.5">
+          <path d="m 9,17 3,3 3,-3 c -1.66,-1.66 -4.34,-1.66 -6,0 z"/>
+          <path d="m 5,13 2,2 c 2.75,-2.75 7.25,-2.75 10,0 l 2,-2 c -3.87,-3.875 -10.125,-3.875 -14,0 z"/>
+          <path d="m 1,9 2,2 c 5,-5 13,-5 18,0 l 2,-2 c -6,-6 -16,-6 -22,0 z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(144)">
+    <g id="22-22-network-wireless-disconnected" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path style="fill-opacity:0.5" d="m 11,3.45 c -3.98,0 -7.96,1.52 -11,4.55 l 2,2 c 4.97,-4.97 13.03,-4.97 18,0 l 2,-2 c -3.03,-3.04 -7.01,-4.55 -11,-4.55 z m 0,5.66 c -2.53,0 -5.07,0.96 -7,2.89 l 2,2 c 2.26,-2.26 5.67,-2.67 8.34,-1.23 a 5,5 0 0 1 2.66,-0.77 5,5 0 0 1 0.91,0.1 l 0.1,-0.1 c -1.93,-1.93 -4.46,-2.89 -7,-2.89 z m 0,5.65 c -1.08,0 -2.17,0.41 -3,1.24 l 3,3 1.09,-1.09 a 5,5 0 0 1 -0.1,-0.91 5,5 0 0 1 0.41,-1.99 c -0.45,-0.16 -0.93,-0.25 -1.41,-0.25 z"/>
+        <path d="m 17,13 a 4,4 0 0 0 -4,4 4,4 0 0 0 4,4 4,4 0 0 0 4,-4 4,4 0 0 0 -4,-4 z m -0.5,2 a 0.5,0.5 0 0 1 1,0 v 2 a 0.5,0.5 0 0 1 -1,0 z m -0,3.5 h 1 v 1 h -1z"/>
+      </g>
+    </g>
+    <g id="network-wireless-disconnected" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path style="fill-opacity:0.5" d="m 12,4.45 c -3.98,0 -7.96,1.52 -11,4.55 l 2,2 c 4.97,-4.97 13.03,-4.97 18,0 l 2,-2 c -3.03,-3.04 -7.01,-4.55 -11,-4.55 z m 0,5.66 c -2.53,0 -5.07,0.96 -7,2.89 l 2,2 c 2.26,-2.26 5.67,-2.67 8.34,-1.23 a 5,5 0 0 1 2.66,-0.77 5,5 0 0 1 0.91,0.1 l 0.1,-0.1 c -1.93,-1.93 -4.46,-2.89 -7,-2.89 z m 0,5.65 c -1.08,0 -2.17,0.41 -3,1.24 l 3,3 1.09,-1.09 a 5,5 0 0 1 -0.1,-0.91 5,5 0 0 1 0.41,-1.99 c -0.45,-0.16 -0.93,-0.25 -1.41,-0.25 z"/>
+        <path d="m 18,14 a 4,4 0 0 0 -4,4 4,4 0 0 0 4,4 4,4 0 0 0 4,-4 4,4 0 0 0 -4,-4 z m -0.5,2 a 0.5,0.5 0 0 1 1,0 v 2 a 0.5,0.5 0 0 1 -1,0 z m -0,3.5 h 1 v 1 h -1z"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(168)">
+    <g id="22-22-network-wireless-off" transform="translate(1)">
+      <g id="22-22-network-unavailable">
+        <rect style="fill:none" width="22" height="22"/>
+        <g class="ColorScheme-Text" style="fill:currentColor">
+          <path style="fill-opacity:0.5" d="m 11,3.447 c -1.011,0 -2.026,0.102 -3.025,0.299 l 2.545,2.549 c 3.42,-0.127 6.87,1.099 9.48,3.705 l 2,-2 c -3.04,-3.035 -7.01,-4.553 -11,-4.553 z m -5.225,0.92 c -2.106,0.75 -4.088,1.949 -5.775,3.633 l 2,2 c 1.727,-1.727 3.829,-2.838 6.043,-3.365 z m 4.765,4.76 c -2.38,0.112 -4.724,1.063 -6.54,2.873 l 2,2 c 2.169,-2.17 5.4,-2.63 8.02,-1.38 z m 3.17,0.357 3.4,3.406 0.89,-0.89 c -1.23,-1.23 -2.72,-2.071 -4.29,-2.516 z m -2.71,5.276 c -1.082,0 -2.17,0.41 -3,1.24 l 3,3 3,-3 c -0.82,-0.83 -1.91,-1.24 -3,-1.24 z"/>
+          <path d="m 4.54,3.13 a 0.5,0.5 0 0 0 -1.41,1.41 l 16.33,16.33 a 0.5,0.5 0 0 0 1.41,-1.41 z"/>
+        </g>
+      </g>
+    </g>
+    <g id="network-wireless-off" transform="translate(0,24)">
+      <g id="network-unavailable">
+        <rect style="fill:none" width="24" height="24"/>
+        <g class="ColorScheme-Text" style="fill:currentColor">
+          <path style="fill-opacity:0.5" d="m 12,4.447 c -1.011,0 -2.026,0.102 -3.025,0.299 l 2.545,2.549 c 3.42,-0.127 6.87,1.099 9.48,3.705 l 2,-2 c -3.04,-3.035 -7.01,-4.553 -11,-4.553 z m -5.225,0.92 c -2.106,0.75 -4.088,1.949 -5.775,3.633 l 2,2 c 1.727,-1.727 3.829,-2.838 6.043,-3.365 z m 4.765,4.76 c -2.38,0.112 -4.724,1.063 -6.54,2.873 l 2,2 c 2.169,-2.17 5.4,-2.63 8.02,-1.38 z m 3.17,0.357 3.4,3.406 0.89,-0.89 c -1.23,-1.23 -2.72,-2.071 -4.29,-2.516 z m -2.71,5.276 c -1.082,0 -2.17,0.41 -3,1.24 l 3,3 3,-3 c -0.82,-0.83 -1.91,-1.24 -3,-1.24 z"/>
+          <path d="m 4.54,3.13 a 0.5,0.5 0 0 0 -1.41,1.41 l 16.33,16.33 a 0.5,0.5 0 0 0 1.41,-1.41 z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <!-- flightmode -->
+  <g transform="translate(192)">
+    <g id="22-22-network-flightmode-on" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 21,15 v -2 l -8.5,-5 v -5.5 c 0,-0.83 -0.67,-1.5 -1.5,-1.5 -0.83,0 -1.5,0.67 -1.5,1.5 v 5.5 l -8.5,5 v 2 l 8.5,-2.5 v 5.5 l -2.5,1.5 v 1.5 l 4,-1 4,1 v -1.5 l -2.5,-1.5 v -5.5 z"/>
+    </g>
+    <g id="network-flightmode-on" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 22,16 v -2 l -8.5,-5 v -5.5 c 0,-0.83 -0.67,-1.5 -1.5,-1.5 -0.83,0 -1.5,0.67 -1.5,1.5 v 5.5 l -8.5,5 v 2 l 8.5,-2.5 v 5.5 l -2.5,1.5 v 1.5 l 4,-1 4,1 v -1.5 l -2.5,-1.5 v -5.5 z"/>
+    </g>
+  </g>
+  <g transform="translate(216)">
+    <g id="22-22-network-flightmode-off" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.5" d="m 21,15 v -2 l -8.5,-5 v -5.5 c 0,-0.83 -0.67,-1.5 -1.5,-1.5 -0.83,0 -1.5,0.67 -1.5,1.5 v 5.5 l -8.5,5 v 2 l 8.5,-2.5 v 5.5 l -2.5,1.5 v 1.5 l 4,-1 4,1 v -1.5 l -2.5,-1.5 v -5.5 z"/>
+    </g>
+    <g id="network-flightmode-off" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <path class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.5" d="m 22,16 v -2 l -8.5,-5 v -5.5 c 0,-0.83 -0.67,-1.5 -1.5,-1.5 -0.83,0 -1.5,0.67 -1.5,1.5 v 5.5 l -8.5,5 v 2 l 8.5,-2.5 v 5.5 l -2.5,1.5 v 1.5 l 4,-1 4,1 v -1.5 l -2.5,-1.5 v -5.5 z"/>
+    </g>
+  </g>
+
+  <defs>
+    <pattern id="major-grid" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path style="fill:none;stroke:black;stroke-width:0.1;stroke-opacity:0.25" d="M 4 0 L 0 0 0 4"/>
+    </pattern>
+    <pattern id="minor-grid" width="1" height="1" patternUnits="userSpaceOnUse">
+      <path style="fill:none;stroke:black;stroke-width:0.1;stroke-opacity:0.25" d="M 1 0 L 0 0 0 1"/>
+    </pattern>
+  </defs>
+
+  <rect fill="url(#major-grid)" width="100%" height="100%"/>
+  <rect fill="url(#minor-grid)" width="100%" height="100%"/>
+</svg>

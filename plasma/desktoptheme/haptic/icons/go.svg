@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g>
+    <g id="22-22-go-previous" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+            d="M 17,11 l -12,0 m 6,-6 l -6,6 6,6"/>
+    </g>
+    <g id="go-previous" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+            d="M 18,12 l -12,0 m 6,-6 l -6,6 6,6"/>
+    </g>
+  </g>
+  <g transform="translate(24)">
+    <g id="22-22-go-next" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+            d="M 5,11 l 12,0 m -6,-6 l 6,6 -6,6"/>
+    </g>
+    <g id="go-next" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+            d="M 6,12 l 12,0 m -6,-6 l 6,6 -6,6"/>
+    </g>
+  </g>
+  <g transform="translate(48)">
+    <g id="22-22-go-up" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+            d="M 11,17 l 0,-12 m -6,6 l 6,-6 6,6"/>
+    </g>
+    <g id="go-up" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+            d="M 12,18 l 0,-12 m -6,6 l 6,-6 6,6"/>
+    </g>
+  </g>
+  <g transform="translate(72)">
+    <g id="22-22-go-down" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+            d="M 11,5 l 0,12 m -6,-6 l 6,6 6,-6"/>
+    </g>
+    <g id="go-down" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+            d="M 12,6 l 0,12 m -6,-6 l 6,6 6,-6"/>
+    </g>
+  </g>
+  <g transform="translate(96)">
+    <g id="go-home" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor"
+            d="m 0,12 l 11,-11 11,11 -1.4,1.4 -1.6,-1.6 v 9.2 h -6 v -8 h -4 v 8 h -6 v -9.2 l -1.6,1.6"/>
+    </g>
+    <g id="go-home" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <path class="ColorScheme-Text" style="fill:currentColor"
+            d="m 1,13 l 11,-11 11,11 -1.4,1.4 -1.6,-1.6 v 9.2 h -6 v -8 h -4 v 8 h -6 v -9.2 l -1.6,1.6"/>
+    </g>
+  </g>
+</svg>

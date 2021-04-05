@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 24">
+  <defs>
+    <style type="text/css">
+      .Slider { fill: #F0F0F0; fill-opacity: 0.3125 }
+      .SliderHover { fill: #F0F0F0; fill-opacity: 0.375 }
+    </style>
+    <radialGradient id="shadow-topleft" cx="6" cy="6" r="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0.67" style="stop-color:black;stop-opacity:0.25"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="shadow-topright" cx="0" cy="6" r="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0.67" style="stop-color:black;stop-opacity:0.25"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="shadow-left" x1="100%" y1="0" x2="0%" y2="0">
+      <stop offset="0" style="stop-color:black;stop-opacity:0.25"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="shadow-right" x1="0%" y1="0" x2="100%" y2="0">
+      <stop offset="0" style="stop-color:black;stop-opacity:0.25"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </linearGradient>
+    <radialGradient id="shadow-bottomleft" cx="6" cy="0" r="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0.67" style="stop-color:black;stop-opacity:0.25"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="shadow-bottomright" cx="0" cy="0" r="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0.67" style="stop-color:black;stop-opacity:0.25"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Surface and shadow -->
+
+  <g transform="translate(6,0)">
+    <g id="slider-topleft">
+      <path style="fill:url(#shadow-topleft)" d="m 0,6 a 6,6 0 0 1 6,-6 v 2 a 4,4 0 0 0 -4,4 z"/>
+      <path class="Slider" d="m 2,6 a 4,4 0 0 1 4,-4 v 4 z"/>
+    </g>
+    <g id="slider-top" transform="translate(5,0)">
+      <rect style="fill:none" width="2" height="4"/>
+    </g>
+    <g id="slider-topright" transform="translate(6,0)">
+      <path style="fill:url(#shadow-topright)" d="m 0,0 a 6,6 0 0 1 6,6 h -2 a 4,4 0 0 0 -4,-4 z"/>
+      <path class="Slider" d="m 0,2 a 4,4 0 0 1 4,4 h -4 z"/>
+    </g>
+    <g id="slider-left" transform="translate(0,6)">
+      <rect style="fill:url(#shadow-left)" width="2" height="12"/>
+      <rect class="Slider" x="2" width="4" height="12"/>
+    </g>
+    <g id="slider-center" transform="translate(5,6)">
+      <rect style="fill:none" width="2" height="12"/>
+    </g>
+    <g id="slider-right" transform="translate(6,6)">
+      <rect style="fill:url(#shadow-right)" x="4" width="2" height="12"/>
+      <rect class="Slider" width="4" height="12"/>
+    </g>
+    <g id="slider-bottomleft" transform="translate(0,18)">
+      <path style="fill:url(#shadow-bottomleft)" d="m 0,0 h 2 a 4,4 0 0 0 4,4 v 2 a 6,6 0 0 1 -6,-6 z"/>
+      <path class="Slider" d="m 2,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+    </g>
+    <g id="slider-bottom" transform="translate(5,18)">
+      <rect style="fill:none" width="2" height="4"/>
+    </g>
+    <g id="slider-bottomright" transform="translate(6,18)">
+      <path style="fill:url(#shadow-bottomright)" d="m 4,0 h 2 a 6,6 0 0 1 -6,6 v -2 a 4,4 0 0 0 4,-4 z"/>
+      <path class="Slider" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+    </g>
+  </g>
+
+  <g transform="translate(30,0)">
+    <g id="sunken-slider-topleft">
+      <path style="fill:url(#shadow-topleft)" d="m 0,6 a 6,6 0 0 1 6,-6 v 2 a 4,4 0 0 0 -4,4 z"/>
+      <path class="SliderHover" d="m 2,6 a 4,4 0 0 1 4,-4 v 4 z"/>
+    </g>
+    <g id="sunken-slider-top" transform="translate(5,0)">
+      <rect style="fill:none" width="2" height="4"/>
+    </g>
+    <g id="sunken-slider-topright" transform="translate(6,0)">
+      <path style="fill:url(#shadow-topright)" d="m 0,0 a 6,6 0 0 1 6,6 h -2 a 4,4 0 0 0 -4,-4 z"/>
+      <path class="SliderHover" d="m 0,2 a 4,4 0 0 1 4,4 h -4 z"/>
+    </g>
+    <g id="sunken-slider-left" transform="translate(0,6)">
+      <rect style="fill:url(#shadow-left)" width="2" height="12"/>
+      <rect class="SliderHover" x="2" width="4" height="12"/>
+    </g>
+    <g id="sunken-slider-center" transform="translate(5,6)">
+      <rect style="fill:none" width="2" height="12"/>
+    </g>
+    <g id="sunken-slider-right" transform="translate(6,6)">
+      <rect style="fill:url(#shadow-right)" x="4" width="2" height="12"/>
+      <rect class="SliderHover" width="4" height="12"/>
+    </g>
+    <g id="sunken-slider-bottomleft" transform="translate(0,18)">
+      <path style="fill:url(#shadow-bottomleft)" d="m 0,0 h 2 a 4,4 0 0 0 4,4 v 2 a 6,6 0 0 1 -6,-6 z"/>
+      <path class="SliderHover" d="m 2,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+    </g>
+    <g id="sunken-slider-bottom" transform="translate(5,18)">
+      <rect style="fill:none" width="2" height="4"/>
+    </g>
+    <g id="sunken-slider-bottomright" transform="translate(6,18)">
+      <path style="fill:url(#shadow-bottomright)" d="m 4,0 h 2 a 6,6 0 0 1 -6,6 v -2 a 4,4 0 0 0 4,-4 z"/>
+      <path class="SliderHover" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
+    </g>
+  </g>
+
+  <!-- Hints -->
+
+  <g style="fill:#B0BEC5">
+    <rect id="hint-scrollbar-size" x="-18" y="-6" width="12" height="12"/>
+  </g>
+</svg>

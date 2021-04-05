@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 336">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Background { color: #F0F0F0 }
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g>
+    <g id="22-22-Battery" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 2,5 a 1,1 0 0 0 -1,1 v 10 a 1,1 0 0 0 1,1 h 16 a 1,1 0 0 0 1,-1 v -2 h 1 a 1,1 0 0 0 1,-1 v -4 a 1,1 0 0 0 -1,-1 h -1 v -2 a 1,1 0 0 0 -1,-1 z m 0,1 h 16 v 10 h -16 z"/>
+    </g>
+    <g id="Battery" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 2,6 a 1,1 0 0 0 -1,1 v 10 a 1,1 0 0 0 1,1 h 18 a 1,1 0 0 0 1,-1 v -2 h 1 a 1,1 0 0 0 1,-1 v -4 a 1,1 0 0 0 -1,-1 h -1 v -2 a 1,1 0 0 0 -1,-1 z m 0,1 h 18 v 10 h -18 z"/>
+    </g>
+  </g>
+
+  <g transform="translate(0,24)">
+    <g id="22-22-AcAdapter" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.25">
+        <path d="m 2,5 a 1,1 0 0 0 -1,1 v 10 a 1,1 0 0 0 1,1 h 16 a 1,1 0 0 0 1,-1 v -2 h 1 a 1,1 0 0 0 1,-1 v -4 a 1,1 0 0 0 -1,-1 h -1 v -2 a 1,1 0 0 0 -1,-1 z m 0,1 h 16 v 10 h -16 z"/>
+        <rect x="3" y="7" width="14" height="8"/>
+      </g>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 3.811,1.392 7.189,7.208 2.38,-2.359 4.82,14.349 -7.2,-7.19 -2.39,2.39 z"/>
+      <path class="ColorScheme-Background" style="fill:currentColor" d="m 6,5 5,5 2,-2 3,9 -5,-5 -2,2 z"/>
+    </g>
+    <g id="AcAdapter" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.25">
+        <path d="m 2,6 a 1,1 0 0 0 -1,1 v 10 a 1,1 0 0 0 1,1 h 18 a 1,1 0 0 0 1,-1 v -2 h 1 a 1,1 0 0 0 1,-1 v -4 a 1,1 0 0 0 -1,-1 h -1 v -2 a 1,1 0 0 0 -1,-1 z m 0,1 h 18 v 10 h -18 z"/>
+        <rect x="3" y="8" width="16" height="8"/>
+      </g>
+      <path class="ColorScheme-Text" style="fill:currentColor" d="m 4.811,2.392 7.189,7.208 2.38,-2.359 4.82,14.349 -7.2,-7.19 -2.39,2.39 z"/>
+      <path class="ColorScheme-Background" style="fill:currentColor" d="m 7,6 5,5 2,-2 3,9 -5,-5 -2,2 z"/>
+    </g>
+  </g>
+
+  <g transform="translate(0,48)">
+    <g id="22-22-Unavailable" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path style="fill-opacity:0.5" d="m 2,5 a 1,1 0 0 0 -1,1 v 10 a 1,1 0 0 0 1,1 h 16 a 1,1 0 0 0 1,-1 v -2 h 1 a 1,1 0 0 0 1,-1 v -4 a 1,1 0 0 0 -1,-1 h -1 v -2 a 1,1 0 0 0 -1,-1 z m 0,1 h 16 v 10 h -16 z"/>
+        <path d="m 9 8 a 1,1 0 0 1 2,0 v 3 a 1,1 0 0 1 -2,0"/>
+        <circle cx="10" cy="14" r="1"/>
+      </g>
+    </g>
+    <g id="Unavailable" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path style="fill-opacity:0.5" d="m 2,6 a 1,1 0 0 0 -1,1 v 10 a 1,1 0 0 0 1,1 h 18 a 1,1 0 0 0 1,-1 v -2 h 1 a 1,1 0 0 0 1,-1 v -4 a 1,1 0 0 0 -1,-1 h -1 v -2 a 1,1 0 0 0 -1,-1 z m 0,1 h 18 v 10 h -18 z"/>
+        <path d="m 10 9 a 1,1 0 0 1 2,0 v 3 a 1,1 0 0 1 -2,0"/>
+        <circle cx="11" cy="15" r="1"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(0,72)">
+    <g id="22-22-Fill100" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="7" width="14" height="8"/>
+    </g>
+    <g id="Fill100" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="8" width="16" height="8"/>
+    </g>
+  </g>
+  <g transform="translate(0,96)">
+    <g id="22-22-Fill90" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="7" width="12.6" height="8"/>
+    </g>
+    <g id="Fill90" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="8" width="14.4" height="8"/>
+    </g>
+  </g>
+  <g transform="translate(0,120)">
+    <g id="22-22-Fill80" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="7" width="11.2" height="8"/>
+    </g>
+    <g id="Fill80" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="8" width="12.8" height="8"/>
+    </g>
+  </g>
+  <g transform="translate(0,144)">
+    <g id="22-22-Fill70" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="7" width="9.8" height="8"/>
+    </g>
+    <g id="Fill70" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="8" width="11.2" height="8"/>
+    </g>
+  </g>
+  <g transform="translate(0,168)">
+    <g id="22-22-Fill60" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="7" width="8.4" height="8"/>
+    </g>
+    <g id="Fill60" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="8" width="9.6" height="8"/>
+    </g>
+  </g>
+  <g transform="translate(0,192)">
+    <g id="22-22-Fill50" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="7" width="7" height="8"/>
+    </g>
+    <g id="Fill50" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="8" width="8" height="8"/>
+    </g>
+  </g>
+  <g transform="translate(0,216)">
+    <g id="22-22-Fill40" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="7" width="5.6" height="8"/>
+    </g>
+    <g id="Fill40" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="8" width="6.4" height="8"/>
+    </g>
+  </g>
+  <g transform="translate(0,240)">
+    <g id="22-22-Fill30" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="7" width="4.2" height="8"/>
+    </g>
+    <g id="Fill30" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="8" width="4.8" height="8"/>
+    </g>
+  </g>
+  <g transform="translate(0,264)">
+    <g id="22-22-Fill20" transform="translate(1,1)">
+      <rect style="fill:none"  width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="7" width="2.8" height="8"/>
+    </g>
+    <g id="Fill20" transform="translate(24)">
+      <rect style="fill:none"  width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="8" width="3.2" height="8"/>
+    </g>
+  </g>
+  <g transform="translate(0,288)">
+    <g id="22-22-Fill10" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="7" width="1.4" height="8"/>
+    </g>
+    <g id="Fill10" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor" x="3" y="8" width="1.6" height="8"/>
+    </g>
+  </g>
+  <g transform="translate(0,312)">
+    <g id="22-22-Fill0" transform="translate(1,1)">
+      <rect style="fill:none" width="22" height="22"/>
+    </g>
+    <g id="Fill0" transform="translate(24)">
+      <rect style="fill:none" width="24" height="24"/>
+    </g>
+  </g>
+</svg>

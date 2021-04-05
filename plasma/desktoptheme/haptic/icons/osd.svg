@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 480">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.25"/>
+      <stop offset="50%" style="stop-color:white;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <g id="osd-duplicate">
+    <rect style="fill:none" width="96" height="96"/>
+    <g transform="translate(38,12)"> <!-- Monitor -->
+      <rect style="fill:url(#screen)" x="4" y="10" width="40" height="27"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 4,8 a 2,2 0 0 0 -2,2 v 20 h 2 v -20 h 40 v 27 h -32 v 2 h 32 a 2,2 0 0 0 2,-2 v -27 a 2,2 0 0 0 -2,-2"/>
+        <path style="fill-opacity:0.625" d="m 16,40 v 2 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -2"/>
+        <!-- Window -->
+        <path d="m 15,17 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 18 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 16 v 8 h -16 z
+          m 0,-2 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0"/>
+        <rect style="fill-opacity:0.25" x="16" y="21" width="16" height="8"/>
+      </g>
+    </g>
+    <g transform="translate(6,36)"> <!-- Laptop -->
+      <rect style="fill:url(#screen)" x="8" y="10" width="32" height="23"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path style="fill-opacity:0.625" d="m 8,8 a 2,2 0 0 0 -2,2 v 25 h 36 v -25 a 2,2 0 0 0 -2,-2 z m 0,2 h 32 v 23 h -32 z"/>
+        <path d="m 2,36 h 44 v 2 a 2,2 0 0 1 -2,2 h -40 a 2,2 0 0 1 -2,-2 z"/>
+        <!-- Window -->
+        <path d="m 15,15 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 18 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 16 v 8 h -16 z
+          m 0,-2 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0"/>
+        <rect style="fill-opacity:0.25" x="16" y="19" width="16" height="8"/>
+      </g>
+    </g>
+  </g>
+
+  <g id="osd-shutd-laptop" transform="translate(0,96)">
+    <rect style="fill:none" width="96" height="96"/>
+    <rect style="fill:none" width="96" height="96"/>
+    <g transform="translate(38,12)"> <!-- Monitor -->
+      <rect style="fill:url(#screen)" x="4" y="10" width="40" height="27"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 4,8 a 2,2 0 0 0 -2,2 v 20 h 2 v -20 h 40 v 27 h -32 v 2 h 32 a 2,2 0 0 0 2,-2 v -27 a 2,2 0 0 0 -2,-2"/>
+        <path style="fill-opacity:0.625" d="m 16,40 v 2 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -2"/>
+        <!-- Window -->
+        <path d="m 15,17 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 18 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 16 v 8 h -16 z
+          m 0,-2 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0"/>
+        <rect style="fill-opacity:0.25" x="16" y="21" width="16" height="8"/>
+      </g>
+    </g>
+    <g style="opacity:0.5"  transform="translate(6,36)"> <!-- Laptop -->
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path style="fill-opacity:0.625" d="m 8,8 a 2,2 0 0 0 -2,2 v 25 h 36 v -25 a 2,2 0 0 0 -2,-2 z m 0,2 h 32 v 23 h -32 z"/>
+        <path d="m 2,36 h 44 v 2 a 2,2 0 0 1 -2,2 h -40 a 2,2 0 0 1 -2,-2 z"/>
+      </g>
+    </g>
+  </g>
+
+  <g id="osd-shutd-screen" transform="translate(0,192)">
+    <rect style="fill:none" width="96" height="96"/>
+    <g style="opacity:0.5" transform="translate(38,12)"> <!-- Monitor -->
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 4,8 a 2,2 0 0 0 -2,2 v 20 h 2 v -20 h 40 v 27 h -32 v 2 h 32 a 2,2 0 0 0 2,-2 v -27 a 2,2 0 0 0 -2,-2"/>
+        <path style="fill-opacity:0.625" d="m 16,40 v 2 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -2"/>
+      </g>
+    </g>
+    <g transform="translate(6,36)"> <!-- Laptop -->
+      <rect style="fill:url(#screen)" x="8" y="10" width="32" height="23"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path style="fill-opacity:0.625" d="m 8,8 a 2,2 0 0 0 -2,2 v 25 h 36 v -25 a 2,2 0 0 0 -2,-2 z m 0,2 h 32 v 23 h -32 z"/>
+        <path d="m 2,36 h 44 v 2 a 2,2 0 0 1 -2,2 h -40 a 2,2 0 0 1 -2,-2 z"/>
+        <!-- Window -->
+        <path d="m 15,15 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 18 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 16 v 8 h -16 z
+          m 0,-2 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0"/>
+        <rect style="fill-opacity:0.25" x="16" y="19" width="16" height="8"/>
+      </g>
+    </g>
+  </g>
+
+  <g id="osd-sbs-left" transform="translate(0,288)">
+    <rect style="fill:none" width="96" height="96"/>
+    <g transform="translate(0,22)"> <!-- Monitor -->
+      <rect style="fill:url(#screen)" x="4" y="10" width="40" height="27"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 4,8 a 2,2 0 0 0 -2,2 v 27 a 2,2 0 0 0 2,2 h 40 a 2,2 0 0 0 2,-2 v -27 a 2,2 0 0 0 -2,-2 z m 0,2 h 40 v 27 h -40 z"/>
+        <path style="fill-opacity:0.625" d="m 16,40 v 2 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -2"/>
+        <!-- Window -->
+        <path d="m 25,18 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 18 v -2 h -17 v -8 h 17 v -4 z
+          m 0,2 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0"/>
+        <rect style="fill-opacity:0.25" x="26" y="22" width="17" height="8"/>
+      </g>
+    </g>
+    <g transform="translate(48,26)"> <!-- Laptop -->
+      <rect style="fill:url(#screen)" x="8" y="10" width="32" height="23"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path style="fill-opacity:0.625" d="m 8,8 a 2,2 0 0 0 -2,2 v 25 h 36 v -25 a 2,2 0 0 0 -2,-2 z m 0,2 h 32 v 23 h -32 z"/>
+        <path d="m 2,36 h 44 v 2 a 2,2 0 0 1 -2,2 h -40 a 2,2 0 0 1 -2,-2 z"/>
+        <!-- Window -->
+        <path d="m 9,14 v 4 h 13 v 8 h -13 v 2 h 14 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z"/>
+        <rect style="fill-opacity:0.25" x="9" y="18" width="13" height="8"/>
+      </g>
+    </g>
+  </g>
+
+  <g id="osd-sbs-sright" transform="translate(0,384)">
+    <rect style="fill:none" width="96" height="96"/>
+    <g transform="translate(0,26)"> <!-- Laptop -->
+      <rect style="fill:url(#screen)" x="8" y="10" width="32" height="23"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path style="fill-opacity:0.625" d="m 8,8 a 2,2 0 0 0 -2,2 v 25 h 36 v -25 a 2,2 0 0 0 -2,-2 z m 0,2 h 32 v 23 h -32 z"/>
+        <path d="m 2,36 h 44 v 2 a 2,2 0 0 1 -2,2 h -40 a 2,2 0 0 1 -2,-2 z"/>
+        <!-- Window -->
+        <path d="m 25,14 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 14 v -2 h -13 v -8 h 13 v -4 z
+          m 0,2 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0 m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0"/>
+        <rect style="fill-opacity:0.25" x="26" y="18" width="13" height="8"/>
+      </g>
+    </g>
+    <g transform="translate(48,22)"> <!-- Monitor -->
+      <rect style="fill:url(#screen)" x="4" y="10" width="40" height="27"/>
+      <g class="ColorScheme-Text" style="fill:currentColor">
+        <path d="m 4,8 a 2,2 0 0 0 -2,2 v 27 a 2,2 0 0 0 2,2 h 40 a 2,2 0 0 0 2,-2 v -27 a 2,2 0 0 0 -2,-2 z m 0,2 h 40 v 27 h -40 z"/>
+        <path style="fill-opacity:0.625" d="m 16,40 v 2 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -2"/>
+        <!-- Window -->
+        <path d="m 5,18 v 4 h 17 v 8 h -17 v 2 h 18 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z"/>
+        <rect style="fill-opacity:0.25" x="5" y="22" width="17" height="8"/>
+      </g>
+    </g>
+  </g>
+</svg>

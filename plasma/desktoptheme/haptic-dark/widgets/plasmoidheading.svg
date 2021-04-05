@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 64">
+  <defs>
+    <style type="text/css">
+      .Background { fill: #303030; fill-opacity: 0.375 }
+      .Border { fill: black; fill-opacity: 0.25 }
+    </style>
+  </defs>
+
+  <!-- Surface -->
+
+  <g>
+    <g class="Background">
+      <rect id="header-topleft" x="4" y="4" width="4" height="4"/>
+      <rect id="header-top" x="8" y="4" width="16" height="4"/>
+      <rect id="header-topright" x="24" y="4" width="4" height="4"/>
+      <rect id="header-left" x="4" y="8" width="4" height="16"/>
+      <rect id="header-center" x="8" y="8" width="16" height="16"/>
+      <rect id="header-right" x="24" y="8" width="4" height="16"/>
+    </g>
+    <g id="header-bottomleft" transform="translate(4,24)">
+      <rect class="Background" width="4" height="3"/>
+      <rect class="Border" y="3" width="4" height="1"/>
+    </g>
+    <g id="header-bottom" transform="translate(8,24)">
+      <rect class="Background" width="16" height="3"/>
+      <rect class="Border" y="3" width="16" height="1"/>
+    </g>
+    <g id="header-bottomright" transform="translate(24,24)">
+      <rect class="Background" width="4" height="3"/>
+      <rect class="Border" y="3" width="4" height="1"/>
+    </g>
+  </g>
+
+  <g transform="translate(0,32)">
+    <g id="footer-topleft" transform="translate(4,4)">
+      <rect class="Border" width="4" height="1"/>
+      <rect class="Background" y="1" width="4" height="3"/>
+    </g>
+    <g id="footer-top" transform="translate(8,4)">
+      <rect class="Border" width="16" height="1"/>
+      <rect class="Background" y="1" width="16" height="3"/>
+    </g>
+    <g id="footer-topright" transform="translate(24,4)">
+      <rect class="Border" width="4" height="1"/>
+      <rect class="Background" y="1" width="4" height="3"/>
+    </g>
+    <g class="Background">
+      <rect id="footer-left" x="4" y="8" width="4" height="16"/>
+      <rect id="footer-center" x="8" y="8" width="16" height="16"/>
+      <rect id="footer-right" x="24" y="8" width="4" height="16"/>
+      <rect id="footer-bottomleft" x="4" y="24" width="4" height="4"/>
+      <rect id="footer-bottom" x="8" y="24" width="16" height="4"/>
+      <rect id="footer-bottomright" x="24" y="24" width="4" height="4"/>
+    </g>
+  </g>
+
+  <!-- Hints -->
+
+  <g style="fill:#B0BEC5">
+    <rect id="hint-top-margin" x="15" y="4" width="2" height="6"/>
+    <rect id="hint-bottom-margin" x="15" y="22" width="2" height="6"/>
+    <rect id="hint-left-margin" x="4" y="15" width="6" height="2"/>
+    <rect id="hint-right-margin" x="22" y="15" width="6" height="2"/>
+  </g>
+</svg>

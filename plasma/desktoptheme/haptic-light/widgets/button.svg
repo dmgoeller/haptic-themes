@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64">
+  <defs>
+    <style type="text/css">
+      .ButtonBackground { fill: #909090; fill-opacity: 0.75 }
+      .ButtonPressed { fill: #909090; fill-opacity: 0.875 }
+      .ToolButtonHover { fill: #303030; fill-opacity: 0.125 }
+      .ToolButtonPressed { fill: #303030; fill-opacity: 0.25 }
+      .ToolButtonFocus { fill: #9AB7DB }
+    </style>
+  </defs>
+
+  <!-- Surface -->
+
+  <g class="ButtonBackground">
+    <path id="normal-topleft" d="m 2,8 a 4,4 0 0 1 4,-4 h 8 v 6 h -12 z"/>
+    <rect id="normal-top" x="14" y="4" width="4" height="6"/>
+    <path id="normal-topright" d="m 18,4 h 8 a 4,4 0 0 1 4,4 v 2 h -12 z"/>
+    <rect id="normal-left" x="2" y="10" width="12" height="12"/>
+    <rect id="normal-center" x="14" y="10" width="4" height="12"/>
+    <rect id="normal-right" x="18" y="10" width="12" height="12"/>
+    <path id="normal-bottomleft" d="m 2,22 h 12 v 6 h -8 a 4,4 0 0 1 -4,-4 z"/>
+    <rect id="normal-bottom" x="14" y="22" width="4" height="6"/>
+    <path id="normal-bottomright" d="m 18,22 h 12 v 2 a 4,4 0 0 1 -4,4 h -8 z"/>
+  </g>
+  <g transform="translate(32)" class="ButtonPressed">
+    <path id="pressed-topleft" d="m 2,8 a 4,4 0 0 1 4,-4 h 8 v 6 h -12 z"/>
+    <rect id="pressed-top" x="14" y="4" width="4" height="6"/>
+    <path id="pressed-topright" d="m 18,4 h 8 a 4,4 0 0 1 4,4 v 2 h -12 z"/>
+    <rect id="pressed-left" x="2" y="10" width="12" height="12"/>
+    <rect id="pressed-center" x="14" y="10" width="4" height="12"/>
+    <rect id="pressed-right" x="18" y="10" width="12" height="12"/>
+    <path id="pressed-bottomleft" d="m 2,22 h 12 v 6 h -8 a 4,4 0 0 1 -4,-4 z"/>
+    <rect id="pressed-bottom" x="14" y="22" width="4" height="6"/>
+    <path id="pressed-bottomright" d="m 18,22 h 12 v 2 a 4,4 0 0 1 -4,4 h -8 z"/>
+  </g>
+
+  <g transform="translate(0,32)" class="ToolButtonHover">
+    <path id="toolbutton-hover-topleft" d="m 4,8 a 4,4 0 0 1 4,-4 v 4 z"/>
+    <rect id="toolbutton-hover-top" x="8" y="4" width="16" height="4"/>
+    <path id="toolbutton-hover-topright" d="m 24,4 a 4,4 0 0 1 4,4 h -4 z"/>
+    <rect id="toolbutton-hover-left" x="4" y="8" width="4" height="16"/>
+    <rect id="toolbutton-hover-center" x="8" y="8" width="16" height="16"/>
+    <rect id="toolbutton-hover-right" x="24" y="8" width="4" height="16"/>
+    <path id="toolbutton-hover-bottomleft" d="m 4,24 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+    <rect id="toolbutton-hover-bottom" x="8" y="24" width="16" height="4"/>
+    <path id="toolbutton-hover-bottomright" d="m 24,24 h 4 a 4,4 0 0 1 -4,4 h z"/>
+  </g>
+
+  <g transform="translate(32,32)" class="ToolButtonPressed">
+    <path id="toolbutton-pressed-topleft" d="m 4,8 a 4,4 0 0 1 4,-4 v 4 z"/>
+    <rect id="toolbutton-pressed-top" x="8" y="4" width="16" height="4"/>
+    <path id="toolbutton-pressed-topright" d="m 24,4 a 4,4 0 0 1 4,4 h -4 z"/>
+    <rect id="toolbutton-pressed-left" x="4" y="8" width="4" height="16"/>
+    <rect id="toolbutton-pressed-center" x="8" y="8" width="16" height="16"/>
+    <rect id="toolbutton-pressed-right" x="24" y="8" width="4" height="16"/>
+    <path id="toolbutton-pressed-bottomleft" d="m 4,24 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+    <rect id="toolbutton-pressed-bottom" x="8" y="24" width="16" height="4"/>
+    <path id="toolbutton-pressed-bottomright" d="m 24,24 h 4 a 4,4 0 0 1 -4,4 h z"/>
+  </g>
+
+  <g transform="translate(64,32)" class="ToolButtonFocus">
+    <path id="toolbutton-focus-topleft" d="m 4,8 a 4,4 0 0 1 4,-4 v 4 z"/>
+    <rect id="toolbutton-focus-top" x="8" y="4" width="16" height="4"/>
+    <path id="toolbutton-focus-topright" d="m 24,4 a 4,4 0 0 1 4,4 h -4 z"/>
+    <rect id="toolbutton-focus-left" x="4" y="8" width="4" height="16"/>
+    <rect id="toolbutton-focus-center" x="8" y="8" width="16" height="16"/>
+    <rect id="toolbutton-focus-right" x="24" y="8" width="4" height="16"/>
+    <path id="toolbutton-focus-bottomleft" d="m 4,24 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+    <rect id="toolbutton-focus-bottom" x="8" y="24" width="16" height="4"/>
+    <path id="toolbutton-focus-bottomright" d="m 24,24 h 4 a 4,4 0 0 1 -4,4 h z"/>
+  </g>
+</svg>

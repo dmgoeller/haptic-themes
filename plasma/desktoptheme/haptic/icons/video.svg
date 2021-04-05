@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 120">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g id="22-22-video-display-brightness" transform="translate(13)">
+    <rect style="fill:none" width="22" height="22"/>
+    <g class="ColorScheme-Text" style="fill:currentColor">
+      <path d="M 11 5 A 6 6 0 0 0 5 11 A 6 6 0 0 0 11 17 A 6 6 0 0 0 17 11 A 6 6 0 0 0 11 5 z M 11 7 A 4 4 0 0 1 11 15 L 11 7 z"/>
+      <g style="fill-opacity:0.75" transform="translate(11,11)">
+        <circle cx="0" cy="-9" r="1"/>
+        <circle transform="rotate(45)" cx="0" cy="-9" r="1"/>
+        <circle transform="rotate(90)" cx="0" cy="-9" r="1"/>
+        <circle transform="rotate(135)" cx="0" cy="-9" r="1"/>
+        <circle transform="rotate(180)" cx="0" cy="-9" r="1"/>
+        <circle transform="rotate(225)" cx="0" cy="-9" r="1"/>
+        <circle transform="rotate(270)" cx="0" cy="-9" r="1"/>
+        <circle transform="rotate(315)" cx="0" cy="-9" r="1"/>
+      </g>
+    </g>
+  </g>
+  <g id="32-32-video-display-brightness" transform="translate(8,32)">
+    <rect style="fill:none" width="32" height="32"/>
+    <g class="ColorScheme-Text" style="fill:currentColor">
+      <path d="M 16 8 A 8 8 0 0 0 8 16 A 8 8 0 0 0 16 24 A 8 8 0 0 0 24 16 A 8 8 0 0 0 16 8 z M 16 10 A 6 6 0 0 1 16 22 L 16 10 z"/>
+      <g style="fill-opacity:0.75" transform="translate(16,16)">
+        <path d="M -1,-13 a 1,1 0 0 1 2,0 v 1 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(45)" d="M -1,-13 a 1,1 0 0 1 2,0 v 1 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(90)" d="M -1,-13 a 1,1 0 0 1 2,0 v 1 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(135)" d="M -1,-13 a 1,1 0 0 1 2,0 v 1 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(180)" d="M -1,-13 a 1,1 0 0 1 2,0 v 1 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(225)" d="M -1,-13 a 1,1 0 0 1 2,0 v 1 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(270)" d="M -1,-13 a 1,1 0 0 1 2,0 v 1 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(315)" d="M -1,-13 a 1,1 0 0 1 2,0 v 1 a 1,1 0 0 1 -2,0 z"/>
+      </g>
+    </g>
+  </g>
+  <g id="video-display-brightness" transform="translate(0,72)">
+    <rect style="fill:none" width="48" height="48"/>
+    <g class="ColorScheme-Text" style="fill:currentColor">
+      <path d="M 24 12 A 12 12 0 0 0 12 24 A 12 12 0 0 0 24 36 A 12 12 0 0 0 36 24 A 12 12 0 0 0 24 12 z M 24 14 A 10 10 0 0 1 24 34 L 24 14 z"/>
+      <g style="fill-opacity:0.75" transform="translate(24,24)">
+        <path d="M -1,-19 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(45)" d="M -1,-19 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(90)" d="M -1,-19 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(135)" d="M -1,-19 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(180)" d="M -1,-19 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(225)" d="M -1,-19 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(270)" d="M -1,-19 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+        <path transform="rotate(315)" d="M -1,-19 a 1,1 0 0 1 2,0 v 2 a 1,1 0 0 1 -2,0 z"/>
+      </g>
+    </g>
+  </g>
+</svg>

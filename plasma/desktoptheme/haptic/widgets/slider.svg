@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 28">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Background { color: #F0F0F0 }
+      .ColorScheme-ButtonFocus { color: #2670D0 }
+      .ColorScheme-Text { color: #606060 }      
+      .ColorScheme-ViewText { color: #303030 }
+    </style>
+    <radialGradient id="slider-shadow">
+      <stop offset="0.85" style="stop-color:black;stop-opacity:0.125"/>
+      <stop offset="1" style="stop-color:black;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Surface and shadow -->
+
+  <g transform="translate(24,10)">
+    <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125">
+      <path id="groove-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+      <rect id="groove-top" x="4" width="16" height="4"/>
+      <path id="groove-topright" d="m 20,0 a 4,4 0 0 1 4,4 h -4 z"/>
+      <path id="groove-bottomleft" d="m 0,4 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+      <rect id="groove-bottom" x="4" y="4" width="16" height="4"/>
+      <path id="groove-bottomright" d="m 20,4 h 4 a 4,4 0 0 1 -4,4 v -4 z"/>
+    </g>
+    <g style="fill:none">
+      <rect id="groove-left" y="4" width="4" height="0.01"/>
+      <rect id="groove-center" x="4" y="4" width="16" height="0.01"/>
+      <rect id="groove-right" x="20" y="4" width="4" height="0.01"/>
+    </g>
+  </g>
+  <g transform="translate(0,10)">
+    <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
+      <path id="groove-highlight-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
+      <rect id="groove-highlight-top" x="4" y="0" width="16" height="4"/>
+      <path id="groove-highlight-topright" d="m 20,0 a 4,4 0 0 1 4,4 h -4 z"/>
+      <path id="groove-highlight-bottomleft" d="m 0,4 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+      <rect id="groove-highlight-bottom" x="4" y="4" width="16" height="4"/>
+      <path id="groove-highlight-bottomright" d="m 20,4 h 4 a 4,4 0 0 1 -4,4 v -4 z"/>
+    </g>
+    <g style="fill:none">
+      <rect id="groove-highlight-left" y="4" width="4" height="0.01"/>
+      <rect id="groove-highlight-center" x="4" y="4" width="16" height="0.01"/>
+      <rect id="groove-highlight-right" x="20" y="4" width="4" height="0.01"/>
+    </g>
+  </g>
+
+  <g id="horizontal-slider-shadow" transform="translate(24,14)">
+    <g id="vertical-slider-shadow">
+      <circle style="fill:url(#slider-shadow)" r="14"/>
+    </g>
+  </g>
+
+  <g id="horizontal-slider-handle" transform="translate(24,14)">
+    <g id="vertical-slider-handle">
+      <rect style="fill:none" x="-14" y="-14" width="28" height="28"/>
+      <circle class="ColorScheme-Background" style="fill:currentColor" r="12"/>
+      <circle class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:1" r="11.5"/>
+    </g>
+  </g>
+
+  <!-- Hints -->
+
+  <g id="hints" style="fill:#B0BEC5">
+    <circle id="hint-handle-size" cx="12" cy="12" r="9" transform="translate(-24,0)"/>
+  </g>
+</svg>

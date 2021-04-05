@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 120">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g id="22-22-view-history" transform="translate(13)">
+    <rect style="fill:none" width="22" height="22"/>
+    <g class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2" transform="translate(11,11)">
+      <circle r="9"/>
+      <path style="stroke-linecap:round;stroke-linejoin:round" d="m 0,-6 0,6 3.5,2"/>
+    </g>
+  </g>
+  <g id="32-32-view-history" transform="translate(8,32)">
+    <rect style="fill:none" width="32" height="32"/>
+    <g class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2" transform="translate(16,16)">
+      <circle r="12"/>
+      <path style="stroke-linecap:round;stroke-linejoin:round" d="m 0,-8 0,8 5.2,3"/>
+    </g>
+  </g>
+  <g id="view-history" transform="translate(0,72)">
+    <rect style="fill:none" width="48" height="48"/>
+    <g class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2" transform="translate(24,24)">
+      <circle style="stroke-width:2" r="18"/>
+      <path style="stroke-width:4;stroke-linecap:round;stroke-linejoin:round" d="m 0,-12 0,12 7,4"/>
+    </g>
+  </g>
+</svg>

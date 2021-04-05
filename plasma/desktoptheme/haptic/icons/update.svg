@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+      .ColorScheme-ButtonFocus { color: #2670D0 }
+    </style>
+  </defs>
+  <g>
+    <g id="22-22-update-none" transform="translate(5)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" transform="translate(11,11)" d="M 6,0 A 6,6 0 1 1 4.24,-4.24 L 2,-2 8,-2 8,-8 5.66,-5.66 A 8,8 0 1 0 8,0"/>
+    </g>
+    <g id="update-none" transform="translate(0,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" transform="translate(16,16)" d="M 7.33,0 A 7.33,7.33 0 1 1 5.18,-5.18 L 2,-2 10,-2 10,-10 7.07,-7.07 A 10,10 0 1 0 10,0"/>
+    </g>
+  </g>
+
+  <g transform="translate(32)">
+    <g id="22-22-update-low" transform="translate(5)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" transform="translate(11,11)" d="M 6,0 A 6,6 0 1 1 4.24,-4.24 L 2,-2 8,-2 8,-8 5.66,-5.66 A 8,8 0 1 0 8,0"/>
+      <circle class="ColorScheme-ButtonFocus" style="fill:currentColor" cx="19" cy="19" r="2"/>
+    </g>
+    <g id="update-low" transform="translate(0,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" transform="translate(16,16)" d="M 7.33,0 A 7.33,7.33 0 1 1 5.18,-5.18 L 2,-2 10,-2 10,-10 7.07,-7.07 A 10,10 0 1 0 10,0"/>
+      <circle class="ColorScheme-ButtonFocus" style="fill:currentColor" cx="26.667" cy="26.667" r="2.667"/>
+    </g>
+  </g>
+
+  <g transform="translate(64)">
+    <g id="22-22-update-medium" transform="translate(5)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" transform="translate(11,11)" d="M 6,0 A 6,6 0 1 1 4.24,-4.24 L 2,-2 8,-2 8,-8 5.66,-5.66 A 8,8 0 1 0 8,0"/>
+      <circle style="fill:#FFA726" cx="19" cy="19" r="2"/>
+    </g>
+    <g id="update-medium" transform="translate(0,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" transform="translate(16,16)" d="M 7.33,0 A 7.33,7.33 0 1 1 5.18,-5.18 L 2,-2 10,-2 10,-10 7.07,-7.07 A 10,10 0 1 0 10,0"/>
+      <circle style="fill:#FFA726" cx="26.667" cy="26.667" r="2.667"/>
+    </g>
+  </g>
+
+  <g transform="translate(96)">
+    <g id="22-22-update-high" transform="translate(5)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" transform="translate(11,11)" d="M 6,0 A 6,6 0 1 1 4.24,-4.24 L 2,-2 8,-2 8,-8 5.66,-5.66 A 8,8 0 1 0 8,0"/>
+      <circle style="fill:#EF5350" cx="19" cy="19" r="2"/>
+    </g>
+    <g id="update-high" transform="translate(0,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <path class="ColorScheme-Text" style="fill:currentColor" transform="translate(16,16)" d="M 7.33,0 A 7.33,7.33 0 1 1 5.18,-5.18 L 2,-2 10,-2 10,-10 7.07,-7.07 A 10,10 0 1 0 10,0"/>
+      <circle style="fill:#EF5350" cx="26.667" cy="26.667" r="2.667"/>
+    </g>
+  </g>
+</svg>
