@@ -1,12 +1,12 @@
 [Desktop Entry]
 Name=Haptic
-Comment=A desktop theme inspired by Material design
+Comment=A desktop theme inspired by Material Design
 
 X-KDE-PluginInfo-Author=Denis Göller
 X-KDE-PluginInfo-Email=denis@dmgoeller.de
-X-KDE-PluginInfo-Name=haptic-theme
+X-KDE-PluginInfo-Name=haptic
 X-KDE-PluginInfo-Version=1.0.0
-X-KDE-PluginInfo-Website=https://dmgoeller.de
+X-KDE-PluginInfo-Website=https://github.com/dmgoeller/haptic-themes
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Depends=
 X-KDE-PluginInfo-License=Apache

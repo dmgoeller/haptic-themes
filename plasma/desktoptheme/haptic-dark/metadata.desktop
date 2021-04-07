@@ -1,14 +1,14 @@
 [Desktop Entry]
 Name=Haptic Dark
-Comment=A dark desktop theme inspired by Material design
+Comment=A dark desktop theme inspired by Material Design
 
 X-KDE-PluginInfo-Author=Denis Göller
 X-KDE-PluginInfo-Email=denis@dmgoeller.de
-X-KDE-PluginInfo-Name=haptic-dark-theme
+X-KDE-PluginInfo-Name=haptic-dark
 X-KDE-PluginInfo-Version=1.0.0
-X-KDE-PluginInfo-Website=https://dmgoeller.de
+X-KDE-PluginInfo-Website=https://github.com/dmgoeller/haptic-themes
 X-KDE-PluginInfo-Category=
-X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-Depends=haptic
 X-KDE-PluginInfo-License=Apache
 X-KDE-PluginInfo-EnabledByDefault=true
 X-Plasma-API=5.0

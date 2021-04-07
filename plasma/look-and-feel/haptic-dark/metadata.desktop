@@ -1,8 +1,8 @@
 [Desktop Entry]
-Comment=Haptic Dark
+Name=Haptic Dark
+Comment=Haptic dark look and feel
 Encoding=UTF-8
 Keywords=Desktop;Workspace;Appearance;Look and Feel;
-Name=Haptic Dark
 Type=Service
 X-KDE-ServiceTypes=Plasma/LookAndFeel
 X-KDE-ParentApp=
@@ -12,6 +12,6 @@ X-KDE-PluginInfo-Email=
 X-KDE-PluginInfo-License=Apache
 X-KDE-PluginInfo-Name=haptic-dark
 X-KDE-PluginInfo-Version=
-X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Website=https://github.com/dmgoeller/haptic-themes
 X-KDE-fallbackPackage=org.kde.breezedark.desktop
 X-Plasma-MainScript=defaults
