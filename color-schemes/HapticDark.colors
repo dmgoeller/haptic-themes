@@ -46,6 +46,20 @@ ForegroundNormal=224,224,224
 ForegroundPositive=46,125,50
 ForegroundVisited=106,27,154
 
+[Colors:Header]
+BackgroundAlternate=61,60,59
+BackgroundNormal=49,48,47
+DecorationFocus=97,96,95
+DecorationHover=73,72,71
+ForegroundActive=192,192,192
+ForegroundInactive=120,120,120
+ForegroundLink=144,202,249
+ForegroundNegative=239,154,154
+ForegroundNeutral=255,245,157
+ForegroundNormal=192,192,192
+ForegroundPositive=165,214,167
+ForegroundVisited=206,147,216
+
 [Colors:Selection]
 BackgroundAlternate=50,97,157
 BackgroundNormal=50,97,157
