@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 120">
+  <defs>
+    <linearGradient id="shadow" x1="100%" y1="0" x2="0" y2="100%">
+      <stop offset="0" style="stop-color:black;stop-opacity:0.25"/>
+      <stop offset="0.5" style="stop-color:black;stop-opacity:0"/>
+    </linearGradient>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g id="22-22-compass" transform="translate(13)">
+    <rect style="fill:none" width="22" height="22"/>
+    <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(11,11)">
+      <path d="M -10,0 A 10,10 0 0 0 10,0 A 10,10 0 0 0 -10,0 M -8,0 A 8,8 0 0 1 8,0 A 8,8 0 0 1 -8,0"/>
+      <path transform="rotate(-45)" d="m -7,0 l 7,2.8 7,-2.8 -7,-2.8 z m 5.6,0 a 1.4,1.4 0 0 1 2.8,0 a 1.4,1.4 0 0 1 -2.8,0"/>
+    </g>
+  </g>
+  <g id="32-32-compass" transform="translate(8,32)">
+    <rect style="fill:none" width="32" height="32"/>
+    <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(16,16)">
+      <path d="M -13,0 A 13,13 0 0 0 13,0 A 13,13 0 0 0 -13,0 M -11,0 A 11,11 0 0 1 11,0 A 11,11 0 0 1 -11,0"/>
+      <path transform="rotate(-45)" d="m -10,0 l 10,4 10,-4 -10,-4 z m 8,0 a 2,2 0 0 1 4,0 a 2,2 0 0 1 -4,0"/>
+    </g>
+  </g>
+  <g id="compass" transform="translate(0,72)">
+    <rect style="fill:none" width="32" height="32"/>
+    <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(24,24)">
+      <path d="M -19,0 A 19,19 0 0 0 19,0 A 19,19 0 0 0 -19,0 M -17,0 A 17,17 0 0 1 17,0 A 17,17 0 0 1 -17,0"/>
+      <path transform="rotate(-45)" d="m -14,0 l 14,5.6 14,-5.6 -14,-5.6 z m 11.2,0 a 2.8,2.8 0 0 1 5.6,0 a 2.8,2.8 0 0 1 -5.6,0"/>
+    </g>
+  </g>
+</svg>
