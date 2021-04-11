@@ -16,7 +16,7 @@ ContrastAmount=0.6
 ContrastEffect=0
 Enable=true
 IntensityAmount=0.6
-IntensityEffect=2
+IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=109,108,107
