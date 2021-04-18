@@ -57,11 +57,20 @@
   </g>
 
   <g transform="translate(96)">
-    <g id="22-22-system-reboot" transform="translate(5)">
+    <g id="22-22-system-reboot" transform="translate(13)">
       <rect style="fill:none" width="22" height="22"/>
       <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(11,11)">
         <path d="M -6,0 A 6,6 0 0 1 4.24,-4.24 L 2,-2 8,-2 8,-8 5.66,-5.66 A 8,8 0 0 0 -8,0"/>
         <path d="M 6,0 A 6,6 0 0 1 -4.24, 4.24 L -2,2 -8,2 -8,8 -5.66,5.66 A 8,8 0 0 0 8,0"/>
+      </g>
+    </g>
+    <g id="32-32-system-reboot" transform="translate(8,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(16,16)">
+        <path d="M -11,0 A 11,11 0 0 1 7.78,-7.78 L 10.25,-10.25 a 0.5,0.5 0 0 1 0.75,0.4325 L 11,-4
+                 a 1,1 0 0 1 -1,1 L 4.25,-3 a 0.5,0.5 0 0 1 -0.4325,-0.75 L 6.37,-6.37 A 9,9 0 0 0 -9,0"/>
+        <path d="M 11,0 A 11,11 0 0 1 -7.78,7.78 L -10.25,10.25 a 0.5,0.5 0 0 1 -0.75,-0.4325 L -11,4
+                 a 1,1 0 0 1 1,-1 L -4.25,3 a 0.5,0.5 0 0 1 0.4325,0.75 L -6.37,6.37 A 9,9 0 0 0 9,0"/>
       </g>
     </g>
     <g id="system-reboot" transform="translate(0,72)">
@@ -81,6 +90,13 @@
       <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(11,11)">
         <path d="M -4,-8.06 A 9,9 0 1 0 4,-8.06 L 4,-5.745 A 7,7 0 1 1 -4,-5.745"/>
         <path d="m -1,0 a 1,1 0 0 0 2,0 v -8 a 1,1 0 0 0 -2,0"/>
+      </g>
+    </g>
+    <g id="32-32-system-shutdown" transform="translate(8,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(16,16)">
+        <path d="M -5,-10.9 A 12,12 0 1 0 5,-10.9 L 5,-8.66 A 10,10 0 1 1 -5,-8.66"/>
+        <path d="m -1,0 a 1,1 0 0 0 2,0 v -11 a 1,1 0 0 0 -2,0"/>
       </g>
     </g>
     <g id="system-shutdown" transform="translate(0,72)">
