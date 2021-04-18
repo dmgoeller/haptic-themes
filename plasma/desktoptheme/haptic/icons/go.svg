@@ -9,48 +9,48 @@
     <g id="22-22-go-previous" transform="translate(1)">
       <rect style="fill:none" width="22" height="22"/>
       <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
-            d="M 17,11 l -12,0 m 6,-6 l -6,6 6,6"/>
+            d="M 14.5,4 l -7,7 7,7"/>
     </g>
     <g id="go-previous" transform="translate(0,24)">
       <rect style="fill:none" width="24" height="24"/>
       <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
-            d="M 18,12 l -12,0 m 6,-6 l -6,6 6,6"/>
+            d="M 15.5,5 l -7,7 7,7"/>
     </g>
   </g>
   <g transform="translate(24)">
     <g id="22-22-go-next" transform="translate(1)">
       <rect style="fill:none" width="22" height="22"/>
       <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
-            d="M 5,11 l 12,0 m -6,-6 l 6,6 -6,6"/>
+            d="M 7.5,4 l 7,7 -7,7"/>
     </g>
     <g id="go-next" transform="translate(0,24)">
       <rect style="fill:none" width="24" height="24"/>
       <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
-            d="M 6,12 l 12,0 m -6,-6 l 6,6 -6,6"/>
+            d="M 8.5,5 l 7,7 -7,7"/>
     </g>
   </g>
   <g transform="translate(48)">
     <g id="22-22-go-up" transform="translate(1)">
       <rect style="fill:none" width="22" height="22"/>
       <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
-            d="M 11,17 l 0,-12 m -6,6 l 6,-6 6,6"/>
+            d="M 4,14.5 l 7,-7 7,7"/>
     </g>
     <g id="go-up" transform="translate(0,24)">
       <rect style="fill:none" width="24" height="24"/>
       <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
-            d="M 12,18 l 0,-12 m -6,6 l 6,-6 6,6"/>
+            d="M 5,15.5 l 7,-7 7,7"/>
     </g>
   </g>
   <g transform="translate(72)">
     <g id="22-22-go-down" transform="translate(1)">
       <rect style="fill:none" width="22" height="22"/>
       <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
-            d="M 11,5 l 0,12 m -6,-6 l 6,6 6,-6"/>
+            d="M 4,7.5 l 7,7 7,-7"/>
     </g>
     <g id="go-down" transform="translate(0,24)">
       <rect style="fill:none" width="24" height="24"/>
       <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
-            d="M 12,6 l 0,12 m -6,-6 l 6,6 6,-6"/>
+            d="M 5,8.5 l 7,7 7,-7"/>
     </g>
   </g>
   <g transform="translate(96)">
