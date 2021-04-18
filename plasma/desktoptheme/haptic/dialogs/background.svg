@@ -142,17 +142,18 @@
   <!-- Hints -->
 
   <g style="fill:#B0BEC5">
-    <rect id="hint-stretch-borders"/>
-    <rect id="hint-top-margin" x="44" y="24" width="4" height="6"/>
-    <rect id="hint-bottom-margin" x="44" y="60" width="4" height="6"/>
-    <rect id="hint-left-margin" x="24" y="44" width="6" height="4"/>
-    <rect id="hint-right-margin" x="60" y="44" width="6" height="4"/>
+    <rect id="hint-stretch-borders" width="4" height="4"/>
+
+    <rect id="hint-top-margin" x="43" y="24" width="4" height="6"/>
+    <rect id="hint-bottom-margin" x="43" y="60" width="4" height="6"/>
+    <rect id="hint-left-margin" x="24" y="43" width="6" height="4"/>
+    <rect id="hint-right-margin" x="60" y="43" width="6" height="4"/>
 
     <g style="fill-opacity:0.5">
-      <rect id="shadow-hint-top-margin" x="44" width="4" height="24"/>
-      <rect id="shadow-hint-bottom-margin" x="44" y="66" width="4" height="24"/>
-      <rect id="shadow-hint-left-margin" y="44" width="24" height="4"/>
-      <rect id="shadow-hint-right-margin" x="66" y="44" width="24" height="4"/>
+      <rect id="shadow-hint-top-margin" x="43" width="4" height="24"/>
+      <rect id="shadow-hint-bottom-margin" x="43" y="66" width="4" height="24"/>
+      <rect id="shadow-hint-left-margin" y="43" width="24" height="4"/>
+      <rect id="shadow-hint-right-margin" x="66" y="43" width="24" height="4"/>
     </g>
   </g>
 </svg>
