@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 16">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16">
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Background { color: #F0F0F0 }
       .ColorScheme-Text { color: #606060 }
     </style>
   </defs>
   <g id="checkbox">
-    <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75" width="16" height="16" rx="2" ry="2"/>
-    <path class="ColorScheme-Text" style="fill:currentColor" d="m 2,0 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z m 10.56,3.562 c 1.06,0.06 1.94,1.438 0.94,2.438 l -6,6 a 1.414,1.414 0 0 1 -2,0 l -3,-3 c -1.33,-1.33 0.67,-3.333 2,-2 l 2,2 5,-5 c 0.33,-0.333 0.71,-0.458 1.06,-0.438 z"/>
+    <rect style="fill:none" width="16" height="16"/>
+    <path class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round" d="M 3.5,8 l 3,3 6,-6"/>
   </g>
-  <g id="radiobutton" transform="translate(20,0)">
+  <g id="radiobutton" transform="translate(24,0)">
     <circle class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:1.5" cx="8" cy="8" r="7.25"/>
     <circle class="ColorScheme-Text" style="fill:currentColor;stroke:none" cx="8" cy="8" r="5"/>
   </g>
