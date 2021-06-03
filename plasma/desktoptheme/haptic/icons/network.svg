@@ -171,16 +171,4 @@
       <path class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.5" d="m 22,16 v -2 l -8.5,-5 v -5.5 c 0,-0.83 -0.67,-1.5 -1.5,-1.5 -0.83,0 -1.5,0.67 -1.5,1.5 v 5.5 l -8.5,5 v 2 l 8.5,-2.5 v 5.5 l -2.5,1.5 v 1.5 l 4,-1 4,1 v -1.5 l -2.5,-1.5 v -5.5 z"/>
     </g>
   </g>
-
-  <defs>
-    <pattern id="major-grid" width="4" height="4" patternUnits="userSpaceOnUse">
-      <path style="fill:none;stroke:black;stroke-width:0.1;stroke-opacity:0.25" d="M 4 0 L 0 0 0 4"/>
-    </pattern>
-    <pattern id="minor-grid" width="1" height="1" patternUnits="userSpaceOnUse">
-      <path style="fill:none;stroke:black;stroke-width:0.1;stroke-opacity:0.25" d="M 1 0 L 0 0 0 1"/>
-    </pattern>
-  </defs>
-
-  <rect fill="url(#major-grid)" width="100%" height="100%"/>
-  <rect fill="url(#minor-grid)" width="100%" height="100%"/>
 </svg>
