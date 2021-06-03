@@ -1133,7 +1133,7 @@
 
         <g id="sliderhandle-normal" transform="translate(2,2)">
           <rect style="fill:none" width="28" height="28"/>
-          <circle style="fill:url('#slider-cursor-shadow')" cx="14" cy="14" r="14"/>
+          <circle style="fill:url(#slider-cursor-shadow)" cx="14" cy="14" r="14"/>
           <circle class="window-text" cx="14" cy="14" r="12"/>
           <path class="surface-border-top" d="m 2,14 a 12,12 0 0 1 24,0 a 12,11 0 0 0 -24,0"/>
           <path class="surface-border-bottom" d="m 2,14 a 12,12 0 0 0 24,0 a 12,11 0 0 1 -24,0"/>
@@ -1144,7 +1144,7 @@
 
         <g id="sliderhandle-disabled" transform="translate(2,2)">
           <rect style="fill:none;" width="28" height="28"/>
-          <circle style="fill:url('#slider-cursor-shadow')" cx="14" cy="14" r="14"/>
+          <circle style="fill:url(#slider-cursor-shadow)" cx="14" cy="14" r="14"/>
           <circle class="window-text disabled" cx="14" cy="14" r="12"/>
           <path class="surface-border-top" d="m 2,14 a 12,12 0 0 1 24,0 a 12,11 0 0 0 -24,0"/>
           <path class="surface-border-bottom" d="m 2,14 a 12,12 0 0 0 24,0 a 12,11 0 0 1 -24,0"/>
@@ -1175,7 +1175,7 @@
 
         <g id="sliderhandle-tickless-normal" transform="translate(8,8)">
           <rect style="fill:none" width="16" height="16"/>
-          <circle style="fill:url('#tickless-slider-cursor-shadow')" cx="8" cy="8" r="8"/>
+          <circle style="fill:url(#tickless-slider-cursor-shadow)" cx="8" cy="8" r="8"/>
           <circle class="window-text" style="stroke:none" cx="8" cy="8" r="6"/>
           <path class="surface-border-top" d="m 2,8 a 6,6 0 0 1 12,0 a 6,5 0 0 0 -12,0"/>
           <path class="surface-border-bottom" d="m 2,8 a 6,6 0 0 0 12,0 a 6,5 0 0 1 -12,0"/>
@@ -1186,7 +1186,7 @@
 
         <g id="sliderhandle-tickless-disabled" transform="translate(8,8)">
           <rect style="fill:none" width="16" height="16"/>
-          <circle style="fill:url('#tickless-slider-cursor-shadow')" cx="8" cy="8" r="8"/>
+          <circle style="fill:url(#tickless-slider-cursor-shadow)" cx="8" cy="8" r="8"/>
           <circle class="window-text disabled" style="stroke:none" cx="8" cy="8" r="6"/>
           <path class="surface-border-top" d="m 2,8 a 6,6 0 0 1 12,0 a 6,5 0 0 0 -12,0"/>
           <path class="surface-border-bottom" d="m 2,8 a 6,6 0 0 0 12,0 a 6,5 0 0 1 -12,0"/>

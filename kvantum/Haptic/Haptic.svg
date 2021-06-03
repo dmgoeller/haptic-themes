@@ -1188,7 +1188,7 @@
 
         <g id="sliderhandle-normal" transform="translate(2,2)">
           <rect style="fill:none" width="28" height="28"/>
-          <circle style="fill:url('#slider-cursor-shadow')" cx="14" cy="14" r="14"/>
+          <circle style="fill:url(#slider-cursor-shadow)" cx="14" cy="14" r="14"/>
           <circle class="slider-handle" cx="14" cy="14" r="11.5"/>
         </g>
       </g>
@@ -1197,7 +1197,7 @@
 
         <g id="sliderhandle-disabled" transform="translate(2,2)">
           <rect style="fill:none;" width="28" height="28"/>
-          <circle style="fill:url('#slider-cursor-shadow')" cx="14" cy="14" r="14"/>
+          <circle style="fill:url(#slider-cursor-shadow)" cx="14" cy="14" r="14"/>
           <circle class="slider-handle disabled" cx="14" cy="14" r="11.5"/>
         </g>
       </g>
@@ -1226,7 +1226,7 @@
 
         <g id="sliderhandle-tickless-normal" transform="translate(8,8)">
           <rect style="fill:none" width="16" height="16"/>
-          <circle style="fill:url('#tickless-slider-cursor-shadow')" cx="8" cy="8" r="8"/>
+          <circle style="fill:url(#tickless-slider-cursor-shadow)" cx="8" cy="8" r="8"/>
           <circle class="slider-handle" cx="8" cy="8" r="5.5"/>
         </g>
       </g>
@@ -1235,7 +1235,7 @@
 
         <g id="sliderhandle-tickless-disabled" transform="translate(8,8)">
           <rect style="fill:none" width="16" height="16"/>
-          <circle style="fill:url('#tickless-slider-cursor-shadow')" cx="8" cy="8" r="8"/>
+          <circle style="fill:url(#tickless-slider-cursor-shadow)" cx="8" cy="8" r="8"/>
           <circle class="slider-handle disabled" cx="8" cy="8" r="5.5"/>
         </g>
       </g>
