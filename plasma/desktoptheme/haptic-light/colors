@@ -17,13 +17,13 @@ DecorationFocus=38,112,208
 [Colors:Header]
 BackgroundNormal=255,255,255
 ForegroundNormal=96,96,96
-ForegroundInactive=144,144,144
+ForegroundInactive=120,120,120
 
 [Colors:Tooltip]
 BackgroundNormal=255,255,255
 ForegroundNormal=48,48,48
 ForegroundActive=96,96,96
-ForegroundInactive=144,144,144
+ForegroundInactive=120,120,120
 
 [Colors:View]
 BackgroundNormal=255,255,255
@@ -35,5 +35,5 @@ ForegroundVisited=106,27,154
 [Colors:Window]
 BackgroundNormal=240,240,240
 ForegroundNormal=48,48,48
-ForegroundInactive=144,144,144
+ForegroundInactive=96,96,96
 DecorationHover=154,183,219
