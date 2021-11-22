@@ -168,8 +168,8 @@ interior.element=menubaritem
 frame=false
 text.margin.top=4
 text.margin.bottom=4
-text.margin.left=6
-text.margin.right=6
+text.margin.left=12
+text.margin.right=12
 text.focus.color=#FFF
 
 [Menu]
