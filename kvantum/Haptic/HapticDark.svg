@@ -1761,29 +1761,29 @@
       <rect class="accent-color" x="32" width="32" height="32"/>
       <rect class="accent-color" x="192" width="32" height="32"/>
 
-      <g id="menu-radio-normal" transform="translate(8,8)">
+      <g id="menu-radio-button-normal" transform="translate(8,8)">
         <rect style="fill:none" width="20" height="20"/>
         <circle class="fill-none stroke-menuitem stroke-width-1_5" cx="10" cy="10" r="7.25"/>
       </g>
-      <g id="menu-radio-focused" transform="translate(38,8)">
+      <g id="menu-radio-button-focused" transform="translate(38,8)">
         <rect style="fill:none" width="20" height="20"/>
         <circle class="fill-none stroke-menuitem-focused stroke-width-1_5" cx="10" cy="10" r="7.25"/>
       </g>
-      <g id="menu-radio-disabled" transform="translate(134,8)">
+      <g id="menu-radio-button-disabled" transform="translate(134,8)">
         <rect style="fill:none" width="20" height="20"/>
         <circle class="fill-none stroke-menuitem disabled stroke-width-1_5" cx="10" cy="10" r="7.25"/>
       </g>
-      <g id="menu-radio-checked-normal" transform="translate(166,8)">
+      <g id="menu-radio-button-checked-normal" transform="translate(166,8)">
         <rect style="fill:none" width="20" height="20"/>
         <circle class="fill-none stroke-menuitem stroke-width-1_5" cx="10" cy="10" r="7.25"/>
         <circle class="menuitem" cx="10" cy="10" r="5"/>
       </g>
-      <g id="menu-radio-checked-focused" transform="translate(198,8)">
+      <g id="menu-radio-button-checked-focused" transform="translate(198,8)">
         <rect style="fill:none" width="20" height="20"/>
         <circle class="fill-none stroke-menuitem-focused stroke-width-1_5" cx="10" cy="10" r="7.25"/>
         <circle class="menuitem-focused" cx="10" cy="10" r="5"/>
       </g>
-      <g id="menu-radio-checked-disabled" transform="translate(294,8)">
+      <g id="menu-radio-button-checked-disabled" transform="translate(294,8)">
         <rect style="fill:none" width="20" height="20"/>
         <circle class="fill-none stroke-menuitem disabled stroke-width-1_5" cx="10" cy="10" r="7.25"/>
         <circle class="menuitem disabled" cx="10" cy="10" r="5"/>
