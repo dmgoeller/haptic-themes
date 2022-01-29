@@ -32,7 +32,7 @@
       <g transform="translate(0,32)">
         <rect style="fill:#FFF" x="4" y="4" width="56" height="24"/>
         <text class="color-value dark" x="32" y="20">#FFF</text>
-        <text class="label" x="204" y="19">Menu text</text>
+        <text class="label" x="204" y="20">Menu text</text>
       </g>
       <g transform="translate(0,64)">
         <rect style="fill:#F0F0F0" x="4" y="4" width="56" height="24"/>
@@ -52,7 +52,7 @@
         <text class="color-value dark" x="96" y="20">#FCFCFC</text>
         <text class="color-value dark" x="160" y="20">#FFF</text>
         <text class="label" x="204" y="13">View and text field text</text>
-        <text class="label-subline" x="204" y="25">also active titlebar  and tooltip text</text>
+        <text class="label-subline" x="204" y="25">also tooltip text</text>
       </g>
       <g transform="translate(0,128)">
         <rect style="fill:#C0C0C0" x="4" y="4" width="56" height="24"/>
@@ -62,13 +62,13 @@
         <text class="color-value dark" x="96" y="20">#D8D8D8</text>
         <text class="color-value dark" x="160" y="20">#F0F0F0</text>
         <text class="label" x="204" y="13">Window text</text>
-        <text class="label-subline" x="204" y="25">also inactive titlebar text</text>
+        <text class="label-subline" x="204" y="25">also active titlebar text</text>
       </g>
       <g transform="translate(0,160)">
-        <!-- = #C0C0C0 with an opacity of 50% on #303030 -->
-        <rect style="fill:#787878" x="4" y="4" width="56" height="24"/>
-        <text class="color-value dark" x="32" y="20">#787878</text>
-        <text class="label" x="204" y="20">Disabled text</text>
+        <rect style="fill:#6C6C6c" x="4" y="4" width="56" height="24"/>
+        <text class="color-value light" x="32" y="20">#6C6C6C</text>
+        <text class="label" x="204" y="13">Disabled text</text>
+        <text class="label-subline" x="204" y="25">also inactive titlebar text</text>
       </g>
       <g transform="translate(0,200)">
         <rect style="fill:#90CAF9" x="4" y="4" width="56" height="24"/> <!-- Blue 200 -->
@@ -107,12 +107,12 @@
     </g>
     <g transform="translate(4,4)">
       <g transform="translate(0,32)">
-        <rect style="fill:#6D6C6B" x="4" y="4" width="56" height="24"/>
-        <rect style="fill:#797877" x="68" y="4" width="56" height="24"/>
-        <rect style="fill:#858483" x="132" y="4" width="56" height="24"/>
-        <text class="color-value light" x="32" y="20">#6D6C6B</text>
-        <text class="color-value light" x="96" y="20">#797877</text>
-        <text class="color-value light" x="160" y="20">#858483</text>
+        <rect style="fill:#61605F" x="4" y="4" width="56" height="24"/>
+        <rect style="fill:#6D6C6B" x="68" y="4" width="56" height="24"/>
+        <rect style="fill:#797877" x="132" y="4" width="56" height="24"/>
+        <text class="color-value light" x="32" y="20">#61605F</text>
+        <text class="color-value light" x="96" y="20">#6D6C6B</text>
+        <text class="color-value light" x="160" y="20">#797877</text>
         <text class="label" x="204" y="13">Button background</text>
         <text class="label-subline" x="204" y="25">also scrollbar sliders</text>
       </g>
@@ -129,33 +129,31 @@
       </g>
       <g transform="translate(0,96)">
         <rect style="fill:#3D3C3B" x="4" y="4" width="56" height="24"/>
-        <rect style="fill:#444342" x="68" y="4" width="56" height="24"/>
+        <rect style="fill:#454443" x="68" y="4" width="56" height="24"/>
         <text class="color-value light" x="32" y="20">#3D3C3B</text>
-        <text class="color-value light" x="96" y="20">#444342</text>
+        <text class="color-value light" x="96" y="20">#454443</text>
         <text class="label" x="204" y="13">Tab background</text>
         <text class="label-subline" x="204" y="25">also group boxes</text>
       </g>
       <g transform="translate(0,128)">
         <rect style="fill:#31302F" x="4" y="4" width="56" height="24"/>
         <text class="color-value light" x="32" y="20">#31302F</text>
-        <text class="label" x="204" y="19">Window background</text>
+        <text class="label" x="204" y="20">Window background</text>
       </g>
       <g transform="translate(0,160)">
         <rect style="fill:#252423" x="4" y="4" width="56" height="24"/>
         <text class="color-value light" x="32" y="20">#252423</text>
-        <text class="label" x="204" y="13">Table headers and even rows</text>
-        <text class="label-subline" x="204" y="25">Alt base color</text>
+        <text class="label" x="204" y="20">View background</text>
       </g>
       <g transform="translate(0,192)">
         <rect style="fill:#191817" x="4" y="4" width="56" height="24"/>
         <text class="color-value light" x="32" y="20">#191817</text>
-        <text class="label" x="204" y="13">View background</text>
-        <text class="label-subline" x="204" y="25">Base color</text>
+        <text class="label" x="204" y="20"></text>
       </g>
       <g transform="translate(0,224)">
         <rect style="fill:#131211" x="4" y="4" width="56" height="24"/>
         <text class="color-value light" x="32" y="20">#131211</text>
-        <text class="label" x="204" y="19">Lines</text>
+        <text class="label" x="204" y="20">Lines</text>
       </g>
       <g transform="translate(0,256)">
         <rect style="fill:#32619D" x="4" y="4" width="56" height="24"/>

@@ -206,10 +206,15 @@
     <g id="group-expander-bottom" transform="translate(4,36)">
       <rect style="fill:none" width="56" height="28"/>
       <g transform="translate(35,5)"> <!-- right justified: 35,5 -->
-        <path class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5" d="m 2,0 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 1 v 1 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 h -1 v -1 a 2,2 0 0 0 -2,-2"/>
-        <g class="ColorScheme-Text" style="fill:currentColor">
+        <g class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5">
+          <path d="M 2,0 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 1 v 1 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 h -1 v -1 a 2,2 0 0 0 -2,-2
+                   M 1,2 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 1 h -12 a 2,2 0 0 0 -2,2 v 10 h -1 a 1,1 0 0 1 -1,-1
+                   M 4,5 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -14 a 1,1 0 0 1 -1,-1"/>
+          <path d="M 6,8 v 8 h 12 v -8 z m 1,1 h 10 v 6 h -10"/>
+        </g>
+        <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.75">
           <path d="m 5,4 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 14 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 12 v 8 h -12 z"/>
-          <path style="fill-opacity:0.75"  d="m 2,1 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 1 v -10 a 2,2 0 0 1 2,-2 h 12 v -1 a 1,1 0 0 0 -1,-1"/>
+          <path d="m 2,1 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 1 v -10 a 2,2 0 0 1 2,-2 h 12 v -1 a 1,1 0 0 0 -1,-1"/>
         </g>
       </g>
     </g>
@@ -408,10 +413,15 @@
   <g id="group-expander-top" transform="translate(4,0)">
     <rect style="fill:none" width="56" height="28"/>
     <g transform="translate(0,4)">
-      <path class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5" d="m 5,0 a 2,2 0 0 0 -2,2 v 1 h -1 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -1 h 1 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2"/>
-      <g class="ColorScheme-Text" style="fill:currentColor">
+      <g class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5">
+        <path d="M 5,0 a 2,2 0 0 0 -2,2 v 1 h -1 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -1 h 1 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2
+                 M 4,2 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -1 v -10 a 2,2 0 0 0 -2,-2 h -12
+                 M 1,5 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -14 a 1,1 0 0 1 -1,-1"/>
+        <path d="M 3,8 v 8 h 12 v -8 z m 1,1 h 10 v 6 h -10"/>
+      </g>
+      <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.75">
         <path d="m 2,4 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 14 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 12 v 8 h -12 z"/>
-        <path style="fill-opacity:0.75" d="m 5,1 a 1,1 0 0 0 -1,1 v 1 h 12 a 2,2 0 0 1 2,2 v 10 h 1 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1"/>
+        <path d="m 5,1 a 1,1 0 0 0 -1,1 v 1 h 12 a 2,2 0 0 1 2,2 v 10 h 1 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1"/>
       </g>
     </g>
   </g>
@@ -610,10 +620,15 @@
     <g id="group-expander-left" transform="translate(4,4)">
       <rect style="fill:none" width="28" height="56"/>
       <g transform="translate(1,37)">
-        <path class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5" d="m 5,0 a 2,2 0 0 0 -2,2 v 1 h -1 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -1 h 1 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2"/>
-        <g class="ColorScheme-Text" style="fill:currentColor">
+        <g class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5">
+          <path d="M 5,0 a 2,2 0 0 0 -2,2 v 1 h -1 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -1 h 1 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2
+                   M 4,2 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -1 v -10 a 2,2 0 0 0 -2,-2 h -12
+                   M 1,5 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -14 a 1,1 0 0 1 -1,-1"/>
+          <path d="M 3,8 v 8 h 12 v -8 z m 1,1 h 10 v 6 h -10"/>
+        </g>
+        <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.75">
           <path d="m 2,4 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 14 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 12 v 8 h -12 z"/>
-          <path style="fill-opacity:0.75" d="m 5,1 a 1,1 0 0 0 -1,1 v 1 h 12 a 2,2 0 0 1 2,2 v 10 h 1 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1"/>
+          <path d="m 5,1 a 1,1 0 0 0 -1,1 v 1 h 12 a 2,2 0 0 1 2,2 v 10 h 1 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1"/>
         </g>
       </g>
     </g>
@@ -813,10 +828,15 @@
     <g id="group-expander-right" transform="translate(36,4)">
       <rect style="fill:none" width="28" height="56"/>
       <g transform="translate(2,37)">
-        <path class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5" d="m 2,0 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 1 v 1 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 h -1 v -1 a 2,2 0 0 0 -2,-2"/>
-        <g class="ColorScheme-Text" style="fill:currentColor">
+        <g class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5">
+          <path d="M 2,0 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 1 v 1 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 h -1 v -1 a 2,2 0 0 0 -2,-2
+                   M 1,2 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 1 h -12 a 2,2 0 0 0 -2,2 v 10 h -1 a 1,1 0 0 1 -1,-1
+                   M 4,5 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -14 a 1,1 0 0 1 -1,-1"/>
+          <path d="M 6,8 v 8 h 12 v -8 z m 1,1 h 10 v 6 h -10"/>
+        </g>
+        <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.75">
           <path d="m 5,4 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 14 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 12 v 8 h -12 z"/>
-          <path style="fill-opacity:0.75"  d="m 2,1 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 1 v -10 a 2,2 0 0 1 2,-2 h 12 v -1 a 1,1 0 0 0 -1,-1"/>
+          <path d="m 2,1 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 1 v -10 a 2,2 0 0 1 2,-2 h 12 v -1 a 1,1 0 0 0 -1,-1"/>
         </g>
       </g>
     </g>

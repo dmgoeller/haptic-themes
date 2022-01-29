@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 120">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text { color: #606060 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.5">
+    <g id="22-22-busywidget" transform="translate(13)">
+      <rect style="fill:none" width="22" height="22"/>
+      <path d="M 1,11 a 10,10 1 1 0 10,-10 v 2 a 8,8 0 1 1 -8,8"/>
+    </g>
+    <g id="32-32-busywidget" transform="translate(8,32)">
+      <rect style="fill:none" width="32" height="32"/>
+      <path d="M 2,16 a 14,14 1 1 0 14,-14 v 2 a 12,12 0 1 1 -12,12"/>
+    </g>
+    <g id="busywidget" transform="translate(0,72)">
+      <rect style="fill:none" width="48" height="48"/>
+      <path d="M 2,24 a 22,22 1 1 0 22,-22 v 3 a 19,19 0 1 1 -19,19"/>
+    </g>
+  </g>
+</svg>

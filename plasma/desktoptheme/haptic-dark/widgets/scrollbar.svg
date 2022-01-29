@@ -2,8 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 24">
   <defs>
     <style type="text/css">
-      .Slider { fill: #F0F0F0; fill-opacity: 0.3125 }
-      .SliderHover { fill: #F0F0F0; fill-opacity: 0.375 }
+      .Slider { fill: #F0F0F0; fill-opacity: 0.25 }
+      .SliderHover { fill: #F0F0F0; fill-opacity: 0.3125 }
     </style>
     <radialGradient id="shadow-topleft" cx="6" cy="6" r="6" gradientUnits="userSpaceOnUse">
       <stop offset="0.67" style="stop-color:black;stop-opacity:0.25"/>

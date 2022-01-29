@@ -1,29 +1,28 @@
-[Desktop Entry]
-Name=Haptic Dark
-Comment=A dark desktop theme inspired by Material Design
-
-X-KDE-PluginInfo-Author=Denis Göller
-X-KDE-PluginInfo-Email=denis@dmgoeller.de
-X-KDE-PluginInfo-Name=haptic-dark
-X-KDE-PluginInfo-Version=1.0.0
-X-KDE-PluginInfo-Website=https://github.com/dmgoeller/haptic-themes
-X-KDE-PluginInfo-Category=
-X-KDE-PluginInfo-Depends=haptic
-X-KDE-PluginInfo-License=Apache
-X-KDE-PluginInfo-EnabledByDefault=true
-X-Plasma-API=5.0
-
-[Wallpaper]
-defaultWallpaperTheme=haptic-dark
-defaultFileSuffix=.png
-defaultWidth=1920
-defaultHeight=1080
-
 [ContrastEffect]
-enabled=false
 contrast=0.2
+enabled=false
 intensity=0.4
 saturation=1.7
 
+[Desktop Entry]
+Comment=A dark desktop theme inspired by Material Design
+Name=Haptic Dark
+X-KDE-PluginInfo-Author=Denis Göller
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=haptic
+X-KDE-PluginInfo-Email=denis@dmgoeller.de
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=Apache
+X-KDE-PluginInfo-Name=haptic-dark
+X-KDE-PluginInfo-Version=1.0.1
+X-KDE-PluginInfo-Website=https://github.com/dmgoeller/haptic-themes
+X-Plasma-API=5.0
+
 [Settings]
 FallbackTheme=haptic
+
+[Wallpaper]
+defaultFileSuffix=.png
+defaultHeight=1080
+defaultWallpaperTheme=haptic-dark
+defaultWidth=1920

@@ -20,15 +20,15 @@ IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=192,192,192
-BackgroundNormal=180,180,180
+BackgroundNormal=192,192,192
 DecorationFocus=154,183,219
-DecorationHover=138,138,138
-ForegroundActive=48,48,48
+DecorationHover=180,180,180
+ForegroundActive=72,72,72
 ForegroundInactive=108,108,108
 ForegroundLink=21,101,192
 ForegroundNegative=198,40,40
 ForegroundNeutral=245,127,23
-ForegroundNormal=24,24,24
+ForegroundNormal=72,72,72
 ForegroundPositive=46,125,50
 ForegroundVisited=106,27,154
 

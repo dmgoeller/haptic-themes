@@ -79,20 +79,20 @@ x11drag=menubar_and_primary_toolbar
 
 [GeneralColors]
 base.color=#FFFFFF80
-alt.base.color=#FFFFFF40
+alt.base.color=#30303010
 text.color=#303030
-disabled.text.color=#909090
+disabled.text.color=#30303080
 window.color=#F0F0F0
 window.text.color=#606060
-button.color=#787878
-button.text.color=#303030
+button.color=#30303040
+button.text.color=#484848
 highlight.color=#9AB7DB
 highlight.text.color=#303030
 tooltip.base.color=#303030
 tooltip.text.color=#F0F0F0
 link.color=#1565C0
 link.visited.color=#6A1B9A
-progress.indicator.text.color=#FFFFFF
+progress.indicator.text.color=#FFF
 light.color=#FFFFFF40
 mid.light.color=#FFFFFF20
 mid.color=#30303020
@@ -110,7 +110,7 @@ lxqtmainmenu_iconsize=16
 middle_click_scroll=false
 no_selection_tint=true
 normal_default_pushbutton=true
-opaque_colors=true
+opaque_colors=false
 respect_darkness=true
 scroll_jump_workaround=false
 single_top_toolbar=true
@@ -159,8 +159,8 @@ inherits=BaseWidget
 interior.element=translucent-menubar
 frame.element=translucent-menubar
 frame.bottom=1
-text.normal.color=#303030
-text.normal.inactive.color=#909090
+text.normal.color=#484848
+text.normal.inactive.color=#30303080
 
 [MenuBarItem]
 inherits=BaseWidget
@@ -170,7 +170,7 @@ text.margin.top=4
 text.margin.bottom=4
 text.margin.left=12
 text.margin.right=12
-text.focus.color=#FFFFFF
+text.focus.color=#FFF
 
 [Menu]
 inherits=BaseWidget
@@ -191,8 +191,7 @@ frame.left=12
 frame.right=12
 text.iconspacing=12
 text.normal.color=#303030
-text.focus.color=#FFFFFF
-text.toggle.color=#FFFFFF
+text.focus.color=#FFF
 
 [Toolbar]
 inherits=MenuBar
@@ -221,14 +220,14 @@ frame.bottom=4
 text.margin.top=8
 text.margin.bottom=5
 text.normal.color=#606060
-text.focus.color=#303030
+text.focus.color=#484848
 text.bold=true
 text.boldness=1
 
 [TabBarFrame]
 inherits=BaseWidget
 interior.element=translucent-tabbar
-frame.element=tabbar
+frame.element=translucent-tabbar
 frame.bottom=1
 
 [TabFrame]
@@ -250,15 +249,15 @@ text.margin.bottom=5
 text.margin.left=10
 text.margin.right=10
 text.normal.color=#606060
-text.focus.color=#303030
-text.toggle.color=#303030
+text.focus.color=#545454
+text.toggle.color=#484848
 text.bold=true
 text.boldness=1
 
 [GroupBox]
 inherits=BaseWidget
-interior.element=group
-frame.element=group
+interior.element=translucent-group
+frame.element=translucent-group
 frame.top=4
 frame.bottom=4
 frame.left=4
@@ -281,34 +280,34 @@ text.margin.left=8
 text.margin.right=8
 text.bold=true
 text.boldness=1
-text.normal.color=#181818
-text.focus.color=#181818
-text.press.color=#181818
+text.normal.color=#484848
+text.focus.color=#3C3C3C
+text.press.color=#3C3C3C
 text.toggle.color=#FFF
+text.disabled.color=#30303080
+
+[FlatPanelButtonCommand]
+inherits=PanelButtonCommand
+interior.element=translucent-flat-button
+frame.element=translucent-flat-button
 
 [PanelButtonTool]
 inherits=BaseButton
-interior.element=toolbutton
-frame.element=toolbutton
+interior.element=translucent-toolbutton
+frame.element=translucent-toolbutton
 frame.top=4
 frame.bottom=4
 frame.left=4
 frame.right=4
 text.bold=true
 text.boldness=2
-text.normal.color=#303030
-text.focus.color=#303030
-text.press.color=#303030
-text.toggle.color=#181818
+text.normal.color=#484848
+text.focus.color=#3C3C3C
+text.toggle.color=#303030
+text.disabled.color=#30303080
 
 [ToolbarButton]
-inherits=BaseButton
-interior.element=toolbar-button
-frame.element=toolbar-button
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
+inherits=PanelButtonTool
 
 [DropDownButton]
 indicator.element=arrow-down
@@ -316,8 +315,8 @@ indicator.size=12
 
 [LineEdit]
 inherits=BaseWidget
-interior.element=lineedit
-frame.element=lineedit
+interior.element=translucent-lineedit
+frame.element=translucent-lineedit
 frame.top=4
 frame.bottom=4
 frame.left=4
@@ -344,10 +343,6 @@ indicator.element=combobox-indicator
 indicator.size=16
 text.margin.left=9
 text.margin.right=9
-text.normal.color=#303030
-text.focus.color=#303030
-text.press.color=#303030
-text.toggle.color=#303030
 
 [ToolbarComboBox]
 inherits=ComboBox
@@ -363,8 +358,8 @@ indicator.element=frameless-combobox-indicator
 
 [IndicatorSpinBox]
 inherits=BaseWidget
-interior.element=spinbox
-frame.element=spinbox
+interior.element=translucent-spinbox
+frame.element=translucent-spinbox
 frame.top=4
 frame.bottom=4
 frame.left=4
@@ -373,15 +368,14 @@ indicator.element=spin
 indicator.size=12
 
 [CheckBox]
-interior.element=checkbox
+interior.element=translucent-checkbox
 
 [RadioButton]
-interior.element=radio-button
+interior.element=translucent-radio-button
 
 [Slider]
 inherits=BaseWidget
 interior.element=slider
-
 frame.element=slider
 frame.top=6
 frame.bottom=6
@@ -401,6 +395,8 @@ frame.top=5
 frame.bottom=5
 frame.left=3
 frame.right=3
+text.normal.color=#606060
+text.focus.color=#606060
 
 [ProgressbarContents]
 inherits=BaseWidget
@@ -422,7 +418,7 @@ frame=false
 [ScrollbarSlider]
 inherits=BaseWidget
 interior=false
-frame.element=scrollbarslider
+frame.element=translucent-scrollbarslider
 frame.top=6
 frame.bottom=6
 frame.left=8
@@ -438,13 +434,15 @@ inherits=BaseWidget
 interior.element=translucent-header
 indicator.element=arrow
 frame.element=translucent-header
-frame.top=4
-frame.bottom=4
+frame.top=1
+frame.bottom=1
 frame.left=1
 frame.right=1
+text.margin.top=3
+text.margin.bottom=3
 text.margin.left=8
 text.margin.right=8
-text.normal.color=#303030
+text.normal.color=#484848
 text.bold=true
 
 [ItemView]
@@ -487,8 +485,8 @@ text.margin.top=4
 text.margin.bottom=4
 text.margin.left=4
 text.margin.right=4
-text.normal.color=#606060
-text.focus.color=#303030
+text.normal.color=#30303080
+text.focus.color=#606060
 
 [SizeGrip]
 indicator.element=transparent

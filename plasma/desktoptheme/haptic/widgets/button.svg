@@ -2,8 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80">
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-ButtonBackground { color: #A8A8A8 }
-      .ColorScheme-ButtonHover { color: #8A8A8A }
+      .ColorScheme-ButtonBackground { color: #C0C0C0 }
+      .ColorScheme-ButtonHover { color: #B4B4B4 }
       .ColorScheme-ButtonFocus { color: #2670D0 }
     </style>
   </defs>
@@ -47,7 +47,7 @@
   </g>
 
   <g transform="translate(82,2)">
-    <g class="ColorScheme-ButtonHover" style="fill:currentColor;fill-opacity:0.75">
+    <g class="ColorScheme-ButtonHover" style="fill:currentColor">
       <path id="pressed-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 v 2 h 12 v -6"/>
       <rect id="pressed-top" x="12"  width="12" height="6"/>
       <path id="pressed-topright" d="m 24,0 v 6 h 12 v -2 a 4,4 0 0 0 -4,-4"/>
@@ -129,7 +129,7 @@
 
   <!-- Toolbuttons -->
 
-  <g class="ColorScheme-ButtonBackground" style="fill:currentColor;fill-opacity:0.5" transform="translate(42,42)">
+  <g class="ColorScheme-ButtonBackground" style="fill:currentColor" transform="translate(42,42)">
     <path id="toolbutton-hover-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 h 4"/>
     <rect id="toolbutton-hover-top" x="4" width="28" height="4"/>
     <path id="toolbutton-hover-topright" d="m 32,4 h 4 a 4,4 0 0 0 -4,-4"/>
@@ -140,7 +140,7 @@
     <rect id="toolbutton-hover-bottom" x="4" y="32" width="28" height="4"/>
     <path id="toolbutton-hover-bottomright" d="m 32,36 a 4,4 0 0 0 4,-4 h -4"/>
   </g>
-  <g class="ColorScheme-ButtonBackground" style="fill:currentColor;fill-opacity:0.75" transform="translate(82,42)">
+  <g class="ColorScheme-ButtonBackground" style="fill:currentColor" transform="translate(82,42)">
     <path id="toolbutton-pressed-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 h 4"/>
     <rect id="toolbutton-pressed-top" x="4" width="28" height="4"/>
     <path id="toolbutton-pressed-topright" d="m 32,4 h 4 a 4,4 0 0 0 -4,-4"/>

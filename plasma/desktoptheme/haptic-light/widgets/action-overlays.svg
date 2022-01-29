@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <style type="text/css">
+      .Background { fill: black; fill-opacity: 0.25 }
+      .BackgroundHover { fill: black; fill-opacity: 0.375 }
+      .BackgroundPressed { fill: black; fill-opacity: 0.5 }
+      .Symbol { fill: white }
+    </style>
+  </defs>
+  <g>
+    <g id="open-normal">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="Background" cx="12" cy="12" r="10"/>
+      <path class="Symbol"
+            d="m 18.707,12.707 a 1,1 0 0 0 0,-1.414 l -5,-5 a 1,1 0 0 0 -1.414,1.414 l 3.293,3.293
+               h -9.568 a 1,1 0 0 0 0,2 h 9.568 l -3.293,3.293 a 1,1 0 0 0 1.414,1.414 z"/>
+    </g>
+    <g id="open-hover" transform="translate(32)">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="BackgroundHover" cx="12" cy="12" r="10"/>
+      <path class="Symbol"
+            d="m 18.707,12.707 a 1,1 0 0 0 0,-1.414 l -5,-5 a 1,1 0 0 0 -1.414,1.414 l 3.293,3.293
+               h -9.568 a 1,1 0 0 0 0,2 h 9.568 l -3.293,3.293 a 1,1 0 0 0 1.414,1.414 z"/>
+    </g>
+    <g id="open-pressed" transform="translate(64)">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="BackgroundPressed" cx="12" cy="12" r="10"/>
+      <path class="Symbol"
+            d="m 18.707,12.707 a 1,1 0 0 0 0,-1.414 l -5,-5 a 1,1 0 0 0 -1.414,1.414 l 3.293,3.293
+               h -9.568 a 1,1 0 0 0 0,2 h 9.568 l -3.293,3.293 a 1,1 0 0 0 1.414,1.414 z"/>
+    </g>
+  </g>
+  <g transform="translate(0,32)">
+    <g id="add-normal">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="Background" cx="12" cy="12" r="10"/>
+      <path class="Symbol"
+            d="m 11,6 a 1,1 0 0 1 2,0 v 5 h 5 a 1,1 0 0 1 0,2 h -5 v 5 a 1,1 0 0 1 -2,0 v -5 h -5 a 1,1 0 0 1 0,-2 h 5 z"/>
+    </g>
+    <g id="add-hover" transform="translate(32)">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="BackgroundHover" cx="12" cy="12" r="10"/>
+      <path class="Symbol"
+            d="m 11,6 a 1,1 0 0 1 2,0 v 5 h 5 a 1,1 0 0 1 0,2 h -5 v 5 a 1,1 0 0 1 -2,0 v -5 h -5 a 1,1 0 0 1 0,-2 h 5 z"/>
+    </g>
+    <g id="add-pressed" transform="translate(64)">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="BackgroundPressed" cx="12" cy="12" r="10"/>
+      <path class="Symbol"
+            d="m 11,6 a 1,1 0 0 1 2,0 v 5 h 5 a 1,1 0 0 1 0,2 h -5 v 5 a 1,1 0 0 1 -2,0 v -5 h -5 a 1,1 0 0 1 0,-2 h 5 z"/>
+    </g>
+  </g>
+  <g transform="translate(0,64)">
+    <g id="remove-normal">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="Background" cx="12" cy="12" r="10"/>
+      <path class="Symbol" d="m 6,13 a 1,1 0 0 1 0,-2 h 12 a 1,1 0 0 1 0,2 z"/>
+    </g>
+    <g id="remove-hover" transform="translate(32)">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="BackgroundHover" cx="12" cy="12" r="10"/>
+      <path class="Symbol" d="m 6,13 a 1,1 0 0 1 0,-2 h 12 a 1,1 0 0 1 0,2 z"/>
+    </g>
+    <g id="remove-pressed" transform="translate(64)">
+      <rect style="fill:none" width="24" height="24"/>
+      <circle class="BackgroundPressed" cx="12" cy="12" r="10"/>
+      <path class="Symbol" d="m 6,13 a 1,1 0 0 1 0,-2 h 12 a 1,1 0 0 1 0,2 z"/>
+    </g>
+  </g>
+</svg>

@@ -4,10 +4,10 @@
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Background { color: #F0F0F0 }
       .ColorScheme-ButtonFocus { color: #2670D0 }
-      .ColorScheme-Text { color: #606060 }      
+      .ColorScheme-Text { color: #606060 }
       .ColorScheme-ViewText { color: #303030 }
     </style>
-    <radialGradient id="slider-shadow">
+    <radialGradient id="slider-shadow" r="50%">
       <stop offset="0.85" style="stop-color:black;stop-opacity:0.125"/>
       <stop offset="1" style="stop-color:black;stop-opacity:0"/>
     </radialGradient>
@@ -48,21 +48,20 @@
 
   <g id="horizontal-slider-shadow" transform="translate(24,14)">
     <g id="vertical-slider-shadow">
-      <circle style="fill:url(#slider-shadow)" r="14"/>
+      <circle style="fill:url(#slider-shadow)" r="10"/>
     </g>
   </g>
 
   <g id="horizontal-slider-handle" transform="translate(24,14)">
     <g id="vertical-slider-handle">
-      <rect style="fill:none" x="-14" y="-14" width="28" height="28"/>
-      <circle class="ColorScheme-Background" style="fill:currentColor" r="12"/>
-      <circle class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:1" r="11.5"/>
+      <circle class="ColorScheme-Background" style="fill:currentColor" r="8"/>
+      <circle class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:1" r="7.5"/>
     </g>
   </g>
 
   <!-- Hints -->
 
-  <g id="hints" style="fill:#B0BEC5">
-    <circle id="hint-handle-size" cx="12" cy="12" r="9" transform="translate(-24,0)"/>
+  <g id="hints" style="fill:#B0BEC5" transform="translate(-24,14)">
+    <circle id="hint-handle-size" r="8"/>
   </g>
 </svg>

@@ -2,33 +2,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 320">
   <defs>
     <style type="text/css">
-      .Background { fill: white; fill-opacity: 0.5 }
-      .FadedBackground { fill: white; fill-opacity: 0.375 }
-      .Indicator { fill: #A8A8A8 }
-      .FocusIndicator { fill: #2670D0 }
+      .Background { fill: #F0F0F0; fill-opacity: 0.125 }
+      .FadedBackground { fill: #F0F0F0; fill-opacity: 0.0625 }
+      .Indicator { fill: #61605F }
+      .FocusIndicator { fill: #7BA1D0 }
       .ProgressOverlay { fill: #2670D0; fill-opacity: 0.25 }
-      .ProgressIndicator { fill: #1D569C }
-      .AttentationBackground { fill: #F57F17; fill-opacity: 0.25 }
-      .AttentationIndicator { fill: #B96011 }
-      .Icon { fill: black; fill-opacity: 0.6125 }
-      .IconOutline { fill: white; fill-opacity: 0.5 }
-      .Border { fill: #303030; fill-opacity: 0.1875 }
+      .ProgressIndicator { fill: #2670D0 }
+      .AttentationBackground { fill: #FFE082; fill-opacity: 0.25 }
+      .AttentationIndicator { fill: #FFE082 }
+      .Icon { fill: white; fill-opacity: 0.75 }
+      .IconOutline { fill: black; fill-opacity: 0.5 }
     </style>
   </defs>
 
-  <rect style="fill:#F0F0F0" width="100%" height="100%"/>
+  <rect style="fill:#31302F" width="100%" height="100%"/>
 
   <!-- south -->
 
-  <g transform="translate(96,252)">
-    <rect style="fill:#303030;fill-opacity:0.25" width="320" height="1"/>
+  <g transform="translate(96,256)">
+    <rect style="fill:#F0F0F0;fill-opacity:0.125" width="320" height="1"/>
 
     <g>
       <g id="normal-topleft">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FadedBackground" x="1" width="3" height="1"/>
         <rect class="Background" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" x="1" y="1" width="1" height="3"/>
       </g>
       <g id="normal-top" transform="translate(4,0)">
         <rect class="FadedBackground" width="56" height="1"/>
@@ -38,12 +36,10 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FadedBackground" width="3" height="1"/>
         <rect class="Background" y="1" width="3" height="3"/>
-        <rect class="Border" x="2" y="1" width="1" height="3"/>
       </g>
       <g id="normal-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" x="1" width="3" height="56"/>
-        <rect class="Border" x="1" width="1" height="56"/>
       </g>
       <g id="normal-center" transform="translate(4,4)">
         <rect class="Background" width="56" height="56"/>
@@ -51,13 +47,11 @@
       <g id="normal-right" transform="translate(60,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" width="3" height="56"/>
-        <rect class="Border" x="2" width="1" height="56"/>
       </g>
       <g id="normal-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" width="3" height="1"/>
         <rect class="Indicator" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" x="1" width="1" height="4"/>
       </g>
       <g id="normal-bottom" transform="translate(4,60)">
         <rect class="Background" width="56" height="1"/>
@@ -67,7 +61,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="3" height="1"/>
         <rect class="Indicator" y="1" width="3" height="3"/>
-        <rect class="Border" x="2" width="1" height="4"/>
       </g>
     </g>
     <g transform="translate(64,0)">
@@ -75,7 +68,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FadedBackground" x="1" width="3" height="1"/>
         <rect class="Background" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" x="1" y="1" width="1" height="3"/>
       </g>
       <g id="minimized-top" transform="translate(4,0)">
         <rect class="FadedBackground" width="56" height="1"/>
@@ -85,12 +77,10 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FadedBackground" width="3" height="1"/>
         <rect class="Background" y="1" width="3" height="3"/>
-        <rect class="Border" x="2" y="1" width="1" height="3"/>
       </g>
       <g id="minimized-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" x="1" width="3" height="56"/>
-        <rect class="Border" x="1" width="1" height="56"/>
       </g>
       <g id="minimized-center" transform="translate(4,4)">
         <rect class="Background" width="56" height="56"/>
@@ -98,13 +88,11 @@
       <g id="minimized-right" transform="translate(60,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" width="3" height="56"/>
-        <rect class="Border" x="2" width="1" height="56"/>
       </g>
       <g id="minimized-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" width="3" height="1"/>
         <rect class="Indicator" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" x="1" width="1" height="4"/>
       </g>
       <g id="minimized-bottom" transform="translate(4,60)">
         <rect class="Background" width="56" height="1"/>
@@ -114,7 +102,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="3" height="1"/>
         <rect class="Indicator" y="1" width="3" height="3"/>
-        <rect class="Border" x="2" width="1" height="4"/>
       </g>
     </g>
     <g transform="translate(128,0)">
@@ -122,7 +109,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FadedBackground" x="1" width="3" height="1"/>
         <rect class="Background" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" x="1" y="1" width="1" height="3"/>
       </g>
       <g id="focus-top" transform="translate(4,0)">
         <rect class="FadedBackground" width="56" height="1"/>
@@ -132,12 +118,10 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FadedBackground" width="3" height="1"/>
         <rect class="Background" y="1" width="3" height="3"/>
-        <rect class="Border" x="2" y="1" width="1" height="3"/>
       </g>
       <g id="focus-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" x="1" width="3" height="56"/>
-        <rect class="Border" x="1" width="1" height="56"/>
       </g>
       <g id="focus-center" transform="translate(4,4)">
         <rect class="Background" width="56" height="56"/>
@@ -145,13 +129,11 @@
       <g id="focus-right" transform="translate(60,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" width="3" height="56"/>
-        <rect class="Border" x="2" width="1" height="56"/>
       </g>
       <g id="focus-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" width="3" height="1"/>
         <rect class="FocusIndicator" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" x="1" width="1" height="4"/>
       </g>
       <g id="focus-bottom" transform="translate(4,60)">
         <rect class="Background" width="56" height="1"/>
@@ -161,14 +143,12 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="3" height="1"/>
         <rect class="FocusIndicator" y="1" width="3" height="3"/>
-        <rect class="Border" x="2" width="1" height="4"/>
       </g>
     </g>
     <g transform="translate(192,0)">
       <g id="attention-topleft">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" x="1" width="3" height="4"/>
-        <rect class="Border" x="1" y="1" width="1" height="3"/>
       </g>
       <g id="attention-top" transform="translate(4,0)">
         <rect class="AttentationBackground" width="56" height="4"/>
@@ -176,12 +156,10 @@
       <g id="attention-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" width="3" height="4"/>
-        <rect class="Border" x="2" y="1" width="1" height="3"/>
       </g>
       <g id="attention-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="AttentationBackground" x="1" width="3" height="56"/>
-        <rect class="Border" x="1" width="1" height="56"/>
       </g>
       <g id="attention-center" transform="translate(4,4)">
         <rect class="AttentationBackground" width="56" height="56"/>
@@ -189,13 +167,11 @@
       <g id="attention-right" transform="translate(60,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="AttentationBackground" width="3" height="56"/>
-        <rect class="Border" x="2" width="1" height="56"/>
       </g>
       <g id="attention-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" x="1" width="3" height="1"/>
         <rect class="AttentationIndicator" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" x="1" width="1" height="4"/>
       </g>
       <g id="attention-bottom" transform="translate(4,60)">
         <rect class="AttentationBackground" width="56" height="1"/>
@@ -205,7 +181,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" width="3" height="1"/>
         <rect class="AttentationIndicator" y="1" width="3" height="3"/>
-        <rect class="Border" x="2" width="1" height="4"/>
       </g>
     </g>
     <g transform="translate(256,0)">
@@ -235,7 +210,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="ProgressOverlay" x="1" width="3" height="1"/>
         <rect class="ProgressIndicator" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" x="1" y="1" width="1" height="3"/>
       </g>
       <g id="progress-bottom" transform="translate(4,60)">
         <rect class="ProgressOverlay" width="56" height="1"/>
@@ -245,7 +219,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="ProgressOverlay" width="3" height="1"/>
         <rect class="ProgressIndicator" y="1" width="3" height="3"/>
-        <rect class="Border" x="2" y="1" width="1" height="3"/>
       </g>
     </g>
     <g id="group-expander-bottom" transform="translate(4,36)">
@@ -268,14 +241,13 @@
   <!-- north -->
 
   <g transform="translate(96)">
-    <rect style="fill:#303030;fill-opacity:0.25" y="63" width="320" height="1"/>
+    <rect style="fill:black;fill-opacity:0.125" y="63" width="320" height="1"/>
 
     <g>
       <g id="north-normal-topleft">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Indicator" x="1" width="3" height="3"/>
         <rect class="Background" x="1" y="3" width="3" height="1"/>
-        <rect class="Border" x="1" width="1" height="4"/>
       </g>
       <g id="north-normal-top" transform="translate(4,0)">
         <rect class="Indicator" width="56" height="3"/>
@@ -285,12 +257,10 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Indicator" width="3" height="3"/>
         <rect class="Background" y="3" width="3" height="1"/>
-        <rect class="Border" x="2" width="1" height="4"/>
       </g>
       <g id="north-normal-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" x="1" width="3" height="56"/>
-        <rect class="Border" x="1" width="1" height="56"/>
       </g>
       <g id="north-normal-center" transform="translate(4,4)">
         <rect class="Background" width="56" height="56"/>
@@ -298,13 +268,11 @@
       <g id="north-normal-right" transform="translate(60,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" width="3" height="56"/>
-        <rect class="Border" x="2" width="1" height="56"/>
       </g>
       <g id="north-normal-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" width="3" height="3"/>
         <rect class="FadedBackground" x="1" y="3" width="3" height="1"/>
-        <rect class="Border" x="1" width="1" height="3"/>
       </g>
       <g id="north-normal-bottom" transform="translate(4,60)">
         <rect class="Background" width="56" height="3"/>
@@ -314,7 +282,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="3" height="3"/>
         <rect class="FadedBackground" y="3" width="3" height="1"/>
-        <rect class="Border" x="2" width="1" height="3"/>
       </g>
     </g>
     <g transform="translate(64,0)">
@@ -322,7 +289,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Indicator" x="1" width="3" height="3"/>
         <rect class="Background" x="1" y="3" width="3" height="1"/>
-        <rect class="Border" x="1" width="1" height="4"/>
       </g>
       <g id="north-minimized-top" transform="translate(4,0)">
         <rect class="Indicator" width="56" height="3"/>
@@ -332,12 +298,10 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Indicator" width="3" height="3"/>
         <rect class="Background" y="3" width="3" height="1"/>
-        <rect class="Border" x="2" width="1" height="4"/>
       </g>
       <g id="north-minimized-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" x="1" width="3" height="56"/>
-        <rect class="Border" x="1" width="1" height="56"/>
       </g>
       <g id="north-minimized-center" transform="translate(4,4)">
         <rect class="Background" width="56" height="56"/>
@@ -345,13 +309,11 @@
       <g id="north-minimized-right" transform="translate(60,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" width="3" height="56"/>
-        <rect class="Border" x="2" width="1" height="56"/>
       </g>
       <g id="north-minimized-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" width="3" height="3"/>
         <rect class="FadedBackground" x="1" y="3" width="3" height="1"/>
-        <rect class="Border" x="1" width="1" height="3"/>
       </g>
       <g id="north-minimized-bottom" transform="translate(4,60)">
         <rect class="Background" width="56" height="3"/>
@@ -361,7 +323,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="3" height="3"/>
         <rect class="FadedBackground" y="3" width="3" height="1"/>
-        <rect class="Border" x="2" width="1" height="3"/>
       </g>
     </g>
     <g transform="translate(128,0)">
@@ -369,7 +330,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FocusIndicator" x="1" width="3" height="3"/>
         <rect class="Background" x="1" y="3" width="3" height="1"/>
-        <rect class="Border" x="1" width="1" height="4"/>
       </g>
       <g id="north-focus-top" transform="translate(4,0)">
         <rect class="FocusIndicator" width="56" height="3"/>
@@ -379,12 +339,10 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FocusIndicator" width="3" height="3"/>
         <rect class="Background" y="3" width="3" height="1"/>
-        <rect class="Border" x="2" width="1" height="4"/>
       </g>
       <g id="north-focus-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" x="1" width="3" height="56"/>
-        <rect class="Border" x="1" width="1" height="56"/>
       </g>
       <g id="north-focus-center" transform="translate(4,4)">
         <rect class="Background" width="56" height="56"/>
@@ -392,13 +350,11 @@
       <g id="north-focus-right" transform="translate(60,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="Background" width="3" height="56"/>
-        <rect class="Border" x="2" width="1" height="56"/>
       </g>
       <g id="north-focus-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" width="3" height="3"/>
         <rect class="FadedBackground" x="1" y="3" width="3" height="1"/>
-        <rect class="Border" x="1" width="1" height="3"/>
       </g>
       <g id="north-focus-bottom" transform="translate(4,60)">
         <rect class="Background" width="56" height="3"/>
@@ -408,7 +364,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="3" height="3"/>
         <rect class="FadedBackground" y="3" width="3" height="1"/>
-        <rect class="Border" x="2" width="1" height="3"/>
       </g>
     </g>
     <g transform="translate(192,0)">
@@ -416,7 +371,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationIndicator" x="1" width="3" height="3"/>
         <rect class="AttentationBackground" x="1" y="3" width="3" height="1"/>
-        <rect class="Border" x="1" width="1" height="4"/>
       </g>
       <g id="north-attention-top" transform="translate(4,0)">
         <rect class="AttentationIndicator" width="56" height="3"/>
@@ -426,12 +380,10 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationIndicator" width="3" height="3"/>
         <rect class="AttentationBackground" y="3" width="3" height="1"/>
-        <rect class="Border" x="2" width="1" height="4"/>
       </g>
       <g id="north-attention-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="AttentationBackground" x="1" width="3" height="56"/>
-        <rect class="Border" x="1" width="1" height="56"/>
       </g>
       <g id="north-attention-center" transform="translate(4,4)">
         <rect class="AttentationBackground" width="56" height="56"/>
@@ -439,12 +391,10 @@
       <g id="north-attention-right" transform="translate(60,4)">
         <rect style="fill:none" width="4" height="56"/>
         <rect class="AttentationBackground" width="3" height="56"/>
-        <rect class="Border" x="2" width="1" height="56"/>
       </g>
       <g id="north-attention-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" x="1" width="3" height="4"/>
-        <rect class="Border" x="1" width="1" height="3"/>
       </g>
       <g id="north-attention-bottom" transform="translate(4,60)">
         <rect class="AttentationBackground" width="56" height="4"/>
@@ -452,7 +402,6 @@
       <g id="north-attention-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" width="3" height="4"/>
-        <rect class="Border" x="2" width="1" height="3"/>
       </g>
     </g>
     <g transform="translate(256,0)">
@@ -460,7 +409,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="ProgressIndicator" x="1" width="3" height="3"/>
         <rect class="ProgressOverlay" x="1" y="3" width="3" height="1"/>
-        <rect class="Border" x="1" width="1" height="3"/>
       </g>
       <g id="north-progress-top" transform="translate(4,0)">
         <rect class="ProgressIndicator" width="56" height="3"/>
@@ -470,7 +418,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="ProgressIndicator" width="3" height="3"/>
         <rect class="ProgressOverlay" y="3" width="3" height="1"/>
-        <rect class="Border" x="2" width="1" height="3"/>
       </g>
       <g id="north-progress-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
@@ -515,25 +462,22 @@
   <!-- west -->
 
   <g>
-    <rect style="fill:#303030;fill-opacity:0.25" x="63" width="1" height="320"/>
+    <rect style="fill:#F0F0F0;fill-opacity:0.0625" x="63" width="1" height="320"/>
 
     <g>
       <g id="west-normal-topleft">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Indicator" y="1" width="3" height="3"/>
         <rect class="Background" x="3" y="1" width="1" height="3"/>
-        <rect class="Border" y="1" width="4" height="1"/>
       </g>
       <g id="west-normal-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" y="1" width="56" height="3"/>
-        <rect class="Border" y="1" width="56" height="1"/>
       </g>
       <g id="west-normal-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" y="1" width="3" height="3"/>
         <rect class="FadedBackground" y="1" x="3" width="1" height="3"/>
-        <rect class="Border" y="1" width="3" height="1"/>
       </g>
       <g id="west-normal-left" transform="translate(0,4)">
         <rect class="Indicator" width="3" height="56"/>
@@ -550,18 +494,15 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Indicator" width="3" height="3"/>
         <rect class="Background" x="3" width="1" height="3"/>
-        <rect class="Border" y="2" width="4" height="1"/>
       </g>
       <g id="west-normal-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" width="56" height="3"/>
-        <rect class="Border" y="2" width="56" height="1"/>
       </g>
       <g id="west-normal-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="3" height="3"/>
         <rect class="FadedBackground" x="3" width="1" height="3"/>
-        <rect class="Border" y="2" width="3" height="1"/>
       </g>
     </g>
     <g transform="translate(0,64)">
@@ -569,18 +510,15 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Indicator" y="1" width="3" height="3"/>
         <rect class="Background" x="3" y="1" width="1" height="3"/>
-        <rect class="Border" y="1" width="4" height="1"/>
       </g>
       <g id="west-minimized-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" y="1" width="56" height="3"/>
-        <rect class="Border" y="1" width="56" height="1"/>
       </g>
       <g id="west-minimized-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" y="1" width="3" height="3"/>
         <rect class="FadedBackground" y="1" x="3" width="1" height="3"/>
-        <rect class="Border" y="1" width="3" height="1"/>
       </g>
       <g id="west-minimized-left" transform="translate(0,4)">
         <rect class="Indicator" width="3" height="56"/>
@@ -597,18 +535,15 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Indicator" width="3" height="3"/>
         <rect class="Background" x="3" width="1" height="3"/>
-        <rect class="Border" y="2" width="4" height="1"/>
       </g>
       <g id="west-minimized-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" width="56" height="3"/>
-        <rect class="Border" y="2" width="56" height="1"/>
       </g>
       <g id="west-minimized-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="3" height="3"/>
         <rect class="FadedBackground" x="3" width="1" height="3"/>
-        <rect class="Border" y="2" width="3" height="1"/>
       </g>
     </g>
     <g transform="translate(0,128)">
@@ -616,18 +551,15 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FocusIndicator" y="1" width="3" height="3"/>
         <rect class="Background" x="3" y="1" width="1" height="3"/>
-        <rect class="Border" y="1" width="4" height="1"/>
       </g>
       <g id="west-focus-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" y="1" width="56" height="3"/>
-        <rect class="Border" y="1" width="56" height="1"/>
       </g>
       <g id="west-focus-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" y="1" width="3" height="3"/>
         <rect class="FadedBackground" y="1" x="3" width="1" height="3"/>
-        <rect class="Border" y="1" width="3" height="1"/>
       </g>
       <g id="west-focus-left" transform="translate(0,4)">
         <rect class="FocusIndicator" width="3" height="56"/>
@@ -644,18 +576,15 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FocusIndicator" width="3" height="3"/>
         <rect class="Background" x="3" width="1" height="3"/>
-        <rect class="Border" y="2" width="4" height="1"/>
       </g>
       <g id="west-focus-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" width="56" height="3"/>
-        <rect class="Border" y="2" width="56" height="1"/>
       </g>
       <g id="west-focus-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="3" height="3"/>
         <rect class="FadedBackground" x="3" width="1" height="3"/>
-        <rect class="Border" y="2" width="3" height="1"/>
       </g>
     </g>
     <g transform="translate(0,192)">
@@ -663,17 +592,14 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationIndicator" y="1" width="3" height="3"/>
         <rect class="AttentationBackground" x="3" y="1" width="1" height="3"/>
-        <rect class="Border" y="1" width="4" height="1"/>
       </g>
       <g id="west-attention-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="AttentationBackground" y="1" width="56" height="3"/>
-        <rect class="Border" y="1" width="56" height="1"/>
       </g>
       <g id="west-attention-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" y="1" width="4" height="3"/>
-        <rect class="Border" y="1" width="3" height="1"/>
       </g>
       <g id="west-attention-left" transform="translate(0,4)">
         <rect class="AttentationIndicator" width="3" height="56"/>
@@ -689,17 +615,14 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationIndicator" width="3" height="3"/>
         <rect class="AttentationBackground" x="3" width="1" height="3"/>
-        <rect class="Border" y="2" width="4" height="1"/>
       </g>
       <g id="west-attention-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="AttentationBackground" width="56" height="3"/>
-        <rect class="Border" y="2" width="56" height="1"/>
       </g>
       <g id="west-attention-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" width="4" height="3"/>
-        <rect class="Border" y="2" width="3" height="1"/>
       </g>
     </g>
     <g transform="translate(0,256)">
@@ -707,7 +630,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="ProgressIndicator" y="1" width="3" height="3"/>
         <rect class="ProgressOverlay" x="3" y="1" width="1" height="3"/>
-        <rect class="Border" y="1" width="3" height="1"/>
       </g>
       <g id="west-progress-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
@@ -731,7 +653,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="ProgressIndicator" width="3" height="3"/>
         <rect class="ProgressOverlay" x="3" width="1" height="3"/>
-        <rect class="Border" y="2" width="3" height="1"/>
       </g>
       <g id="west-progress-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
@@ -762,25 +683,22 @@
   <!-- east -->
 
   <g transform="translate(448)">
-    <rect style="fill:#303030;fill-opacity:0.25" width="1" height="320"/>
+    <rect style="fill:#F0F0F0;fill-opacity:0.0625" width="1" height="320"/>
 
     <g>
       <g id="east-normal-topleft">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" y="1" width="3" height="3"/>
         <rect class="FadedBackground" y="1" width="1" height="3"/>
-        <rect class="Border" x="1" y="1" width="3" height="1"/>
       </g>
       <g id="east-normal-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" y="1" width="56" height="3"/>
-        <rect class="Border" y="1" width="56" height="1"/>
       </g>
       <g id="east-normal-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" y="1" width="1" height="3"/>
         <rect class="Indicator" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" y="1" width="4" height="1"/>
       </g>
       <g id="east-normal-left" transform="translate(0,4)">
         <rect class="Background" x="1" width="3" height="56"/>
@@ -796,19 +714,16 @@
       <g id="east-normal-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" width="3" height="3"/>
-        <rect class="Border" x="1" y="2" width="3" height="1"/>
         <rect class="FadedBackground" width="1" height="3"/>
       </g>
       <g id="east-normal-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" width="56" height="3"/>
-        <rect class="Border" y="2" width="56" height="1"/>
       </g>
       <g id="east-normal-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="1" height="3"/>
         <rect class="Indicator" x="1" width="3" height="3"/>
-        <rect class="Border" y="2" width="4" height="1"/>
       </g>
     </g>
     <g transform="translate(0,64)">
@@ -816,18 +731,15 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" y="1" width="3" height="3"/>
         <rect class="FadedBackground" y="1" width="1" height="3"/>
-        <rect class="Border" x="1" y="1" width="3" height="1"/>
       </g>
       <g id="east-minimized-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" y="1" width="56" height="3"/>
-        <rect class="Border" y="1" width="56" height="1"/>
       </g>
       <g id="east-minimized-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" y="1" width="1" height="3"/>
         <rect class="Indicator" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" y="1" width="4" height="1"/>
       </g>
       <g id="east-minimized-left" transform="translate(0,4)">
         <rect class="Background" x="1" width="3" height="56"/>
@@ -843,19 +755,16 @@
       <g id="east-minimized-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" width="3" height="3"/>
-        <rect class="Border" x="1" y="2" width="3" height="1"/>
         <rect class="FadedBackground" width="1" height="3"/>
       </g>
       <g id="east-minimized-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" width="56" height="3"/>
-        <rect class="Border" y="2" width="56" height="1"/>
       </g>
       <g id="east-minimized-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" width="1" height="3"/>
         <rect class="Indicator" x="1" width="3" height="3"/>
-        <rect class="Border" y="2" width="4" height="1"/>
       </g>
     </g>
     <g transform="translate(0,128)">
@@ -863,18 +772,15 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" y="1" width="3" height="3"/>
         <rect class="FadedBackground" y="1" width="1" height="3"/>
-        <rect class="Border" x="1" y="1" width="3" height="1"/>
       </g>
       <g id="east-focus-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" y="1" width="56" height="3"/>
-        <rect class="Border" y="1" width="56" height="1"/>
       </g>
       <g id="east-focus-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" y="1" width="1" height="3"/>
         <rect class="FocusIndicator" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" y="1" width="4" height="1"/>
       </g>
       <g id="east-focus-left" transform="translate(0,4)">
         <rect class="Background" x="1" width="3" height="56"/>
@@ -890,36 +796,30 @@
       <g id="east-focus-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="Background" x="1" width="3" height="3"/>
-        <rect class="Border" x="1" y="2" width="3" height="1"/>
         <rect class="FadedBackground" width="1" height="3"/>
       </g>
       <g id="east-focus-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="Background" width="56" height="3"/>
-        <rect class="Border" y="2" width="56" height="1"/>
       </g>
       <g id="east-focus-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="FocusIndicator" x="1" width="3" height="3"/>
-        <rect class="Border" y="2" width="4" height="1"/>
       </g>
     </g>
     <g transform="translate(0,192)">
       <g id="east-attention-topleft">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" y="1" width="4" height="3"/>
-        <rect class="Border" x="1" y="1" width="3" height="1"/>
       </g>
       <g id="east-attention-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="AttentationBackground" y="1" width="56" height="3"/>
-        <rect class="Border" y="1" width="56" height="1"/>
       </g>
       <g id="east-attention-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" y="1" width="1" height="3"/>
         <rect class="AttentationIndicator" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" y="1" width="4" height="1"/>
       </g>
       <g id="east-attention-left" transform="translate(0,4)">
         <rect class="AttentationBackground" width="4" height="56"/>
@@ -934,18 +834,15 @@
       <g id="east-attention-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" width="4" height="3"/>
-        <rect class="Border" x="1" y="2" width="3" height="1"/>
       </g>
       <g id="east-attention-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
         <rect class="AttentationBackground" width="56" height="3"/>
-        <rect class="Border" y="2" width="56" height="1"/>
       </g>
       <g id="east-attention-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
         <rect class="AttentationBackground" width="1" height="3"/>
         <rect class="AttentationIndicator" x="1" width="3" height="3"/>
-        <rect class="Border" y="2" width="4" height="1"/>
       </g>
     </g>
     <g transform="translate(0,256)">
@@ -961,7 +858,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="ProgressOverlay" y="1" width="1" height="3"/>
         <rect class="ProgressIndicator" x="1" y="1" width="3" height="3"/>
-        <rect class="Border" x="1" y="1" width="3" height="1"/>
       </g>
       <g id="east-progress-left" transform="translate(0,4)">
         <rect class="ProgressOverlay" width="4" height="56"/>
@@ -985,7 +881,6 @@
         <rect style="fill:none" width="4" height="4"/>
         <rect class="ProgressOverlay" width="1" height="3"/>
         <rect class="ProgressIndicator" x="1" width="3" height="3"/>
-        <rect class="Border" x="1" y="2" width="3" height="1"/>
       </g>
     </g>
     <g id="group-expander-right" transform="translate(36,4)">

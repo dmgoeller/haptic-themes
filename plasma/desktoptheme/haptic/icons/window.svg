@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 48">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 48">
   <defs>
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text { color: #808080 }
     </style>
   </defs>
   <g>
+    <g id="22-22-window-close" transform="translate(1)">
+      <rect style="fill:none" width="22" height="22"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(11,11)">
+        <path d="M 0,-1.414 l -5.293,-5.293 a 1,1 0 0 0 -1.414,1.414 l 5.293,5.293 -5.293,5.293 a 1,1 0 0 0 1.414,1.414
+             l 5.293,-5.293 5.293,5.293 a 1,1 0 0 0 1.414, -1.414 l -5.293,-5.293 5.293,-5.293 a 1,1 0 0 0 -1.414,-1.414"/>
+      </g>
+    </g>
+    <g id="window-close" transform="translate(0,24)">
+      <rect style="fill:none" width="24" height="24"/>
+      <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(12,12)">
+        <path d="M 0,-1.414 l -5.293,-5.293 a 1,1 0 0 0 -1.414,1.414 l 5.293,5.293 -5.293,5.293 a 1,1 0 0 0 1.414,1.414
+             l 5.293,-5.293 5.293,5.293 a 1,1 0 0 0 1.414, -1.414 l -5.293,-5.293 5.293,-5.293 a 1,1 0 0 0 -1.414,-1.414"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(24)">
     <g id="22-22-window-pin" transform="translate(1)">
       <rect style="fill:none" width="22" height="22"/>
       <g transform="translate(-1,-1)">
@@ -23,7 +39,7 @@
       </g>
     </g>
   </g>
-  <g transform="translate(24)">
+  <g transform="translate(48)">
     <g id="22-22-window-unpin" transform="translate(1)">
       <rect style="fill:none" width="22" height="22"/>
       <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(-1,-1)">
@@ -47,7 +63,7 @@
       </g>
     </g>
   </g>
-  <g transform="translate(48)">
+  <g transform="translate(72)">
     <g id="22-22-window-list" transform="translate(1)">
       <rect style="fill:none" width="22" height="22"/>
       <g class="ColorScheme-Text" style="fill:currentColor">
