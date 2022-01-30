@@ -1,0 +1,90 @@
+
+/* Base colors */
+@define-color base-bg-color #31302F;
+@define-color view-bg-color #252423;
+@define-color inverse-bg-color #F0F0F0;
+
+@define-color base-fg-color #C0C0C0;
+@define-color view-fg-color #D0D0D0;
+@define-color intense-fg-color #E0E0E0;
+@define-color placeholder-fg-color #787878;
+@define-color disabled-fg-color #6C6C6C;
+@define-color selection-bg-color #32619D;
+
+@define-color base-border-color #131211;
+@define-color frame-border-color #494847;
+@define-color bevel-border-color #252423;
+@define-color elevated-border-top-color alpha(white, 0.125);
+@define-color elevated-border-bottom-color alpha(black, 0.125);
+
+/* Accent colors */
+@define-color accent-bg-color #2670D0;
+@define-color accent-fg-color #7BA1D0;
+
+/* Link colors */
+@define-color link-color #90CAF9;
+@define-color link-color-visited #CE93D8;
+
+/* Warning, error and success colors */
+@define-color warning-bg-color @yellow-900;
+@define-color warning-fg-color @yellow-100;
+@define-color error-bg-color @deep-orange-800;
+@define-color error-fg-color @deep-orange-200;
+@define-color success-bg-color @green-800;
+@define-color success-fg-color @green-200;
+
+@define-color attention-bg-color alpha(@warning-bg-color, 0.5);
+
+/* Headerbar colors */
+@define-color headerbar-bg-color #3D3C3B;
+@define-color headerbar-fg-color #E0E0E0;
+@define-color headerbar-border-top-color @elevated-border-top-color;
+
+/* Sidebar colors */
+@define-color sidebar-bg-color-hover alpha(@inverse-bg-color, 0.0625);
+@define-color sidebar-bg-color-selected alpha(@inverse-bg-color, 0.125);
+
+/* Menu colors */
+@define-color ssd-menu-bg-color #3D3C3B;
+@define-color csd-menu-bg-color #494847;
+
+@define-color menu-border-color #787878;
+@define-color menu-separator-color #787878;
+
+@define-color menuitem-fg-color #FFF;
+@define-color menuitem-fg-color-selected #FFF;
+
+/* Button colors */
+@define-color button-fg-color #F0F0F0;
+@define-color button-fg-color-hover #FCFCFC;
+@define-color button-fg-color-checked white;
+@define-color colored-button-fg-color white;
+@define-color suggested-button-bg-color @green-800;
+@define-color destructive-button-bg-color @red-800;
+
+@define-color flat-button-fg-color #D8D8D8;
+@define-color flat-button-fg-color-hover #F0F0F0;
+@define-color flat-button-fg-color-checked #FCFCFC;
+@define-color flat-suggested-button-fg-color @green-200;
+@define-color flat-suggested-button-fg-color-hover @green-200;
+@define-color flat-destructive-button-fg-color @red-200;
+@define-color flat-destructive-button-fg-color-hover @red-200;
+
+/* Checkbox color */
+@define-color check-checked-fg-color #C0C0C0;
+
+/* Slider color */
+@define-color slider-bg-color #C0C0C0;
+
+/* Tab colors */
+@define-color tab-fg-color #C0C0C0;
+@define-color tab-fg-color-hover #CCCCCC;
+@define-color tab-fg-color-checked #D8D8D8;
+
+/* Popover colors */
+@define-color popover-bg-color #3D3C3B;
+@define-color popover-fg-color #CCCCCC;
+
+/* Tooltip colors */
+@define-color tooltip-bg-color #494847;
+@define-color tooltip-fg-color #C0C0C0;

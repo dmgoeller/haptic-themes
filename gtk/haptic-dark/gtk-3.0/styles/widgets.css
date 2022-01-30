@@ -1,0 +1,19 @@
+
+@import url("widgets/animations.css");
+@import url("widgets/borders.css");
+@import url("widgets/colors.css");
+@import url("widgets/fonts.css");
+@import url("widgets/icons.css");
+@import url("widgets/metrics.css");
+@import url("widgets/shadows.css");
+@import url("widgets/shapes.css");
+
+* {
+  -GtkScrollbar-has-backward-stepper: false;
+  -GtkScrollbar-has-forward-stepper: false;
+}
+
+menubar,
+.menubar {
+  -GtkWidget-window-dragging: true;
+}

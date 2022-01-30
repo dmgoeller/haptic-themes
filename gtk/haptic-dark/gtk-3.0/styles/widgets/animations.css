@@ -1,0 +1,103 @@
+
+/**********************************************************************
+ * Transitions
+ **********************************************************************/
+
+* {
+  transition-property: background-color, background-image, color, opacity;
+}
+
+button,
+button separator,
+headerbar,
+headerbar > *,
+tab,
+scrollbar slider,
+progressbar progress,
+switch slider {
+  transition-duration: 200ms;
+}
+
+button:hover,
+button:hover separator {
+  transition-delay: 100ms;
+}
+
+button:checked,
+button:checked separator,
+scrollbar slider:hover {
+  transition-delay: 0;
+  transition-duration: 100ms;
+}
+
+button.titlebutton:hover {
+  transition-delay: initial;
+}
+
+/* Expanders */
+
+expander title > arrow,
+treeview.view.expander {
+  -gtk-icon-transform: rotate(-90deg);
+  transition-duration: 200ms;
+  transition-property: -gtk-icon-transform;
+}
+
+expander title > arrow:dir(rtl),
+treeview.view.expander:dir(rtl) {
+  -gtk-icon-transform: rotate(90deg);
+}
+
+expander title > arrow:checked,
+treeview.view.expander:checked {
+  -gtk-icon-transform: unset;
+}
+
+/**********************************************************************
+ * Ripple effect
+ **********************************************************************/
+
+@keyframes ripple {
+  from {
+    background-image: radial-gradient(circle, alpha(white, 0.0625) 0%, transparent 0%);
+  }
+  to {
+    background-image: radial-gradient(circle, alpha(white, 0.0625) 100%, transparent 100%);
+  }
+}
+
+button:active {
+  animation: ripple 100ms linear forwards;
+}
+
+button.combo:active,
+button.default:active,
+button.toggle:active,
+button.radio:active,
+button.titlebutton:active,
+spinbutton > button:active,
+treeview header > button:active,
+.path-bar > button:active,
+.dialog-action-area button:active {
+  animation: initial;
+}
+
+/**********************************************************************
+ * Spinners
+ **********************************************************************/
+
+@keyframes spin {
+  to {
+    -gtk-icon-transform: rotate(1turn);
+  }
+}
+
+spinner {
+  opacity: 0;
+}
+
+spinner:checked {
+  animation: spin 1s linear infinite;
+  opacity: 1;
+  transition: opacity .25s;
+}

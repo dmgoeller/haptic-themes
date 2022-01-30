@@ -1,0 +1,607 @@
+
+* {
+  -GtkDialog-button-spacing: 12;
+  -GtkDialog-action-area-border: 0;
+  -GtkScrolledWindow-scrollbar-spacing: 0;
+  -GtkTreeView-horizontal-separator: 8;
+  -GtkTreeView-grid-line-width: 1;
+  -GtkTreeView-grid-line-pattern: '';
+  -GtkTreeView-tree-line-width: 0;
+  -GtkTreeView-tree-line-pattern: '';
+  -GtkTreeView-expander-size: 16;
+  -GtkToolButton-icon-spacing: 4;
+  -GtkToolItemGroup-expander-size: 11;
+  -GtkWidget-text-handle-width: 24;
+  -GtkWidget-text-handle-height: 24;
+}
+
+/**********************************************************************
+ * Separators
+ **********************************************************************/
+
+separator.horizontal {
+  min-height: 1px;
+}
+
+separator.vertical {
+  min-width: 1px;
+}
+
+separator.sidebar,
+paned.horizontal > separator:not(.wide) {
+  min-width: 1px;
+  margin: 0 -4px; /* capture outside mouse events to change pane widths  */
+  padding: 0 4px;
+}
+
+paned.vertical > separator:not(.wide) {
+  min-height: 1px;
+  margin: -4px 0; /* capture outside mouse events to change pane heights */
+  padding: 4px 0;
+}
+
+paned.horizontal > separator.wide {
+  min-width: 6px;
+}
+
+paned.vertical > separator.wide {
+  min-height: 6px;
+}
+
+/**********************************************************************
+ * Windows
+ **********************************************************************/
+
+.csd:not(.popup) > decoration {
+  margin: 8px; /* capture outside mouse events to resize window */
+}
+
+/**********************************************************************
+ * Headerbars
+ **********************************************************************/
+
+headerbar {
+  min-height: 36px;
+  padding: 0px 8px;
+}
+
+window.csd > headerbar {
+  min-height: 48px;
+}
+
+headerbar > button,
+headerbar > buttonbox,
+headerbar > box.horizontal,
+headerbar > stack.suggestionbutton,
+headerbar > stackswitcher,
+headerbar > toolitem entry {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+headerbar > box.horizontal > headerbar,
+headerbar > box.horizontal > separator.sidebar  {
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+headerbar button.titlebutton {
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0;
+}
+
+headerbar .title {
+  margin: 0 12px;
+}
+
+headerbar .title + .subtitle {
+  margin: -2px 12px 0 12px;
+}
+
+/**********************************************************************
+ * Sidebars
+ **********************************************************************/
+
+.sidebar {
+   margin: -4px -1px -1px -1px;
+ }
+
+.sidebar-row {
+  margin: -1px 0;
+  padding: 2px 4px;
+}
+
+.sidebar-label,
+.sidebar-button,
+.sidebar-icon {
+  margin: 4px;
+}
+
+/**********************************************************************
+ * Actionbars
+ **********************************************************************/
+
+actionbar {
+  padding: 8px;
+}
+
+filechooser actionbar {
+  padding: 12px;
+}
+
+.dialog-action-area {
+  padding: 6px; /* + 6px from somewhere else */
+}
+
+messagedialog .dialog-action-area {
+  padding: 12px;
+}
+
+/**********************************************************************
+ * Toolbars
+ **********************************************************************/
+
+toolbar {
+  padding: 2px;
+}
+
+toolbar scale,
+toolbar entry,
+toolbar spinbutton,
+toolbar toolbutton {
+  margin: 2px;
+}
+
+toolbar.horizontal > separator {
+  margin: 0 2px;
+}
+
+toolbar.vertical > separator {
+  margin: 2px 0;
+}
+
+/**********************************************************************
+ * Lists and views
+ **********************************************************************/
+
+ row {
+   padding: 0 4px;
+ }
+
+ flowbox flowboxchild {
+   padding: 4px;
+ }
+
+/**********************************************************************
+ * Menus
+ **********************************************************************/
+
+menu {
+  padding: 8px 0;
+}
+
+combobox menu {
+  padding: 1px 0;
+}
+
+menuitem,
+popover modelbutton {
+  min-height: 26px;
+  padding: 4px 8px;
+}
+
+menuitem:dir(ltr) > *:not(:first-child),
+popover modelbutton > *:not(:first-child) {
+  margin-left: 8px;
+}
+
+menuitem:dir(rtl) > *:not(:first-child) {
+  margin-right: 8px;
+}
+
+menu > separator,
+popover separator.horizontal  {
+   min-height: 1px;
+   margin: 4px 0;
+ }
+
+popover separator.vertical {
+  margin: 0 8px;
+}
+
+/**********************************************************************
+ * Labels
+ **********************************************************************/
+
+checkbutton:dir(rtl) label,
+radiobutton:dir(rtl) label
+.horizontal:dir(ltr) > label {
+  margin-right: 8px; /* label left */
+}
+
+checkbutton:dir(ltr) label,
+radiobutton:dir(ltr) label,
+.horizontal:dir(rtl) > label {
+  margin-left: 8px; /* label right */
+}
+
+progressbar.vertical:dir(rtl) text {
+  margin-left: 4px;
+}
+
+progressbar.vertical:dir(ltr) text {
+  margin-right: 4px;
+}
+
+progressbar.horizontal text,
+scale value.top {
+  margin-bottom: 4px;
+}
+
+label.keycap {
+  padding: 2px 8px;
+}
+
+/**********************************************************************
+ * Buttons
+ **********************************************************************/
+
+button {
+  min-height: 28px; /* Min total height: 36px */
+  min-width: 28px;  /* Min total width:  40px */
+  padding: 4px;
+}
+
+button.combo:only-child {
+  min-height: 32px;
+  min-width: 24px;
+  padding: 2px 8px;
+}
+
+button.combo:not(:only-child),
+button.small-button,
+.linked > entry ~ button {
+  min-height: 16px; /* Min total height: 24px */
+  min-width: 16px;  /* Min total width:  24px */
+}
+
+button.combo arrow {
+  margin: 6px 0; /* Don't stretch arrow vertically */
+}
+
+button.combo:only-child arrow {
+  margin: 8px 0;
+}
+
+button.text-button:not(.circular) {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+button.file,
+button.font {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+button.text-button label,
+button.text-button image,
+button box.horizontal label, /* e.g. geary 'archive'-button */
+button box.horizontal image {
+  margin: 0 2px;
+}
+
+button separator.vertical {
+  margin: 0 4px;
+}
+
+button.combo:only-child:dir(ltr) arrow {
+  margin-left: 8px;
+}
+
+button.combo:only-child:dir(rtl) arrow {
+  margin-right: 8px;
+}
+
+/* Spinbuttons */
+
+spinbutton button {
+  padding: 0;
+}
+
+spinbutton.horizontal:dir(ltr) button,
+spinbutton.horizontal:dir(rtl) button.down,
+spinbutton.horizontal:dir(rtl) entry {
+  margin-left: 1px;
+}
+
+spinbutton.vertical entry,
+spinbutton.vertical button.down {
+  margin-top: 1px;
+}
+
+/* Toolbuttons */
+
+toolbutton button,
+toolitem button {
+  min-height: 24px; /* Min total height: 32px */
+  min-width: 24px;  /* Min total width:  32px */
+  padding: 4px;
+}
+
+toolbutton button.text-button:not(.circular),
+toolitem button.text-button:not(.circular) {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Tabbar buttons */
+
+notebook > header > button {
+  min-height: 24px;
+  min-width: 24px;
+  padding: 0px;
+}
+
+/* Headerbar buttons */
+
+headerbar button {
+  min-height: 28px; /* Min total height: 32px */
+  min-width: 28px;  /* Min total width:  32px */
+  padding: 2px;
+}
+
+/* Close buttons */
+
+.app-notification button.flat.image-button {
+  min-height: 16px; /* Min total height: 20px */
+  min-width: 16px;  /* Min total width:  20px */
+  margin: 2px;
+}
+
+/**********************************************************************
+ * Entries
+ **********************************************************************/
+
+entry {
+  min-height: 28px; /* Min total height: 36px */
+  padding: 4px 8px;
+}
+
+entry.flat {
+  min-height: initial;
+  padding: 0px;
+}
+
+headerbar entry {
+  padding: 2px 8px; /* Min total height: 32px */
+}
+
+entry image:not(.right) {
+  margin-right: 8px;
+}
+
+entry image.right {
+  margin-left: 8px;
+}
+
+/**********************************************************************
+ * Linked widgets
+ **********************************************************************/
+
+.linked.horizontal > *:not(:first-child) {
+   margin-left: 1px;
+}
+
+.linked.vertical > *:not(:first-child) {
+  margin-top: 1px;
+}
+
+/* Message dialog actions */
+
+messagedialog .dialog-action-area.linked.horizontal > button:not(:first-child) {
+  margin-left: 12px;
+}
+
+/**********************************************************************
+ * Checks and radios
+ **********************************************************************/
+
+checkbutton label,
+radiobutton label {
+  min-height: 28px;
+}
+
+check, radio {
+  min-height: 20px;
+  min-width: 20px;
+}
+
+menuitem check,
+menuitem radio {
+  min-height: 16px;
+  min-width: 16px;
+}
+
+/**********************************************************************
+ * Switches
+ **********************************************************************/
+
+switch {
+  margin: 4px 0;
+}
+
+switch slider {
+  min-height: 20px;
+  min-width: 20px;
+}
+
+/**********************************************************************
+ * Scales
+ **********************************************************************/
+
+scale slider {
+  min-height: 20px;
+  min-width: 20px;
+}
+
+scale.horizontal {
+  margin: 12px 10px;
+}
+
+scale.horizontal trough {
+  min-height: 8px;
+}
+
+scale.horizontal slider {
+  margin: -6px 0;
+}
+
+scale.horizontal indicator {
+  min-height: 8px;
+  min-width: 1px;
+}
+
+scale.horizontal.marks-before marks {
+  margin-bottom: 4px;
+}
+
+scale.horizontal.marks-after marks {
+  margin-top: 4px;
+}
+
+scale.vertical {
+  margin: 10px 12px;
+}
+
+scale.vertical trough {
+  min-width: 8px;
+}
+
+scale.vertical slider {
+  margin: 0 -6px;
+}
+
+scale.vertical indicator {
+  min-height: 1px;
+  min-width: 8px;
+}
+
+scale.vertical.marks-before marks {
+  margin-right: 4px;
+}
+
+scale.vertical.marks-after marks {
+  margin-left: 4px;
+}
+
+/**********************************************************************
+ * Progress and level bars
+ **********************************************************************/
+
+progressbar.horizontal trough,
+progressbar.horizontal progress {
+  min-height: 8px;
+}
+
+progressbar.vertical trough,
+progressbar.vertical progress {
+  min-width: 8px;
+}
+
+progressbar.osd.horizontal trough,
+progressbar.osd.horizontal progress,
+levelbar.horizontal block {
+  min-height: 4px;
+}
+
+progressbar.osd.vertical trough,
+progressbar.osd.vertical progress,
+levelbar.vertical block {
+  min-width: 4px;
+}
+
+levelbar.horizontal.discrete block {
+  min-width: 32px;
+}
+
+levelbar.horizontal.discrete block:not(:last-child) {
+  margin-right: 2px;
+}
+
+levelbar.vertical.discrete block {
+  min-height: 32px;
+}
+
+levelbar.vertical.discrete block:not(:last-child) {
+  margin-bottom: 2px;
+}
+
+/**********************************************************************
+ * Tabs
+ **********************************************************************/
+
+ tab {
+   min-height: 28px;
+ }
+
+header.top > tabs > tab,
+header.bottom > tabs > tab {
+  padding: 6px 4px;
+}
+
+header.left > tabs > tab,
+header.right > tabs > tab {
+  padding: 4px 6px;
+}
+
+tab label {
+  margin: 0 8px;
+}
+
+/* Arrows */
+
+tabs > arrow {
+  min-width: 24px;
+  min-height: 24px;
+  margin: 2px;
+}
+
+/**********************************************************************
+ * Popovers and tooltips
+ **********************************************************************/
+
+popover
+tooltip,
+frame.app-notification {
+  padding: 3px 8px;
+  border-width: 1px 0;
+}
+
+frame.app-notification {
+  margin: 8px;
+}
+
+/**********************************************************************
+ * Scrollbars
+ **********************************************************************/
+
+scrollbar slider {
+  min-width: 6px;
+  min-height: 6px;
+  border: 4px solid transparent;
+  background-clip: padding-box;
+}
+
+/**********************************************************************
+ * Expanders
+ **********************************************************************/
+
+expander title label:dir(ltr) {
+  margin-left: 8px;
+}
+
+expander title label:dir(rtl) {
+  margin-right: 8px;
+}

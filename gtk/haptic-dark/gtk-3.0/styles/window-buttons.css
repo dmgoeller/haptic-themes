@@ -1,0 +1,84 @@
+
+button.titlebutton.close,
+button.titlebutton.minimize,
+button.titlebutton.maximize {
+  min-width: 16px;
+  min-height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button.titlebutton.close:hover,
+button.titlebutton.minimize:hover,
+button.titlebutton.maximize:hover {
+  background-color: transparent;
+}
+
+button.titlebutton.close > image,
+button.titlebutton.minimize > image,
+button.titlebutton.maximize > image {
+  -gtk-icon-theme: "Adwaita"; /* images should not be larger than 16x16 px*/
+  -gtk-icon-transform: scale(0);
+}
+
+/* Close button */
+
+button.titlebutton.close {
+  background-image: url("../assets/window-close.svg");
+}
+
+button.titlebutton.close:hover {
+  background-image: url("../assets/window-close-hover.svg");
+}
+
+button.titlebutton.close:backdrop {
+  background-image: url("../assets/window-button-backdrop.svg");
+}
+
+button.titlebutton.close:backdrop:hover {
+  background-image: url("../assets/window-close-backdrop-hover.svg");
+}
+
+/* Minimize button */
+
+button.titlebutton.minimize {
+  background-image: url("../assets/window-minimize.svg");
+}
+
+button.titlebutton.minimize:hover {
+  background-image: url("../assets/window-minimize-hover.svg");
+}
+
+button.titlebutton.minimize:backdrop {
+  background-image: url("../assets/window-button-backdrop.svg");
+}
+
+button.titlebutton.minimize:backdrop:hover {
+  background-image: url("../assets/window-minimize-backdrop-hover.svg");
+}
+
+/* Maximize button */
+
+button.titlebutton.maximize {
+  background-image: url("../assets/window-maximize.svg");
+}
+
+button.titlebutton.maximize:hover {
+  background-image: url("../assets/window-maximize-hover.svg");
+}
+
+.maximized button.titlebutton.maximize:hover {
+  background-image: url("../assets/window-maximize-checked-hover.svg");
+}
+
+button.titlebutton.maximize:backdrop {
+  background-image: url("../assets/window-button-backdrop.svg");
+}
+
+button.titlebutton.maximize:backdrop:hover {
+  background-image: url("../assets/window-maximize-backdrop-hover.svg");
+}
+
+.maximized button.titlebutton.maximize:backdrop:hover {
+  background-image: url("../assets/window-maximize-checked-backdrop-hover.svg");
+}

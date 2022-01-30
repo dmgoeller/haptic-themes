@@ -1,0 +1,26 @@
+@define-color red-200 #EF9A9A;
+@define-color red-800 #C62828;
+@define-color red-900 #B71C1C;
+
+@define-color blue-50  #E3F2FD;
+@define-color blue-100 #BBDEFB;
+@define-color blue-200 #90CAF9;
+@define-color blue-800 #1565C0;
+@define-color blue-900 #0D47A1;
+
+@define-color green-50 #E8F5E9;
+@define-color green-100 #C8E6C9;
+@define-color green-200 #A5D6A7;
+@define-color green-800 #2E7D32;
+@define-color green-900 #1B5E20;
+
+@define-color yellow-50 #FFFDE7;
+@define-color yellow-100 #FFF9C4;
+@define-color yellow-200 #FFF59D;
+@define-color yellow-900 #F57F17;
+
+@define-color deep-orange-50 #FBE9E7;
+@define-color deep-orange-100 #FFCCBC;
+@define-color deep-orange-200 #FFAB91;
+@define-color deep-orange-800 #D84315;
+@define-color deep-orange-900 #BF360C;

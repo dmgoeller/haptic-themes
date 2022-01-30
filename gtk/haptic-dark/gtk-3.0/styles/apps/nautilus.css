@@ -1,0 +1,50 @@
+
+.nautilus-window notebook {
+    background: @view-bg-color;
+}
+
+/* Path bar */
+
+.nautilus-window .path-bar-box {
+  border-radius: 4px;
+  min-height: 32px;
+}
+
+.linked.nautilus-path-bar > button {
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-weight: normal;
+  animation: initial;
+}
+
+.linked.nautilus-path-bar > button:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.linked.nautilus-path-bar > button:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* List view */
+
+.nautilus-list-view.expander {
+  margin-right: 16px;
+}
+
+.nautilus-list-view .view {
+  border-bottom: 1px solid alpha(@inverse-bg-color, 0.125);
+}
+
+/* Icon view */
+
+.nautilus-canvas-item {
+    border-radius: 2px;
+}
+
+/* Floating status bar */
+
+.nautilus-window .floating-bar {
+  background-color: @view-bg-color;
+}

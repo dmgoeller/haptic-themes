@@ -1,0 +1,37 @@
+
+@define-color theme_bg_color @base-bg-color;
+@define-color theme_fg_color mix(@base-fg-color, @intense-fg-color, 0.5);
+@define-color theme_text_color @intense-fg-color;
+@define-color theme_base_color alpha(@translucent-bg-color, 0.125);
+@define-color theme_selected_bg_color @accent-bg-color;
+@define-color theme_selected_fg_color white;
+
+@define-color insensitive_bg_color @base-bg-color;
+@define-color insensitive_fg_color @disabled-color;
+@define-color insensitive_base_color @base-bg-color;
+
+@define-color theme_unfocused_bg_color @base-bg-color;
+@define-color theme_unfocused_fg_color @theme-fg-color;
+@define-color theme_unfocused_text_color @theme-text-color;
+@define-color theme_unfocused_base_color @theme-base-color;
+@define-color theme_unfocused_selected_bg_color transparent;
+@define-color theme_unfocused_selected_fg_color @base-fg-color;
+@define-color unfocused_insensitive_color @disabled-fg-color;
+
+@define-color borders @frame-border-color;
+@define-color unfocused_borders @borders;
+
+@define-color warning_color @warning-fg-color;
+@define-color error_color @warning-fg-color;
+@define-color success_color @success-fg-color;
+
+@define-color wm_title @headerbar-bg-color;
+@define-color wm_unfocused_title @wm_title;
+@define-color wm_highlight rgba(255, 255, 255, 0.1);
+@define-color wm_bg @base-bg-color;
+@define-color wm_unfocused_bg @wm_bg;
+@define-color xfwm4_title @base-fg-color;
+@define-color xfwm4_unfocused_title @disabled-fg-color;
+
+@define-color content_view_bg @intense-bg-color;
+@define-color placeholder_text_color @placeholder-fg-color;

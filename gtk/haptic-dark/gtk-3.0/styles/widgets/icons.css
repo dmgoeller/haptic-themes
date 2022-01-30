@@ -1,0 +1,141 @@
+
+paned > separator {
+  -gtk-icon-source: none;
+}
+
+/* Arrows */
+
+arrow {
+  min-height: 16px;
+  min-width: 16px;
+}
+
+arrow.up
+menu > arrow.top {
+  -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+}
+
+arrow.down,
+menu > arrow.bottom,
+treeview.view.expander,
+expander title arrow {
+  -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+}
+
+menuitem arrow:dir(rtl),
+header.top > tabs > arrow.down,
+header.bottom > tabs > arrow.down,
+.path-bar .slider-button:first-child image {
+  -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
+}
+
+menuitem arrow:dir(ltr),
+header.top > tabs arrow.up,
+header.bottom > tabs > arrow.up,
+.path-bar .slider-button:last-child image {
+  -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+}
+
+
+button.combo arrow {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/arrow-down-symbolic.svg"));
+}
+
+/* Spinbuttons */
+
+spinbutton button {
+  -gtk-icon-source: none;
+  -gtk-icon-transform: scale(0);
+  background-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+spinbutton button.down {
+  background-image: -gtk-recolor(url("../../assets/spin-down-symbolic.svg"));
+}
+
+spinbutton button.up {
+  background-image: -gtk-recolor(url("../../assets/spin-up-symbolic.svg"));
+}
+
+/* Tab close */
+
+tab button > image,
+.app-notification button.flat.image-button image {
+  -gtk-icon-transform: scale(0);
+  min-width: 24px;
+  min-height: 24px;
+  background-size: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: -gtk-recolor(url("../../assets/close-symbolic.svg"));
+}
+
+tab button:hover > image {
+  background-image: -gtk-recolor(url("../../assets/close-hover-symbolic.svg"));
+}
+
+/* App menu */
+
+button.titlebutton.appmenu > image {
+  -gtk-icon-transform: scale(0);
+  min-width: 24px;
+  min-height: 24px;
+  background-size: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: -gtk-recolor(url("../../assets/application-menu-symbolic.svg"));
+}
+
+/* Checks */
+
+ check {
+   -gtk-icon-source: -gtk-recolor(url("../../assets/check-symbolic.svg"));
+ }
+
+check:checked {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/check-checked-symbolic.svg"));
+}
+
+check:indeterminate {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/check-indeterminate-symbolic.svg"));
+}
+
+menuitem check {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/menu-check-symbolic.svg"));
+}
+
+menuitem check:checked {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/menu-check-checked-symbolic.svg"));
+}
+
+menuitem check:indeterminate {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/menu-check-indeterminate-symbolic.svg"));
+}
+
+/* Radios */
+
+radio {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/radio-symbolic.svg"));
+}
+
+radio:checked {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/radio-checked-symbolic.svg"));
+}
+
+radio:indeterminate {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/radio-indeterminate-symbolic.svg"));
+}
+
+menuitem radio {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/menu-radio-symbolic.svg"));
+}
+
+menuitem radio:checked {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/menu-radio-checked-symbolic.svg"));
+}
+
+menuitem radio:indeterminate {
+  -gtk-icon-source: -gtk-recolor(url("../../assets/menu-radio-indeterminate-symbolic.svg"));
+}

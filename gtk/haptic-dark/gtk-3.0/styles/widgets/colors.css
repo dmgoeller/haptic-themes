@@ -1,0 +1,850 @@
+
+* {
+  -gtk-secondary-caret-color: @accent-fg-color;
+  -GtkTextView-error-underborder-color: @red-fg-color;
+  caret-color: @intense-fg-color;
+  background-clip: border-box;
+}
+
+.background,
+.gtkstyle-fallback {
+  background-color: @base-bg-color;
+  color: @base-fg-color;
+}
+
+window > decoration,
+.background.popup {
+  background-color: transparent;
+}
+
+selection,
+.gtkstyle-fallback:selected {
+  background-color: @selection-bg-color;
+}
+
+:link {
+  color: @link-color;
+}
+
+:link:visited {
+  color: @link-color-visited;
+}
+
+:drop(active) {
+  background-image: image(alpha(@selection-bg-color, 0.5));
+}
+
+.needs-attention {
+  background-image: image(@attention-bg-color);
+}
+
+:disabled,
+:disabled > image {
+  color: @disabled-fg-color;
+}
+
+/**********************************************************************
+ * Separators
+ **********************************************************************/
+
+separator {
+  background-color: currentColor;
+  background-clip: content-box;
+  opacity: 0.25;
+}
+
+paned > separator.wide {
+  background-color: transparent;
+}
+
+separator.sidebar,
+paned > separator:not(.wide) {
+  background-color: @base-border-color;
+  opacity: 1;
+}
+
+frame paned > separator:not(.wide),
+.frame paned > separator:not(.wide),
+paned.frame > separator:not(.wide) {
+  background-color: @frame-border-color;
+  opacity: 1;
+}
+
+separator.titlebutton {
+  opacity: 0;
+}
+
+/**********************************************************************
+ * Headerbars
+ **********************************************************************/
+
+headerbar {
+  background-color: @base-bg-color;
+}
+
+.csd headerbar {
+  background-color: @headerbar-bg-color;
+  background-image: linear-gradient(to bottom,
+                                    shade(@headerbar-bg-color, 1.0625),
+                                    shade(@headerbar-bg-color, 0.9375));
+  background-repeat: repeat-x;
+  color: @headerbar-fg-color;
+}
+
+.csd headerbar:backdrop {
+  background-color: @base-bg-color;
+  background-image: initial;
+}
+
+.csd headerbar:backdrop > * {
+  opacity: 0.875;
+}
+
+/* Subtitles */
+
+headerbar .subtitle {
+  color: mix(@headerbar-fg-color, @headerbar-bg-color, 0.25);
+}
+
+headerbar:backdrop .subtitle {
+  color: mix(@headerbar-fg-color, @base-bg-color, 0.25);
+}
+
+/**********************************************************************
+ * Views and lists
+ **********************************************************************/
+
+list,
+.view {
+  background-color: @view-bg-color;
+  color: @view-fg-color;
+}
+
+.sidebar list,
+.sidebar .view,
+.sidebar .frame list,
+.sidebar .frame .view {
+  background-color: transparent;
+  color: @base-fg-color;
+}
+
+.dialog-vbox.view {
+  background-color: @base-bg-color;
+}
+
+/* List items */
+
+row.activatable:selected,
+.view:selected {
+  background-color: alpha(@selection-bg-color, 0.5);
+  border-color: alpha(@selection-bg-color, 0.5);
+}
+
+.sidebar row.activatable:hover,
+.sidebar .view:hover {
+  background-color: @sidebar-bg-color-hover;
+}
+
+.sidebar row.activatable:selected,
+.sidebar .view:selected {
+  background-color: @sidebar-bg-color-selected;
+  color: @intense-fg-color;
+}
+
+.sidebar-icon {
+  color: @accent-fg-color;
+}
+
+/* Tree views */
+
+treeview.view.expander {
+  color: alpha(@base-fg-color, 0.75);
+}
+
+treeview.view.progressbar {
+  background-color: @accent-fg-color;
+}
+
+treeview rubberband {
+  background-color: alpha(@selection-bg-color, 0.25);
+  background-clip: padding-box;
+}
+
+/**********************************************************************
+ * Menus
+ **********************************************************************/
+
+menu {
+  background-color: @ssd-menu-bg-color;
+}
+
+.csd menu {
+  background-color: @csd-menu-bg-color;
+}
+
+menuitem {
+  color: @menuitem-fg-color;
+}
+
+menuitem:hover {
+  background-color: @accent-bg-color;
+  color: @menu-fg-color-selected;
+}
+
+menu separator {
+  background-color: @menu-separator-color;
+  opacity: 1;
+}
+
+menuitem:disabled,
+menuitem:disabled > image,
+menuitem:disabled *:disabled,
+menuitem:disabled *:disabled > image {
+  color: mix(@ssd-menu-bg-color, @menuitem-fg-color, 0.5);
+}
+
+.csd menuitem:disabled,
+.csd menuitem:disabled > image,
+.csd menuitem:disabled *:disabled,
+.csd menuitem:disabled *:disabled > image {
+  color: mix(@csd-menu-bg-color, @menuitem-fg-color, 0.5);
+}
+
+menuitem:backdrop {
+  color: @base-fg-color;
+}
+
+/**********************************************************************
+ * Labels
+ **********************************************************************/
+
+label.highlight {
+  color: @text-field-foreground-color;
+}
+
+label.dim-label {
+  opacity: 0.625;
+}
+
+label.keycap {
+  background-color: alpha(@inverse-bg-color, 0.125);
+  color: @intense-fg-color;
+}
+
+/**********************************************************************
+ * (Push) buttons
+ **********************************************************************/
+
+button {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.25);
+  color: @button-fg-color;
+}
+
+button:hover,
+spinbutton > button:active {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.3125);
+  color: @button-fg-color-hover;
+}
+
+button:checked,
+button.toggle.popup:checked {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.375);
+  color: @button-fg-color-checked;
+}
+
+button.default,
+button.toggle:checked,
+stackswitcher button.radio:checked,
+messagedialog button:focus {
+  background-color: @accent-bg-color;
+  color: @colored-button-fg-color;
+}
+
+button.default:hover {
+  background-color: shade(@accent-bg-color, 1.125);
+}
+
+button.suggested-action {
+  background-color: @suggested-button-bg-color;
+  color: @colored-button-fg-color;
+}
+
+button.destructive-action {
+  background-color: @destructive-button-bg-color;
+  color: @colored-button-fg-color;
+}
+
+button.suggested-action:hover {
+  background-color: shade(@suggested-button-bg-color, 1.125);
+}
+
+button.destructive-action:hover {
+  background-color: shade(@destructive-button-bg-color, 1.125);
+}
+
+button.link,
+button.link:hover {
+  color: @link-color;
+}
+
+button:disabled {
+  background-color: alpha(@inverse-bg-color, 0.09375);
+  color: @disabled-fg-color;
+}
+
+button.radio:checked:disabled,
+button.toggle:checked:disabled,
+button.toggle.popup:checked:disabled {
+  background-color: alpha(@inverse-bg-color, 0.125);
+  color: @disabled-fg-color;
+}
+
+spinbutton:not(:disabled) > button:disabled {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.1875);
+  color: @disabled-fg-color;
+}
+
+button:disabled image {
+  color: @button-fg-color;
+  opacity: 0.375;
+}
+
+/* Infobar buttons */
+
+infobar button {
+  background-color: alpha(currentColor, 0.125);
+  color: white;
+}
+
+infobar button:hover,
+infobar button.default {
+  background-color: alpha(currentColor, 0.25);
+  color: white;
+}
+
+infobar button:disabled {
+  background-color: transparent;
+  color: alpha(white, 0.375);
+}
+
+/**********************************************************************
+ * Flat buttons
+ **********************************************************************/
+
+button.flat,
+actionbar button,
+headerbar button,
+toolbar button {
+  background-color: transparent;
+  color: @flat-button-fg-color;
+}
+
+button.flat:hover,
+actionbar button:hover,
+headerbar button:hover,
+toolbar button:hover {
+  background-color: alpha(@inverse-bg-color, 0.125);
+  color: @flat-button-fg-color-hover;
+}
+
+button.flat:checked,
+button.flat.toggle:checked,
+button.flat.toggle.popup:checked,
+/* --------------------------------- */
+actionbar button:checked,
+actionbar button.toggle:checked,
+actionbar button.toggle.popup:checked,
+/* --------------------------------- */
+headerbar button:checked,
+headerbar button.toggle:checked,
+headerbar button.toggle.popup:checked,
+/* --------------------------------- */
+toolbar button:checked,
+toolbar button.toggle:checked,
+toolbar button.toggle.popup:checked {
+  background-color: alpha(@inverse-bg-color, 0.25);
+  color: @flat-button-fg-color-checked;
+}
+
+button.flat.default,
+actionbar button.default,
+headerbar button.default,
+.app-notification button.text-button {
+  background-color: transparent;
+  color: @accent-fg-color;
+}
+
+button.flat.suggested-action,
+actionbar button.suggested-action,
+headerbar button.suggested-action {
+  background-color: transparent;
+  color: @flat-suggested-button-fg-color;
+}
+
+button.flat.suggested-action:hover,
+actionbar button.suggested-action:hover,
+headerbar button.suggested-action:hover {
+  color: @flat-suggested-button-fg-color-hover;
+}
+
+button.flat.destructive-action,
+actionbar button.destructive-action,
+headerbar button.destructive-action {
+  background-color: transparent;
+  color: @flat-destructive-button-fg-color;
+}
+
+button.flat.destructive-action:hover,
+actionbar button.destructive-action:hover,
+headerbar button.destructive-action:hover {
+  color: @flat-destructive-button-fg-color-hover;
+}
+
+button.flat.link:hover,
+/* --------------------------------------- */
+button.flat.default:hover,
+button.flat.suggested-action:hover,
+button.flat.destructive-action:hover,
+/* --------------------------------------- */
+actionbar button.default:hover,
+actionbar button.suggested-action:hover,
+actionbar button.destructive-action:hover,
+/* --------------------------------------- */
+headerbar button.default:hover,
+headerbar button.suggested-action:hover,
+headerbar button.destructive-action:hover,
+/* --------------------------------------- */
+.app-notification button.text-button:hover {
+  background-color: alpha(currentColor, 0.125);
+}
+
+button.flat:disabled,
+actionbar button:disabled,
+headerbar button:disabled,
+toolbar button:disabled {
+  background-color: transparent;
+}
+
+button.flat:disabled image,
+actionbar button:disabled image,
+headerbar button:disabled image,
+toolbar button:disabled image {
+  color: @flat-button-fg-color;
+}
+
+/* Infobar buttons */
+
+infobar button.flat {
+  color: white;
+}
+
+infobar button.flat:hover,
+infobar button.flat.default {
+  background-color: alpha(currentColor, 0.125);
+  color: white;
+}
+
+infobar button.flat:disabled {
+  background-color: transparent;
+  color: alpha(white, 0.375);
+}
+
+/* Treeview headers */
+
+treeview header > button,
+treeview header > button:hover {
+  background-color: @base-bg-color;
+  color: @base-fg-color;
+}
+
+treeview header > button:disabled {
+  color: @disabled-fg-color;
+}
+
+/* Tab close button */
+
+tab button.flat:hover {
+  background-color: transparent;
+}
+
+/**********************************************************************
+ * Entries and combos
+ **********************************************************************/
+
+entry,
+button.combo:only-child,
+button.combo:only-child:hover,
+button.combo:only-child:checked {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.125);
+  color: @intense-fg-color;
+}
+
+headerbar entry,
+headerbar button.combo:only-child,
+headerbar button.combo:only-child:hover,
+headerbar button.combo:only-child:checked,
+infobar entry,
+infobar button.combo:only-child,
+infobar button.combo:only-child:hover,
+infobar button.combo:only-child:checked {
+  background-color: alpha(@inverse-bg-color, 0.125);
+}
+
+entry:disabled,
+button.combo:only-child:disabled,
+infobar entry:disabled,
+infobar button.combo:only-child:disabled  {
+  background-color: alpha(@inverse-bg-color, 0.0625);
+}
+
+entry.flat,
+entry.flat:disabled {
+  background-color: transparent;
+}
+
+entry.read-only {
+  color: @base-fg-color;
+}
+
+entry.warning {
+  color: @warning-fg-color;
+}
+
+entry.error {
+  color: @error-fg-color;
+}
+
+entry > image,
+entry.search:not(:disabled) > image:disabled {
+  color: @base-fg-color;
+}
+
+/**********************************************************************
+ * Color choosers
+ **********************************************************************/
+
+colorswatch.dark {
+  color: alpha(white, 0.75);
+}
+
+colorswatch.light {
+  color: alpha(black, 0.75);
+}
+
+/**********************************************************************
+ * Checks and radios
+ **********************************************************************/
+
+checkbutton check:checked,
+checkbutton check:indeterminate,
+popover check:checked,
+popover check:indeterminate  {
+  color: @check-checked-fg-color;
+}
+
+checkbutton check:disabled,
+popover check:disabled {
+  color: alpha(@inverse-bg-color, 0.375);
+}
+
+checkbutton check:checked:disabled,
+checkbutton check:indeterminate:disabled,
+popover check:checked:disabled,
+popover check:indeterminate:disabled {
+  color: alpha(@inverse-bg-color, 0.25);
+}
+
+radiobutton radio,
+popover radio {
+  color: @inverse-bg-color;
+}
+
+radiobutton radio:disabled,
+popover radio:disabled {
+  color: alpha(@inverse-bg-color, 0.5);
+}
+
+/**********************************************************************
+ * Switches
+ **********************************************************************/
+
+switch {
+  background-color: alpha(@inverse-bg-color, 0.25);
+}
+
+switch:checked {
+  background-color: @accent-bg-color;
+}
+
+switch slider {
+  background-color: @slider-bg-color;
+}
+
+switch image {
+  -gtk-icon-transform: scale(0);
+}
+
+switch:disabled {
+  background-color: alpha(@inverse-bg-color, 0.0625);
+}
+
+switch:disabled slider {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.25);
+}
+
+/**********************************************************************
+ * Scales and progress bars
+ **********************************************************************/
+
+scale trough,
+progressbar trough,
+levelbar block.empty {
+  background-color: alpha(@inverse-bg-color, 0.125);
+}
+
+progressbar.osd trough {
+  background-color: transparent;
+}
+
+levelbar block.low {
+  background-color: alpha(@accent-bg-color, 0.5);
+}
+
+scale highlight,
+progressbar progress,
+levelbar block.high,
+levelbar block.full {
+  background-color: @accent-bg-color;
+}
+
+scale slider {
+  background-color: @slider-bg-color;
+}
+
+scale indicator {
+  background-color: alpha(@inverse-bg-color, 0.5);
+  color: transparent;
+}
+
+scale:disabled trough,
+progressbar:disabled trough,
+levelbar:disabled block.empty {
+  background-color: alpha(@inverse-bg-color, 0.0625);
+}
+
+scale:disabled highlight,
+progressbar:disabled progress,
+levelbar:disabled block:not(.empty) {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.1875);
+}
+
+scale:disabled slider {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.25);
+}
+
+/**********************************************************************
+ * Path bars
+ **********************************************************************/
+
+.path-bar button {
+  background-color: transparent;
+  color: @base-fg-color;
+}
+
+.path-bar button:not(.slider-button):hover {
+  background-color: transparent;
+  box-shadow: inset 0 -2px mix(@base-bg-color, @inverse-bg-color, 0.25);
+}
+
+.path-bar button:not(.slider-button):checked {
+  background-color: transparent;
+  color: mix(@base-fg-color, @intense-fg-color, 0.5);
+  box-shadow: inset 0 -2px @accent-fg-color;
+}
+
+.path-bar button:not(.slider-button):checked:disabled {
+  box-shadow: inset 0 -2px mix(@base-bg-color, @inverse-bg-color, 0.25);
+}
+
+filechooser #pathbarbox {
+  background-color: transparent;
+}
+
+/**********************************************************************
+ * Notebooks
+ **********************************************************************/
+
+notebook > header {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.0625);
+}
+
+tab {
+  color: @tab-fg-color;
+}
+
+tab:hover {
+  color: @tab-fg-color-hover;
+}
+
+tab:checked {
+  color: @tab-fg-color-checked;
+}
+
+tab.reorderable-page:hover {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.125);
+}
+
+header.top > tabs > tab:hover:not(:checked) {
+  box-shadow: inset 0 -3px mix(@base-bg-color, @inverse-bg-color, 0.25);
+}
+
+header.bottom > tabs > tab:hover:not(:checked) {
+  box-shadow: inset 0 3px mix(@base-bg-color, @inverse-bg-color, 0.25);
+}
+
+header.left > tabs > tab:hover:not(:checked) {
+  box-shadow: inset -3px 0 mix(@base-bg-color, @inverse-bg-color, 0.25);
+}
+
+header.right > tabs > tab:hover:not(:checked) {
+  box-shadow: inset 3px 0 mix(@base-bg-color, @inverse-bg-color, 0.25);
+}
+
+header.top > tabs > tab:checked {
+  box-shadow: inset 0 -3px @accent-fg-color;
+}
+
+header.bottom > tabs > tab:checked {
+  box-shadow: inset 0 3px @accent-fg-color;
+}
+
+header.left > tabs > tab:checked {
+  box-shadow: inset -3px 0 @accent-fg-color;
+}
+
+header.right > tabs > tab:checked {
+  box-shadow: inset 3px 0 @accent-fg-color;
+}
+
+/* Arrows */
+
+tabs > arrow {
+  color: @button-fg-color;
+}
+
+tabs > arrow:hover {
+  background-color: alpha(@inverse-bg-color, 0.125);
+  color: @button-fg-color-hover;
+}
+
+tabs > arrow:disabled {
+  color: @disabled-fg-color;
+}
+
+/**********************************************************************
+ * Infobars
+ **********************************************************************/
+
+infobar.info,
+infobar.question {
+  background-color: @blue-900;
+  color: @blue-50;
+}
+
+infobar.success {
+  background-color: @green-900;
+  color: @green-50;
+}
+
+infobar.warning,
+infobar.error {
+  background-color: @deep-orange-900;
+  color: @deep-orange-50;
+}
+
+infobar.warning {
+  background-color: shade(@yellow-900, 0.75);
+  color: @yellow-50;
+}
+
+/**********************************************************************
+ * Popovers and app notifications
+ **********************************************************************/
+
+popover.background,
+.app-notification {
+  background-color: @popover-bg-color;
+  color: @popover-fg-color;
+}
+
+popover modelbutton:hover {
+  background-color: alpha(@inverse-bg-color, 0.25);
+  color: @intense-fg-color;
+}
+
+/**********************************************************************
+ * Calendars
+ **********************************************************************/
+
+calendar.highlight {
+  color: @accent-fg-color;
+}
+
+calendar:selected {
+  background-color: @accent-bg-color;
+  color: white;
+}
+
+/**********************************************************************
+ * Tooltips
+ **********************************************************************/
+
+tooltip {
+  color: @tooltip-fg-color;
+}
+
+tooltip.background {
+  background-color: @tooltip-bg-color;
+}
+
+/**********************************************************************
+ * Scrollbars
+ **********************************************************************/
+
+scrollbar {
+  background-color: transparent;
+}
+
+scrollbar slider {
+  background-color: alpha(@inverse-bg-color, 0.25);
+}
+
+scrollbar slider:hover {
+  background-color: alpha(@inverse-bg-color, 0.3125);
+}
+
+/**********************************************************************
+ * Rubberbands
+ **********************************************************************/
+
+rubberband,
+.rubberband {
+  background-color: transparent; /* e.g. GNOME Screenshot */
+  border-color: @base-fg-color;
+}
+
+.view rubberband,
+.view .rubberband {
+  background-color: alpha(@selection-bg-color, 0.25);
+  background-clip: padding-box;
+  border-color: @selection-bg-color;
+}
+
+/**********************************************************************
+ * Print dialogs
+ **********************************************************************/
+
+printdialog paper {
+  background-color: white;
+  color: @disabled-fg-color;
+}

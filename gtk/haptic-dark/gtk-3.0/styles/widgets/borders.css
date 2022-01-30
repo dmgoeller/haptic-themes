@@ -1,0 +1,169 @@
+
+* {
+  border-color: transparent;
+}
+
+/**********************************************************************
+ * Headerbars
+ **********************************************************************/
+
+headerbar {
+  border-bottom: 1px solid shade(@base-border-color, 0.875);
+}
+
+.csd headerbar {
+  border-top: 1px solid @headerbar-border-top-color;
+}
+
+.csd.maximized headerbar,
+.csd.fullscreen headerbar {
+  border-top: initial;
+}
+
+.csd headerbar:backdrop {
+  border-bottom-color: @base-border-color;
+}
+
+/**********************************************************************
+ * Tree view headers
+ **********************************************************************/
+
+treeview > header button {
+  border-bottom-width: 1px;
+  border-style: solid;
+}
+
+treeview > header button:not(:first-child) {
+  border-left-width: 1px;
+}
+
+treeview > header button {
+  border-color: @base-border-color;
+}
+
+.frame treeview > header button,
+treeview.frame > header button {
+  border-color: @frame-border-color;
+}
+
+/**********************************************************************
+ * Elevated widgets
+ **********************************************************************/
+
+menu,
+tooltip  {
+  border: 1px solid @menu-border-color;
+}
+
+popover,
+tooltip.csd,
+.csd menu,
+frame.app-notification {
+  border-width: 1px 0;
+  border-style: solid;
+  border-top-color: @elevated-border-top-color;
+  border-bottom-color: @elevated-border-bottom-color;
+}
+
+frame.app-notification > border {
+  border-style: none;
+}
+
+/**********************************************************************
+ * Frames
+ **********************************************************************/
+
+frame > border,
+.frame {
+  border: 1px solid @frame-border-color;
+}
+
+frame.border-inset > border,
+frame.border-outset > border,
+frame.border-groove > border,
+frame.border-ridge > border {
+  border-color: @bevel-border-color;
+}
+
+.sidebar.frame,
+.frame.flat,
+frame > border.flat,
+frame > .frame,
+frame > box > .frame,
+scrolledwindow viewport.frame,
+.sidebar frame > border {
+  border-style: none;
+}
+
+calendar {
+  border: 1px solid @frame-border-color;
+}
+
+calendar > header {
+  border-bottom: 1px solid @frame-border-color;
+}
+
+/**********************************************************************
+ * Bordered widgets
+ **********************************************************************/
+
+printdialog paper {
+  border: 1px solid @base-border-color;
+}
+
+actionbar, /* expected to be displayed below the content */
+statusbar,
+calendar > header,
+notebook > header.bottom,
+paned.vertical > separator.wide,
+filechooser paned,
+filechooser + .dialog-action-box {
+  border-top: 1px solid @base-border-color;
+}
+
+notebook > header.top,
+searchbar, /* expected to be displayed upon the content */
+toolbar.horizontal:not(.inline-toolbar),
+paned.vertical > separator.wide,
+filechooser #pathbarbox {
+  border-bottom: 1px solid @base-border-color;
+}
+
+notebook > header.right,
+toolbar.vertical:not(.inline-toolbar):dir(rtl),
+paned.horizontal > separator.wide {
+  border-left: 1px solid @base-border-color;
+}
+
+notebook > header.left,
+toolbar.vertical:not(.inline-toolbar):dir(ltr),
+paned.horizontal > separator.wide {
+  border-right: 1px solid @base-border-color;
+}
+
+frame actionbar,
+frame searchbar,
+frame toolbar:not(.inline-toolbar),
+frame statusbar,
+frame notebook > header,
+frame paned > separator.wide,
+.frame actionbar,
+.frame searchbar,
+.frame toolbar:not(.inline-toolbar),
+.frame statusbar,
+.frame notebook > header,
+notebook.frame > header,
+.frame paned > separator.wide,
+paned.frame > separator.wide {
+  border-color: @frame-border-color;
+}
+
+/**********************************************************************
+ * Rubberbands
+ **********************************************************************/
+
+rubberband,
+.rubberband {
+  border-width: 1px;
+  border-style: solid;
+}

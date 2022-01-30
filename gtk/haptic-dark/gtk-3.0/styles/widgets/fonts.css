@@ -1,0 +1,31 @@
+
+.monospace {
+  font-family: monospace;
+}
+
+progressbar,
+scale,
+tooltip,
+.subtitle {
+  font-size: 0.9em;
+}
+
+button,
+.title,
+.subtitle {
+  font-weight: 500; /* medium */
+}
+
+button.combo,
+.path-bar button,
+statusbar button.flat {
+  font-weight: normal;
+}
+
+button.link {
+  text-decoration-line: underline;
+}
+
+.context-menu {
+  font: initial; /* Decouple the font of context menus from their entry/textview */
+}

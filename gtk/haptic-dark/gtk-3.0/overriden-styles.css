@@ -1,0 +1,75 @@
+
+/**********************************************************************
+ * Linked widgets
+ **********************************************************************/
+
+actionbar .linked > button,
+headerbar .linked > button {
+  background-color: alpha(@inverse-bg-color, 0.125);
+  color: @button-fg-color;
+}
+
+actionbar .linked > button:hover,
+headerbar .linked > button:hover {
+  background-color: alpha(@inverse-bg-color, 0.25);
+  color: @button-fg-color-hover;
+}
+
+actionbar .linked > button:checked,
+headerbar .linked > button:checked {
+  background-color: alpha(@inverse-bg-color, 0.375);
+  color: @button-fg-color-checked;
+}
+
+actionbar .linked > button:disabled,
+headerbar .linked > button:disabled {
+  background-color: alpha(@inverse-bg-color, 0.0625);
+  color: @disabled-fg-color;
+}
+
+actionbar .linked > button:checked:disabled,
+headerbar .linked > button:checked:disabled {
+  background-color: alpha(@inverse-bg-color, 0.1875);
+  color: @disabled-fg-color;
+}
+
+/* Stackswitchers */
+
+.stack-switcher > button.radio {
+  background-color: alpha(@inverse-bg-color, 0.25);
+  color: @button-fg-color;
+}
+
+.stack-switcher > button.radio:hover {
+  background-color: alpha(@inverse-bg-color, 0.3125);
+  color: @button-fg-color-hover;
+}
+
+.stack-switcher > button.radio:checked {
+  background-color: @accent-bg-color;
+  color: @colored-button-fg-color;
+}
+
+.stack-switcher > button.radio:disabled {
+  background-color: alpha(@inverse-bg-color, 0.125);
+  color: @disabled-fg-color;
+}
+
+.stack-switcher > button.radio:checked:disabled {
+  background-color: alpha(@inverse-bg-color, 0.25);
+  color: @disabled-fg-color;
+}
+
+/* Nautilus path bar */
+
+.nautilus-window .path-bar-box {
+  background-color: alpha(@inverse-bg-color, 0.125);
+}
+
+.linked.nautilus-path-bar > button:not(:last-child) {
+  border-right: 1px solid @headerbar-bg-color;
+}
+
+.linked.nautilus-path-bar > button:not(:last-child):backdrop {
+  border-right-color: @base-bg-color;
+}

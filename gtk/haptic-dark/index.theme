@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=haptic-dark
+Comment=A dark GTK theme inspired by Material Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=haptic-dark
+IconTheme=haptic-dark
+CursorTheme=Google_Cursor

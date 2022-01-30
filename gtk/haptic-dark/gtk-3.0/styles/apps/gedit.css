@@ -1,0 +1,8 @@
+
+.org-gnome-gedit notebook {
+  background-color: @view-bg-color;
+}
+
+.gedit-view {
+  padding: 4px;
+}

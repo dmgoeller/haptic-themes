@@ -1,0 +1,182 @@
+
+.csd > decoration {
+  border-radius: 4px 4px 0 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: alpha(black, 0.1875);
+  border-bottom-color: alpha(black, 0.25);
+}
+
+switch:disabled slider,
+scale:disabled slider {
+  background-color: @base-bg-color;
+}
+
+/**********************************************************************
+ * Linked widgets
+ **********************************************************************/
+
+/* Borders and metrics */
+
+.linked.horizontal > button.radio:not(:first-child),
+actionbar .linked.horizontal > *:not(.combo):not(:first-child),
+headerbar .linked.horizontal > *:not(.combo):not(:first-child) {
+  margin-left: 0;
+}
+
+.linked.vertical > button.radio:not(:first-child),
+actionbar .linked.vertical > *:not(.combo):not(:first-child),
+headerbar .linked.vertical > *:not(.combo):not(:first-child) {
+  margin-top: 0;
+}
+
+.linked > button.radio,
+actionbar .linked > *:not(.combo),
+headerbar .linked > *:not(.combo) {
+  background-clip: padding-box;
+  border-style: solid;
+  border-top-width: 1px;
+  border-left-width: 1px;
+}
+
+.linked.horizontal > button.radio,
+actionbar .linked.horizontal > *:not(.combo),
+headerbar .linked.horizontal > *:not(.combo) {
+  border-bottom-width: 1px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.linked.vertical > button.radio,
+actionbar .linked.vertical > *:not(.combo),
+headerbar .linked.vertical > *:not(.combo) {
+  border-right-width: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.linked > button.radio:last-child,
+.linked > button.radio:checked,
+actionbar .linked > *:not(.combo):last-child,
+actionbar .linked > button:not(.combo):checked,
+headerbar .linked > *:not(.combo):last-child,
+headerbar .linked > button:not(.combo)checked {
+  border-width: 1px;
+}
+
+.linked.horizontal > button.radio:checked + *,
+actionbar .linked.horizontal > button:checked + *:not(.combo),
+headerbar .linked.horizontal > button:checked + *:not(.combo) {
+  border-left-width: 0;
+}
+
+.linked.vertical > button.radio:checked + *,
+actionbar .linked.vertical > button:checked + *:not(.combo),
+headerbar .linked.vertical > button:checked + *:not(.combo) {
+  border-top-width: 0;
+}
+
+/* Colors */
+
+.linked > button.radio,
+actionbar .linked > *:not(.combo),
+headerbar .linked > *:not(.combo) {
+  border-color: @linked-widget-border-color;
+}
+
+.linked > button.radio:checked,
+actionbar .linked > button:not(.combo):checked,
+headerbar .linked > button:not(.combo):checked {
+  border-color: @linked-widget-border-color-checked;
+}
+
+actionbar .linked.horizontal > *:not(:disabled) + *:not(.combo):disabled,
+headerbar .linked.horizontal > *:not(:disabled) + *:not(.combo):disabled {
+  border-left-color: @linked-widget-border-color;
+}
+
+actionbar .linked.vertical > *:not(:disabled) + *:not(.combo):disabled,
+headerbar .linked.vertical > *:not(:disabled) + *:not(.combo):disabled {
+  border-top-color: @linked-widget-border-color;
+}
+
+.linked > button.radio,
+actionbar .linked > button:not(.combo) {
+  background-color: white;
+}
+
+.linked > button.radio:hover,
+actionbar .linked > button:not(.combo):hover  {
+  background-color: shade(white, 0.875);
+  color: @button-fg-color;
+}
+
+.linked > button.radio:checked,
+actionbar .linked > button:not(.combo):checked {
+  background-color: shade(white, 0.75);
+  color: @button-fg-color;
+}
+
+headerbar .linked > *:not(.combo),
+headerbar .linked > button.radio {
+  background-color: @base-bg-color;
+}
+
+headerbar .linked > button:not(.combo):hover,
+headerbar .linked > button.radio:hover  {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.125);
+  color: @button-fg-color;
+}
+
+headerbar .linked > button:not(.combo):checked,
+headerbar .linked > button.radio:checked {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.25);
+  color: @button-fg-color;
+}
+
+.stack-switcher > button.radio:checked,
+actionbar .stack-switcher > button.radio:checked,
+headerbar .stack-switcher > button.radio:checked  {
+  background-color: @accent-bg-color;
+  border-color: shade(@accent-bg-color, 0.75);
+  color: @colored-button-fg-color;
+}
+
+.linked > button.radio:disabled,
+actionbar .linked > *:not(.combo):disabled,
+headerbar .linked > *:not(.combo):disabled {
+  background-color: transparent;
+  border-color: @linked-widget-border-color-disabled;
+}
+
+.linked > button.radio:checked:disabled,
+actionbar .linked > button:not(.combo):checked:disabled {
+  background-color: shade(white, 0.875);
+  color: @disabled-fg-color;
+}
+
+headerbar .linked > button:not(.combo):checked:disabled,
+headerbar .linked > button.radio:checked:disabled {
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.25);
+  color: @disabled-fg-color;
+}
+
+/* Nautilus path bar */
+
+.nautilus-window .path-bar-box {
+  background-color: @base-bg-color;
+  border: 1px solid @linked-widget-border-color;
+}
+
+.nautilus-window .path-bar-box:backdrop {
+  background-color: transparent;
+}
+
+.linked.nautilus-path-bar > button {
+  border-width: 1px 1px 1px 0;
+  margin: -1px;
+}
+
+.linked.nautilus-path-bar > button:first-child {
+  border-width: 1px;
+}

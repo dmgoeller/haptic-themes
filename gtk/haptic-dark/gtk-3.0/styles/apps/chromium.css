@@ -1,0 +1,14 @@
+
+headerbar.chromium {
+  background-color: @headerbar-bg-color;
+  background-image: initial;
+  border-bottom: none;
+}
+
+headerbar.chromium:backdrop {
+  background-color: @base-bg-color;
+}
+
+button.titlebutton.chromium {
+  color: transparent;
+}

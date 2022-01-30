@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=haptic-light
+Comment=A light GTK theme inspired by Material Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=haptic-light
+IconTheme=haptic-light
+CursorTheme=Google_Cursor
