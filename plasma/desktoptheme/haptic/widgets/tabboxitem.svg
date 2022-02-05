@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-ButtonBackground { color: #C0C0C0 }
+    </style>
+  </defs>
+  <g class="ColorScheme-ButtonBackground" style="fill:currentColor;fill-opacity:0.5" transform="translate(4,4)">
+    <path id="selected-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 v 4 h 8 v -8"/>
+    <rect id="selected-top" x="8" width="8" height="8"/>
+    <path id="selected-topright" d="m 16,0 v 8 h 8 v -4 a 4,4 0 0 0 -4,-4"/>
+    <rect id="selected-left" y="8" width="8" height="8"/>
+    <rect id="selected-center" x="8" y="8" width="8" height="8"/>
+    <rect id="selected-right" x="16" y="8" width="8" height="8"/>
+
+    <path id="selected-bottomleft" d="m 0,16 v 4 a 4,4 0 0 0 4,4 h 4 v -8"/>
+    <rect id="selected-bottom" x="8" y="16" width="8" height="8"/>
+    <path id="selected-bottomright" d="m 16,16 v 8 h 4 a 4,4 0 0 0 4,-4 v -4"/>
+  </g>
+</svg>
