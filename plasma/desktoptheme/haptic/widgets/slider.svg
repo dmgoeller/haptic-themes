@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 28">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 32">
   <defs>
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Background { color: #F0F0F0 }
@@ -13,55 +13,100 @@
     </radialGradient>
   </defs>
 
-  <!-- Surface and shadow -->
+  <!-- Groove -->
 
-  <g transform="translate(24,10)">
+  <g transform="translate(0,0)">
     <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125">
-      <path id="groove-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
-      <rect id="groove-top" x="4" width="16" height="4"/>
-      <path id="groove-topright" d="m 20,0 a 4,4 0 0 1 4,4 h -4 z"/>
-      <path id="groove-bottomleft" d="m 0,4 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
-      <rect id="groove-bottom" x="4" y="4" width="16" height="4"/>
-      <path id="groove-bottomright" d="m 20,4 h 4 a 4,4 0 0 1 -4,4 v -4 z"/>
-    </g>
-    <g style="fill:none">
-      <rect id="groove-left" y="4" width="4" height="0.01"/>
-      <rect id="groove-center" x="4" y="4" width="16" height="0.01"/>
-      <rect id="groove-right" x="20" y="4" width="4" height="0.01"/>
+      <g id="groove-topleft">
+        <rect style="fill:none" width="6" height="6"/>
+        <path d="m 2,6 a 4,4 0 0 1 4,-4 v 4 z"/>
+      </g>
+      <g id="groove-top" transform="translate(6)">
+        <rect style="fill:none" width="12" height="6"/>
+        <rect y="2" width="12" height="4"/>
+      </g>
+      <g id="groove-topright" transform="translate(18)">
+        <rect style="fill:none" width="6" height="6"/>
+        <path d="m 0,2 a 4,4 0 0 1 4,4 h -4 z"/>
+      </g>
+      <g id="groove-left" transform="translate(0,6)">
+        <rect style="fill:none" width="6" height="6"/>
+        <rect x="2" width="4" height="6"/>
+      </g>
+      <g id="groove-center" transform="translate(6,6)">
+        <rect width="12" height="6"/>
+      </g>
+      <g id="groove-right" transform="translate(18,6)">
+        <rect style="fill:none" width="6" height="6"/>
+        <rect width="4" height="6"/>
+      </g>
+      <g id="groove-bottomleft" transform="translate(0,12)">
+        <rect style="fill:none" width="6" height="6"/>
+        <path d="m 2,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+      </g>
+      <g id="groove-bottom" transform="translate(6,12)">
+        <rect style="fill:none" width="12" height="6"/>
+        <rect width="12" height="4"/>
+      </g>
+      <g id="groove-bottomright" transform="translate(18,12)">
+        <rect style="fill:none" width="6" height="6"/>
+        <path d="m 0,0 h 4 a 4,4 0 0 1 -4,4 v -4 z"/>
+      </g>
     </g>
   </g>
-  <g transform="translate(0,10)">
+
+  <g transform="translate(0,16)">
     <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
-      <path id="groove-highlight-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
-      <rect id="groove-highlight-top" x="4" y="0" width="16" height="4"/>
-      <path id="groove-highlight-topright" d="m 20,0 a 4,4 0 0 1 4,4 h -4 z"/>
-      <path id="groove-highlight-bottomleft" d="m 0,4 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
-      <rect id="groove-highlight-bottom" x="4" y="4" width="16" height="4"/>
-      <path id="groove-highlight-bottomright" d="m 20,4 h 4 a 4,4 0 0 1 -4,4 v -4 z"/>
-    </g>
-    <g style="fill:none">
-      <rect id="groove-highlight-left" y="4" width="4" height="0.01"/>
-      <rect id="groove-highlight-center" x="4" y="4" width="16" height="0.01"/>
-      <rect id="groove-highlight-right" x="20" y="4" width="4" height="0.01"/>
+      <g id="groove-highlight-topleft">
+        <rect style="fill:none" width="6" height="6"/>
+        <path d="m 2,6 a 4,4 0 0 1 4,-4 v 4 z"/>
+      </g>
+      <g id="groove-highlight-top" transform="translate(6)">
+        <rect style="fill:none" width="12" height="6"/>
+        <rect id="groove-highlight-top" y="2" width="12" height="4"/>
+      </g>
+      <g id="groove-highlight-topright" transform="translate(18)">
+        <rect style="fill:none" width="6" height="6"/>
+        <path d="m 0,2 a 4,4 0 0 1 4,4 h -4 z"/>
+      </g>
+      <g id="groove-highlight-left" transform="translate(0,6)">
+        <rect style="fill:none" width="6" height="6"/>
+        <rect x="2" width="4" height="6"/>
+      </g>
+      <g id="groove-highlight-center" transform="translate(6,6)">
+        <rect width="12" height="6"/>
+      </g>
+      <g id="groove-highlight-right" transform="translate(18,6)">
+        <rect style="fill:none" width="6" height="6"/>
+        <rect width="4" height="6"/>
+      </g>
+      <g id="groove-highlight-bottomleft" transform="translate(0,12)">
+        <rect style="fill:none" width="6" height="6"/>
+        <path d="m 2,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
+      </g>
+      <g id="groove-highlight-bottom" transform="translate(6,12)">
+        <rect style="fill:none" width="12" height="6"/>
+        <rect width="12" height="4"/>
+      </g>
+      <g id="groove-highlight-bottomright" transform="translate(18,12)">
+        <rect style="fill:none" width="6" height="6"/>
+        <path d="m 0,0 h 4 a 4,4 0 0 1 -4,4 v -4 z"/>
+      </g>
     </g>
   </g>
 
-  <g id="horizontal-slider-shadow" transform="translate(24,14)">
-    <g id="vertical-slider-shadow">
-      <circle style="fill:url(#slider-shadow)" r="10"/>
-    </g>
-  </g>
+  <!-- Slider -->
 
-  <g id="horizontal-slider-handle" transform="translate(24,14)">
+  <g transform="translate(36,16)">
     <g id="vertical-slider-handle">
-      <circle class="ColorScheme-Background" style="fill:currentColor" r="8"/>
-      <circle class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:1" r="7.5"/>
+      <g id="horizontal-slider-handle">
+        <circle style="fill:url(#slider-shadow)" r="10"/>
+        <circle class="ColorScheme-Background" style="fill:currentColor" r="7"/>
+
+        <path class="ColorScheme-Text" style="fill:currentColor"
+              d="M 0,-8 a 8,8 0 0 0 0,16 a 8,8 0 0 0 0,-16 m 0,1 a 7,7 0 0 1 0,14 a 7,7 0 0 1 0,-14"/>
+      </g>
     </g>
-  </g>
-
-  <!-- Hints -->
-
-  <g id="hints" style="fill:#B0BEC5" transform="translate(-24,14)">
-    <circle id="hint-handle-size" r="8"/>
+    <rect id="hint-handle-size" style="fill:none" x="-10" y="-10" width="20" height="20"/>
   </g>
 </svg>
