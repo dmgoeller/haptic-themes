@@ -13,7 +13,3 @@ name=haptic-light
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.breezeenhanced
 theme=BreezeEnhanced
-
-[kcminputrc][Mouse]
-cursorSize=32
-cursorTheme=Google_Cursor

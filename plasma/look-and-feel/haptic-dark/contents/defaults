@@ -14,6 +14,3 @@ name=haptic-dark
 library=org.kde.breezeenhanced
 theme=BreezeEnhanced
 
-[kcminputrc][Mouse]
-cursorSize=32
-cursorTheme=Google_Cursor
