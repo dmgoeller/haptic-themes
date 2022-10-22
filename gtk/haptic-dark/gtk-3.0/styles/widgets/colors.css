@@ -6,10 +6,14 @@
   background-clip: border-box;
 }
 
-.background,
+.background {
+  color: @base-fg-color;
+  background-color: @dialog-bg-color;
+}
+
+.csd.background,
 .gtkstyle-fallback {
   background-color: @base-bg-color;
-  color: @base-fg-color;
 }
 
 window > decoration,
@@ -79,14 +83,14 @@ separator.titlebutton {
  **********************************************************************/
 
 headerbar {
-  background-color: @base-bg-color;
+  background-color: @headerbar-bg-color;
 }
 
 .csd headerbar {
   background-color: @headerbar-bg-color;
   background-image: linear-gradient(to bottom,
                                     shade(@headerbar-bg-color, 1.0625),
-                                    shade(@headerbar-bg-color, 0.9375));
+                                    @headerbar-bg-color);
   background-repeat: repeat-x;
   color: @headerbar-fg-color;
 }
@@ -136,8 +140,8 @@ list,
 
 row.activatable:selected,
 .view:selected {
-  background-color: alpha(@selection-bg-color, 0.5);
-  border-color: alpha(@selection-bg-color, 0.5);
+  background-color: @selection-bg-color;
+  color: @selection-fg-color;
 }
 
 .sidebar row.activatable:hover,
@@ -161,12 +165,16 @@ treeview.view.expander {
   color: alpha(@base-fg-color, 0.75);
 }
 
+treeview.view.expander:selected {
+  color: alpha(@selection-fg-color, 0.75);
+}
+
 treeview.view.progressbar {
   background-color: @accent-fg-color;
 }
 
 treeview rubberband {
-  background-color: alpha(@selection-bg-color, 0.25);
+  background-color: alpha(@selection-bg-color, 0.5);
   background-clip: padding-box;
 }
 
@@ -175,11 +183,7 @@ treeview rubberband {
  **********************************************************************/
 
 menu {
-  background-color: @ssd-menu-bg-color;
-}
-
-.csd menu {
-  background-color: @csd-menu-bg-color;
+  background-color: @menu-bg-color;
 }
 
 menuitem {
@@ -236,19 +240,19 @@ label.keycap {
  **********************************************************************/
 
 button {
-  background-color: mix(@base-bg-color, @inverse-bg-color, 0.25);
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.3125);
   color: @button-fg-color;
 }
 
 button:hover,
 spinbutton > button:active {
-  background-color: mix(@base-bg-color, @inverse-bg-color, 0.3125);
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.375);
   color: @button-fg-color-hover;
 }
 
 button:checked,
 button.toggle.popup:checked {
-  background-color: mix(@base-bg-color, @inverse-bg-color, 0.375);
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.4375);
   color: @button-fg-color-checked;
 }
 
@@ -287,11 +291,7 @@ button.link:hover {
   color: @link-color;
 }
 
-button:disabled {
-  background-color: alpha(@inverse-bg-color, 0.09375);
-  color: @disabled-fg-color;
-}
-
+button:disabled,
 button.radio:checked:disabled,
 button.toggle:checked:disabled,
 button.toggle.popup:checked:disabled {
@@ -311,13 +311,14 @@ button:disabled image {
 
 /* Infobar buttons */
 
-infobar button {
+infobar button,
+infobar button.default {
   background-color: alpha(currentColor, 0.125);
   color: white;
 }
 
 infobar button:hover,
-infobar button.default {
+infobar button.default:hover {
   background-color: alpha(currentColor, 0.25);
   color: white;
 }
@@ -349,18 +350,22 @@ toolbar button:hover {
 
 button.flat:checked,
 button.flat.toggle:checked,
-button.flat.toggle.popup:checked,
 /* --------------------------------- */
 actionbar button:checked,
 actionbar button.toggle:checked,
-actionbar button.toggle.popup:checked,
 /* --------------------------------- */
 headerbar button:checked,
 headerbar button.toggle:checked,
-headerbar button.toggle.popup:checked,
 /* --------------------------------- */
 toolbar button:checked,
-toolbar button.toggle:checked,
+toolbar button.toggle:checked {
+  background-color: @selection-bg-color;
+  color: @selection-fg-color;
+}
+
+button.flat.toggle.popup:checked,
+actionbar button.toggle.popup:checked,
+headerbar button.toggle.popup:checked,
 toolbar button.toggle.popup:checked {
   background-color: alpha(@inverse-bg-color, 0.25);
   color: @flat-button-fg-color-checked;
@@ -453,7 +458,7 @@ infobar button.flat:disabled {
 
 treeview header > button,
 treeview header > button:hover {
-  background-color: @base-bg-color;
+  background-color: @view-bg-color;
   color: @base-fg-color;
 }
 
@@ -475,7 +480,7 @@ entry,
 button.combo:only-child,
 button.combo:only-child:hover,
 button.combo:only-child:checked {
-  background-color: mix(@base-bg-color, @inverse-bg-color, 0.125);
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.1875);
   color: @intense-fg-color;
 }
 
@@ -487,7 +492,7 @@ infobar entry,
 infobar button.combo:only-child,
 infobar button.combo:only-child:hover,
 infobar button.combo:only-child:checked {
-  background-color: alpha(@inverse-bg-color, 0.125);
+  background-color: alpha(@inverse-bg-color, 0.1875);
 }
 
 entry:disabled,
@@ -675,7 +680,7 @@ filechooser #pathbarbox {
  **********************************************************************/
 
 notebook > header {
-  background-color: mix(@base-bg-color, @inverse-bg-color, 0.0625);
+  background-color: @base-bg-color;
 }
 
 tab {
@@ -691,7 +696,7 @@ tab:checked {
 }
 
 tab.reorderable-page:hover {
-  background-color: mix(@base-bg-color, @inverse-bg-color, 0.125);
+  background-color: mix(@base-bg-color, @inverse-bg-color, 0.0625);
 }
 
 header.top > tabs > tab:hover:not(:checked) {

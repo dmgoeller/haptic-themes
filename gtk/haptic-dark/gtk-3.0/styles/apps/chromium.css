@@ -1,14 +1,23 @@
 
+window.chromium {
+  background-color: @chromium-bg-color;
+}
+
 headerbar.chromium {
-  background-color: @headerbar-bg-color;
+  background-color: @chromium-headerbar-bg-color;
   background-image: initial;
   border-bottom: none;
 }
 
 headerbar.chromium:backdrop {
-  background-color: @base-bg-color;
+  background-color: @chromium-headerbar-bg-color;
+}
+
+/* Hack: Style toolbar bottom border */
+button.chromium:not(.titlebutton) {
+  border: 1px solid mix(@base-bg-color, @inverse-bg-color, 0.3125);
 }
 
 button.titlebutton.chromium {
-  color: transparent;
+  -gtk-icon-transform: scale(0.75);
 }

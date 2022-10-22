@@ -1,8 +1,9 @@
 
 /* Base colors */
-@define-color base-bg-color #F0F0F0;
+@define-color base-bg-color #F4F4F4;
+@define-color dialog-bg-color #E8E8E8;
 @define-color view-bg-color white;
-@define-color inverse-bg-color #303030;
+@define-color inverse-bg-color #343434;
 
 @define-color base-fg-color #606060;
 @define-color view-fg-color #484848;
@@ -10,10 +11,12 @@
 @define-color placeholder-fg-color #909090;
 @define-color disabled-fg-color #909090;
 @define-color selection-bg-color #9AB7DB;
+@define-color selection-fg-color #303030;
 
-@define-color base-border-color #C0C0C0;
-@define-color frame-border-color #D8D8D8;
-@define-color bevel-border-color #C0C0C0;
+@define-color base-border-color alpha(@inverse-bg-color, 0.1875);
+@define-color frame-border-color alpha(@inverse-bg-color, 0.1875);
+@define-color light-beveled-border-color white;
+@define-color dark-beveled-border-color #alpha(black, 0.125);
 @define-color elevated-border-top-color transparent;
 @define-color elevated-border-bottom-color transparent;
 
@@ -40,8 +43,9 @@
 @define-color attention-bg-color alpha(@warning-fg-color, 0.5);
 
 /* Headerbar colors */
-@define-color headerbar-bg-color #D8D8D8;
+@define-color headerbar-bg-color #E8E8E8;
 @define-color headerbar-fg-color #606060;
+@define-color headerbar-border-bottom-color #D0D0D0;
 @define-color headerbar-border-top-color @base-bg-color;
 
 /* Sidebar colors */
@@ -49,11 +53,9 @@
 @define-color sidebar-bg-color-selected alpha(@inverse-bg-color, 0.25);
 
 /* Menu colors */
-@define-color ssd-menu-bg-color white;
-@define-color csd-menu-bg-color white;
-
-@define-color menu-border-color #C0C0C0;
-@define-color menu-separator-color #C0C0C0;
+@define-color menu-bg-color white;
+@define-color menu-border-color #C4C4C4;
+@define-color menu-separator-color #C4C4C4;
 
 @define-color menuitem-fg-color #303030;
 @define-color menuitem-fg-color-selected #FFF;
@@ -62,7 +64,7 @@
 @define-color button-fg-color #484848;
 @define-color button-fg-color-hover #3C3C3C;
 @define-color button-fg-color-checked #303030;
-@define-color colored-button-fg-color #FFF;
+@define-color colored-button-fg-color white;
 @define-color suggested-button-bg-color @green-800;
 @define-color destructive-button-bg-color @red-800;
 
@@ -90,5 +92,9 @@
 @define-color popover-fg-color #484848;
 
 /* Tooltip colors */
-@define-color tooltip-bg-color #FFF;
+@define-color tooltip-bg-color white;
 @define-color tooltip-fg-color #606060;
+
+/* Chromium colors */
+@define-color chromium-bg-color #E8E8E8;
+@define-color chromium-headerbar-bg-color #F4F4F4;

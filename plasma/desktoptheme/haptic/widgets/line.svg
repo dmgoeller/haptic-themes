@@ -5,7 +5,7 @@
       .ColorScheme-ViewText { color: #303030 }
     </style>
   </defs>
-  <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25">
+  <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.1875">
     <rect id="horizontal-line" width="32" height="1"/>
     <rect id="vertical-line" width="1" height="32"/>
   </g>

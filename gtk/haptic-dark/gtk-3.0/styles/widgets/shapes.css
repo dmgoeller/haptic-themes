@@ -8,7 +8,7 @@
  **********************************************************************/
 
 .csd > decoration {
-  border-radius: 4px 4px 0 0;
+  border-radius: 6px 6px 0 0;
 }
 
 .csd.maximized > decoration,
@@ -23,12 +23,12 @@
 .csd headerbar.titlebar,
 .csd headerbar:first-child,
 .csd separator:first-child + headerbar {
-  border-top-left-radius: 4px;
+  border-top-left-radius: 6px;
 }
 
 .csd headerbar.titlebar,
 .csd headerbar:last-child {
-  border-top-right-radius: 4px;
+  border-top-right-radius: 6px;
 }
 
 .csd.maximized headerbar.titlebar,

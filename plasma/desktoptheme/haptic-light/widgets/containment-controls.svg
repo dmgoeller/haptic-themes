@@ -2,11 +2,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 136">
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text { color: #F0F0F0 }
+      .ColorScheme-Text { color: #606060 }
     </style>
     <style type="text/css">
-      .Background { fill: #303030; fill-opacity: 0.0625 }
-      .Border { fill: #303030; fill-opacity: 0.25 }
+      .Background { fill: black; fill-opacity: 0.0625 }
+      .Border { fill: black; fill-opacity: 0.125 }
     </style>
   </defs>
   <g>

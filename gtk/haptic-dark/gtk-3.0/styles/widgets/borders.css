@@ -8,7 +8,7 @@
  **********************************************************************/
 
 headerbar {
-  border-bottom: 1px solid shade(@base-border-color, 0.875);
+  border-bottom: 1px solid @headerbar-border-bottom-color;
 }
 
 .csd headerbar {
@@ -38,7 +38,7 @@ treeview > header button:not(:first-child) {
 }
 
 treeview > header button {
-  border-color: @base-border-color;
+  border-color: @frame-border-color;
 }
 
 .frame treeview > header button,
@@ -78,11 +78,18 @@ frame > border,
   border: 1px solid @frame-border-color;
 }
 
-frame.border-inset > border,
-frame.border-outset > border,
-frame.border-groove > border,
-frame.border-ridge > border {
-  border-color: @bevel-border-color;
+frame.border-inset > border {
+  border-top-color: @dark-beveled-border-color;
+  border-left-color: @dark-beveled-border-color;
+  border-right-color: @light-beveled-border-color;
+  border-bottom-color: @light-beveled-border-color;
+}
+
+frame.border-outset > border {
+  border-top-color: @light-beveled-border-color;
+  border-left-color: @light-beveled-border-color;
+  border-right-color: @dark-beveled-border-color;
+  border-bottom-color: @dark-beveled-border-color;
 }
 
 .sidebar.frame,

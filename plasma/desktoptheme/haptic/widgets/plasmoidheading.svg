@@ -11,9 +11,9 @@
   <g class="ColorScheme-ViewText" style="fill:currentColor">
     <g>
       <g style="fill-opacity:0.0625">
-        <path id="header-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 v 2 h 6 v -6"/>
+        <path id="header-topleft" d="m 6,0 a 6,6 0 0 0 -6,6 h 6"/>
         <rect id="header-top" x="6" width="12" height="6"/>
-        <path id="header-topright" transform="translate(18)" d="m 0,0 v 6 h 6 v -2 a 4,4 0 0 0 -4,-4"/>
+        <path id="header-topright" transform="translate(18)" d="m 0,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
         <rect id="header-left" y="6" width="6" height="12"/>
         <rect id="header-center" x="6" y="6" width="12" height="12"/>
         <rect id="header-right" x="18" y="6" width="6" height="12"/>
@@ -48,9 +48,9 @@
         <rect id="footer-left" y="6" width="6" height="12"/>
         <rect id="footer-center" x="6" y="6" width="12" height="12"/>
         <rect id="footer-right" x="18" y="6" width="6" height="12"/>
-        <path id="footer-bottomleft" transform="translate(0,18)" d="m 0,0 v 2 a 4,4 0 0 0 4,4 h 2 v -6"/>
+        <path id="footer-bottomleft" transform="translate(0,18)" d="m 0,0 a 6,6 0 0 0 6,6 v -6"/>
         <rect id="footer-bottom" x="6" y="18" width="12" height="6"/>
-        <path id="footer-bottomright" transform="translate(18,18)" d="m 0,0 v 6 h 2 a 4,4 0 0 0 4,-4 v -2"/>
+        <path id="footer-bottomright" transform="translate(18,18)" d="m 0,0 v 6 a 6,6 0 0 0 6,-6"/>
       </g>
     </g>
   </g>

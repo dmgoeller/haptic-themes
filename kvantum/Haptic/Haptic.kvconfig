@@ -78,25 +78,25 @@ vertical_spin_indicators=false
 x11drag=menubar_and_primary_toolbar
 
 [GeneralColors]
-base.color=#FFFFFF
-alt.base.color=#F0F0F0
+base.color=#FFF
+alt.base.color=#F4F4F4
 text.color=#303030
 disabled.text.color=#909090
-window.color=#F0F0F0
+window.color=#F4F4F4
 window.text.color=#606060
 button.color=#C0C0C0
 button.text.color=#484848
 highlight.color=#9AB7DB
 highlight.text.color=#303030
 tooltip.base.color=#303030
-tooltip.text.color=#F0F0F0
+tooltip.text.color=#FFF
 link.color=#1565C0
 link.visited.color=#6A1B9A
 progress.indicator.text.color=#FFF
 light.color=#FFF
-mid.light.color=#F0F0F0
-mid.color=#DEDEDE
-dark.color=#CCCCCC
+mid.light.color=#DCDCDC
+mid.color=#D0D0D0
+dark.color=#B8B8B8
 
 [Hacks]
 blur_translucent=true
@@ -148,7 +148,8 @@ interior=true
 interior.element=opaque-window
 
 [Dialog]
-inherits=Window
+interior=true
+interior.element=opaque-dialog
 
 [GenericFrame]
 inherits=BaseWidget
@@ -198,8 +199,8 @@ inherits=MenuBar
 
 [StatusBar]
 inherits=BaseWidget
-interior.element=opaque-statusbar
-frame.element=opaque-statusbar
+interior.element=statusbar
+frame.element=statusbar
 frame.top=1
 
 [Dock]
@@ -427,7 +428,7 @@ frame.left=8
 frame.right=8
 
 [Splitter]
-interior.element=opaque-splitter
+interior.element=splitter
 frame=false
 indicator.size=0
 

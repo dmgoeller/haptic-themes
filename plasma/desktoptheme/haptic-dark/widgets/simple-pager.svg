@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 16">
+  <defs>
+    <style type="text/css">
+      .Normal { fill: white; fill-opacity: 0.25 }
+      .Active { fill: #7BA1D0 }
+    </style>
+  </defs>
+  <rect id="normal-center" class="Normal" width="16" height="16"/>
+  <rect id="hover-center" class="Normal" x="20" width="16" height="16"/>
+  <rect id="active-center" class="Active" x="40" width="16" height="16"/>
+</svg>

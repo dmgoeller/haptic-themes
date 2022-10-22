@@ -2,15 +2,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80">
   <defs>
     <style type="text/css">
-      .BorderBackdrop { fill: #31302F; fill-opacity: 0.75 }
-      .ButtonBorder { fill: #F0F0F0; fill-opacity: 0.375 }
-      .ButtonBackground { fill: 31302F; fill-opacity: 0.0625 }
-      .ButtonHover { fill: #61605F; fill-opacity: 0.5 }
-      .ButtonPressed { fill: #61605F}
+      .Backdrop { fill: none }
+      .ButtonBorder { fill: white; fill-opacity: 0.25 }
+      .ButtonBackground { fill: white; fill-opacity: 0.0625 }
+      .ButtonBackgroundPressed { fill: white; fill-opacity: 0.125 }
+      .ButtonHover { fill: none }
       .ButtonFocusInner { fill: #2670D0; fill-opacity: 0.875 }
       .ButtonFocusOuter { fill: #2670D0; fill-opacity: 0.625 }
-      .ToolButtonHover { fill: #F0F0F0; fill-opacity: 0.125 }
-      .ToolButtonPressed { fill: #61605F }
+      .ToolButtonHover { fill: #606060; fill-opacity: 0.5 }
+      .ToolButtonPressed { fill: #606060 }
       .ToolButtonFocus { fill: #2670D0; fill-opacity: 0.625 }
     </style>
   </defs>
@@ -19,53 +19,46 @@
 
   <g transform="translate(2,2)">
     <g id="normal-topleft">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="BorderBackdrop" d="m 0,4 a 4,4, 0 0 1 4,-4 h 8 v 1 h -8 a 3,3 0 0 0 -3,3 v 2 h -1"/>
+      <path class="Backdrop" d="m 0,4 a 4,4, 0 0 1 4,-4 h 8 v 6 h -12"/>
       <path class="ButtonBorder" d="m 0,4 a 4,4, 0 0 1 4,-4 h 8 v 1 h -8 a 3,3 0 0 0 -3,3 v 2 h -1"/>
       <path class="ButtonBackground" d="m 4,1 a 3,3 0 0 0 -3,3 v 2 h 11 v -5"/>
     </g>
     <g id="normal-top" transform="translate(12)">
-      <rect style="fill:none" width="12" height="6"/>
-      <rect class="BorderBackdrop" width="12" height="1"/>
+      <rect class="Backdrop" width="12" height="6"/>
       <rect class="ButtonBorder" width="12" height="1"/>
       <rect class="ButtonBackground" y="1" width="12" height="5"/>
     </g>
     <g id="normal-topright" transform="translate(24)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="BorderBackdrop" d="m 0,0 h 8 a 4,4 0 0 1 4,4 v 2 h -1 v -2 a 3,3 0 0 0 -3,-3 h -8"/>
+      <path class="Backdrop" d="m 0,0 h 8 a 4,4 0 0 1 4,4 v 2 h -12 "/>
       <path class="ButtonBorder" d="m 0,0 h 8 a 4,4 0 0 1 4,4 v 2 h -1 v -2 a 3,3 0 0 0 -3,-3 h -8"/>
       <path class="ButtonBackground" d="m 0,1 v 5 h 11 v -2 a 3,3 0 0 0 -3,-3"/>
     </g>
     <g id="normal-left" transform="translate(0,6)">
-      <rect style="fill:none" width="12" height="24"/>
-      <rect class="BorderBackdrop" width="1" height="24"/>
+      <rect class="Backdrop" width="12" height="24"/>
       <rect class="ButtonBorder" width="1" height="24"/>
       <rect class="ButtonBackground" x="1" width="11" height="24"/>
     </g>
     <g id="normal-center" transform="translate(12,6)">
+      <rect class="Backdrop" width="12" height="24"/>
       <rect class="ButtonBackground" width="12" height="24"/>
     </g>
     <g id="normal-right" transform="translate(24,6)">
-      <rect style="fill:none" width="12" height="24"/>
-      <rect class="BorderBackdrop" x="11" width="1" height="24"/>
+      <rect class="Backdrop" width="12" height="24"/>
       <rect class="ButtonBorder" x="11" width="1" height="24"/>
       <rect class="ButtonBackground" width="11" height="24"/>
     </g>
     <g id="normal-bottomleft" transform="translate(0,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="BorderBackdrop" d="m 0,0 h 1 v 2 a 3,3 0 0 0 3,3 h 8 v 1 h -8 a 4,4 0 0 1 -4,-4"/>
+      <path class="Backdrop" d="m 0,0 h 12 v 6 h -8 a 4,4 0 0 1 -4,-4"/>
       <path class="ButtonBorder" d="m 0,0 h 1 v 2 a 3,3 0 0 0 3,3 h 8 v 1 h -8 a 4,4 0 0 1 -4,-4"/>
       <path class="ButtonBackground" d="m 1,0 v 2 a 3,3 0 0 0 3,3 h 8 v -5"/>
     </g>
     <g id="normal-bottom" transform="translate(12,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <rect class="BorderBackdrop" y="5" width="12" height="1"/>
+      <rect class="Backdrop" width="12" height="6"/>
       <rect class="ButtonBorder" y="5" width="12" height="1"/>
       <rect class="ButtonBackground" width="12" height="5"/>
     </g>
     <g id="normal-bottomright" transform="translate(24,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="BorderBackdrop" d="m 0,5 h 8 a 3,3 0 0 0 3,-3 v -2 h 1 v 2 a 4,4 0 0 1 -4,4 h -8 z"/>
+      <path class="Backdrop" d="m 0,0 h 12 v 2 a 4,4 0 0 1 -4,4 h -8"/>
       <path class="ButtonBorder" d="m 0,5 h 8 a 3,3 0 0 0 3,-3 v -2 h 1 v 2 a 4,4 0 0 1 -4,4 h -8 z"/>
       <path class="ButtonBackground" d="m 0,0 v 5 h 8 a 3,3 0 0 0 3,-3 v -2"/>
     </g>
@@ -119,55 +112,48 @@
 
   <g transform="translate(82,2)">
     <g id="pressed-topleft">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="BorderBackdrop" d="m 0,4 a 4,4, 0 0 1 4,-4 h 8 v 1 h -8 a 3,3 0 0 0 -3,3 v 2 h -1"/>
+      <path class="Backdrop" d="m 0,4 a 4,4, 0 0 1 4,-4 h 8 v 6 h -12"/>
       <path class="ButtonBorder" d="m 0,4 a 4,4, 0 0 1 4,-4 h 8 v 1 h -8 a 3,3 0 0 0 -3,3 v 2 h -1"/>
-      <path class="ButtonPressed" d="m 4,1 a 3,3 0 0 0 -3,3 v 2 h 11 v -5"/>
+      <path class="ButtonBackgroundPressed" d="m 4,1 a 3,3 0 0 0 -3,3 v 2 h 11 v -5"/>
     </g>
     <g id="pressed-top" transform="translate(12)">
-      <rect style="fill:none" width="12" height="6"/>
-      <rect class="BorderBackdrop" width="12" height="1"/>
+      <rect class="Backdrop" width="12" height="6"/>
       <rect class="ButtonBorder" width="12" height="1"/>
-      <rect class="ButtonPressed" y="1" width="12" height="5"/>
+      <rect class="ButtonBackgroundPressed" y="1" width="12" height="5"/>
     </g>
     <g id="pressed-topright" transform="translate(24)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="BorderBackdrop" d="m 0,0 h 8 a 4,4 0 0 1 4,4 v 2 h -1 v -2 a 3,3 0 0 0 -3,-3 h -8"/>
+      <path class="Backdrop" d="m 0,0 h 8 a 4,4 0 0 1 4,4 v 2 h -12 "/>
       <path class="ButtonBorder" d="m 0,0 h 8 a 4,4 0 0 1 4,4 v 2 h -1 v -2 a 3,3 0 0 0 -3,-3 h -8"/>
-      <path class="ButtonPressed" d="m 0,1 v 5 h 11 v -2 a 3,3 0 0 0 -3,-3"/>
+      <path class="ButtonBackgroundPressed" d="m 0,1 v 5 h 11 v -2 a 3,3 0 0 0 -3,-3"/>
     </g>
     <g id="pressed-left" transform="translate(0,6)">
-      <rect style="fill:none" width="12" height="24"/>
-      <rect class="BorderBackdrop" width="1" height="24"/>
+      <rect class="Backdrop" width="12" height="24"/>
       <rect class="ButtonBorder" width="1" height="24"/>
-      <rect class="ButtonPressed" x="1" width="11" height="24"/>
+      <rect class="ButtonBackgroundPressed" x="1" width="11" height="24"/>
     </g>
     <g id="pressed-center" transform="translate(12,6)">
-      <rect class="ButtonPressed" width="12" height="24"/>
+      <rect class="Backdrop" width="12" height="24"/>
+      <rect class="ButtonBackgroundPressed" width="12" height="24"/>
     </g>
     <g id="pressed-right" transform="translate(24,6)">
-      <rect style="fill:none" width="12" height="24"/>
-      <rect class="BorderBackdrop" x="11" width="1" height="24"/>
+      <rect class="Backdrop" width="12" height="24"/>
       <rect class="ButtonBorder" x="11" width="1" height="24"/>
-      <rect class="ButtonPressed" width="11" height="24"/>
+      <rect class="ButtonBackgroundPressed" width="11" height="24"/>
     </g>
     <g id="pressed-bottomleft" transform="translate(0,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="BorderBackdrop" d="m 0,0 h 1 v 2 a 3,3 0 0 0 3,3 h 8 v 1 h -8 a 4,4 0 0 1 -4,-4"/>
+      <path class="Backdrop" d="m 0,0 h 12 v 6 h -8 a 4,4 0 0 1 -4,-4"/>
       <path class="ButtonBorder" d="m 0,0 h 1 v 2 a 3,3 0 0 0 3,3 h 8 v 1 h -8 a 4,4 0 0 1 -4,-4"/>
-      <path class="ButtonPressed" d="m 1,0 v 2 a 3,3 0 0 0 3,3 h 8 v -5"/>
+      <path class="ButtonBackgroundPressed" d="m 1,0 v 2 a 3,3 0 0 0 3,3 h 8 v -5"/>
     </g>
     <g id="pressed-bottom" transform="translate(12,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <rect class="BorderBackdrop" y="5" width="12" height="1"/>
+      <rect class="Backdrop" width="12" height="6"/>
       <rect class="ButtonBorder" y="5" width="12" height="1"/>
-      <rect class="ButtonPressed" width="12" height="5"/>
+      <rect class="ButtonBackgroundPressed" width="12" height="5"/>
     </g>
     <g id="pressed-bottomright" transform="translate(24,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="BorderBackdrop" d="m 0,5 h 8 a 3,3 0 0 0 3,-3 v -2 h 1 v 2 a 4,4 0 0 1 -4,4 h -8 z"/>
+      <path class="Backdrop" d="m 0,0 h 12 v 2 a 4,4 0 0 1 -4,4 h -8"/>
       <path class="ButtonBorder" d="m 0,5 h 8 a 3,3 0 0 0 3,-3 v -2 h 1 v 2 a 4,4 0 0 1 -4,4 h -8 z"/>
-      <path class="ButtonPressed" d="m 0,0 v 5 h 8 a 3,3 0 0 0 3,-3 v -2"/>
+      <path class="ButtonBackgroundPressed" d="m 0,0 v 5 h 8 a 3,3 0 0 0 3,-3 v -2"/>
     </g>
   </g>
 
@@ -192,9 +178,8 @@
       <rect class="ButtonFocusInner" x="1" width="1" height="28"/>
       <rect class="ButtonFocusOuter" width="1" height="28"/>
     </g>
-    <g id="focus-center" transform="translate(6,6)">
-      <rect style="fill:none" width="28" height="28"/>
-    </g>
+    <rect id="focus-center" style="fill:none" x="6" y="6" width="28" height="28"/>
+
     <g id="focus-right" transform="translate(34,6)">
       <rect style="fill:none" width="6" height="28"/>
       <rect class="ButtonFocusInner" x="4" width="1" height="28"/>

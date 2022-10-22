@@ -2,10 +2,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 32">
   <defs>
     <style type="text/css">
-      .Groove { fill: #F0F0F0; fill-opacity: 0.125 }
+      .Groove { fill: #E4E4E4; fill-opacity: 0.1875 }
       .GrooveHighlight { fill: #2670D0 }
       .SliderHandleBackground { fill: #C0C0C0 }
-      .SliderHandleBorderTop { fill: #F0F0F0; fill-opacity: 0.125 }
+      .SliderHandleBorderTop { fill: white; fill-opacity: 0.125 }
     </style>
     <radialGradient id="slider-shadow" r="50%">
       <stop offset="0.85" style="stop-color:black;stop-opacity:0.125"/>

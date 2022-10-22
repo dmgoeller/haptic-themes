@@ -74,10 +74,9 @@
 
   <g id="shadow-topleft">
     <rect style="fill:none" width="30" height="36"/>
-    <rect style="fill:url(#ambient-light-shadow-top)" x="28" width="2" height="24"/>
-    <rect style="fill:url(#ambient-light-shadow-left)" y="28" width="24" height="8"/>
-    <path style="fill:url(#ambient-light-shadow-topleft)" d="m 0,0 v 28 h 24 a 4,4 0 0 1 4,-4 v -24"/>
-    <path style="fill:url(#key-light-shadow-topleft)" d="m 0,0 v 36 h 24 v -8 a 4,4 0 0 1 4,-4 h 2 v -24"/>
+    <rect style="fill:url(#ambient-light-shadow-left)" y="30" width="24" height="6"/>
+    <path style="fill:url(#ambient-light-shadow-topleft)" d="m 0,0 v 30 h 24 a 6,6 0 0 1 6,-6 v -24"/>
+    <path style="fill:url(#key-light-shadow-topleft)" d="m 0,0 v 36 h 24 v -6 a 6,6 0 0 1 6,-6 v -24"/>
   </g>
   <g id="shadow-top" transform="translate(30)">
     <rect style="fill:none" width="30" height="30"/>
@@ -86,10 +85,9 @@
   </g>
   <g id="shadow-topright" transform="translate(60)">
     <rect style="fill:none" width="30" height="36"/>
-    <rect style="fill:url(#ambient-light-shadow-top)" width="2" height="24"/>
-    <rect style="fill:url(#ambient-light-shadow-right)" x="6" y="28" width="24" height="8"/>
-    <path style="fill:url(#ambient-light-shadow-topright)" d="m 2,0 v 24 a 4,4 0 0 1 4,4 h 24 v -28"/>
-    <path style="fill:url(#key-light-shadow-topright)" d="m 0,0 v 24 h 2 a 4,4 0 0 1 4,4 v 8 h 24 v -36"/>
+    <rect style="fill:url(#ambient-light-shadow-right)" x="6" y="30" width="24" height="6"/>
+    <path style="fill:url(#ambient-light-shadow-topright)" d="m 0,0 v 24 a 6,6 0 0 1 6,6 h 24 v -28"/>
+    <path style="fill:url(#key-light-shadow-topright)" d="m 0,0 v 24 a 6,6 0 0 1 6,6 v 6 h 24 v -36"/>
   </g>
   <g id="shadow-left" transform="translate(0,36)">
     <rect style="fill:none" width="30" height="24"/>
@@ -103,12 +101,8 @@
   </g>
   <g id="shadow-bottomleft" transform="translate(0,60)">
     <rect style="fill:none" width="30" height="30"/>
-    <rect style="fill:url(#ambient-light-shadow-left)" width="24" height="2"/>
-    <rect style="fill:url(#ambient-light-shadow-bottom)" x="28" y="6" width="2" height="24"/>
-    <path style="fill:url(#ambient-light-shadow-bottomleft)" d="m 0,2 v 28 h 28 v -24 a 4,4 0 0 1 -4,-4"/>
-    <rect style="fill:url(#key-light-shadow-left)" width="24" height="2"/>
-    <rect style="fill:url(#key-light-shadow-bottom)" x="28" y="6" width="2" height="24"/>
-    <path style="fill:url(#key-light-shadow-bottomleft)" d="m 0,2 v 28 h 28 v -24 a 4,4 0 0 1 -4,-4"/>
+    <path style="fill:url(#ambient-light-shadow-bottomleft)" d="m 0,0 v 30 h 30 v -24 a 6,6 0 0 1 -6,-6"/>
+    <path style="fill:url(#key-light-shadow-bottomleft)" d="m 0,0 v 30 h 30 v -24 a 6,6 0 0 1 -6,-6"/>
   </g>
   <g id="shadow-bottom" transform="translate(30,60)">
     <rect style="fill:none" width="30" height="30"/>
@@ -117,26 +111,22 @@
   </g>
   <g id="shadow-bottomright" transform="translate(60,60)">
     <rect style="fill:none" width="30" height="30"/>
-    <rect style="fill:url(#ambient-light-shadow-right)" x="6" width="24" height="2"/>
-    <rect style="fill:url(#ambient-light-shadow-bottom)" y="6" width="2" height="24"/>
-    <path style="fill:url(#ambient-light-shadow-bottomright)" d="m 6,2 a 4,4 0 0 1 -4,4 v 24 h 28 v -28"/>
-    <rect style="fill:url(#key-light-shadow-right)" x="6" width="24" height="2"/>
-    <rect style="fill:url(#key-light-shadow-bottom)" y="6" width="2" height="24"/>
-    <path style="fill:url(#key-light-shadow-bottomright)" d="m 6,2 a 4,4 0 0 1 -4,4 v 24 h 28 v -28"/>
+    <path style="fill:url(#ambient-light-shadow-bottomright)" d="m 6,0 a 6,6 0 0 1 -6,6 v 24 h 30 v -30"/>
+    <path style="fill:url(#key-light-shadow-bottomright)" d="m 6,0 a 6,6 0 0 1 -6,6 v 24 h 30 v -30"/>
   </g>
 
   <!-- Surface -->
 
   <g class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75">
-    <path id="topleft" transform="translate(24,24)" d="m 4,0 a 4,4 0 0 0 -4,4 v 2 h 6 v -6"/>
+    <path id="topleft" transform="translate(24,24)" d="m 6,0 a 6,6 0 0 0 -6,6 h 6 v -6"/>
     <rect id="top" x="30" y="24" width="30" height="6"/>
-    <path id="topright" transform="translate(60,24)" d="m 0,0 v 6 h 6 v -2 a 4,4 0 0 0 -4,-4"/>
+    <path id="topright" transform="translate(60,24)" d="m 0,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
     <rect id="left" x="24" y="30" width="6" height="30"/>
     <rect id="center" x="30" y="30" width="30" height="30"/>
     <rect id="right" x="60" y="30" width="6" height="30"/>
-    <path id="bottomleft" transform="translate(24,60)" d="m 0,0 v 2 a 4,4 0 0 0 4,4 h 2 v -6"/>
+    <path id="bottomleft" transform="translate(24,60)" d="m 0,0 a 6,6 0 0 0 6,6 v -6"/>
     <rect id="bottom" transform="translate(30,60)" width="30" height="6"/>
-    <path id="bottomright" transform="translate(60,60)" d="m 0,0 v 6 h 2 a 4,4 0 0 0 4,-4 v -2"/>
+    <path id="bottomright" transform="translate(60,60)" d="m 0,0 v 6 a 6,6 0 0 0 6,-6"/>
   </g>
 
   <!-- Hints -->

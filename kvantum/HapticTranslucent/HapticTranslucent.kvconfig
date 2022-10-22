@@ -148,7 +148,8 @@ interior=true
 interior.element=translucent-window
 
 [Dialog]
-inherits=Window
+interior=true
+interior.element=translucent-dialog
 
 [GenericFrame]
 inherits=BaseWidget
@@ -198,8 +199,8 @@ inherits=MenuBar
 
 [StatusBar]
 inherits=BaseWidget
-interior.element=translucent-statusbar
-frame.element=translucent-statusbar
+interior.element=statusbar
+frame.element=statusbar
 frame.top=1
 
 [Dock]
@@ -425,7 +426,7 @@ frame.left=8
 frame.right=8
 
 [Splitter]
-interior.element=translucent-splitter
+interior.element=splitter
 frame=false
 indicator.size=0
 
@@ -443,6 +444,8 @@ text.margin.bottom=3
 text.margin.left=8
 text.margin.right=8
 text.normal.color=#484848
+text.focus.color=#484848
+text.press.color=#484848
 text.bold=true
 
 [ItemView]

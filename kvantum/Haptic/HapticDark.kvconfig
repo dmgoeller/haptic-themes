@@ -77,11 +77,11 @@ vertical_spin_indicators=false
 x11drag=menubar_and_primary_toolbar
 
 [GeneralColors]
-base.color=#252423
-alt.base.color=#2B2A29
+base.color=#181818
+alt.base.color=#242424
 text.color=#E0E0E0
 disabled.text.color=#6C6C6C
-window.color=#31302F
+window.color=#242424
 window.text.color=#C0C0C0
 button.color=#61605F
 button.text.color=#F0F0F0
@@ -92,10 +92,10 @@ tooltip.text.color=#F0F0F0
 link.color=#90CAF9
 link.visited.color=#CE93D8
 progress.indicator.text.color=#FFF
-light.color=#4F4E4D
-mid.light.color=#3D3C3B
-mid.color=#252423
-dark.color=#131211
+light.color=#3C3C3C
+mid.light.color=#3C3C3C
+mid.color=#484848
+dark.color=#121212
 
 [Hacks]
 blur_translucent=true
@@ -147,7 +147,8 @@ interior=true
 interior.element=opaque-window
 
 [Dialog]
-inherits=Window
+interior=true
+interior.element=opaque-dialog
 
 [GenericFrame]
 inherits=BaseWidget
@@ -197,8 +198,8 @@ inherits=MenuBar
 
 [StatusBar]
 inherits=BaseWidget
-interior.element=opaque-statusbar
-frame.element=opaque-statusbar
+interior.element=statusbar
+frame.element=statusbar
 frame.top=1
 
 [Dock]
@@ -425,7 +426,7 @@ frame.left=8
 frame.right=8
 
 [Splitter]
-interior.element=opaque-splitter
+interior.element=splitter
 frame=false
 indicator.size=0
 
@@ -443,6 +444,8 @@ text.margin.bottom=3
 text.margin.left=8
 text.margin.right=8
 text.normal.color=#D8D8D8
+text.focus.color=#D8D8D8
+text.press.color=#D8D8D8
 text.bold=true
 
 [ItemView]

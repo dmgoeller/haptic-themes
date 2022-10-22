@@ -19,8 +19,8 @@ IntensityAmount=0.6
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=97,96,95
-BackgroundNormal=97,96,95
+BackgroundAlternate=96,96,96
+BackgroundNormal=96,96,96
 DecorationFocus=38,112,208
 DecorationHover=109,108,107
 ForegroundActive=255,255,255
@@ -33,8 +33,8 @@ ForegroundPositive=200,230,201
 ForegroundVisited=209,196,233
 
 [Colors:Complementary]
-BackgroundAlternate=61,60,59
-BackgroundNormal=49,48,47
+BackgroundAlternate=60,60,60
+BackgroundNormal=48,48,48
 DecorationFocus=154,183,219
 DecorationHover=216,216,216
 ForegroundActive=192,192,192
@@ -47,8 +47,8 @@ ForegroundPositive=46,125,50
 ForegroundVisited=106,27,154
 
 [Colors:Header]
-BackgroundAlternate=61,60,59
-BackgroundNormal=49,48,47
+BackgroundAlternate=60,60,60
+BackgroundNormal=48,48,48
 DecorationFocus=97,96,95
 DecorationHover=73,72,71
 ForegroundActive=192,192,192
@@ -75,8 +75,8 @@ ForegroundPositive=200,230,201
 ForegroundVisited=225,190,231
 
 [Colors:Tooltip]
-BackgroundAlternate=85,84,83
-BackgroundNormal=73,72,71
+BackgroundAlternate=84,84,84
+BackgroundNormal=72,72,72
 DecorationFocus=97,96,95
 DecorationHover=85,84,83
 ForegroundActive=216,216,216
@@ -89,8 +89,8 @@ ForegroundPositive=220,237,200
 ForegroundVisited=209,196,233
 
 [Colors:View]
-BackgroundAlternate=43,42,41
-BackgroundNormal=37,36,35
+BackgroundAlternate=36,36,36
+BackgroundNormal=24,24,24
 DecorationFocus=97,96,95
 DecorationHover=73,72,71
 ForegroundActive=216,216,216
@@ -103,8 +103,8 @@ ForegroundPositive=165,214,167
 ForegroundVisited=206,147,216
 
 [Colors:Window]
-BackgroundAlternate=61,60,59
-BackgroundNormal=49,48,47
+BackgroundAlternate=48,48,48
+BackgroundNormal=32,32,32
 DecorationFocus=97,96,95
 DecorationHover=73,72,71
 ForegroundActive=192,192,192
@@ -117,7 +117,7 @@ ForegroundPositive=165,214,167
 ForegroundVisited=206,147,216
 
 [General]
-ColorScheme=Haptic Dark
+ColorScheme=HapticDark
 Name=Haptic Dark
 shadeSortColumn=true
 
@@ -125,9 +125,9 @@ shadeSortColumn=true
 contrast=4
 
 [WM]
-activeBackground=49,48,47
-activeBlend=73,72,71
+activeBackground=48,48,48
+activeBlend=60,60,60
 activeForeground=192,192,192
-inactiveBackground=49,48,47
-inactiveBlend=73,72,71
+inactiveBackground=48,48,48
+inactiveBlend=60,60,60
 inactiveForeground=108,108,108

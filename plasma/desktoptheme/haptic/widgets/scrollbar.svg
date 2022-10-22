@@ -46,36 +46,36 @@
   </g>
 
   <g transform="translate(30,0)">
-    <g id="sunken-slider-topleft">
+    <g id="mouseover-slider-topleft">
       <rect style="fill:none" width="6" height="6"/>
       <path class="ColorScheme-ButtonHover" style="fill:currentColor" d="m 2,6 a 4,4 0 0 1 4,-4 v 4 z"/>
     </g>
-    <g id="sunken-slider-top" transform="translate(5,0)">
+    <g id="mouseover-slider-top" transform="translate(5,0)">
       <rect style="fill:none" width="2" height="4"/>
     </g>
-    <g id="sunken-slider-topright" transform="translate(6,0)">
+    <g id="mouseover-slider-topright" transform="translate(6,0)">
       <rect style="fill:none" width="6" height="6"/>
       <path class="ColorScheme-ButtonHover" style="fill:currentColor" d="m 0,2 a 4,4 0 0 1 4,4 h -4 z"/>
     </g>
-    <g id="sunken-slider-left" transform="translate(0,6)">
+    <g id="mouseover-slider-left" transform="translate(0,6)">
       <rect style="fill:none" width="2" height="12"/>
       <rect class="ColorScheme-ButtonHover" style="fill:currentColor" x="2" width="4" height="12"/>
     </g>
-    <g id="sunken-slider-center" transform="translate(5,6)">
+    <g id="mouseover-slider-center" transform="translate(5,6)">
       <rect class="ColorScheme-ButtonHover" style="fill:currentColor" width="2" height="12"/>
     </g>
-    <g id="sunken-slider-right" transform="translate(6,6)">
+    <g id="mouseover-slider-right" transform="translate(6,6)">
       <rect style="fill:none" x="4" width="2" height="12"/>
       <rect class="ColorScheme-ButtonHover" style="fill:currentColor" width="4" height="12"/>
     </g>
-    <g id="sunken-slider-bottomleft" transform="translate(0,18)">
+    <g id="mouseover-slider-bottomleft" transform="translate(0,18)">
       <rect style="fill:none" width="6" height="6"/>
       <path class="ColorScheme-ButtonHover" style="fill:currentColor" d="m 2,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
     </g>
-    <g id="sunken-slider-bottom" transform="translate(5,18)">
+    <g id="mouseover-slider-bottom" transform="translate(5,18)">
       <rect style="fill:none" width="2" height="4"/>
     </g>
-    <g id="sunken-slider-bottomright" transform="translate(6,18)">
+    <g id="mouseover-slider-bottomright" transform="translate(6,18)">
       <rect style="fill:none" width="6" height="6"/>
       <path class="ColorScheme-ButtonHover" style="fill:currentColor" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
     </g>

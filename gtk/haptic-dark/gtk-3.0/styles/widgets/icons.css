@@ -76,6 +76,12 @@ tab button:hover > image {
   background-image: -gtk-recolor(url("../../assets/close-hover-symbolic.svg"));
 }
 
+/* Title buttons */
+
+button.titlebutton image {
+  -gtk-icon-transform: scale(0.875);
+}
+
 /* App menu */
 
 button.titlebutton.appmenu > image {

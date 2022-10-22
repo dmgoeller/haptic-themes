@@ -2,7 +2,7 @@
 widgetStyle=kvantum
 
 [kdeglobals][General]
-ColorScheme=Haptic Light
+ColorScheme=HapticLight
 
 [kdeglobals][Icons]
 Theme=haptic-light
@@ -10,6 +10,5 @@ Theme=haptic-light
 [plasmarc][Theme]
 name=haptic-light
 
-[kwinrc][org.kde.kdecoration2]
-library=org.kde.breezeenhanced
-theme=BreezeEnhanced
+[kcminputrc][Mouse]
+cursorTheme=Google_Cursor

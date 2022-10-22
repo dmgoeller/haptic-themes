@@ -3,7 +3,7 @@
   <defs>
     <style type="text/css">
       .BarActive { fill: #2670D0 }
-      .BarInactive { fill: #F0F0F0; fill-opacity: 0.125 }
+      .BarInactive { fill: #E4E4E4; fill-opacity: 0.1875 }
     </style>
   </defs>
   <g transform="translate(2,0)">

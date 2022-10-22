@@ -20,7 +20,7 @@ IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=192,192,192
-BackgroundNormal=192,192,192
+BackgroundNormal=184,184,184
 DecorationFocus=154,183,219
 DecorationHover=180,180,180
 ForegroundActive=72,72,72
@@ -47,8 +47,8 @@ ForegroundPositive=165,214,167
 ForegroundVisited=206,147,216
 
 [Colors:Header]
-BackgroundAlternate=240,240,240
-BackgroundNormal=240,240,240
+BackgroundAlternate=232,232,232
+BackgroundNormal=232,232,232
 DecorationFocus=192,192,192
 DecorationHover=216,216,216
 ForegroundActive=96,96,96
@@ -117,7 +117,7 @@ ForegroundPositive=46,125,50
 ForegroundVisited=106,27,154
 
 [General]
-ColorScheme=Haptic Dark
+ColorScheme=HapticLight
 Name=Haptic Light
 shadeSortColumn=true
 
@@ -125,9 +125,9 @@ shadeSortColumn=true
 contrast=4
 
 [WM]
-activeBackground=240,240,240
+activeBackground=232,232,232
 activeBlend=192,192,192
 activeForeground=96,96,96
-inactiveBackground=240,240,240
+inactiveBackground=232,232,232
 inactiveBlend=192,192,192
 inactiveForeground=144,144,144
