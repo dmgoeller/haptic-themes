@@ -1733,14 +1733,12 @@
       <rect class="opaque-view" width="160" height="32"/>
 
       <g class="opaque-view">
+        <rect id="opaque-header-normal-topleft" x="4" y="4" width="1" height="1"/>
+        <rect id="opaque-header-normal-top" x="5" y="4" width="22" height="1"/>
+        <rect id="opaque-header-normal-topright" x="27" y="4" width="1" height="1"/>
         <rect id="opaque-header-normal-left" x="4" y="5" width="1" height="22"/>
         <rect id="opaque-header-normal" x="5" y="5" width="22" height="22"/>
         <rect id="opaque-header-normal-right" x="27" y="5" width="1" height="22"/>
-      </g>
-      <g class="opaque-border">
-        <rect id="opaque-header-normal-topleft" x="4" y="4" width="1" height="1"/>
-        <rect id="opaque-header-normal-top" x="5" y="4" width="22" height="1"/>
-        <rect id="opaque-header-normal-topright" x="27" y="4"  width="1" height="1"/>
       </g>
       <g class="opaque-header-border">
         <rect id="opaque-header-normal-bottomleft" x="4" y="27" width="1" height="1"/>
@@ -1753,14 +1751,14 @@
       <rect class="translucent-view" width="160" height="32"/>
 
       <g class="fill-none">
+        <rect id="translucent-header-normal-topleft" x="4" y="4" width="1" height="1"/>
+        <rect id="translucent-header-normal-top" x="5" y="4" width="22" height="1"/>
+        <rect id="translucent-header-normal-topright" x="27" y="4"  width="1" height="1"/>
         <rect id="translucent-header-normal-left" x="4" y="5" width="1" height="22"/>
         <rect id="translucent-header-normal" x="5" y="5" width="22" height="22"/>
         <rect id="translucent-header-normal-right" x="27" y="5" width="1" height="22"/>
       </g>
       <g class="translucent-border">
-        <rect id="translucent-header-normal-topleft" x="4" y="4" width="1" height="1"/>
-        <rect id="translucent-header-normal-top" x="5" y="4" width="22" height="1"/>
-        <rect id="translucent-header-normal-topright" x="27" y="4"  width="1" height="1"/>
         <rect id="translucent-header-normal-bottomleft" x="4" y="27" width="1" height="1"/>
         <rect id="translucent-header-normal-bottom" x="5" y="27" width="22" height="1"/>
         <rect id="translucent-header-normal-bottomright" x="27" y="27" width="1" height="1"/>
