@@ -79,10 +79,10 @@ x11drag=menubar_and_primary_toolbar
 
 [GeneralColors]
 base.color=#FFF
-alt.base.color=#F4F4F4
+alt.base.color=#F0F0F0
 text.color=#303030
 disabled.text.color=#909090
-window.color=#F4F4F4
+window.color=#F0F0F0
 window.text.color=#606060
 button.color=#C0C0C0
 button.text.color=#484848
@@ -94,9 +94,9 @@ link.color=#1565C0
 link.visited.color=#6A1B9A
 progress.indicator.text.color=#FFF
 light.color=#FFF
-mid.light.color=#DCDCDC
-mid.color=#D0D0D0
-dark.color=#B8B8B8
+mid.light.color=#D8D8D8
+mid.color=#CCCCCC
+dark.color=#B4B4B4
 
 [Hacks]
 blur_translucent=true

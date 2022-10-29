@@ -90,32 +90,32 @@
         <text class="label" x="204" y="20">View and menu background</text>
       </g>
       <g transform="translate(0,64)">
-        <rect style="fill:#F4F4F4" x="4" y="4" width="56" height="24"/>
-        <text class="color-value" x="32" y="20">#F4F4F4</text>
+        <rect style="fill:#F0F0F0" x="4" y="4" width="56" height="24"/>
+        <text class="color-value" x="32" y="20">#F0F0F0</text>
         <text class="label" x="204" y="20">Window background</text>
       </g>
       <g transform="translate(0,96)">
-        <rect style="fill:#E8E8E8" x="4" y="4" width="56" height="24"/>
-        <text class="color-value" x="32" y="20">#E8E8E8</text>
+        <rect style="fill:#E4E4E4" x="4" y="4" width="56" height="24"/>
+        <text class="color-value" x="32" y="20">#E4E4E4</text>
         <text class="label" x="204" y="20">Titlebar and dialog background</text>
       </g>
       <g transform="translate(0,128)">
-        <rect style="fill:#D6D6D6" x="4" y="4" width="56" height="24"/>
-        <text class="color-value" x="32" y="20">#D6D6D6</text>
+        <rect style="fill:#D8D8D8" x="4" y="4" width="56" height="24"/>
+        <text class="color-value" x="32" y="20">#D8D8D8</text>
         <text class="label" x="204" y="19">Borders</text>
       </g>
       <g transform="translate(0,160)">
-        <rect style="fill:#D0D0D0" x="4" y="4" width="56" height="24"/>
-        <text class="color-value" x="32" y="20">#DCDCDC</text>
+        <rect style="fill:#CCCCCC" x="4" y="4" width="56" height="24"/>
+        <text class="color-value" x="32" y="20">#CCCCCC</text>
         <text class="label" x="204" y="19">Text field background</text>
       </g>
       <g transform="translate(0,192)">
-        <rect style="fill:#B8B8B8" x="4" y="4" width="56" height="24"/>
-        <rect style="fill:#ACACAC" x="68" y="4" width="56" height="24"/>
-        <rect style="fill:#ACACAC" x="132" y="4" width="56" height="24"/>
-        <text class="color-value" x="32" y="20">#B8B8B8</text>
-        <text class="color-value" x="96" y="20">#ACACAC</text>
-        <text class="color-value" x="160" y="20">#A0A0A0</text>
+        <rect style="fill:#B4B4B4" x="4" y="4" width="56" height="24"/>
+        <rect style="fill:#A8A8A8" x="68" y="4" width="56" height="24"/>
+        <rect style="fill:#9C9C9C" x="132" y="4" width="56" height="24"/>
+        <text class="color-value" x="32" y="20">#B4B4B4</text>
+        <text class="color-value" x="96" y="20">#A8A8A8</text>
+        <text class="color-value" x="160" y="20">#9C9C9C</text>
         <text class="label" x="204" y="20">Button background</text>
       </g>
       <g transform="translate(0,224)">
