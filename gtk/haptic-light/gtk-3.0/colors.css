@@ -12,6 +12,7 @@
 @define-color disabled-fg-color #909090;
 @define-color selection-bg-color #9AB7DB;
 @define-color selection-fg-color #303030;
+@define-color grayed-selection-bg-color #787878;
 
 @define-color base-border-color alpha(@inverse-bg-color, 0.125);
 @define-color frame-border-color alpha(@inverse-bg-color, 0.125);
@@ -27,6 +28,7 @@
 /* Accent colors */
 @define-color accent-bg-color #2670D0;
 @define-color accent-fg-color @accent-bg-color;
+@define-color grayed-accent-bg-color #646464;
 
 /* Link colors */
 @define-color link-color #1565C0;

@@ -50,6 +50,10 @@ headerbar .linked > button:checked:disabled {
   color: @colored-button-fg-color;
 }
 
+.stack-switcher > button.radio:checked:backdrop {
+  background-color: @grayed-accent-bg-color;
+}
+
 .stack-switcher > button.radio:disabled {
   background-color: alpha(@inverse-bg-color, 0.125);
   color: @disabled-fg-color;

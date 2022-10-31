@@ -119,18 +119,23 @@ actionbar .linked > button:not(.combo):checked {
 
 headerbar .linked > *:not(.combo),
 headerbar .linked > button.radio {
-  background-color: @base-bg-color;
+  background-color: shade(@headerbar-bg-color, 1.25);
 }
 
 headerbar .linked > button:not(.combo):hover,
 headerbar .linked > button.radio:hover  {
-  background-color: mix(@base-bg-color, @inverse-bg-color, 0.125);
+  background-color: mix(shade(@headerbar-bg-color, 1.25), @inverse-bg-color, 0.125);
   color: @button-fg-color;
+}
+
+headerbar .linked > *:not(.combo):backdrop,
+headerbar .linked > button.radio:backdrop {
+  background-color: transparent;
 }
 
 headerbar .linked > button:not(.combo):checked,
 headerbar .linked > button.radio:checked {
-  background-color: mix(@base-bg-color, @inverse-bg-color, 0.25);
+  background-color: mix(shade(@headerbar-bg-color, 1.25), @inverse-bg-color, 0.25);
   color: @button-fg-color;
 }
 
@@ -140,6 +145,11 @@ headerbar .stack-switcher > button.radio:checked  {
   background-color: @accent-bg-color;
   border-color: shade(@accent-bg-color, 0.75);
   color: @colored-button-fg-color;
+}
+
+headerbar .stack-switcher > button.radio:checked:backdrop {
+  background-color: @grayed-accent-bg-color;
+  border-color: shade(@grayed-accent-bg-color, 0.75);
 }
 
 .linked > button.radio:disabled,

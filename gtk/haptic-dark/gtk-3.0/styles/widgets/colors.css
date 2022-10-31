@@ -89,7 +89,7 @@ headerbar {
 .csd headerbar {
   background-color: @headerbar-bg-color;
   background-image: linear-gradient(to bottom,
-                                    shade(@headerbar-bg-color, 1.0625),
+                                    shade(@headerbar-bg-color, 1.25),
                                     @headerbar-bg-color);
   background-repeat: repeat-x;
   color: @headerbar-fg-color;
@@ -264,8 +264,19 @@ messagedialog button:focus {
   color: @colored-button-fg-color;
 }
 
+button.default:backdrop,
+button.toggle:checked:backdrop,
+stackswitcher button.radio:checked:backdrop,
+messagedialog button:focus:backdrop {
+  background-color: @grayed-accent-bg-color;
+}
+
 button.default:hover {
   background-color: shade(@accent-bg-color, 1.125);
+}
+
+button.default:hover:backdrop {
+  background-color: shade(@grayed-accent-bg-color, 1.125);
 }
 
 button.suggested-action {
@@ -359,8 +370,22 @@ headerbar button.toggle:checked,
 /* --------------------------------- */
 toolbar button:checked,
 toolbar button.toggle:checked {
-  background-color: @selection-bg-color;
-  color: @selection-fg-color;
+  background-color: @accent-bg-color;
+  color: @colored-button-fg-color;
+}
+
+button.flat:checked:backdrop,
+button.flat.toggle:checked:backdrop,
+/* --------------------------------- */
+actionbar button:checked:backdrop,
+actionbar button.toggle:checked:backdrop,
+/* --------------------------------- */
+headerbar button:checked:backdrop,
+headerbar button.toggle:checked:backdrop,
+/* --------------------------------- */
+toolbar button:checked:backdrop,
+toolbar button.toggle:checked:backdrop {
+  background-color: @grayed-accent-bg-color;
 }
 
 button.flat.toggle.popup:checked,
@@ -783,7 +808,7 @@ popover.background,
 }
 
 popover modelbutton:hover {
-  background-color: alpha(@inverse-bg-color, 0.25);
+  background-color: alpha(@inverse-bg-color, 0.125);
   color: @intense-fg-color;
 }
 
@@ -797,7 +822,11 @@ calendar.highlight {
 
 calendar:selected {
   background-color: @accent-bg-color;
-  color: white;
+  color: @colored-button-fg-color;
+}
+
+calendar:selected:backdrop {
+  background-color: @grayed-accent-bg-color;
 }
 
 /**********************************************************************
