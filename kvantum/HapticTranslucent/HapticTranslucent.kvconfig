@@ -275,8 +275,6 @@ frame.top=4
 frame.bottom=4
 frame.left=4
 frame.right=4
-text.margin.top=2
-text.margin.bottom=2
 text.margin.left=8
 text.margin.right=8
 text.bold=true
@@ -322,8 +320,6 @@ frame.top=4
 frame.bottom=4
 frame.left=4
 frame.right=4
-text.margin.top=2
-text.margin.bottom=2
 text.margin.left=4
 text.margin.right=4
 

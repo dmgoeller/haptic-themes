@@ -248,14 +248,13 @@ label.keycap {
  **********************************************************************/
 
 button {
-  min-height: 28px; /* Min total height: 36px */
-  min-width: 28px;  /* Min total width:  40px */
+  min-height: 26px; /* Min total height: 34px */
+  min-width: 26px;
   padding: 4px;
 }
 
 button.combo:only-child {
-  min-height: 32px;
-  min-width: 24px;
+  min-height: 30px; /* Min total height: 34px */
   padding: 2px 8px;
 }
 
@@ -263,15 +262,15 @@ button.combo:not(:only-child),
 button.small-button,
 .linked > entry ~ button {
   min-height: 16px; /* Min total height: 24px */
-  min-width: 16px;  /* Min total width:  24px */
+  min-width: 16px;
 }
 
 button.combo arrow {
-  margin: 6px 0; /* Don't stretch arrow vertically */
+  margin: 5px 0; /* Don't stretch arrow vertically */
 }
 
 button.combo:only-child arrow {
-  margin: 8px 0;
+  margin: 7px 0;
 }
 
 button.text-button:not(.circular) {
@@ -365,7 +364,7 @@ headerbar button {
  **********************************************************************/
 
 entry {
-  min-height: 28px; /* Min total height: 36px */
+  min-height: 26px; /* Min total height: 34px */
   padding: 4px 8px;
 }
 
@@ -375,7 +374,7 @@ entry.flat {
 }
 
 headerbar entry {
-  padding: 2px 8px; /* Min total height: 32px */
+  padding: 3px 8px; /* Min total height: 32px */
 }
 
 entry image:not(.right) {
