@@ -1,3 +1,6 @@
+[AdaptiveTransparency]
+enabled=true
+
 [ContrastEffect]
 contrast=0.2
 enabled=false

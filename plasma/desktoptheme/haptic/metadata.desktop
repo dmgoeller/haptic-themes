@@ -1,3 +1,12 @@
+[AdaptiveTransparency]
+enabled=true
+
+[ContrastEffect]
+enabled=false
+contrast=0.2
+intensity=0.4
+saturation=1.7
+
 [Desktop Entry]
 Name=Haptic
 Comment=A desktop theme inspired by Material Design
@@ -18,9 +27,3 @@ defaultWallpaperTheme=Next
 defaultFileSuffix=.png
 defaultWidth=1920
 defaultHeight=1080
-
-[ContrastEffect]
-enabled=false
-contrast=0.2
-intensity=0.4
-saturation=1.7

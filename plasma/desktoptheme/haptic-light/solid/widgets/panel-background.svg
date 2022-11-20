@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
   <defs>
     <style type="text/css">
-      .Background { fill: white; fill-opacity: 0.625 }
+      .Background { fill: #F0F0F0 }
       .Border { fill: black; fill-opacity: 0.125 }
     </style>
     <radialGradient id="ambient-light-shadow-topleft" cx="28" cy="28" r="32" gradientUnits="userSpaceOnUse">

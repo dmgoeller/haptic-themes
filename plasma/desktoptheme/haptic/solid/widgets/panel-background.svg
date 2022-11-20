@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
   <defs>
-    <style type="text/css">
-      .Background { fill: white; fill-opacity: 0.625 }
-      .Border { fill: black; fill-opacity: 0.125 }
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Background { color: #F0F0F0 }
+      .ColorScheme-ViewText { color: #303030 }
     </style>
     <radialGradient id="ambient-light-shadow-topleft" cx="28" cy="28" r="32" gradientUnits="userSpaceOnUse">
       <stop offset="0.125" style="stop-color:black;stop-opacity:0.0625"/>
@@ -73,7 +73,7 @@
 
   <!-- Shadow -->
 
-  <g style="opacity:0.625">
+  <g style="opacity:0.75">
     <g id="shadow-topleft">
       <rect style="fill:none" width="30" height="36"/>
       <rect style="fill:url(#ambient-light-shadow-left)" y="30" width="24" height="6"/>
@@ -121,39 +121,39 @@
   <!-- Surface -->
 
   <g id="topleft" transform="translate(24,24)">
-    <path class="Background" d="m 6,0 a 6,6 0 0 0 -6,6 h 6 v -6"/>
-    <path class="Border" d="m 6,0 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5"/>
+    <path class="ColorScheme-Background" style="fill:currentColor" d="m 6,0 a 6,6 0 0 0 -6,6 h 6 v -6"/>
+    <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" d="m 6,0 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5"/>
   </g>
   <g id="top" transform="translate(30,24)">
-    <rect class="Background" width="30" height="6"/>
-    <rect class="Border" width="30" height="1"/>
+    <rect class="ColorScheme-Background" style="fill:currentColor" width="30" height="6"/>
+    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" width="30" height="1"/>
   </g>
   <g id="topright" transform="translate(60,24)">
-    <path class="Background" d="m 0,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
-    <path class="Border" d="m 0,0 v 1 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6"/>
+    <path class="ColorScheme-Background" style="fill:currentColor" d="m 0,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
+    <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" d="m 0,0 v 1 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6"/>
   </g>
   <g id="left" transform="translate(24,30)">
-    <rect class="Background" width="6" height="30"/>
-    <rect class="Border" width="1" height="30"/>
+    <rect class="ColorScheme-Background" style="fill:currentColor" width="6" height="30"/>
+    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" width="1" height="30"/>
   </g>
   <g id="center" transform="translate(30,30)">
-    <rect class="Background" width="30" height="30"/>
+    <rect class="ColorScheme-Background" style="fill:currentColor" width="30" height="30"/>
   </g>
   <g id="right" transform="translate(60,30)">
-    <rect class="Background" width="6" height="30"/>
-    <rect class="Border" x="5" width="1" height="30"/>
+    <rect class="ColorScheme-Background" style="fill:currentColor" width="6" height="30"/>
+    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="5" width="1" height="30"/>
   </g>
   <g id="bottomleft" transform="translate(24,60)">
-    <path class="Background" d="m 0,0 a 6,6 0 0 0 6,6 v -6"/>
-    <path class="Border" d="m 0,0 a 6,6 0 0 0 6,6 v -1 a 5,5 0 0 1 -5,-5"/>
+    <path class="ColorScheme-Background" style="fill:currentColor" d="m 0,0 a 6,6 0 0 0 6,6 v -6"/>
+    <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" d="m 0,0 a 6,6 0 0 0 6,6 v -1 a 5,5 0 0 1 -5,-5"/>
   </g>
   <g id="bottom" transform="translate(30,60)">
-    <rect class="Background" width="30" height="6"/>
-    <rect class="Border" y="5" width="30" height="1"/>
+    <rect class="ColorScheme-Background" style="fill:currentColor" width="30" height="6"/>
+    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" y="5" width="30" height="1"/>
   </g>
   <g id="bottomright" transform="translate(60,60)">
-    <path class="Background" d="m 0,0 v 6 a 6,6 0 0 0 6,-6"/>
-    <path class="Border" d="m 0,6 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5"/>
+    <path class="ColorScheme-Background" style="fill:currentColor" d="m 0,0 v 6 a 6,6 0 0 0 6,-6"/>
+    <path class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" d="m 0,6 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5"/>
   </g>
 
   <!-- Hints -->
