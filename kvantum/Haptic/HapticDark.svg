@@ -29,7 +29,7 @@
       .stroke-window-text-focused      { stroke: #D8D8D8 }
       .stroke-window-text-pressed      { stroke: #F0F0F0 }
       .tree-arrow                      { fill: #808080 }
-      .tooltip                         { fill: #494848 }
+      .tooltip                         { fill: #484848 }
       .view-text                       { fill: #E0E0E0 }
       .window-text                     { fill: #C0C0C0 }
       .window-text-focused             { fill: #D8D8D8 }

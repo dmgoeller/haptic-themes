@@ -15,26 +15,26 @@ DecorationHover=121,120,119
 DecorationFocus=123,161,208
 
 [Colors:Header]
-BackgroundNormal=49,48,47
+BackgroundNormal=48,48,48
 ForegroundNormal=192,192,192
 ForegroundInactive=120,120,120
 
 [Colors:Tooltip]
-BackgroundNormal=73,72,71
+BackgroundNormal=72,72,72
 ForegroundNormal=224,224,224
 ForegroundActive=192,192,192
 ForegroundInactive=148,148,148
 
 [Colors:View]
-BackgroundNormal=25,24,23
 ForegroundNormal=240,240,240
+BackgroundNormal=24,24,24
 ForegroundActive=192,192,192
 ForegroundInactive=120,120,120
 ForegroundLink=144,202,249
 ForegroundVisited=206,147,216
 
 [Colors:Window]
-BackgroundNormal=49,48,47
+BackgroundNormal=36,36,36
 ForegroundNormal=224,224,224
 ForegroundInactive=144,144,144
 DecorationFocus=38,112,208
