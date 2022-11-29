@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 1408">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 1344">
   <defs>
     <style type="text/css">
       /* Common theme classes */
@@ -13,6 +13,7 @@
       .fill-none                       { fill: none }
       .menu                            { fill: black; fill-opacity: 0.5 }
       .menu-overlay                    { fill: white; fill-opacity: 0.125 }
+      .menubaritem-toggled             { fill: #484848 }
       .menuitem                        { fill: white }
       .menuitem-focused                { fill: white }
       .menuitem-separator              { fill: #E4E4E4; fill-opacity: 0.25 }
@@ -45,8 +46,6 @@
       .opaque-border                   { fill: #3C3C3C }
       .opaque-dialog                   { fill: #303030 }
       .opaque-field                    { fill: #484848 }
-      .opaque-flat-button-focused      { fill: #484848 }
-      .opaque-flat-button-toggled      { fill: #32619D }
       .opaque-tab-indicator            { fill: #6C6C6C }
       .opaque-groupbox                 { fill: #242424 }
       .opaque-header-border            { fill: #303030 }
@@ -56,6 +55,8 @@
       .opaque-selection                { fill: #32619D }
       .opaque-titlebar                 { fill: #303030 }
       .opaque-titlebar-border          { fill: #484848 }
+      .opaque-toolbutton-focused       { fill: #484848 }
+      .opaque-toolbutton-toggled       { fill: #606060 }
       .opaque-view                     { fill: #181818 }
       .opaque-window                   { fill: #242424 }
 
@@ -67,9 +68,7 @@
       .translucent-button-pressed      { fill: #E4E4E4; fill-opacity: 0.375 }
       .translucent-button-default      { fill: #0D71F3; fill-opacity: 0.75 }
       .translucent-dialog              { fill: #181818; fill-opacity: 0.375 }
-      .translucent-field,
-      .translucent-flat-button-focused { fill: #E4E4E4; fill-opacity: 0.1875 }
-      .translucent-flat-button-toggled { fill: #2670D0; fill-opacity: 0.5 }
+      .translucent-field               { fill: #E4E4E4; fill-opacity: 0.125 }
       .translucent-tab-indicator       { fill: #E4E4E4; fill-opacity: 0.3125 }
       .translucent-groupbox            { fill: #181818; fill-opacity: 0.25 }
       .translucent-radio-button        { fill: #E4E4E4; fill-opacity: 0.25 }
@@ -77,7 +76,9 @@
       .translucent-scrollbar-focused   { fill: #E4E4E4; fill-opacity: 0.3125 }
       .translucent-selection           { fill: #2670D0; fill-opacity: 0.5 }
       .translucent-titlebar            { fill: #E4E4E4; fill-opacity: 0.0625 }
-      .translucent-titlebar-border     { fill: #E4E4E4; fill-opacity: 0.1875}
+      .translucent-titlebar-border     { fill: #E4E4E4; fill-opacity: 0.1875 }
+      .translucent-toolbutton-focused  { fill: #E4E4E4; fill-opacity: 0.125 }
+      .translucent-toolbutton-toggled  { fill: #E4E4E4; fill-opacity: 0.25 }
       .translucent-view                { fill: black; fill-opacity: 0.25 }
       .translucent-window              { fill: #181818; fill-opacity: 0.375 }
 
@@ -313,7 +314,7 @@
       <rect class="opaque-window" width="320" height="32"/>
 
       <rect id="menubaritem-pressed" class="accent-color" x="68" y="4" width="24" height="24"/>
-      <rect id="menubaritem-toggled" class="opaque-flat-button-focused" x="100" y="4" width="24" height="24"/>
+      <rect id="menubaritem-toggled" class="menubaritem-toggled" x="100" y="4" width="24" height="24"/>
 
       <g id="toolbar-separator" transform="translate(172,8)" >
         <rect style="fill:none" width="9" height="16"/>
@@ -475,12 +476,12 @@
       </g>
       <g id="tab-close-focused" transform="translate(36,4)">
         <rect style="fill:none" width="24" height="24"/>
-        <circle class="translucent-flat-button-focused" cx="12" cy="12" r="12"/>
+        <circle class="translucent-toolbutton-focused" cx="12" cy="12" r="12"/>
         <path class="fill-none stroke-window-text-focused stroke-width-2 stroke-rounded" d="M 8,8 l 8,8 M 8,16 l 8,-8"/>
       </g>
       <g id="tab-close-pressed" transform="translate(68,4)">
         <rect style="fill:none" width="24" height="24"/>
-        <circle class="translucent-flat-button-focused" cx="12" cy="12" r="12"/>
+        <circle class="translucent-toolbutton-focused" cx="12" cy="12" r="12"/>
         <path class ="fill-none stroke-window-text-focused stroke-width-2 stroke-rounded" d="M 8,8 l 8,8 M 8,16 l 8,-8"/>
       </g>
       <g id="tab-close-disabled" transform="translate(132,4)">
@@ -816,112 +817,9 @@
     </g>
   </g>
 
-  <!-- Flat buttons -->
-
-  <g transform="translate(0,416)">
-    <text class="label" x="144" y="20">Flat Buttons</text>
-
-    <g transform="translate(160)">
-      <rect class="opaque-window" width="160" height="32"/>
-
-      <g style="fill:none"> <!-- not used -->
-        <path id="opaque-flat-button-normal-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
-        <rect id="opaque-flat-button-normal-top" transform="translate(8,4)" width="16" height="4"/>
-        <path id="opaque-flat-button-normal-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
-        <rect id="opaque-flat-button-normal-left" transform="translate(4,8)" width="4" height="16"/>
-        <rect id="opaque-flat-button-normal" transform="translate(8,8)" width="16" height="16"/>
-        <rect id="opaque-flat-button-normal-right" transform="translate(24,8)" width="4" height="16"/>
-        <path id="opaque-flat-button-normal-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
-        <rect id="opaque-flat-button-normal-bottom" transform="translate(8,24)" width="16" height="4"/>
-        <path id="opaque-flat-button-normal-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
-      </g>
-      <g transform="translate(32)" class="opaque-flat-button-focused">
-        <path id="opaque-flat-button-focused-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
-        <rect id="opaque-flat-button-focused-top" transform="translate(8,4)" width="16" height="4"/>
-        <path id="opaque-flat-button-focused-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
-        <rect id="opaque-flat-button-focused-left" transform="translate(4,8)" width="4" height="16"/>
-        <rect id="opaque-flat-button-focused" transform="translate(8,8)" width="16" height="16"/>
-        <rect id="opaque-flat-button-focused-right" transform="translate(24,8)" width="4" height="16"/>
-        <path id="opaque-flat-button-focused-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
-        <rect id="opaque-flat-button-focused-bottom" transform="translate(8,24)" width="16" height="4"/>
-        <path id="opaque-flat-button-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
-      </g>
-      <g transform="translate(64)" class="opaque-flat-button-focused">
-        <path id="opaque-flat-button-pressed-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
-        <rect id="opaque-flat-button-pressed-top" transform="translate(8,4)" width="16" height="4"/>
-        <path id="opaque-flat-button-pressed-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
-        <rect id="opaque-flat-button-pressed-left" transform="translate(4,8)" width="4" height="16"/>
-        <rect id="opaque-flat-button-pressed" transform="translate(8,8)" width="16" height="16"/>
-        <rect id="opaque-flat-button-pressed-right" transform="translate(24,8)" width="4" height="16"/>
-        <path id="opaque-flat-button-pressed-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
-        <rect id="opaque-flat-button-pressed-bottom" transform="translate(8,24)" width="16" height="4"/>
-        <path id="opaque-flat-button-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
-      </g>
-      <g transform="translate(96)" class="opaque-selection">
-        <path id="opaque-flat-button-toggled-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
-        <rect id="opaque-flat-button-toggled-top" transform="translate(8,4)" width="16" height="4"/>
-        <path id="opaque-flat-button-toggled-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
-        <rect id="opaque-flat-button-toggled-left" transform="translate(4,8)" width="4" height="16"/>
-        <rect id="opaque-flat-button-toggled" transform="translate(8,8)" width="16" height="16"/>
-        <rect id="opaque-flat-button-toggled-right" transform="translate(24,8)" width="4" height="16"/>
-        <path id="opaque-flat-button-toggled-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
-        <rect id="opaque-flat-button-toggled-bottom" transform="translate(8,24)" width="16" height="4"/>
-        <path id="opaque-flat-button-toggled-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
-      </g>
-    </g>
-    <g transform="translate(320)">
-      <rect class="translucent-window" width="160" height="32"/>
-
-      <g style="fill:none"> <!-- not used -->
-        <path id="translucent-flat-button-normal-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
-        <rect id="translucent-flat-button-normal-top" transform="translate(8,4)" width="16" height="4"/>
-        <path id="translucent-flat-button-normal-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
-        <rect id="translucent-flat-button-normal-left" transform="translate(4,8)" width="4" height="16"/>
-        <rect id="translucent-flat-button-normal" transform="translate(8,8)" width="16" height="16"/>
-        <rect id="translucent-flat-button-normal-right" transform="translate(24,8)" width="4" height="16"/>
-        <path id="translucent-flat-button-normal-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
-        <rect id="translucent-flat-button-normal-bottom" transform="translate(8,24)" width="16" height="4"/>
-        <path id="translucent-flat-button-normal-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
-      </g>
-      <g transform="translate(32)" class="translucent-flat-button-focused">
-        <path id="translucent-flat-button-focused-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
-        <rect id="translucent-flat-button-focused-top" transform="translate(8,4)" width="16" height="4"/>
-        <path id="translucent-flat-button-focused-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
-        <rect id="translucent-flat-button-focused-left" transform="translate(4,8)" width="4" height="16"/>
-        <rect id="translucent-flat-button-focused" transform="translate(8,8)" width="16" height="16"/>
-        <rect id="translucent-flat-button-focused-right" transform="translate(24,8)" width="4" height="16"/>
-        <path id="translucent-flat-button-focused-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
-        <rect id="translucent-flat-button-focused-bottom" transform="translate(8,24)" width="16" height="4"/>
-        <path id="translucent-flat-button-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
-      </g>
-      <g transform="translate(64)" class="translucent-flat-button-focused">
-        <path id="translucent-flat-button-pressed-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
-        <rect id="translucent-flat-button-pressed-top" transform="translate(8,4)" width="16" height="4"/>
-        <path id="translucent-flat-button-pressed-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
-        <rect id="translucent-flat-button-pressed-left" transform="translate(4,8)" width="4" height="16"/>
-        <rect id="translucent-flat-button-pressed" transform="translate(8,8)" width="16" height="16"/>
-        <rect id="translucent-flat-button-pressed-right" transform="translate(24,8)" width="4" height="16"/>
-        <path id="translucent-flat-button-pressed-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
-        <rect id="translucent-flat-button-pressed-bottom" transform="translate(8,24)" width="16" height="4"/>
-        <path id="translucent-flat-button-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
-      </g>
-      <g transform="translate(96)" class="translucent-selection">
-        <path id="translucent-flat-button-toggled-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
-        <rect id="translucent-flat-button-toggled-top" transform="translate(8,4)" width="16" height="4"/>
-        <path id="translucent-flat-button-toggled-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4 z"/>
-        <rect id="translucent-flat-button-toggled-left" transform="translate(4,8)" width="4" height="16"/>
-        <rect id="translucent-flat-button-toggled" transform="translate(8,8)" width="16" height="16"/>
-        <rect id="translucent-flat-button-toggled-right" transform="translate(24,8)" width="4" height="16"/>
-        <path id="translucent-flat-button-toggled-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4 z"/>
-        <rect id="translucent-flat-button-toggled-bottom" transform="translate(8,24)" width="16" height="4"/>
-        <path id="translucent-flat-button-toggled-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4 z"/>
-      </g>
-    </g>
-  </g>
-
   <!-- Tool buttons -->
 
-  <g transform="translate(0,448)">
+  <g transform="translate(0,416)">
     <text class="label" x="144" y="20">Tool buttons</text>
     <g transform="translate(160,0)">
       <rect class="opaque-window" width="160" height="32"/>
@@ -938,38 +836,38 @@
         <rect id="opaque-toolbutton-normal-bottom" x="8" y="24" height="4" width="16"/>
         <rect id="opaque-toolbutton-normal-bottomright" x="24" y="24" height="4" width="4"/>
       </g>
-      <g transform="translate(32)" class="opaque-flat-button-focused">
-        <path id="opaque-toolbutton-focused-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+      <g transform="translate(32)" class="opaque-toolbutton-focused">
+        <path id="opaque-toolbutton-focused-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4"/>
         <rect id="opaque-toolbutton-focused-top" x="8" y="4" width="16" height="4"/>
-        <path id="opaque-toolbutton-focused-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <path id="opaque-toolbutton-focused-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4"/>
         <rect id="opaque-toolbutton-focused-left" x="4" y="8" height="16" width="4"/>
         <rect id="opaque-toolbutton-focused" x="8" y="8" height="16" width="16"/>
         <rect id="opaque-toolbutton-focused-right" x="24" y="8" height="16" width="4"/>
-        <path id="opaque-toolbutton-focused-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <path id="opaque-toolbutton-focused-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4"/>
         <rect id="opaque-toolbutton-focused-bottom" x="8" y="24" width="16" height="4"/>
-        <path id="opaque-toolbutton-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+        <path id="opaque-toolbutton-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4"/>
       </g>
-      <g transform="translate(64)" class="opaque-flat-button-focused">
-        <path id="opaque-toolbutton-pressed-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+      <g transform="translate(64)" class="opaque-toolbutton-focused">
+        <path id="opaque-toolbutton-pressed-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4"/>
         <rect id="opaque-toolbutton-pressed-top" x="8" y="4" width="16" height="4"/>
-        <path id="opaque-toolbutton-pressed-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <path id="opaque-toolbutton-pressed-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4"/>
         <rect id="opaque-toolbutton-pressed-left" x="4" y="8" height="16" width="4"/>
         <rect id="opaque-toolbutton-pressed" x="8" y="8" height="16" width="16"/>
         <rect id="opaque-toolbutton-pressed-right" x="24" y="8" height="16" width="4"/>
-        <path id="opaque-toolbutton-pressed-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <path id="opaque-toolbutton-pressed-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4"/>
         <rect id="opaque-toolbutton-pressed-bottom" transform="translate(8,24)" x="0" y="0" width="16" height="4"/>
-        <path id="opaque-toolbutton-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+        <path id="opaque-toolbutton-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4"/>
       </g>
-      <g transform="translate(96)" class="opaque-selection">
-        <path id="opaque-toolbutton-toggled-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+      <g transform="translate(96)" class="opaque-toolbutton-toggled">
+        <path id="opaque-toolbutton-toggled-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4"/>
         <rect id="opaque-toolbutton-toggled-top" x="8" y="4" width="16" height="4"/>
-        <path id="opaque-toolbutton-toggled-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <path id="opaque-toolbutton-toggled-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4"/>
         <rect id="opaque-toolbutton-toggled-left" x="4" y="8" height="16" width="4"/>
         <rect id="opaque-toolbutton-toggled" x="8" y="8" height="16" width="16"/>
         <rect id="opaque-toolbutton-toggled-right" x="24" y="8" height="16" width="4"/>
-        <path id="opaque-toolbutton-toggled-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <path id="opaque-toolbutton-toggled-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4"/>
         <rect id="opaque-toolbutton-toggled-bottom" x="8" y="24" width="16" height="4"/>
-        <path id="opaque-toolbutton-toggled-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+        <path id="opaque-toolbutton-toggled-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4"/>
       </g>
     </g>
     <g transform="translate(320,0)">
@@ -987,45 +885,45 @@
         <rect id="translucent-toolbutton-normal-bottom" x="8" y="24" height="4" width="16"/>
         <rect id="translucent-toolbutton-normal-bottomright" x="24" y="24" height="4" width="4"/>
       </g>
-      <g transform="translate(32)" class="translucent-flat-button-focused">
-        <path id="translucent-toolbutton-focused-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+      <g transform="translate(32)" class="translucent-toolbutton-focused">
+        <path id="translucent-toolbutton-focused-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4"/>
         <rect id="translucent-toolbutton-focused-top" x="8" y="4" width="16" height="4"/>
-        <path id="translucent-toolbutton-focused-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <path id="translucent-toolbutton-focused-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4"/>
         <rect id="translucent-toolbutton-focused-left" x="4" y="8" height="16" width="4"/>
         <rect id="translucent-toolbutton-focused" x="8" y="8" height="16" width="16"/>
         <rect id="translucent-toolbutton-focused-right" x="24" y="8" height="16" width="4"/>
-        <path id="translucent-toolbutton-focused-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <path id="translucent-toolbutton-focused-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4"/>
         <rect id="translucent-toolbutton-focused-bottom" x="8" y="24" width="16" height="4"/>
-        <path id="translucent-toolbutton-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+        <path id="translucent-toolbutton-focused-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4"/>
       </g>
-      <g transform="translate(64)" class="translucent-flat-button-focused">
-        <path id="translucent-toolbutton-pressed-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+      <g transform="translate(64)" class="translucent-toolbutton-focused">
+        <path id="translucent-toolbutton-pressed-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4"/>
         <rect id="translucent-toolbutton-pressed-top" x="8" y="4" width="16" height="4"/>
-        <path id="translucent-toolbutton-pressed-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <path id="translucent-toolbutton-pressed-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4"/>
         <rect id="translucent-toolbutton-pressed-left" x="4" y="8" height="16" width="4"/>
         <rect id="translucent-toolbutton-pressed" x="8" y="8" height="16" width="16"/>
         <rect id="translucent-toolbutton-pressed-right" x="24" y="8" height="16" width="4"/>
-        <path id="translucent-toolbutton-pressed-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <path id="translucent-toolbutton-pressed-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4"/>
         <rect id="translucent-toolbutton-pressed-bottom" transform="translate(8,24)" x="0" y="0" width="16" height="4"/>
-        <path id="translucent-toolbutton-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+        <path id="translucent-toolbutton-pressed-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4"/>
       </g>
-      <g transform="translate(96)" class="translucent-selection">
-        <path id="translucent-toolbutton-toggled-topleft" transform="translate(4,4)" d="m 0,2 a 2,2 0 0 1 2,-2 h 2 v 4 h -4 z"/>
+      <g transform="translate(96)" class="translucent-toolbutton-toggled">
+        <path id="translucent-toolbutton-toggled-topleft" transform="translate(4,4)" d="m 0,4 a 4,4 0 0 1 4,-4 v 4"/>
         <rect id="translucent-toolbutton-toggled-top" x="8" y="4" width="16" height="4"/>
-        <path id="translucent-toolbutton-toggled-topright" transform="translate(24,4)" d="m 0,0 h 2 a 2,2 0 0 1 2,2 v 2 h -4 z"/>
+        <path id="translucent-toolbutton-toggled-topright" transform="translate(24,4)" d="m 0,0 a 4,4 0 0 1 4,4 h -4"/>
         <rect id="translucent-toolbutton-toggled-left" x="4" y="8" height="16" width="4"/>
         <rect id="translucent-toolbutton-toggled" x="8" y="8" height="16" width="16"/>
         <rect id="translucent-toolbutton-toggled-right" x="24" y="8" height="16" width="4"/>
-        <path id="translucent-toolbutton-toggled-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 h -2 a 2,2 0 0 1 -2,-2 z"/>
+        <path id="translucent-toolbutton-toggled-bottomleft" transform="translate(4,24)" d="m 0,0 h 4 v 4 a 4,4 0 0 1 -4,-4"/>
         <rect id="translucent-toolbutton-toggled-bottom" x="8" y="24" width="16" height="4"/>
-        <path id="translucent-toolbutton-toggled-bottomright" transform="translate(24,24)" d="m 0,0 h 4 v 2 a 2,2 0 0 1 -2,2 h -2 z"/>
+        <path id="translucent-toolbutton-toggled-bottomright" transform="translate(24,24)" d="m 0,0 h 4 a 4,4 0 0 1 -4,4"/>
       </g>
     </g>
   </g>
 
   <!-- Line edits -->
 
-  <g transform="translate(0,480)">
+  <g transform="translate(0,448)">
     <text class="label" x="144" y="20">Line edits</text>
     <g transform="translate(160)">
       <rect class="opaque-window" width="160" height="32"/>
@@ -1115,7 +1013,7 @@
 
   <!-- Spin boxes -->
 
-  <g transform="translate(0,512)">
+  <g transform="translate(0,480)">
     <text class="label" x="144" y="20">Spin boxes</text>
 
     <g transform="translate(160)">
@@ -1243,7 +1141,7 @@
 
   <!-- Checkboxes -->
 
-  <g transform="translate(0,576)">
+  <g transform="translate(0,512)">
     <text class="label" x="144" y="20">Checkboxes</text>
 
     <g transform="translate(160)">
@@ -1276,7 +1174,7 @@
 
   <!-- Radio buttons -->
 
-  <g transform="translate(0,640)">
+  <g transform="translate(0,576)">
     <text class="label" x="144" y="20">Radio buttons</text>
 
     <g transform="translate(160)">
@@ -1305,7 +1203,7 @@
 
   <!-- Progress bars -->
 
-  <g transform="translate(0,672)">
+  <g transform="translate(0,608)">
     <text class="label" x="144" y="20">Progress bars</text>
     <g transform="translate(160)">
       <rect class="opaque-window" width="160" height="32"/>
@@ -1359,7 +1257,7 @@
 
   <!-- Sliders -->
 
-  <g transform="translate(0,704)">
+  <g transform="translate(0,640)">
     <text class="label" x="144" y="20">Sliders</text>
 
     <g transform="translate(160)">
@@ -1451,7 +1349,7 @@
 
   <!-- Tickless sliders -->
 
-  <g transform="translate(0,736)">
+  <g transform="translate(0,672)">
     <text class="label" x="144" y="20">Tickless sliders</text>
 
     <g transform="translate(480)">
@@ -1494,7 +1392,7 @@
 
   <!-- Scrollbars -->
 
-  <g transform="translate(0,768)">
+  <g transform="translate(0,704)">
     <text class="label" x="144" y="20">Scrollbars</text>
 
     <defs>
@@ -1716,7 +1614,7 @@
 
   <!-- Splitters -->
 
-  <g transform="translate(0,800)">
+  <g transform="translate(0,736)">
     <text class="label" x="144" y="20">Splitters</text>
     <g transform="translate(160)">
       <rect class="opaque-window" width="160" height="32"/>
@@ -1729,7 +1627,7 @@
 
   <!-- Headers -->
 
-  <g transform="translate(0,832)">
+  <g transform="translate(0,768)">
     <text class="label" x="144" y="20">Headers</text>
     <g transform="translate(160)">
       <rect class="opaque-view" width="160" height="32"/>
@@ -1774,7 +1672,7 @@
 
   <!-- List views -->
 
-  <g transform="translate(0,864)">
+  <g transform="translate(0,800)">
     <text class="label" x="144" y="20">List views</text>
     <g transform="translate(160)">
       <rect class="opaque-window" width="160" height="32"/>
@@ -1856,7 +1754,7 @@
 
   <!-- Tree views -->
 
-  <g transform="translate(0,896)">
+  <g transform="translate(0,832)">
     <text class="label" x="144" y="20">Tree views</text>
     <g transform="translate(480)">
       <rect class="opaque-view" width="320" height="32"/>
@@ -1874,7 +1772,7 @@
 
   <!-- Arrows -->
 
-  <g transform="translate(0,928)">
+  <g transform="translate(0,864)">
     <text class="label" x="144" y="20">Arrows</text>
     <g transform="translate(480)">
       <rect class="opaque-window" width="320" height="32"/>
@@ -1928,7 +1826,7 @@
 
   <!-- Menus -->
 
-  <g transform="translate(0,960)">
+  <g transform="translate(0,896)">
     <text class="label" x="144" y="20">Menus</text>
     <g transform="translate(158,-2)">
       <rect class="opaque-window" style="opacity:0" width="40" height="40"/>
@@ -2061,7 +1959,7 @@
     </g>
   </g>
 
-  <g transform="translate(0,992)">
+  <g transform="translate(0,928)">
     <text class="label" x="144" y="20">Menu checkboxes</text>
     <g transform="translate(480)">
       <rect class="menu" width="320" height="64"/>
@@ -2143,7 +2041,7 @@
     </g>
   </g>
 
-  <g transform="translate(0,1056)">
+  <g transform="translate(0,992)">
     <text class="label" x="144" y="20">Menu radio buttons</text>
     <g transform="translate(480)">
       <rect class="menu" width="320" height="32"/>
@@ -2210,7 +2108,7 @@
     </g>
   </g>
 
-  <g transform="translate(0,1088)">
+  <g transform="translate(0,1024)">
     <text class="label" x="144" y="20">Menu arrows</text>
     <g transform="translate(480)">
       <rect class="menu" width="320" height="32"/>
@@ -2246,7 +2144,7 @@
 
   <!-- Tooltips -->
 
-  <g transform="translate(0,1120)">
+  <g transform="translate(0,1056)">
     <text class="label" x="144" y="20">Tooltips</text>
     <g transform="translate(158,-2)">
       <rect class="opaque-window" style="opacity:0" width="40" height="40"/>
@@ -2325,7 +2223,7 @@
 
   <!-- Dials -->
 
-  <g transform="translate(0,1216)">
+  <g transform="translate(0,1152)">
     <text class="label" x="144" y="20">Dials</text>
     <rect class="opaque-window" x="160" y="-32" width="160" height="96"/>
 
@@ -2351,7 +2249,7 @@
 
   <!-- MDI window buttons -->
 
-  <g transform="translate(0,1280)">
+  <g transform="translate(0,1216)">
     <text class="label" x="144" y="52">MDI window buttons</text>
     <g transform="translate(480)">
       <rect class="opaque-window" width="320" height="96"/>
@@ -2362,12 +2260,12 @@
       </g>
       <g id="window-close-focused" transform="translate(38,6)">
         <rect style="fill:none" width="20" height="20"/>
-        <circle class="translucent-flat-button-focused" cx="10" cy="10" r="10"/>
+        <circle class="translucent-toolbutton-focused" cx="10" cy="10" r="10"/>
         <path class="fill-none stroke-window-text-focused stroke-width-1_5 stroke-rounded" d="m 6,6 l 8,8 M 6,14 l 8,-8"/>
       </g>
       <g id="window-close-pressed" transform="translate(70,6)">
         <rect style="fill:none" width="20" height="20"/>
-        <circle class="translucent-flat-button-focused" cx="10" cy="10" r="10"/>
+        <circle class="translucent-toolbutton-focused" cx="10" cy="10" r="10"/>
         <path class="fill-none stroke-window-text-pressed stroke-width-1_5 stroke-rounded" d="m 6,6 l 8,8 M 6,14 l 8,-8"/>
       </g>
       <g id="window-close-disabled" transform="translate(134,6)">
@@ -2381,12 +2279,12 @@
       </g>
       <g id="window-minimize-focused" transform="translate(38,38)">
         <rect style="fill:none" width="20" height="20"/>
-        <circle class="translucent-flat-button-focused" cx="10" cy="10" r="10"/>
+        <circle class="translucent-toolbutton-focused" cx="10" cy="10" r="10"/>
         <path class="fill-none stroke-window-text-focused stroke-width-1_5 stroke-rounded" d="m 4,8 6,6 6,-6"/>
       </g>
       <g id="window-minimize-pressed" transform="translate(70,38)">
         <rect style="fill:none" width="20" height="20"/>
-        <circle class="translucent-flat-button-focused" cx="10" cy="10" r="10"/>
+        <circle class="translucent-toolbutton-focused" cx="10" cy="10" r="10"/>
         <path class="fill-none stroke-window-text-pressed stroke-width-1_5 stroke-rounded" d="m 4,8 6,6 6,-6"/>
       </g>
       <g id="window-minimize-disabled" transform="translate(134,38)">
@@ -2400,12 +2298,12 @@
       </g>
       <g id="window-maximize-focused" transform="translate(198,38)">
         <rect style="fill:none" width="20" height="20"/>
-        <circle class="translucent-flat-button-focused" cx="10" cy="10" r="10"/>
+        <circle class="translucent-toolbutton-focused" cx="10" cy="10" r="10"/>
         <path class="fill-none stroke-window-text-focused stroke-width-1_5 stroke-rounded" d="m 4,12 6,-6 6,6"/>
       </g>
       <g id="window-maximize-pressed" transform="translate(230,38)">
         <rect style="fill:none" width="20" height="20"/>
-        <circle class="translucent-flat-button-focused" cx="10" cy="10" r="10"/>
+        <circle class="translucent-toolbutton-focused" cx="10" cy="10" r="10"/>
         <path class="fill-none stroke-window-text-pressed stroke-width-1_5 stroke-rounded" d="m 4,12 6,-6 6,6"/>
       </g>
       <g id="window-maximize-disabled" transform="translate(294,38)">
@@ -2419,12 +2317,12 @@
       </g>
       <g id="window-restore-focused" transform="translate(198,6)">
         <rect style="fill:none" width="20" height="20"/>
-        <circle class="translucent-flat-button-focused" cx="10" cy="10" r="10"/>
+        <circle class="translucent-toolbutton-focused" cx="10" cy="10" r="10"/>
         <path class="fill-none stroke-window-text-focused stroke-width-1_5" d="m 4,10 l 6,-6 6,6 -6,6 z"/>
       </g>
       <g id="window-restore-pressed" transform="translate(230,6)">
         <rect style="fill:none" width="20" height="20"/>
-        <circle class="translucent-flat-button-focused" cx="10" cy="10" r="10"/>
+        <circle class="translucent-toolbutton-focused" cx="10" cy="10" r="10"/>
         <path class="fill-none stroke-window-text-pressed stroke-width-1_5" d="m 4,10 l 6,-6 6,6 -6,6 z"/>
       </g>
       <g id="window-restore-disabled" transform="translate(294,6)">
@@ -2441,7 +2339,7 @@
 
   <!-- Transparent elements -->
 
-  <g transform="translate(0,1376)">
+  <g transform="translate(0,1312)">
     <text class="label" x="144" y="20">Transparent elements</text>
     <g transform="translate(160)" style="fill:none">
       <rect class="frame" x="4.5" y="4.5" width="23" height="23"/>

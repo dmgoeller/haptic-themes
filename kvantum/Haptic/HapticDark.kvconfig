@@ -282,11 +282,6 @@ text.press.color=#FFF
 text.toggle.color=#FFF
 text.disabled.color=#6C6C6C
 
-[FlatPanelButtonCommand]
-inherits=PanelButtonCommand
-interior.element=opaque-flat-button
-frame.element=opaque-flat-button
-
 [PanelButtonTool]
 inherits=BaseButton
 interior.element=translucent-toolbutton
