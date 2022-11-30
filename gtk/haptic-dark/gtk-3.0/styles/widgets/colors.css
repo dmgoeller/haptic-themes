@@ -187,12 +187,11 @@ menu {
 }
 
 menuitem {
-  color: @menuitem-fg-color;
+  color: @menu-fg-color;
 }
 
 menuitem:hover {
-  background-color: @accent-bg-color;
-  color: @menu-fg-color-selected;
+  background-color: alpha(@inverse-bg-color, 0.1875);
 }
 
 menu separator {
@@ -204,14 +203,14 @@ menuitem:disabled,
 menuitem:disabled > image,
 menuitem:disabled *:disabled,
 menuitem:disabled *:disabled > image {
-  color: mix(@ssd-menu-bg-color, @menuitem-fg-color, 0.5);
+  color: mix(@ssd-menu-bg-color, @menu-fg-color, 0.5);
 }
 
 .csd menuitem:disabled,
 .csd menuitem:disabled > image,
 .csd menuitem:disabled *:disabled,
 .csd menuitem:disabled *:disabled > image {
-  color: mix(@csd-menu-bg-color, @menuitem-fg-color, 0.5);
+  color: mix(@csd-menu-bg-color, @menu-fg-color, 0.5);
 }
 
 menuitem:backdrop {

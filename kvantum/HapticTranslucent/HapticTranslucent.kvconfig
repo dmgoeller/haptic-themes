@@ -171,7 +171,6 @@ text.margin.top=4
 text.margin.bottom=4
 text.margin.left=12
 text.margin.right=12
-text.focus.color=#FFF
 
 [Menu]
 inherits=BaseWidget
@@ -192,7 +191,6 @@ frame.left=12
 frame.right=12
 text.iconspacing=12
 text.normal.color=#303030
-text.focus.color=#FFF
 
 [Toolbar]
 inherits=MenuBar

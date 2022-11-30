@@ -13,9 +13,10 @@
       .fill-none                       { fill: none }
       .menu                            { fill: black; fill-opacity: 0.5 }
       .menu-overlay                    { fill: white; fill-opacity: 0.125 }
-      .menubaritem-toggled             { fill: #484848 }
-      .menuitem                        { fill: white }
-      .menuitem-focused                { fill: white }
+      .menubaritem-toggled             { fill: #E4E4E4; fill-opacity: 0.09375 }
+      .menuitem                        { fill: #E4E4E4; fill-opacity: 0.1875 }
+      .menuitem-text                   { fill: white }
+      .menuitem-text-focused           { fill: white }
       .menuitem-separator              { fill: #E4E4E4; fill-opacity: 0.25 }
       .progress-disabled               { fill: #E4E4E4; fill-opacity: 0.0625 }
       .radio-button-dot                { fill: #F0F0F0 }
@@ -313,7 +314,7 @@
     <g transform="translate(480)">
       <rect class="opaque-window" width="320" height="32"/>
 
-      <rect id="menubaritem-pressed" class="accent-color" x="68" y="4" width="24" height="24"/>
+      <rect id="menubaritem-pressed" class="menuitem" x="68" y="4" width="24" height="24"/>
       <rect id="menubaritem-toggled" class="menubaritem-toggled" x="100" y="4" width="24" height="24"/>
 
       <g id="toolbar-separator" transform="translate(172,8)" >
@@ -1940,7 +1941,7 @@
     <g transform="translate(480)">
       <rect class="menu" width="320" height="32"/>
 
-      <g class="accent-color">
+      <g class="menuitem">
         <rect id="menuitem-normal-topleft" x="4" y="4" width="1" height="1"/>
         <rect id="menuitem-normal-top" x="5" y="4" width="22" height="1"/>
         <rect id="menuitem-normal-topright" x="27" y="4" width="1" height="1"/>
@@ -1963,13 +1964,13 @@
     <text class="label" x="144" y="20">Menu checkboxes</text>
     <g transform="translate(480)">
       <rect class="menu" width="320" height="64"/>
-      <rect class="accent-color" x="32" width="32" height="32"/>
-      <rect class="accent-color" x="192" width="32" height="64"/>
+      <rect class="menuitem" x="32" width="32" height="32"/>
+      <rect class="menuitem" x="192" width="32" height="64"/>
 
       <g id="menu-opaque-checkbox-normal" transform="translate(6,6)">
         <g id="menu-translucent-checkbox-normal">
           <rect style="fill:none" width="20" height="20"/>
-          <path class="menuitem" style="opacity:0.75"
+          <path class="menuitem-text" style="opacity:0.75"
                 d="m 4,2 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z
                    m -1,2 a 1,1 0 0 1 1,-1 h 12 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -12 a 1,1 0 0 1 -1,-1"/>
         </g>
@@ -1977,7 +1978,7 @@
       <g id="menu-opaque-checkbox-focused" transform="translate(38,6)">
         <g id="menu-translucent-checkbox-focused">
           <rect style="fill:none" width="20" height="20"/>
-          <path class="menuitem-focused"
+          <path class="menuitem-text-focused"
                 d="m 4,2 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z
                    m -1,2 a 1,1 0 0 1 1,-1 h 12 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -12 a 1,1 0 0 1 -1,-1"/>
         </g>
@@ -1985,7 +1986,7 @@
       <g id="menu-opaque-checkbox-disabled" transform="translate(134,6)">
         <g id="menu-translucent-checkbox-disabled">
           <rect style="fill:none" width="20" height="20"/>
-          <path class="menuitem disabled"
+          <path class="menuitem-text disabled"
                 d="m 4,2 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z
                    m -1,2 a 1,1 0 0 1 1,-1 h 12 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -12 a 1,1 0 0 1 -1,-1"/>
         </g>
@@ -1993,7 +1994,7 @@
       <g id="menu-opaque-checkbox-checked-normal" transform="translate(166,6)">
         <g id="menu-translucent-checkbox-checked-normal">
           <rect style="fill:none" width="20" height="20"/>
-          <path class="menuitem"
+          <path class="menuitem-text"
                 d="m 4,2 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z
                    m 4.5,8.88 l 5,-5 a 1.5,1.5 0 0 1 2.12,2.12 l -6,6 a 1.5,1.5 0 0 1 -2.24,0 l -3,-3 a 1.5,1.5 0 0 1 2.12,-2.12 z"/>
         </g>
@@ -2001,7 +2002,7 @@
       <g id="menu-opaque-checkbox-checked-focused" transform="translate(198,6)">
         <g id="menu-translucent-checkbox-checked-focused">
           <rect style="fill:none" width="20" height="20"/>
-          <path class="menuitem-focused"
+          <path class="menuitem-text-focused"
                 d="m 4,2 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z
                    m 4.5,8.88 l 5,-5 a 1.5,1.5 0 0 1 2.12,2.12 l -6,6 a 1.5,1.5 0 0 1 -2.24,0 l -3,-3 a 1.5,1.5 0 0 1 2.12,-2.12 z"/>
         </g>
@@ -2009,7 +2010,7 @@
       <g id="menu-opaque-checkbox-checked-disabled" transform="translate(294,6)">
         <g id="menu-translucent-checkbox-checked-disabled">
           <rect style="fill:none" width="20" height="20"/>
-          <path class="menuitem disabled"
+          <path class="menuitem-text disabled"
                 d="m 4,2 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z
                    m 4.5,8.88 l 5,-5 a 1.5,1.5 0 0 1 2.12,2.12 l -6,6 a 1.5,1.5 0 0 1 -2.24,0 l -3,-3 a 1.5,1.5 0 0 1 2.12,-2.12 z"/>
         </g>
@@ -2017,7 +2018,7 @@
       <g id="menu-opaque-checkbox-tristate-normal" transform="translate(166,38)">
         <g id="menu-translucent-checkbox-tristate-normal">
           <rect style="fill:none" width="20" height="20"/>
-          <path class="menuitem"
+          <path class="menuitem-text"
                 d="m 4,2 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z
                    m 1,7 h 10 a 1,1 0 0 1 0,2 h -10 a 1,1 0 0 1 0,-2"/>
         </g>
@@ -2025,7 +2026,7 @@
       <g id="menu-opaque-checkbox-tristate-focused" transform="translate(198,38)">
         <g id="menu-translucent-checkbox-tristate-focused">
           <rect style="fill:none" width="20" height="20"/>
-          <path class="menuitem-focused"
+          <path class="menuitem-text-focused"
                 d="m 4,2 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z
                    m 1,7 h 10 a 1,1 0 0 1 0,2 h -10 a 1,1 0 0 1 0,-2"/>
         </g>
@@ -2033,7 +2034,7 @@
       <g id="menu-opaque-checkbox-tristate-disabled" transform="translate(294,38)">
         <g id="menu-translucent-checkbox-tristate-disabled">
           <rect style="fill:none" width="16" height="16"/>
-          <path class="menuitem disabled"
+          <path class="menuitem-text disabled"
                 d="m 4,2 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z
                    m 1,7 h 10 a 1,1 0 0 1 0,2 h -10 a 1,1 0 0 1 0,-2"/>
         </g>
@@ -2045,13 +2046,13 @@
     <text class="label" x="144" y="20">Menu radio buttons</text>
     <g transform="translate(480)">
       <rect class="menu" width="320" height="32"/>
-      <rect class="accent-color" x="32" width="32" height="32"/>
-      <rect class="accent-color" x="192" width="32" height="32"/>
+      <rect class="menuitem" x="32" width="32" height="32"/>
+      <rect class="menuitem" x="192" width="32" height="32"/>
 
       <g id="menu-opaque-radio-button-normal" transform="translate(8,8)">
         <g id="menu-translucent-radio-button-normal">
           <rect style="fill:none" width="20" height="20"/>
-          <g class="menuitem" style="opacity:0.75" transform="translate(10,10)">
+          <g class="menuitem-text" style="opacity:0.75" transform="translate(10,10)">
             <path d="M 0,-8 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z
                      m 0 1 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z"/>
           </g>
@@ -2060,7 +2061,7 @@
       <g id="menu-opaque-radio-button-focused" transform="translate(38,8)">
         <g id="menu-translucent-radio-button-focused">
           <rect style="fill:none" width="20" height="20"/>
-          <g class="menuitem-focused" transform="translate(10,10)">
+          <g class="menuitem-text-focused" transform="translate(10,10)">
             <path d="M 0,-8 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z
                      m 0 1 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z"/>
           </g>
@@ -2069,7 +2070,7 @@
       <g id="menu-opaque-radio-button-disabled" transform="translate(134,8)">
         <g id="menu-translucent-radio-button-disabled">
           <rect style="fill:none" width="20" height="20"/>
-          <g class="menuitem disabled" transform="translate(10,10)">
+          <g class="menuitem-text disabled" transform="translate(10,10)">
             <path d="M 0,-8 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z
                      m 0 1 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z"/>
           </g>
@@ -2078,7 +2079,7 @@
       <g id="menu-opaque-radio-button-checked-normal" transform="translate(166,8)">
         <g id="menu-translucent-radio-button-checked-normal">
           <rect style="fill:none" width="20" height="20"/>
-          <g class="menuitem" transform="translate(10,10)">
+          <g class="menuitem-text" transform="translate(10,10)">
             <path d="M 0,-8 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z
                      m 0 1 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z"/>
             <circle r="5"/>
@@ -2088,7 +2089,7 @@
       <g id="menu-opaque-radio-button-checked-focused" transform="translate(198,8)">
         <g id="menu-translucent-radio-button-checked-focused">
           <rect style="fill:none" width="20" height="20"/>
-          <g class="menuitem-focused" transform="translate(10,10)">
+          <g class="menuitem-text-focused" transform="translate(10,10)">
             <path d="M 0,-8 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z
                      m 0 1 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z"/>
             <circle r="5"/>
@@ -2098,7 +2099,7 @@
       <g id="menu-opaque-radio-button-checked-disabled" transform="translate(294,8)">
         <g id="menu-translucent-radio-button-checked-disabled">
           <rect style="fill:none" width="20" height="20"/>
-          <g class="menuitem disabled" transform="translate(10,10)">
+          <g class="menuitem-text disabled" transform="translate(10,10)">
             <path d="M 0,-8 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z
                      m 0 1 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z"/>
             <circle r="5"/>
@@ -2112,32 +2113,32 @@
     <text class="label" x="144" y="20">Menu arrows</text>
     <g transform="translate(480)">
       <rect class="menu" width="320" height="32"/>
-      <rect class="accent-color" x="32" width="32" height="32"/>
-      <rect class="accent-color" x="192" width="32" height="32"/>
+      <rect class="menuitem" x="32" width="32" height="32"/>
+      <rect class="menuitem" x="192" width="32" height="32"/>
 
       <g id="menuitem-left-normal" transform="translate(8,8)">
         <rect style="fill:none" width="16" height="16"/>
-        <path class="menuitem" d="m 7,1 l -7 7 7 7 z"/>
+        <path class="menuitem-text" d="m 7,1 l -7 7 7 7 z"/>
       </g>
       <g id="menuitem-left-focused" transform="translate(40,8)">
         <rect style="fill:none" width="16" height="16"/>
-        <path class="menuitem-focused" d="m 7,1 l -7 7 7 7 z"/>
+        <path class="menuitem-text-focused" d="m 7,1 l -7 7 7 7 z"/>
       </g>
       <g id="menuitem-left-disabled" transform="translate(136,8)">
         <rect style="fill:none" width="16" height="16"/>
-        <path class="menuitem disabled" d="m 7,1 l -7 7 7 7 z"/>
+        <path class="menuitem-text disabled" d="m 7,1 l -7 7 7 7 z"/>
       </g>
       <g id="menuitem-right-normal" transform="translate(168,8)">
         <rect style="fill:none" width="16" height="16"/>
-        <path class="menuitem" d="m 9,1 l 7 7 -7 7 z"/>
+        <path class="menuitem-text" d="m 9,1 l 7 7 -7 7 z"/>
       </g>
       <g id="menuitem-right-focused" transform="translate(200,8)">
         <rect style="fill:none" width="16" height="16"/>
-        <path class="menuitem-focused" d="m 9,1 l 7 7 -7 7 z"/>
+        <path class="menuitem-text-focused" d="m 9,1 l 7 7 -7 7 z"/>
       </g>
       <g id="menuitem-right-disabled" transform="translate(296,8)">
         <rect style="fill:none" width="16" height="16"/>
-        <path class="menuitem disabled" d="m 9,1 l 7 7 -7 7 z"/>
+        <path class="menuitem-text disabled" d="m 9,1 l 7 7 -7 7 z"/>
       </g>
     </g>
   </g>

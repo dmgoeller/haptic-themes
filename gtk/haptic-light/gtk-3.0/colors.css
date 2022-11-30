@@ -56,11 +56,9 @@
 
 /* Menu colors */
 @define-color menu-bg-color white;
+@define-color menu-fg-color #303030;
 @define-color menu-border-color #C0C0C0;
 @define-color menu-separator-color #C0C0C0;
-
-@define-color menuitem-fg-color #303030;
-@define-color menuitem-fg-color-selected #FFF;
 
 /* Button colors */
 @define-color button-fg-color #484848;
