@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <defs>
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text { color: #606060 }
+    <style type="text/css">
+      .Line { fill: black; fill-opacity: 0.1 }
     </style>
   </defs>
-  <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125">
+  <g class="Line">
     <rect id="horizontal-line" width="32" height="1"/>
     <rect id="vertical-line" width="1" height="32"/>
   </g>

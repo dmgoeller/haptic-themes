@@ -2,8 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 320">
   <defs>
     <style type="text/css">
-      .Background { fill: white; fill-opacity: 0.1667 }
-      .Indicator { fill: white; fill-opacity: 0.3125 }
+      .Background { fill: white; fill-opacity: 0.11 }
+      .Indicator { fill: white; fill-opacity: 0.375 }
       .FocusIndicator { fill: #7BA1D0 }
       .ProgressOverlay { fill: #2670D0; fill-opacity: 0.75 }
       .ProgressIndicator { fill: #7BA1D0 }
@@ -14,9 +14,9 @@
     </style>
   </defs>
 
-  <rect style="fill:#31302F" width="100%" height="100%"/>
+  <rect style="fill:#303030" width="100%" height="100%"/>
 
-  <!-- south -->
+  <!-- South -->
 
   <g transform="translate(96,256)">
     <rect style="fill:#F0F0F0;fill-opacity:0.125" width="320" height="1"/>
@@ -228,7 +228,7 @@
     </g>
   </g>
 
-  <!-- north -->
+  <!-- North -->
 
   <g transform="translate(96)">
     <rect style="fill:black;fill-opacity:0.125" y="63" width="320" height="1"/>
@@ -440,7 +440,7 @@
     </g>
   </g>
 
-  <!-- west -->
+  <!-- West -->
 
   <g>
     <rect style="fill:#F0F0F0;fill-opacity:0.0625" x="63" width="1" height="320"/>
@@ -652,7 +652,7 @@
     </g>
   </g>
 
-  <!-- east -->
+  <!-- East -->
 
   <g transform="translate(448)">
     <rect style="fill:#F0F0F0;fill-opacity:0.0625" width="1" height="320"/>

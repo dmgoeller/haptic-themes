@@ -5,7 +5,6 @@
       .ColorScheme-Background { color: #F0F0F0 }
       .ColorScheme-ButtonFocus { color: #2670D0 }
       .ColorScheme-Text { color: #606060 }
-      .ColorScheme-ViewText { color: #303030 }
     </style>
     <radialGradient id="slider-shadow" r="50%">
       <stop offset="0.85" style="stop-color:black;stop-opacity:0.125"/>
@@ -15,7 +14,7 @@
 
   <!-- Groove -->
 
-  <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" transform="translate(2,2)">
+  <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" transform="translate(2,2)">
     <path id="groove-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
     <rect id="groove-top" x="4" width="12" height="4"/>
     <path id="groove-topright" d="m 16,0 a 4,4 0 0 1 4,4 h -4 z"/>

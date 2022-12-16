@@ -2,302 +2,187 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80">
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Background { color: #F0F0F0 }
       .ColorScheme-ButtonBackground { color: #C0C0C0 }
-      .ColorScheme-ButtonHover { color: #B4B4B4 }
       .ColorScheme-ButtonFocus { color: #2670D0 }
-      .ColorScheme-ButtonText { color: #484848 }
+    </style>
+    <style type="text/css">
+      .Hint { fill: #CA7921; fill-opacity: 0.5 }
     </style>
   </defs>
 
   <!-- Buttons -->
 
-  <g transform="translate(2,2)">
-    <g id="normal-topleft">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75"
-            d="m 0,4 a 4,4, 0 0 1 4,-4 h 8 v 1 h -8 a 3,3 0 0 0 -3,3 v 2 h -1"/>
-      <path class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5"
-            d="m 0,4 a 4,4, 0 0 1 4,-4 h 8 v 1 h -8 a 3,3 0 0 0 -3,3 v 2 h -1"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5"
-            d="m 4,1 a 3,3 0 0 0 -3,3 v 2 h 11 v -5"/>
+  <g transform="translate(4,4)">
+    <g class="ColorScheme-ButtonBackground" style="fill:currentColor;fill-opacity:0.75">
+      <path id="normal-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 h 4"/>
+      <rect id="normal-top" x="4" width="24" height="4"/>
+      <path id="normal-topright" d="m 28,4 h 4 a 4,4 0 0 0 -4,-4"/>
+      <rect id="normal-left" y="4" width="4" height="24"/>
+      <rect id="normal-center" x="4" y="4" width="24" height="24"/>
+      <rect id="normal-right" x="28" y="4" width="4" height="24"/>
+      <path id="normal-bottomleft" d="m 0,28 a 4,4 0 0 0 4,4 v -4"/>
+      <rect id="normal-bottom" x="4" y="28" width="24" height="4"/>
+      <path id="normal-bottomright" d="m 28,32 a 4,4 0 0 0 4,-4 h -4"/>
     </g>
-    <g id="normal-top" transform="translate(12)">
-      <rect style="fill:none" width="12" height="6"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75" width="12" height="1"/>
-      <rect class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5" width="12" height="1"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5" y="1" width="12" height="5"/>
-    </g>
-    <g id="normal-topright" transform="translate(24)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75"
-            d="m 0,0 h 8 a 4,4 0 0 1 4,4 v 2 h -1 v -2 a 3,3 0 0 0 -3,-3 h -8"/>
-      <path class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5"
-            d="m 0,0 h 8 a 4,4 0 0 1 4,4 v 2 h -1 v -2 a 3,3 0 0 0 -3,-3 h -8"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5"
-            d="m 0,1 v 5 h 11 v -2 a 3,3 0 0 0 -3,-3"/>
-    </g>
-    <g id="normal-left" transform="translate(0,6)">
-      <rect style="fill:none" width="12" height="24"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75" width="1" height="24"/>
-      <rect class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5" width="1" height="24"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5" x="1" width="11" height="24"/>
-    </g>
-    <g id="normal-center" transform="translate(12,6)">
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5" width="12" height="24"/>
-    </g>
-    <g id="normal-right" transform="translate(24,6)">
-      <rect style="fill:none" width="12" height="24"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75" x="11" width="1" height="24"/>
-      <rect class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5" x="11" width="1" height="24"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5" width="11" height="24"/>
-    </g>
-    <g id="normal-bottomleft" transform="translate(0,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75"
-            d="m 0,0 h 1 v 2 a 3,3 0 0 0 3,3 h 8 v 1 h -8 a 4,4 0 0 1 -4,-4"/>
-      <path class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5"
-            d="m 0,0 h 1 v 2 a 3,3 0 0 0 3,3 h 8 v 1 h -8 a 4,4 0 0 1 -4,-4"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5"
-            d="m 1,0 v 2 a 3,3 0 0 0 3,3 h 8 v -5"/>
-    </g>
-    <g id="normal-bottom" transform="translate(12,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75" y="5" width="12" height="1"/>
-      <rect class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5" y="5" width="12" height="1"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5" width="12" height="5"/>
-    </g>
-    <g id="normal-bottomright" transform="translate(24,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75"
-            d="m 0,5 h 8 a 3,3 0 0 0 3,-3 v -2 h 1 v 2 a 4,4 0 0 1 -4,4 h -8 z"/>
-      <path class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5"
-            d="m 0,5 h 8 a 3,3 0 0 0 3,-3 v -2 h 1 v 2 a 4,4 0 0 1 -4,4 h -8 z"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5"
-            d="m 0,0 v 5 h 8 a 3,3 0 0 0 3,-3 v -2"/>
+    <g class="Hint">
+      <circle id="normal-hint-compose-over-border" cx="-3" cy="-3" r="1"/>
+      <rect id="normal-hint-top-margin" x="15" width="2" height="6"/>
+      <rect id="normal-hint-left-margin" y="15" width="12" height="2"/>
+      <rect id="normal-hint-right-margin" x="20" y="15" height="2" width="12"/>
+      <rect id="normal-hint-bottom-margin" x="15" y="26" width="2" height="6"/>
     </g>
   </g>
 
-  <g transform="translate(42,2)">
-    <g class="ColorScheme-ButtonBackground" style="fill:currentColor;fill-opacity:0.5">
-      <g id="hover-topleft">
-        <rect style="fill:none" width="12" height="6"/>
-        <path d="m 4,1 a 3,3 0 0 0 -3,3 v 2 h 11 v -5"/>
-      </g>
-      <g id="hover-top" transform="translate(12)">
-        <rect style="fill:none" width="12" height="6"/>
-        <rect y="1" width="12" height="5"/>
-      </g>
-      <g id="hover-topright" transform="translate(24)">
-        <rect style="fill:none" width="12" height="6"/>
-        <path d="m 0,1 v 5 h 11 v -2 a 3,3 0 0 0 -3,-3"/>
-      </g>
-      <g id="hover-left" transform="translate(0,6)">
-        <rect style="fill:none" width="12" height="24"/>
-        <rect x="1" width="11" height="24"/>
-      </g>
-      <g id="hover-center" transform="translate(12,6)">
-        <rect width="12" height="24"/>
-      </g>
-      <g id="hover-right" transform="translate(24,6)">
-        <rect style="fill:none" width="12" height="24"/>
-        <rect width="11" height="24"/>
-      </g>
-      <g id="hover-bottomleft" transform="translate(0,30)">
-        <rect style="fill:none" width="12" height="6"/>
-        <path d="m 1,0 v 2 a 3,3 0 0 0 3,3 h 8 v -5"/>
-      </g>
-      <g id="hover-bottom" transform="translate(12,30)">
-        <rect style="fill:none" width="12" height="6"/>
-        <rect width="12" height="5"/>
-      </g>
-      <g id="hover-bottomright" transform="translate(24,30)">
-        <rect style="fill:none" width="12" height="6"/>
-        <path d="m 0,0 v 5 h 8 a 3,3 0 0 0 3,-3 v -2"/>
-      </g>
+  <g transform="translate(44,4)">
+    <g style="fill:none">
+      <path id="hover-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 h 4"/>
+      <rect id="hover-top" x="4" width="24" height="4"/>
+      <path id="hover-topright" d="m 28,4 h 4 a 4,4 0 0 0 -4,-4"/>
+      <rect id="hover-left" y="4" width="4" height="24"/>
+      <rect id="hover-center" x="4" y="4" width="24" height="24"/>
+      <rect id="hover-right" x="28" y="4" width="4" height="24"/>
+      <path id="hover-bottomleft" d="m 0,28 a 4,4 0 0 0 4,4 v -4"/>
+      <rect id="hover-bottom" x="4" y="28" width="24" height="4"/>
+      <path id="hover-bottomright" d="m 28,32 a 4,4 0 0 0 4,-4 h -4"/>
     </g>
-    <g style="fill:#B0BEC5">
-      <rect id="hover-hint-top-margin" x="16" width="4" height="0.001"/>
-      <rect id="hover-hint-bottom-margin" x="16" y="35" width="4" height="0.001"/>
-      <rect id="hover-hint-left-margin" y="16" width="0.001" height="4"/>
-      <rect id="hover-hint-right-margin" x="35" y="16" width="0.001" height="4"/>
+    <g class="Hint">
+      <rect id="hover-hint-top-margin" x="15" y="0.999" width="2" height="0.001"/>
+      <rect id="hover-hint-bottom-margin" x="15" y="31" width="2" height="0.001"/>
+      <rect id="hover-hint-left-margin" x="0.999" y="15" width="0.001" height="2"/>
+      <rect id="hover-hint-right-margin" x="31" y="15" width="0.001" height="2"/>
     </g>
   </g>
 
-  <g transform="translate(82,2)">
-    <g id="pressed-topleft">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75"
-            d="m 0,4 a 4,4, 0 0 1 4,-4 h 8 v 1 h -8 a 3,3 0 0 0 -3,3 v 2 h -1"/>
-      <path class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5"
-            d="m 0,4 a 4,4, 0 0 1 4,-4 h 8 v 1 h -8 a 3,3 0 0 0 -3,3 v 2 h -1"/>
-      <path class="ColorScheme-ButtonBackground" style="fill:currentColor"
-            d="m 4,1 a 3,3 0 0 0 -3,3 v 2 h 11 v -5"/>
+  <g transform="translate(84,4)">
+    <g class="ColorScheme-ButtonBackground" style="fill:currentColor;fill-opacity:0.875">
+      <path id="pressed-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 h 4"/>
+      <rect id="pressed-top" x="4" width="24" height="4"/>
+      <path id="pressed-topright" d="m 28,4 h 4 a 4,4 0 0 0 -4,-4"/>
+      <rect id="pressed-left" y="4" width="4" height="24"/>
+      <rect id="pressed-center" x="4" y="4" width="24" height="24"/>
+      <rect id="pressed-right" x="28" y="4" width="4" height="24"/>
+      <path id="pressed-bottomleft" d="m 0,28 a 4,4 0 0 0 4,4 v -4"/>
+      <rect id="pressed-bottom" x="4" y="28" width="24" height="4"/>
+      <path id="pressed-bottomright" d="m 28,32 a 4,4 0 0 0 4,-4 h -4"/>
     </g>
-    <g id="pressed-top" transform="translate(12)">
-      <rect style="fill:none" width="12" height="6"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75" width="12" height="1"/>
-      <rect class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5" width="12" height="1"/>
-      <rect class="ColorScheme-ButtonBackground" style="fill:currentColor" y="1" width="12" height="5"/>
-    </g>
-    <g id="pressed-topright" transform="translate(24)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75"
-            d="m 0,0 h 8 a 4,4 0 0 1 4,4 v 2 h -1 v -2 a 3,3 0 0 0 -3,-3 h -8"/>
-      <path class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5"
-            d="m 0,0 h 8 a 4,4 0 0 1 4,4 v 2 h -1 v -2 a 3,3 0 0 0 -3,-3 h -8"/>
-      <path class="ColorScheme-ButtonBackground" style="fill:currentColor"
-            d="m 0,1 v 5 h 11 v -2 a 3,3 0 0 0 -3,-3"/>
-    </g>
-    <g id="pressed-left" transform="translate(0,6)">
-      <rect style="fill:none" width="12" height="24"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75" width="1" height="24"/>
-      <rect class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5" width="1" height="24"/>
-      <rect class="ColorScheme-ButtonBackground" style="fill:currentColor" x="1" width="11" height="24"/>
-    </g>
-    <g id="pressed-center" transform="translate(12,6)">
-      <rect class="ColorScheme-ButtonBackground" style="fill:currentColor" width="12" height="24"/>
-    </g>
-    <g id="pressed-right" transform="translate(24,6)">
-      <rect style="fill:none" width="12" height="24"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75" x="11" width="1" height="24"/>
-      <rect class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5" x="11" width="1" height="24"/>
-      <rect class="ColorScheme-ButtonBackground" style="fill:currentColor" width="11" height="24"/>
-    </g>
-    <g id="pressed-bottomleft" transform="translate(0,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75"
-            d="m 0,0 h 1 v 2 a 3,3 0 0 0 3,3 h 8 v 1 h -8 a 4,4 0 0 1 -4,-4"/>
-      <path class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5"
-            d="m 0,0 h 1 v 2 a 3,3 0 0 0 3,3 h 8 v 1 h -8 a 4,4 0 0 1 -4,-4"/>
-      <path class="ColorScheme-ButtonBackground" style="fill:currentColor"
-            d="m 1,0 v 2 a 3,3 0 0 0 3,3 h 8 v -5"/>
-    </g>
-    <g id="pressed-bottom" transform="translate(12,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <rect class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75" y="5" width="12" height="1"/>
-      <rect class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5" y="5" width="12" height="1"/>
-      <rect class="ColorScheme-ButtonBackground" style="fill:currentColor" width="12" height="5"/>
-    </g>
-    <g id="pressed-bottomright" transform="translate(24,30)">
-      <rect style="fill:none" width="12" height="6"/>
-      <path class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.75"
-            d="m 0,5 h 8 a 3,3 0 0 0 3,-3 v -2 h 1 v 2 a 4,4 0 0 1 -4,4 h -8 z"/>
-      <path class="ColorScheme-ButtonText" style="fill:currentColor;fill-opacity:0.5"
-            d="m 0,5 h 8 a 3,3 0 0 0 3,-3 v -2 h 1 v 2 a 4,4 0 0 1 -4,4 h -8 z"/>
-      <path class="ColorScheme-ButtonBackground" style="fill:currentColor"
-            d="m 0,0 v 5 h 8 a 3,3 0 0 0 3,-3 v -2"/>
+    <g class="Hint">
+      <circle id="pressed-hint-compose-over-border" cx="-3" cy="-3" r="1"/>
+      <rect id="pressed-hint-top-margin" x="15" width="2" height="6"/>
+      <rect id="pressed-hint-left-margin" y="15" width="12" height="2"/>
+      <rect id="pressed-hint-right-margin" x="20" y="15" height="2" width="12"/>
+      <rect id="pressed-hint-bottom-margin" x="15" y="26" width="2" height="6"/>
     </g>
   </g>
 
-  <g transform="translate(120)">
+  <g transform="translate(124,4)">
     <g id="focus-topleft">
-      <rect style="fill:none" width="6" height="6"/>
-      <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
-        <path style="fill-opacity:0.75" d="m 6,1 a 5,5 0 0 0 -5,5 h 1 a 4,4 0 0 1 4,-4 v -1"/>
-        <path style="fill-opacity:0.5" d="m 6,0 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5 v -1"/>
-      </g>
+      <rect style="fill:none" width="4" height="4"/>
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor" d="m 4,0 a 4,4 0 0 0 -4,4 h 1 a 3,3 0 0 1 3,-3"/>
     </g>
-    <g id="focus-top" transform="translate(6)">
-      <rect style="fill:none" width="28" height="6"/>
-      <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
-        <rect style="fill-opacity:0.75" y="1" width="28" height="1"/>
-        <rect style="fill-opacity:0.5" width="28" height="1"/>
-      </g>
+    <g id="focus-top" transform="translate(4)">
+      <rect style="fill:none" width="24" height="4"/>
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" width="24" height="1"/>
     </g>
-    <g id="focus-topright" transform="translate(34)">
-      <rect style="fill:none" width="6" height="6"/>
-      <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
-        <path style="fill-opacity:0.75" d="m 0,1 v 1 a 4,4 0 0 1 4,4 h 1 a 5,5 0 0 0 -5,-5"/>
-        <path style="fill-opacity:0.5" d="m 0,0 v 1 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6"/>
-      </g>
+    <g id="focus-topright" transform="translate(28)">
+      <rect style="fill:none" width="4" height="4"/>
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor" d="m 0,0 v 1 a 3,3 0 0 1 3,3 h 1 a 4,4 0 0 0 -4,-4"/>
     </g>
-    <g id="focus-left" transform="translate(0,6)">
-      <rect style="fill:none" width="6" height="24"/>
-      <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
-        <rect style="fill-opacity:0.75" x="1" width="1" height="28"/>
-        <rect style="fill-opacity:0.5" width="1" height="28"/>
-      </g>
+    <g id="focus-left" transform="translate(0,4)">
+      <rect style="fill:none" width="4" height="24"/>
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" width="1" height="24"/>
     </g>
-    <rect id="focus-center" style="fill:none" x="6" y="6" width="28" height="28"/>
-
-    <g id="focus-right" transform="translate(34,6)">
-      <rect style="fill:none" width="6" height="24"/>
-      <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
-        <rect style="fill-opacity:0.75" x="4" width="1" height="28"/>
-        <rect style="fill-opacity:0.5" x="5" width="1" height="28"/>
-      </g>
+    <g id="focus-center" transform="translate(4,4)">
+      <rect style="fill:none" width="24" height="24"/>
     </g>
-    <g id="focus-bottomleft" transform="translate(0,34)">
-      <rect style="fill:none" width="6" height="6"/>
-      <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
-        <path style="fill-opacity:0.75" d="m 1,0 a 5,5 0 0 0 5,5 v -1 a 4,4 0 0 1 -4,-4"/>
-        <path style="fill-opacity:0.5" d="m 0,0 a 6,6 0 0 0 6,6 v -1 a 5,5 0 0 1 -5,-5"/>
-      </g>
+    <g id="focus-right" transform="translate(28,4)">
+      <rect style="fill:none" width="4" height="24"/>
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" x="3" width="1" height="24"/>
     </g>
-    <g id="focus-bottom" transform="translate(6,34)">
-      <rect style="fill:none" width="12" height="6"/>
-      <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
-        <rect style="fill-opacity:0.75" y="4" width="28" height="1"/>
-        <rect style="fill-opacity:0.5" y="5" width="28" height="1"/>
-      </g>
+    <g id="focus-bottomleft" transform="translate(0,28)">
+      <rect style="fill:none" width="4" height="4"/>
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor" d="m 0,0 a 4,4 0 0 0 4,4 v -1 a 3,3 0 0 1 -3,-3"/>
     </g>
-    <g id="focus-bottomright" transform="translate(34,34)">
-      <rect style="fill:none" width="6" height="6"/>
-      <g class="ColorScheme-ButtonFocus" style="fill:currentColor">
-        <path style="fill-opacity:0.75" d="m 0,4 v 1 a 5,5 0 0 0 5,-5 h -1 a 4,4 0 0 1 -4,4"/>
-        <path style="fill-opacity:0.5" d="m 0,5 v 1 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5"/>
-      </g>
+    <g id="focus-bottom" transform="translate(4,28)">
+      <rect style="fill:none" width="24" height="4"/>
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" y="3" width="24" height="1"/>
     </g>
-    <g style="fill:#B0BEC5">
-      <rect id="focus-hint-top-margin" x="18" width="4" height="2"/>
-      <rect id="focus-hint-bottom-margin" x="18" y="38" width="4" height="2"/>
-      <rect id="focus-hint-left-margin" y="18" width="2" height="4"/>
-      <rect id="focus-hint-right-margin" x="38" y="18" width="2" height="4"/>
+    <g id="focus-bottomright" transform="translate(28,28)">
+      <rect style="fill:none" width="4" height="4"/>
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor" d="m 0,4 a 4,4 0 0 0 4,-4 h -1 a 3,3 0 0 1 -3,3"/>
+    </g>
+    <g class="Hint">
+      <rect id="focus-hint-top-margin" x="15" y="-0.001" width="2" height="0.001"/>
+      <rect id="focus-hint-left-margin" x="-0.001" y="15" width="0.001" height="2"/>
+      <rect id="focus-hint-right-margin" x="32" y="15" width="0.001" height="2"/>
+      <rect id="focus-hint-bottom-margin" x="15" y="32" width="2" height="0.001"/>
     </g>
   </g>
 
   <!-- Toolbuttons -->
 
-  <g class="ColorScheme-ButtonBackground" style="fill:currentColor" transform="translate(42,42)">
+  <g class="ColorScheme-ButtonBackground" style="fill:currentColor;fill-opacity:0.375" transform="translate(44,44)">
     <path id="toolbutton-hover-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 h 4"/>
-    <rect id="toolbutton-hover-top" x="4" width="28" height="4"/>
-    <path id="toolbutton-hover-topright" d="m 32,4 h 4 a 4,4 0 0 0 -4,-4"/>
-    <rect id="toolbutton-hover-left" y="4" width="4" height="28"/>
-    <rect id="toolbutton-hover-center" x="4" y="4" width="28" height="28"/>
-    <rect id="toolbutton-hover-right" x="32" y="4" width="4" height="28"/>
-    <path id="toolbutton-hover-bottomleft" d="m 0,32 a 4,4 0 0 0 4,4 v -4"/>
-    <rect id="toolbutton-hover-bottom" x="4" y="32" width="28" height="4"/>
-    <path id="toolbutton-hover-bottomright" d="m 32,36 a 4,4 0 0 0 4,-4 h -4"/>
+    <rect id="toolbutton-hover-top" x="4" width="24" height="4"/>
+    <path id="toolbutton-hover-topright" d="m 28,4 h 4 a 4,4 0 0 0 -4,-4"/>
+    <rect id="toolbutton-hover-left" y="4" width="4" height="24"/>
+    <rect id="toolbutton-hover-center" x="4" y="4" width="24" height="24"/>
+    <rect id="toolbutton-hover-right" x="28" y="4" width="4" height="24"/>
+    <path id="toolbutton-hover-bottomleft" d="m 0,28 a 4,4 0 0 0 4,4 v -4"/>
+    <rect id="toolbutton-hover-bottom" x="4" y="28" width="24" height="4"/>
+    <path id="toolbutton-hover-bottomright" d="m 28,32 a 4,4 0 0 0 4,-4 h -4"/>
   </g>
-  <g class="ColorScheme-ButtonBackground" style="fill:currentColor" transform="translate(82,42)">
+  <g class="ColorScheme-ButtonBackground" style="fill:currentColor;fill-opacity:0.75" transform="translate(84,44)">
     <path id="toolbutton-pressed-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 h 4"/>
-    <rect id="toolbutton-pressed-top" x="4" width="28" height="4"/>
-    <path id="toolbutton-pressed-topright" d="m 32,4 h 4 a 4,4 0 0 0 -4,-4"/>
-    <rect id="toolbutton-pressed-left" y="4" width="4" height="28"/>
-    <rect id="toolbutton-pressed-center" x="4" y="4" width="28" height="28"/>
-    <rect id="toolbutton-pressed-right" x="32" y="4" width="4" height="28"/>
-    <path id="toolbutton-pressed-bottomleft" d="m 0,32 a 4,4 0 0 0 4,4 v -4"/>
-    <rect id="toolbutton-pressed-bottom" x="4" y="32" width="28" height="4"/>
-    <path id="toolbutton-pressed-bottomright" d="m 32,36 a 4,4 0 0 0 4,-4 h -4"/>
+    <rect id="toolbutton-pressed-top" x="4" width="24" height="4"/>
+    <path id="toolbutton-pressed-topright" d="m 28,4 h 4 a 4,4 0 0 0 -4,-4"/>
+    <rect id="toolbutton-pressed-left" y="4" width="4" height="24"/>
+    <rect id="toolbutton-pressed-center" x="4" y="4" width="24" height="24"/>
+    <rect id="toolbutton-pressed-right" x="28" y="4" width="4" height="24"/>
+    <path id="toolbutton-pressed-bottomleft" d="m 0,28 a 4,4 0 0 0 4,4 v -4"/>
+    <rect id="toolbutton-pressed-bottom" x="4" y="28" width="24" height="4"/>
+    <path id="toolbutton-pressed-bottomright" d="m 28,32 a 4,4 0 0 0 4,-4 h -4"/>
   </g>
-  <g transform="translate(122,42)">
-    <g class="ColorScheme-ButtonFocus" style="fill:currentColor;fill-opacity:0.5">
-      <path id="toolbutton-focus-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 h 4"/>
-      <rect id="toolbutton-focus-top" x="4" width="28" height="4"/>
-      <path id="toolbutton-focus-topright" d="m 32,4 h 4 a 4,4 0 0 0 -4,-4"/>
-      <rect id="toolbutton-focus-left" y="4" width="4" height="28"/>
-      <rect id="toolbutton-focus-center" x="4" y="4" width="28" height="28"/>
-      <rect id="toolbutton-focus-right" x="32" y="4" width="4" height="28"/>
-      <path id="toolbutton-focus-bottomleft" d="m 0,32 a 4,4 0 0 0 4,4 v -4"/>
-      <rect id="toolbutton-focus-bottom" x="4" y="32" width="28" height="4"/>
-      <path id="toolbutton-focus-bottomright" d="m 32,36 a 4,4 0 0 0 4,-4 h -4"/>
+  <g transform="translate(124,44)">
+    <g id="toolbutton-focus-topleft">
+      <rect style="fill:none" width="4" height="4"/>
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor" d="m 4,0 a 4,4 0 0 0 -4,4 h 1 a 3,3 0 0 1 3,-3"/>
     </g>
-    <g style="fill:#B0BEC5">
-      <rect id="toolbutton-focus-hint-top-margin" x="16" width="4" height="0.001"/>
-      <rect id="toolbutton-focus-hint-bottom-margin" x="16" y="35" width="4" height="0.001"/>
-      <rect id="toolbutton-focus-hint-left-margin" y="16" width="0.001" height="4"/>
-      <rect id="toolbutton-focus-hint-right-margin" x="35" y="16" width="0.001" height="4"/>
+    <g id="toolbutton-focus-top" transform="translate(4)">
+      <rect style="fill:none" width="24" height="4"/>
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" width="24" height="1"/>
+    </g>
+    <g id="toolbutton-focus-topright" transform="translate(28)">
+      <rect style="fill:none" width="4" height="4"/>
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor" d="m 0,0 v 1 a 3,3 0 0 1 3,3 h 1 a 4,4 0 0 0 -4,-4"/>
+    </g>
+    <g id="toolbutton-focus-left" transform="translate(0,4)">
+      <rect style="fill:none" width="4" height="24"/>
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" width="1" height="24"/>
+    </g>
+    <g id="toolbutton-focus-center" transform="translate(4,4)">
+      <rect style="fill:none" width="24" height="24"/>
+    </g>
+    <g id="toolbutton-focus-right" transform="translate(28,4)">
+      <rect style="fill:none" width="4" height="24"/>
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" x="3" width="1" height="24"/>
+    </g>
+    <g id="toolbutton-focus-bottomleft" transform="translate(0,28)">
+      <rect style="fill:none" width="4" height="4"/>
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor" d="m 0,0 a 4,4 0 0 0 4,4 v -1 a 3,3 0 0 1 -3,-3"/>
+    </g>
+    <g id="toolbutton-focus-bottom" transform="translate(4,28)">
+      <rect style="fill:none" width="24" height="4"/>
+      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" y="3" width="24" height="1"/>
+    </g>
+    <g id="toolbutton-focus-bottomright" transform="translate(28,28)">
+      <rect style="fill:none" width="4" height="4"/>
+      <path class="ColorScheme-ButtonFocus" style="fill:currentColor" d="m 0,4 a 4,4 0 0 0 4,-4 h -1 a 3,3 0 0 1 -3,3"/>
+    </g>
+    <g class="Hint">
+      <rect id="toolbutton-focus-hint-top-margin" x="15" y="-0.001" width="2" height="0.001"/>
+      <rect id="toolbutton-focus-hint-left-margin" x="-0.001" y="15" width="0.001" height="2"/>
+      <rect id="toolbutton-focus-hint-right-margin" x="32" y="15" width="0.001" height="2"/>
+      <rect id="toolbutton-focus-hint-bottom-margin" x="15" y="32" width="2" height="0.001"/>
     </g>
   </g>
 </svg>

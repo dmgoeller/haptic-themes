@@ -2,128 +2,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 256">
   <defs>
     <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Background { color: #C0C0C0 }
       .ColorScheme-ButtonFocus { color: #2670D0 }
       .ColorScheme-Text { color: #606060 }
-      .ColorScheme-ViewBackground { color: #FFF }
-      .ColorScheme-ViewText { color: #303030 }
     </style>
     <style type="text/css">
       .NeutralText { color: #FFE082 }
     </style>
   </defs>
 
-  <!-- south -->
+  <!-- South -->
 
   <g transform="translate(0,192)">
     <g id="normal-topleft">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
     </g>
     <g id="normal-top" transform="translate(4,0)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
     </g>
     <g id="normal-topright" transform="translate(60,0)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
     </g>
     <g id="normal-left" transform="translate(0,4)">
       <rect style="fill:none" width="4" height="56"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
     </g>
     <g id="normal-center" transform="translate(4,4)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
     </g>
     <g id="normal-right" transform="translate(60,4)">
       <rect style="fill:none" width="4" height="56"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
     </g>
     <g id="normal-bottomleft" transform="translate(0,60)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="1"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="1" y="1" width="3" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="1"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" x="1" y="1" width="3" height="3"/>
     </g>
     <g id="normal-bottom" transform="translate(4,60)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="1"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" y="1" width="56" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="1"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" y="1" width="56" height="3"/>
     </g>
     <g id="normal-bottomright" transform="translate(60,60)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="1"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" y="1" width="3" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="1"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" y="1" width="3" height="3"/>
     </g>
     <g transform="translate(64,0)">
       <g id="minimized-topleft">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
       </g>
       <g id="minimized-top" transform="translate(4,0)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
       </g>
       <g id="minimized-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
       </g>
       <g id="minimized-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
       </g>
       <g id="minimized-center" transform="translate(4,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
       </g>
       <g id="minimized-right" transform="translate(60,4)">
         <rect style="fill:none" width="4" height="56"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
       </g>
       <g id="minimized-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="1"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="1" y="1" width="3" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="1"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" x="1" y="1" width="3" height="3"/>
       </g>
       <g id="minimized-bottom" transform="translate(4,60)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="1"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" y="1" width="56" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="1"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" y="1" width="56" height="3"/>
       </g>
       <g id="minimized-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="1"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" y="1" width="3" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="1"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" y="1" width="3" height="3"/>
       </g>
     </g>
     <g transform="translate(128,0)">
       <g id="focus-topleft">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
       </g>
       <g id="focus-top" transform="translate(4,0)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
       </g>
       <g id="focus-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
       </g>
       <g id="focus-left" transform="translate(0,4)">
         <rect style="fill:none" width="4" height="56"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
       </g>
       <g id="focus-center" transform="translate(4,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
       </g>
       <g id="focus-right" transform="translate(60,4)">
         <rect style="fill:none" width="4" height="56"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
       </g>
       <g id="focus-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="1"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="1"/>
         <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" x="1" y="1" width="3" height="3"/>
       </g>
       <g id="focus-bottom" transform="translate(4,60)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="1"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="1"/>
         <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" y="1" width="56" height="3"/>
       </g>
       <g id="focus-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="1"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="1"/>
         <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" y="1" width="3" height="3"/>
       </g>
     </g>
@@ -206,13 +205,13 @@
     <g id="group-expander-bottom" transform="translate(4,36)">
       <rect style="fill:none" width="56" height="28"/>
       <g transform="translate(35,5)"> <!-- right justified: 35,5 -->
-        <g class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5">
+        <g class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5">
           <path d="M 2,0 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 1 v 1 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 h -1 v -1 a 2,2 0 0 0 -2,-2
                    M 1,2 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 1 h -12 a 2,2 0 0 0 -2,2 v 10 h -1 a 1,1 0 0 1 -1,-1
                    M 4,5 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -14 a 1,1 0 0 1 -1,-1"/>
           <path d="M 6,8 v 8 h 12 v -8 z m 1,1 h 10 v 6 h -10"/>
         </g>
-        <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.75">
+        <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.75">
           <path d="m 5,4 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 14 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 12 v 8 h -12 z"/>
           <path d="m 2,1 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 1 v -10 a 2,2 0 0 1 2,-2 h 12 v -1 a 1,1 0 0 0 -1,-1"/>
         </g>
@@ -220,118 +219,118 @@
     </g>
   </g>
 
-  <!-- north -->
+  <!-- North -->
 
   <g id="north-normal-topleft">
     <rect style="fill:none" width="4" height="4"/>
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" y="3" width="3" height="1"/>
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="3"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" y="3" width="3" height="1"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="3"/>
   </g>
   <g id="north-normal-top" transform="translate(4,0)">
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="3" width="56" height="1"/>
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" width="56" height="3"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="3" width="56" height="1"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" width="56" height="3"/>
   </g>
   <g id="north-normal-topright" transform="translate(60,0)">
     <rect style="fill:none" width="4" height="4"/>
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="3" width="3" height="1"/>
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" width="3" height="3"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="3" width="3" height="1"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" width="3" height="3"/>
   </g>
   <g id="north-normal-left" transform="translate(0,4)">
     <rect style="fill:none" width="4" height="56"/>
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
   </g>
   <g id="north-normal-center" transform="translate(4,4)">
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
   </g>
   <g id="north-normal-right" transform="translate(60,4)">
     <rect style="fill:none" width="4" height="56"/>
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
   </g>
   <g id="north-normal-bottomleft" transform="translate(0,60)">
     <rect style="fill:none" width="4" height="4"/>
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
   </g>
   <g id="north-normal-bottom" transform="translate(4,60)">
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
   </g>
   <g id="north-normal-bottomright" transform="translate(60,60)">
     <rect style="fill:none" width="4" height="4"/>
-    <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
+    <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
   </g>
   <g transform="translate(64,0)">
     <g id="north-minimized-topleft">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" y="3" width="3" height="1"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" y="3" width="3" height="1"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="3"/>
     </g>
     <g id="north-minimized-top" transform="translate(4,0)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="3" width="56" height="1"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" width="56" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="3" width="56" height="1"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" width="56" height="3"/>
     </g>
     <g id="north-minimized-topright" transform="translate(60,0)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="3" width="3" height="1"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" width="3" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="3" width="3" height="1"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" width="3" height="3"/>
     </g>
     <g id="north-minimized-left" transform="translate(0,4)">
       <rect style="fill:none" width="4" height="56"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
     </g>
     <g id="north-minimized-center" transform="translate(4,4)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
     </g>
     <g id="north-minimized-right" transform="translate(60,4)">
       <rect style="fill:none" width="4" height="56"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
     </g>
     <g id="north-minimized-bottomleft" transform="translate(0,60)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
     </g>
     <g id="north-minimized-bottom" transform="translate(4,60)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
     </g>
     <g id="north-minimized-bottomright" transform="translate(60,60)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
     </g>
   </g>
   <g transform="translate(128,0)">
     <g id="north-focus-topleft">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" y="3" width="3" height="1"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" y="3" width="3" height="1"/>
       <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" x="1" width="3" height="3"/>
     </g>
     <g id="north-focus-top" transform="translate(4,0)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="3" width="56" height="1"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="3" width="56" height="1"/>
       <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" width="56" height="3"/>
     </g>
     <g id="north-focus-topright" transform="translate(60,0)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="3" width="3" height="1"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="3" width="3" height="1"/>
       <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" width="3" height="3"/>
     </g>
     <g id="north-focus-left" transform="translate(0,4)">
       <rect style="fill:none" width="4" height="56"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="56"/>
     </g>
     <g id="north-focus-center" transform="translate(4,4)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
     </g>
     <g id="north-focus-right" transform="translate(60,4)">
       <rect style="fill:none" width="4" height="56"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="56"/>
     </g>
     <g id="north-focus-bottomleft" transform="translate(0,60)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="4"/>
     </g>
     <g id="north-focus-bottom" transform="translate(4,60)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="4"/>
     </g>
     <g id="north-focus-bottomright" transform="translate(60,60)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="4"/>
     </g>
   </g>
   <g transform="translate(192,0)">
@@ -413,132 +412,132 @@
   <g id="group-expander-top" transform="translate(4,0)">
     <rect style="fill:none" width="56" height="28"/>
     <g transform="translate(0,4)">
-      <g class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5">
+      <g class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5">
         <path d="M 5,0 a 2,2 0 0 0 -2,2 v 1 h -1 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -1 h 1 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2
                  M 4,2 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -1 v -10 a 2,2 0 0 0 -2,-2 h -12
                  M 1,5 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -14 a 1,1 0 0 1 -1,-1"/>
         <path d="M 3,8 v 8 h 12 v -8 z m 1,1 h 10 v 6 h -10"/>
       </g>
-      <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.75">
+      <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.75">
         <path d="m 2,4 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 14 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 12 v 8 h -12 z"/>
         <path d="m 5,1 a 1,1 0 0 0 -1,1 v 1 h 12 a 2,2 0 0 1 2,2 v 10 h 1 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1"/>
       </g>
     </g>
   </g>
 
-  <!-- west -->
+  <!-- West -->
 
   <g transform="translate(0,64)">
     <g id="west-normal-topleft">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="3" y="1" width="1" height="3"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" y="1" width="3" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="3" y="1" width="1" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" y="1" width="3" height="3"/>
     </g>
     <g id="west-normal-top" transform="translate(4,0)">
       <rect style="fill:none" width="56" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
     </g>
     <g id="west-normal-topright" transform="translate(60,0)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
     </g>
     <g id="west-normal-left" transform="translate(0,4)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="56"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" width="3" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" width="3" height="56"/>
     </g>
     <g id="west-normal-center" transform="translate(4,4)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
     </g>
     <g id="west-normal-right" transform="translate(60,4)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
     </g>
     <g id="west-normal-bottomleft" transform="translate(0,60)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="3"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" width="3" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" width="3" height="3"/>
     </g>
     <g id="west-normal-bottom" transform="translate(4,60)">
       <rect style="fill:none" width="56" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
     </g>
     <g id="west-normal-bottomright" transform="translate(60,60)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
     </g>
     <g transform="translate(64,0)">
       <g id="west-minimized-topleft">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="3" y="1" width="1" height="3"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" y="1" width="3" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="3" y="1" width="1" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" y="1" width="3" height="3"/>
       </g>
       <g id="west-minimized-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
       </g>
       <g id="west-minimized-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
       </g>
       <g id="west-minimized-left" transform="translate(0,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="56"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" width="3" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" width="3" height="56"/>
       </g>
       <g id="west-minimized-center" transform="translate(4,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
       </g>
       <g id="west-minimized-right" transform="translate(60,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
       </g>
       <g id="west-minimized-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="3"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" width="3" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" width="3" height="3"/>
       </g>
       <g id="west-minimized-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
       </g>
       <g id="west-minimized-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
       </g>
     </g>
     <g transform="translate(128,0)">
       <g id="west-focus-topleft">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="3" y="1" width="1" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="3" y="1" width="1" height="3"/>
         <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" y="1" width="3" height="3"/>
       </g>
       <g id="west-focus-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
       </g>
       <g id="west-focus-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
       </g>
       <g id="west-focus-left" transform="translate(0,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="3" width="1" height="56"/>
         <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" width="3" height="56"/>
       </g>
       <g id="west-focus-center" transform="translate(4,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
       </g>
       <g id="west-focus-right" transform="translate(60,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
       </g>
       <g id="west-focus-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" x="1" width="3" height="3"/>
         <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" width="3" height="3"/>
       </g>
       <g id="west-focus-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
       </g>
       <g id="west-focus-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
       </g>
     </g>
     <g transform="translate(192,0)">
@@ -620,13 +619,13 @@
     <g id="group-expander-left" transform="translate(4,4)">
       <rect style="fill:none" width="28" height="56"/>
       <g transform="translate(1,37)">
-        <g class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5">
+        <g class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5">
           <path d="M 5,0 a 2,2 0 0 0 -2,2 v 1 h -1 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -1 h 1 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2
                    M 4,2 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -1 v -10 a 2,2 0 0 0 -2,-2 h -12
                    M 1,5 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -14 a 1,1 0 0 1 -1,-1"/>
           <path d="M 3,8 v 8 h 12 v -8 z m 1,1 h 10 v 6 h -10"/>
         </g>
-        <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.75">
+        <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.75">
           <path d="m 2,4 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 14 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 12 v 8 h -12 z"/>
           <path d="m 5,1 a 1,1 0 0 0 -1,1 v 1 h 12 a 2,2 0 0 1 2,2 v 10 h 1 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1"/>
         </g>
@@ -634,118 +633,118 @@
     </g>
   </g>
 
-  <!-- east -->
+  <!-- East -->
 
   <g transform="translate(0,128)">
     <g id="east-normal-topleft">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
     </g>
     <g id="east-normal-top" transform="translate(4,0)">
       <rect style="fill:none" width="56" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
     </g>
     <g id="east-normal-topright" transform="translate(60,0)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="1" height="3"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="1" y="1" width="3" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="1" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" x="1" y="1" width="3" height="3"/>
     </g>
     <g id="east-normal-left" transform="translate(0,4)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
     </g>
     <g id="east-normal-center" transform="translate(4,4)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
     </g>
     <g id="east-normal-right" transform="translate(60,4)">
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="1" height="56"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="1" height="56"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="56"/>
     </g>
     <g id="east-normal-bottomleft" transform="translate(0,60)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
     </g>
     <g id="east-normal-bottom" transform="translate(4,60)">
       <rect style="fill:none" width="56" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
     </g>
     <g id="east-normal-bottomright" transform="translate(60,60)">
       <rect style="fill:none" width="4" height="4"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="1" height="3"/>
-      <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="1" height="3"/>
+      <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="3"/>
     </g>
     <g transform="translate(64,0)">
       <g id="east-minimized-topleft">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
       </g>
       <g id="east-minimized-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
       </g>
       <g id="east-minimized-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="1" height="3"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="1" y="1" width="3" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="1" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" x="1" y="1" width="3" height="3"/>
       </g>
       <g id="east-minimized-left" transform="translate(0,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
       </g>
       <g id="east-minimized-center" transform="translate(4,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
       </g>
       <g id="east-minimized-right" transform="translate(60,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="1" height="56"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="1" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="56"/>
       </g>
       <g id="east-minimized-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
       </g>
       <g id="east-minimized-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
       </g>
       <g id="east-minimized-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="1" height="3"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="1" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.25" x="1" width="3" height="3"/>
       </g>
     </g>
     <g transform="translate(128,0)">
       <g id="east-focus-topleft">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="4" height="3"/>
       </g>
       <g id="east-focus-top" transform="translate(4,0)">
         <rect style="fill:none" width="56" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="56" height="3"/>
       </g>
       <g id="east-focus-topright" transform="translate(60,0)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" y="1" width="1" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" y="1" width="1" height="3"/>
         <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" x="1" y="1" width="3" height="3"/>
       </g>
       <g id="east-focus-left" transform="translate(0,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="56"/>
       </g>
       <g id="east-focus-center" transform="translate(4,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="56"/>
       </g>
       <g id="east-focus-right" transform="translate(60,4)">
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="1" height="56"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="1" height="56"/>
         <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" x="1" width="3" height="56"/>
       </g>
       <g id="east-focus-bottomleft" transform="translate(0,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="4" height="3"/>
       </g>
       <g id="east-focus-bottom" transform="translate(4,60)">
         <rect style="fill:none" width="56" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="56" height="3"/>
       </g>
       <g id="east-focus-bottomright" transform="translate(60,60)">
         <rect style="fill:none" width="4" height="4"/>
-        <rect class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.125" width="3" height="3"/>
+        <rect class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" width="3" height="3"/>
         <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" x="1" width="3" height="3"/>
       </g>
     </g>
@@ -828,13 +827,13 @@
     <g id="group-expander-right" transform="translate(36,4)">
       <rect style="fill:none" width="28" height="56"/>
       <g transform="translate(2,37)">
-        <g class="ColorScheme-ViewBackground" style="fill:currentColor;fill-opacity:0.5">
+        <g class="ColorScheme-Background" style="fill:currentColor;fill-opacity:0.5">
           <path d="M 2,0 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 1 v 1 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 h -1 v -1 a 2,2 0 0 0 -2,-2
                    M 1,2 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 1 h -12 a 2,2 0 0 0 -2,2 v 10 h -1 a 1,1 0 0 1 -1,-1
                    M 4,5 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 12 a 1,1 0 0 1 -1,1 h -14 a 1,1 0 0 1 -1,-1"/>
           <path d="M 6,8 v 8 h 12 v -8 z m 1,1 h 10 v 6 h -10"/>
         </g>
-        <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.75">
+        <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.75">
           <path d="m 5,4 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 14 a 1,1 0 0 0 1,-1 v -12 a 1,1 0 0 0 -1,-1 z m 1,4 h 12 v 8 h -12 z"/>
           <path d="m 2,1 a 1,1 0 0 0 -1,1 v 12 a 1,1 0 0 0 1,1 h 1 v -10 a 2,2 0 0 1 2,-2 h 12 v -1 a 1,1 0 0 0 -1,-1"/>
         </g>

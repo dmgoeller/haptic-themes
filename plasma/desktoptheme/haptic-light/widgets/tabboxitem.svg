@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style type="text/css">
+      .Selected { fill: black; fill-opacity: 0.1 }
+      .Hint { fill: #CA7921; fill-opacity: 0.5 }
+    </style>
+  </defs>
+  <g transform="translate(4,4)">
+    <g class="Selected">
+      <path id="selected-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4"/>
+      <rect id="selected-top" x="4" width="24" height="4"/>
+      <path id="selected-topright" d="m 28,0 a 4,4 0 0 1 4,4 h -4"/>
+      <rect id="selected-left" y="4" width="4" height="24"/>
+      <rect id="selected-center" x="4" y="4" width="24" height="24"/>
+      <rect id="selected-right" x="28" y="4" width="4" height="24"/>
+      <path id="selected-bottomleft" d="m 0,28 a 4,4 0 0 0 4,4 v -4"/>
+      <rect id="selected-bottom" x="4" y="28" width="24" height="4"/>
+      <path id="selected-bottomright" d="m 28,28 v 4 a 4,4 0 0 0 4,-4"/>
+    </g>
+    <g class="Hint">
+      <rect id="selected-hint-top-margin" x="15" width="2" height="8"/>
+      <rect id="selected-hint-left-margin" y="15" width="8" height="2"/>
+      <rect id="selected-hint-right-margin" x="24" y="15" height="2" width="8"/>
+      <rect id="selected-hint-bottom-margin" x="15" y="24" width="2" height="8"/>
+    </g>
+  </g>
+</svg>

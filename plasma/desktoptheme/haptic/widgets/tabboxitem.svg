@@ -2,10 +2,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-ButtonBackground { color: #C0C0C0 }
+      .ColorScheme-Text { color: #606060 }
     </style>
   </defs>
-  <g class="ColorScheme-ButtonBackground" style="fill:currentColor;fill-opacity:0.5" transform="translate(4,4)">
+  <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" transform="translate(4,4)">
     <path id="selected-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 v 4 h 8 v -8"/>
     <rect id="selected-top" x="8" width="8" height="8"/>
     <path id="selected-topright" d="m 16,0 v 8 h 8 v -4 a 4,4 0 0 0 -4,-4"/>

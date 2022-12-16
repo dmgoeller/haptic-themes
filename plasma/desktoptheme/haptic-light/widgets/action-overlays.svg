@@ -3,8 +3,8 @@
   <defs>
     <style type="text/css">
       .Background { fill: black; fill-opacity: 0.25 }
-      .BackgroundHover { fill: black; fill-opacity: 0.375 }
-      .BackgroundPressed { fill: black; fill-opacity: 0.5 }
+      .BackgroundHover { fill: black; fill-opacity: 0.3 }
+      .BackgroundPressed { fill: black; fill-opacity: 0.35 }
       .Symbol { fill: white }
     </style>
   </defs>

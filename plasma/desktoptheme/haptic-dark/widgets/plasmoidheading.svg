@@ -1,68 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 56">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
   <defs>
     <style type="text/css">
-      .Background { fill: black; fill-opacity: 0.125 }
-      .Border { fill: black; fill-opacity: 0.25 }
+      .Background { fill: white; fill-opacity: 0.055 }
+      .Border { fill: white; fill-opacity: 0.11 }
+      .Hint { fill: #DFAF59; fill-opacity: 0.5 }
     </style>
   </defs>
 
-  <!-- Surface -->
-
-  <g>
+  <g transform="translate(4,4)">
     <g class="Background">
       <path id="header-topleft" d="m 6,0 a 6,6 0 0 0 -6,6 h 6"/>
-      <rect id="header-top" x="6" width="12" height="6"/>
-      <path id="header-topright" transform="translate(18)" d="m 0,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
-      <rect id="header-left" y="6" width="6" height="12"/>
-      <rect id="header-center" x="6" y="6" width="12" height="12"/>
-      <rect id="header-right" x="18" y="6" width="6" height="12"/>
+      <rect id="header-top" x="6" width="60" height="6"/>
+      <path id="header-topright" d="m 66,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
+      <rect id="header-left" y="6" width="6" height="20"/>
+      <rect id="header-center" x="6" y="6" width="60" height="20"/>
+      <rect id="header-right" x="66" y="6" width="6" height="20"/>
     </g>
-    <g id="header-bottomleft" transform="translate(0,18)">
+    <g id="header-bottomleft" transform="translate(0,26)">
       <rect class="Background" width="6" height="5"/>
       <rect class="Border" y="5" width="6" height="1"/>
     </g>
-    <g id="header-bottom" transform="translate(6,18)">
-      <rect class="Background" width="12" height="5"/>
-      <rect class="Border" y="5" width="12" height="1"/>
+    <g id="header-bottom" transform="translate(6,26)">
+      <rect class="Background" width="60" height="5"/>
+      <rect class="Border" y="5" width="60" height="1"/>
     </g>
-    <g id="header-bottomright" transform="translate(18,18)">
+    <g id="header-bottomright" transform="translate(66,26)">
       <rect class="Background" width="6" height="5"/>
       <rect class="Border" y="5" width="6" height="1"/>
     </g>
   </g>
 
-  <g transform="translate(0,32)">
+  <g transform="translate(4,44)">
     <g id="footer-topleft">
       <rect class="Border" width="6" height="1"/>
       <rect class="Background" y="1" width="6" height="5"/>
     </g>
     <g id="footer-top" transform="translate(6)">
-      <rect class="Border" width="12" height="1"/>
-      <rect class="Background" y="1" width="12" height="5"/>
+      <rect class="Border" width="60" height="1"/>
+      <rect class="Background" y="1" width="60" height="5"/>
     </g>
-    <g id="footer-topright" transform="translate(18)">
+    <g id="footer-topright" transform="translate(66)">
       <rect class="Border" width="6" height="1"/>
       <rect class="Background" y="1" width="6" height="5"/>
     </g>
     <g class="Background">
-      <rect id="footer-left" y="6" width="6" height="12"/>
-      <rect id="footer-center" x="6" y="6" width="12" height="12"/>
-      <rect id="footer-right" x="18" y="6" width="6" height="12"/>
-      <path id="footer-bottomleft" transform="translate(0,18)" d="m 0,0 a 6,6 0 0 0 6,6 v -6"/>
-      <rect id="footer-bottom" x="6" y="18" width="12" height="6"/>
-      <path id="footer-bottomright" transform="translate(18,18)" d="m 0,0 v 6 a 6,6 0 0 0 6,-6"/>
+      <rect id="footer-left" y="6" width="6" height="20"/>
+      <rect id="footer-center" x="6" y="6" width="60" height="20"/>
+      <rect id="footer-right" x="66" y="6" width="6" height="20"/>
+      <path id="footer-bottomleft" d="m 0,26 a 6,6 0 0 0 6,6 v -6"/>
+      <rect id="footer-bottom" x="6" y="26" width="60" height="6"/>
+      <path id="footer-bottomright" d="m 66,26 v 6 a 6,6 0 0 0 6,-6"/>
     </g>
   </g>
 
   <!-- Hints -->
 
-  <g style="fill:#B0BEC5">
-    <rect id="hint-stretch-borders" y="26" width="4" height="4"/>
-
-    <rect id="hint-top-margin" x="11" width="2" height="6"/>
-    <rect id="hint-bottom-margin" x="11" y="18" width="2" height="6"/>
-    <rect id="hint-left-margin" y="11" width="6" height="2"/>
-    <rect id="hint-right-margin" x="18" y="11" width="6" height="2"/>
+  <g class="Hint">
+    <circle id="hint-stretch-borders" cx="2" cy="2" r="1"/>
+    <rect id="hint-top-margin" x="39" y="4" width="2" height="6"/>
+    <rect id="hint-bottom-margin" x="39" y="30" width="2" height="6"/>
+    <rect id="hint-left-margin" x="4" y="19" width="6" height="2"/>
+    <rect id="hint-right-margin" x="70" y="19" width="6" height="2"/>
   </g>
 </svg>

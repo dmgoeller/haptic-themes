@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80">
+  <defs>
+    <style type="text/css">
+      .Background { fill: none }
+      .Hover { fill: black; fill-opacity: 0.05 }
+      .Pressed { fill: black; fill-opacity: 0.1 }
+      .Separator { fill: black; fill-opacity: 0.1 }
+      .Hint { fill: #DFAF59; fill-opacity: 0.5 }
+    </style>
+  </defs>
+
+  <g transform="translate(4,4)">
+    <g class="Background">
+      <rect id="normal-topleft" width="4" height="4"/>
+      <rect id="normal-top" x="4" width="24" height="4"/>
+      <rect id="normal-topright" x="28" width="4" height="4"/>
+      <rect id="normal-left" y="4" width="4" height="24"/>
+      <rect id="normal-center" x="4" y="4" width="24" height="24"/>
+      <rect id="normal-right" x="28" y="4" width="4" height="24"/>
+      <rect id="normal-bottomleft" y="28" width="4" height="4"/>
+      <rect id="normal-bottom" x="4" y="28" width="24" height="4"/>
+      <rect id="normal-bottomright" x="28" y="28" width="4" height="4"/>
+    </g>
+    <g class="Hint">
+      <rect id="normal-hint-top-margin" x="15" width="2" height="4"/>
+      <rect id="normal-hint-left-margin" y="15" width="4" height="2"/>
+      <rect id="normal-hint-right-margin" x="28" y="15" height="2" width="4"/>
+      <rect id="normal-hint-bottom-margin" x="15" y="28" width="2" height="4"/>
+    </g>
+  </g>
+
+  <g transform="translate(44,4)">
+    <g class="Hover">
+      <path id="hover-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 h 4"/>
+      <rect id="hover-top" x="4" width="24" height="4"/>
+      <path id="hover-topright" d="m 28,4 h 4 a 4,4 0 0 0 -4,-4"/>
+      <rect id="hover-left" y="4" width="4" height="24"/>
+      <rect id="hover-center" x="4" y="4" width="24" height="24"/>
+      <rect id="hover-right" x="28" y="4" width="4" height="24"/>
+      <path id="hover-bottomleft" d="m 0,28 a 4,4 0 0 0 4,4 v -4"/>
+      <rect id="hover-bottom" x="4" y="28" width="24" height="4"/>
+      <path id="hover-bottomright" d="m 28,32 a 4,4 0 0 0 4,-4 h -4"/>
+    </g>
+    <g class="Hint">
+      <rect id="hover-hint-top-margin" x="15" width="2" height="4"/>
+      <rect id="hover-hint-left-margin" y="15" width="4" height="2"/>
+      <rect id="hover-hint-right-margin" x="28" y="15" height="2" width="4"/>
+      <rect id="hover-hint-bottom-margin" x="15" y="28" width="2" height="4"/>
+    </g>
+  </g>
+
+  <g transform="translate(84,4)">
+    <g class="Pressed">
+      <path id="pressed-topleft" d="m 4,0 a 4,4 0 0 0 -4,4 h 4"/>
+      <rect id="pressed-top" x="4" width="24" height="4"/>
+      <path id="pressed-topright" d="m 28,4 h 4 a 4,4 0 0 0 -4,-4"/>
+      <rect id="pressed-left" y="4" width="4" height="24"/>
+      <rect id="pressed-center" x="4" y="4" width="24" height="24"/>
+      <rect id="pressed-right" x="28" y="4" width="4" height="24"/>
+      <path id="pressed-bottomleft" d="m 0,28 a 4,4 0 0 0 4,4 v -4"/>
+      <rect id="pressed-bottom" x="4" y="28" width="24" height="4"/>
+      <path id="pressed-bottomright" d="m 28,32 a 4,4 0 0 0 4,-4 h -4"/>
+    </g>
+    <g class="Hint">
+      <rect id="pressed-hint-top-margin" x="15" width="2" height="4"/>
+      <rect id="pressed-hint-left-margin" y="15" width="4" height="2"/>
+      <rect id="pressed-hint-right-margin" x="28" y="15" height="2" width="4"/>
+      <rect id="pressed-hint-bottom-margin" x="15" y="28" width="2" height="4"/>
+    </g>
+  </g>
+
+  <g transform="translate(44,44)">
+    <rect class="Separator" id="separator" y="15.5" width="32" height="1"/>
+  </g>
+</svg>

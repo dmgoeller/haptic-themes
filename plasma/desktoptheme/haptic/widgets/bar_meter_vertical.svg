@@ -2,12 +2,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-ButtonFocus { color: #2670D0 }
-      .ColorScheme-ViewText { color: #303030 }
+      .ColorScheme-ButtonFocus { color: #32619D }
+      .ColorScheme-Text { color: #606060 }
     </style>
   </defs>
   <g transform="translate(2,0)">
-    <g class="ColorScheme-ViewText" style="fill:currentColor;opacity:0.125">
+    <g class="ColorScheme-Text" style="fill:currentColor;opacity:0.25">
       <path id="bar-inactive-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4 z"/>
       <path id="bar-inactive-topright" d="m 4,0 a 4,4 0 0 1 4,4 h -4 z"/>
       <rect id="bar-inactive-left" y="4" width="4" height="16"/>

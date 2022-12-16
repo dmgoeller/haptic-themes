@@ -5,6 +5,9 @@
       .ColorScheme-ButtonBackground { color: #C0C0C0 }
       .ColorScheme-ButtonHover { color: #B4B4B4 }
     </style>
+    <style type="text/css">
+      .Hint { fill: #CA7921; fill-opacity: 0.5 }
+    </style>
   </defs>
 
   <!-- Surface -->
@@ -83,7 +86,7 @@
 
   <!-- Hints -->
 
-  <g style="fill:#B0BEC5">
+  <g class="Hint">
     <rect id="hint-scrollbar-size" x="-18" y="-6" width="12" height="12"/>
   </g>
 </svg>

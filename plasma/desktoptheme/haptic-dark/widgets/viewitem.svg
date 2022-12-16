@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40">
   <defs>
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Highlight { color: #32619D }
-      .ColorScheme-Text { color: #606060 }
+    <style type="text/css">
+      .Hover { fill: white; fill-opacity: 0.11 }
+      .Selected { fill: #32619D; fill-opacity: 0.5 }
     </style>
   </defs>
-  <g class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.125" transform="translate(4,4)">
+  <g class="Hover" transform="translate(4,4)">
     <path id="hover-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4"/>
     <rect id="hover-top" x="4" width="24" height="4"/>
     <path id="hover-topright" d="m 28,0 a 4,4 0 0 1 4,4 h -4"/>
@@ -17,7 +17,7 @@
     <rect id="hover-bottom" x="4" y="28" width="24" height="4"/>
     <path id="hover-bottomright" d="m 28,28 v 4 a 4,4 0 0 0 4,-4"/>
   </g>
-  <g class="ColorScheme-Highlight" style="fill:currentColor;fill-opacity:0.5" transform="translate(44,4)">
+  <g class="Selected" transform="translate(44,4)">
     <path id="selected-topleft" d="m 0,4 a 4,4 0 0 1 4,-4 v 4"/>
     <rect id="selected-top" x="4" width="24" height="4"/>
     <path id="selected-topright" d="m 28,0 a 4,4 0 0 1 4,4 h -4"/>

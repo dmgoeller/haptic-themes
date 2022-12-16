@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Highlight { color: #32619D }
+    </style>
+  </defs>
+  <g class="ColorScheme-Highlight" style="fill:currentColor;fill-opacity:0.5" transform="translate(8,8)">
+    <path id="topleft" d="m -4,-8 h -4 v 4"/>
+    <path id="topright" d="m 8,-4 v -4 h -4 "/>
+    <path id="bottomleft" d="m -8,4 v 4 h 4"/>
+    <path id="bottomright" d="m 4,8 h 4 v -4"/>
+    <rect id="fill" x="-2" y="-2" width="4" height="4"/>
+  </g>
+</svg>

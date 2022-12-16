@@ -3,9 +3,10 @@
   <defs>
     <style type="text/css">
       .Backdrop { fill: black; fill-opacity: 0.5 }
-      .Background { fill: white; fill-opacity: 0.1875 }
+      .Background { fill: white; fill-opacity: 0.165 }
       .BorderTop { fill: white; fill-opacity: 0.125 }
       .BorderBottom { fill: black; fill-opacity: 0.125 }
+      .Hint { fill: #DFAF59; fill-opacity: 0.5 }
     </style>
     <radialGradient id="ambient-light-shadow-topleft" cx="28" cy="28" r="32" gradientUnits="userSpaceOnUse">
       <stop offset="0.125" style="stop-color:black;stop-opacity:0.0625"/>
@@ -165,7 +166,7 @@
 
   <!-- Hints -->
 
-  <g style="fill:#B0BEC5">
+  <g class="Hint">
     <rect id="hint-stretch-borders"/>
     <rect id="hint-no-border-padding"/>
 

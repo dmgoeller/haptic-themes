@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
   <defs>
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-ButtonFocus { color: #2670D0 }
-    </style>
     <style type="text/css">
-      .Hint { fill: #CA7921; fill-opacity: 0.5 }
+      .Indicator { fill: #7BA1D0 }
+      .Hint { fill: #DFAF59; fill-opacity: 0.5 }
     </style>
   </defs>
   <g transform="translate(44,4)">
@@ -13,7 +11,7 @@
       <rect style="fill:none" width="32" height="28"/>
     </g>
     <g id="north-active-tab-bottom" transform="translate(0,28)">
-      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" width="32" height="3"/>
+      <rect class="Indicator" width="32" height="3"/>
       <rect style="fill:none" y="3" width="32" height="1"/>
     </g>
     <g class="Hint">
@@ -29,7 +27,7 @@
     </g>
     <g id="west-active-tab-right" transform="translate(28)">
       <rect style="fill:none" x="3" width="1" height="32"/>
-      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" width="3" height="32"/>
+      <rect class="Indicator" width="3" height="32"/>
     </g>
     <g class="Hint">
       <rect id="west-active-tab-hint-top-margin" x="15" width="2" height="7"/>
@@ -41,7 +39,7 @@
   <g transform="translate(84,44)">
     <g id="east-active-tab-left">
       <rect style="fill:none" width="1" height="32"/>
-      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" x="1" width="3" height="32"/>
+      <rect class="Indicator" x="1" width="3" height="32"/>
     </g>
     <g id="east-active-tab-center" transform="translate(4)">
       <rect style="fill:none" width="28" height="32"/>
@@ -56,7 +54,7 @@
   <g transform="translate(44,84)">
     <g id="south-active-tab-top">
       <rect style="fill:none" width="32" height="1"/>
-      <rect class="ColorScheme-ButtonFocus" style="fill:currentColor" y="1" width="32" height="3"/>
+      <rect class="Indicator" y="1" width="32" height="3"/>
     </g>
     <g id="south-active-tab-center" transform="translate(0,4)">
       <rect style="fill:none" width="32" height="28"/>

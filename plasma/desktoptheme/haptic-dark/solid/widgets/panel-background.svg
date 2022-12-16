@@ -6,6 +6,7 @@
       .BorderTop { fill: white; fill-opacity: 0.125 }
       .BorderAside { fill: white; fill-opacity: 0.0625 }
       .BorderBottom { fill: black; fill-opacity: 0.125 }
+      .Hint { fill: #DFAF59; fill-opacity: 0.5 }
     </style>
     <radialGradient id="ambient-light-shadow-topleft" cx="28" cy="28" r="32" gradientUnits="userSpaceOnUse">
       <stop offset="0.125" style="stop-color:black;stop-opacity:0.0625"/>
@@ -138,45 +139,47 @@
 
   <!-- Surface -->
 
-  <g id="topleft" transform="translate(24,24)">
-    <path class="Background" d="m 6,0 a 6,6 0 0 0 -6,6 h 6 v -6"/>
-    <path style="fill:url(#border-topleft)" d="m 6,0 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5"/>
-  </g>
-  <g id="top" transform="translate(30,24)">
-    <rect class="Background" width="30" height="6"/>
-    <rect class="BorderTop" width="30" height="1"/>
-  </g>
-  <g id="topright" transform="translate(60,24)">
-    <path class="Background" d="m 0,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
-    <path style="fill:url(#border-topright)" d="m 0,0 v 1 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6"/>
-  </g>
-  <g id="left" transform="translate(24,30)">
-    <rect class="Background" width="6" height="30"/>
-    <rect class="BorderAside" width="1" height="30"/>
-  </g>
-  <g id="center">
-    <rect class="Background" x="30" y="30" width="30" height="30"/>
-  </g>
-  <g id="right" transform="translate(60,30)">
-    <rect class="Background" width="6" height="30"/>
-    <rect class="BorderAside" x="5" width="1" height="30"/>
-  </g>
-  <g id="bottomleft" transform="translate(24,60)">
-    <path class="Background" d="m 0,0 a 6,6 0 0 0 6,6 v -6"/>
-    <path style="fill:url(#border-bottomleft)" d="m 0,0 a 6,6 0 0 0 6,6 v -1 a 5,5 0 0 1 -5,-5"/>
-  </g>
-  <g id="bottom" transform="translate(30,60)">
-    <rect class="Background" width="30" height="6"/>
-    <rect class="BorderBottom" y="5" width="30" height="1"/>
-  </g>
-  <g id="bottomright" transform="translate(60,60)">
-    <path class="Background" d="m 0,0 v 6 a 6,6 0 0 0 6,-6"/>
-    <path style="fill:url(#border-bottomright)" d="m 0,6 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5"/>
+  <g transform="translate(24,24)">
+    <g id="topleft">
+      <path class="Background" d="m 6,0 a 6,6 0 0 0 -6,6 h 6"/>
+      <path style="fill:url(#border-topleft)" d="m 6,0 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5"/>
+    </g>
+    <g id="top" transform="translate(6)">
+      <rect class="Background" width="30" height="6"/>
+      <rect class="BorderTop" width="30" height="1"/>
+    </g>
+    <g id="topright" transform="translate(36)">
+      <path class="Background" d="m 0,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
+      <path style="fill:url(#border-topright)" d="m 0,0 v 1 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6"/>
+    </g>
+    <g id="left" transform="translate(0,6)">
+      <rect class="Background" width="6" height="30"/>
+      <rect class="BorderAside" width="1" height="30"/>
+    </g>
+    <g id="center" transform="translate(6,6)">
+      <rect class="Background" width="30" height="30"/>
+    </g>
+    <g id="right" transform="translate(36,6)">
+      <rect class="Background" width="6" height="30"/>
+      <rect class="BorderAside" x="5" width="1" height="30"/>
+    </g>
+    <g id="bottomleft" transform="translate(0,36)">
+      <path class="Background" d="m 0,0 a 6,6 0 0 0 6,6 v -6"/>
+      <path style="fill:url(#border-bottomleft)" d="m 0,0 a 6,6 0 0 0 6,6 v -1 a 5,5 0 0 1 -5,-5"/>
+    </g>
+    <g id="bottom" transform="translate(6,36)">
+      <rect class="Background" width="30" height="6"/>
+      <rect class="BorderBottom" y="5" width="30" height="1"/>
+    </g>
+    <g id="bottomright" transform="translate(36,36)">
+      <path class="Background" d="m 0,0 v 6 a 6,6 0 0 0 6,-6"/>
+      <path style="fill:url(#border-bottomright)" d="m 0,6 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5"/>
+    </g>
   </g>
 
   <!-- Hints -->
 
-  <g style="fill:#B0BEC5;fill-opacity:0.5">
+  <g class="Hint">
     <rect id="hint-stretch-borders" width="4" height="4"/>
 
     <rect id="hint-top-margin" x="43" y="24" width="4" height="1"/>

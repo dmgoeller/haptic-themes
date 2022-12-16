@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <defs>
     <style type="text/css">
-      .Line { fill: white; fill-opacity: 0.125 }
+      .Line { fill: white; fill-opacity: 0.11 }
     </style>
   </defs>
   <g class="Line">
