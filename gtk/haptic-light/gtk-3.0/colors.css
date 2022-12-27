@@ -96,5 +96,6 @@
 @define-color tooltip-fg-color #606060;
 
 /* Chromium colors */
-@define-color chromium-bg-color #E4E4E4;
-@define-color chromium-headerbar-bg-color #F0F0F0;
+@define-color chromium-bg-color white;
+@define-color chromium-headerbar-bg-color #E8E8E8;
+@define-color chromium-omnibar-bg-color @base-bg-color;

@@ -10,14 +10,29 @@ headerbar.chromium {
 }
 
 headerbar.chromium:backdrop {
-  background-color: @chromium-headerbar-bg-color;
-}
-
-/* Hack: Style toolbar bottom border */
-button.chromium:not(.titlebutton) {
-  border: 1px solid mix(@base-bg-color, @inverse-bg-color, 0.3125);
+  background-color: @chromium-bg-color;
 }
 
 button.titlebutton.chromium {
-  -gtk-icon-transform: scale(0.75);
+  -gtk-icon-transform: scale(0.6667);
+}
+
+/* Omnibar background */
+.view.chromium {
+  background-color: @chromium-omnibar-bg-color;
+}
+
+/* Omnibar border */
+entry.chromium {
+  border: 1px solid @accent-bg-color;
+}
+
+/* Hack: toolbar bottom border */
+button.chromium:not(.titlebutton) {
+  border: 1px solid mix(@base-bg-color, @inverse-bg-color, 0.125);
+}
+
+menuitem.chromium:hover {
+  background-color: mix(@menu-bg-color, @inverse-bg-color, 0.1875);
+  color: @intense-fg-color;
 }
