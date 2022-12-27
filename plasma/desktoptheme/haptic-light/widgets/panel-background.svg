@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 180">
   <defs>
     <style type="text/css">
       .Background { fill: white; fill-opacity: 0.5 }
+      .NorthBackground { fill: white; fill-opacity: 0.25 }
       .Border { fill: black; fill-opacity: 0.1 }
       .Hint { fill: #CA7921; fill-opacity: 0.5 }
     </style>
@@ -72,106 +73,147 @@
     </radialGradient>
   </defs>
 
-  <!-- Shadow -->
-
-  <g style="opacity:0.625">
-    <g id="shadow-topleft">
-      <rect style="fill:none" width="30" height="36"/>
-      <rect style="fill:url(#ambient-light-shadow-left)" y="30" width="24" height="6"/>
-      <path style="fill:url(#ambient-light-shadow-topleft)" d="m 0,0 v 30 h 24 a 6,6 0 0 1 6,-6 v -24"/>
-      <path style="fill:url(#key-light-shadow-topleft)" d="m 0,0 v 36 h 24 v -6 a 6,6 0 0 1 6,-6 v -24"/>
-    </g>
-    <g id="shadow-top" transform="translate(30)">
-      <rect style="fill:none" width="30" height="30"/>
-      <rect style="fill:url(#ambient-light-shadow-top)" width="30" height="24"/>
-      <rect style="fill:url(#key-light-shadow-top)" width="30" height="24"/>
-    </g>
-    <g id="shadow-topright" transform="translate(60)">
-      <rect style="fill:none" width="30" height="36"/>
-      <rect style="fill:url(#ambient-light-shadow-right)" x="6" y="30" width="24" height="6"/>
-      <path style="fill:url(#ambient-light-shadow-topright)" d="m 0,0 v 24 a 6,6 0 0 1 6,6 h 24 v -28"/>
-      <path style="fill:url(#key-light-shadow-topright)" d="m 0,0 v 24 a 6,6 0 0 1 6,6 v 6 h 24 v -36"/>
-    </g>
-    <g id="shadow-left" transform="translate(0,36)">
-      <rect style="fill:none" width="30" height="24"/>
-      <rect style="fill:url(#ambient-light-shadow-left)" width="24" height="24"/>
-      <rect style="fill:url(#key-light-shadow-left)" width="24" height="24"/>
-    </g>
-    <g id="shadow-right" transform="translate(60,36)">
-      <rect style="fill:none" width="30" height="24"/>
-      <rect style="fill:url(#ambient-light-shadow-right)" x="6" width="24" height="24"/>
-      <rect style="fill:url(#key-light-shadow-right)" x="6" width="24" height="24"/>
-    </g>
-    <g id="shadow-bottomleft" transform="translate(0,60)">
-      <rect style="fill:none" width="30" height="30"/>
-      <path style="fill:url(#ambient-light-shadow-bottomleft)" d="m 0,0 v 30 h 30 v -24 a 6,6 0 0 1 -6,-6"/>
-      <path style="fill:url(#key-light-shadow-bottomleft)" d="m 0,0 v 30 h 30 v -24 a 6,6 0 0 1 -6,-6"/>
-    </g>
-    <g id="shadow-bottom" transform="translate(30,60)">
-      <rect style="fill:none" width="30" height="30"/>
-      <rect style="fill:url(#ambient-light-shadow-bottom)" y="6" width="30" height="24"/>
-      <rect style="fill:url(#key-light-shadow-bottom)" y="6" width="30" height="24"/>
-    </g>
-    <g id="shadow-bottomright" transform="translate(60,60)">
-      <rect style="fill:none" width="30" height="30"/>
-      <path style="fill:url(#ambient-light-shadow-bottomright)" d="m 6,0 a 6,6 0 0 1 -6,6 v 24 h 30 v -30"/>
-      <path style="fill:url(#key-light-shadow-bottomright)" d="m 6,0 a 6,6 0 0 1 -6,6 v 24 h 30 v -30"/>
-    </g>
-  </g>
-
-  <!-- Surface -->
+  <!-- North -->
 
   <g transform="translate(24,24)">
-    <g id="topleft">
-      <path class="Background" d="m 6,0 a 6,6 0 0 0 -6,6 h 6"/>
+    <g id="north-topleft">
+      <path class="NorthBackground" d="m 6,0 a 6,6 0 0 0 -6,6 h 6"/>
       <path class="Border" d="m 6,0 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5"/>
     </g>
-    <g id="top" transform="translate(6)">
-      <rect class="Background" width="30" height="6"/>
+    <g id="north-top" transform="translate(6)">
+      <rect class="NorthBackground" width="30" height="6"/>
       <rect class="Border" width="30" height="1"/>
     </g>
-    <g id="topright" transform="translate(36)">
-      <path class="Background" d="m 0,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
+    <g id="north-topright" transform="translate(36)">
+      <path class="NorthBackground" d="m 0,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
       <path class="Border" d="m 0,0 v 1 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6"/>
     </g>
-    <g id="left" transform="translate(0,6)">
-      <rect class="Background" width="6" height="30"/>
+    <g id="north-left" transform="translate(0,6)">
+      <rect class="NorthBackground" width="6" height="30"/>
       <rect class="Border" width="1" height="30"/>
     </g>
-    <g id="center" transform="translate(6,6)">
-      <rect class="Background" width="30" height="30"/>
+    <g id="north-center" transform="translate(6,6)">
+      <rect class="NorthBackground" width="30" height="30"/>
     </g>
-    <g id="right" transform="translate(36,6)">
-      <rect class="Background" width="6" height="30"/>
+    <g id="north-right" transform="translate(36,6)">
+      <rect class="NorthBackground" width="6" height="30"/>
       <rect class="Border" x="5" width="1" height="30"/>
     </g>
-    <g id="bottomleft" transform="translate(0,36)">
-      <path class="Background" d="m 0,0 a 6,6 0 0 0 6,6 v -6"/>
+    <g id="north-bottomleft" transform="translate(0,36)">
+      <path class="NorthBackground" d="m 0,0 a 6,6 0 0 0 6,6 v -6"/>
       <path class="Border" d="m 0,0 a 6,6 0 0 0 6,6 v -1 a 5,5 0 0 1 -5,-5"/>
     </g>
-    <g id="bottom" transform="translate(6,36)">
-      <rect class="Background" width="30" height="6"/>
+    <g id="north-bottom" transform="translate(6,36)">
+      <rect class="NorthBackground" width="30" height="6"/>
       <rect class="Border" y="5" width="30" height="1"/>
     </g>
-    <g id="bottomright" transform="translate(36,36)">
-      <path class="Background" d="m 0,0 v 6 a 6,6 0 0 0 6,-6"/>
+    <g id="north-bottomright" transform="translate(36,36)">
+      <path class="NorthBackground" d="m 0,0 v 6 a 6,6 0 0 0 6,-6"/>
       <path class="Border" d="m 0,6 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5"/>
     </g>
   </g>
 
-  <!-- Hints -->
+  <!-- Other sides -->
 
-  <g class="Hint">
-    <rect id="hint-stretch-borders" width="4" height="4"/>
+  <g transform="translate(0,90)">
+    <!-- Shadow -->
+    <g style="opacity:0.625">
+      <g id="shadow-topleft">
+        <rect style="fill:none" width="30" height="36"/>
+        <rect style="fill:url(#ambient-light-shadow-left)" y="30" width="24" height="6"/>
+        <path style="fill:url(#ambient-light-shadow-topleft)" d="m 0,0 v 30 h 24 a 6,6 0 0 1 6,-6 v -24"/>
+        <path style="fill:url(#key-light-shadow-topleft)" d="m 0,0 v 36 h 24 v -6 a 6,6 0 0 1 6,-6 v -24"/>
+      </g>
+      <g id="shadow-top" transform="translate(30)">
+        <rect style="fill:none" width="30" height="30"/>
+        <rect style="fill:url(#ambient-light-shadow-top)" width="30" height="24"/>
+        <rect style="fill:url(#key-light-shadow-top)" width="30" height="24"/>
+      </g>
+      <g id="shadow-topright" transform="translate(60)">
+        <rect style="fill:none" width="30" height="36"/>
+        <rect style="fill:url(#ambient-light-shadow-right)" x="6" y="30" width="24" height="6"/>
+        <path style="fill:url(#ambient-light-shadow-topright)" d="m 0,0 v 24 a 6,6 0 0 1 6,6 h 24 v -28"/>
+        <path style="fill:url(#key-light-shadow-topright)" d="m 0,0 v 24 a 6,6 0 0 1 6,6 v 6 h 24 v -36"/>
+      </g>
+      <g id="shadow-left" transform="translate(0,36)">
+        <rect style="fill:none" width="30" height="24"/>
+        <rect style="fill:url(#ambient-light-shadow-left)" width="24" height="24"/>
+        <rect style="fill:url(#key-light-shadow-left)" width="24" height="24"/>
+      </g>
+      <g id="shadow-right" transform="translate(60,36)">
+        <rect style="fill:none" width="30" height="24"/>
+        <rect style="fill:url(#ambient-light-shadow-right)" x="6" width="24" height="24"/>
+        <rect style="fill:url(#key-light-shadow-right)" x="6" width="24" height="24"/>
+      </g>
+      <g id="shadow-bottomleft" transform="translate(0,60)">
+        <rect style="fill:none" width="30" height="30"/>
+        <path style="fill:url(#ambient-light-shadow-bottomleft)" d="m 0,0 v 30 h 30 v -24 a 6,6 0 0 1 -6,-6"/>
+        <path style="fill:url(#key-light-shadow-bottomleft)" d="m 0,0 v 30 h 30 v -24 a 6,6 0 0 1 -6,-6"/>
+      </g>
+      <g id="shadow-bottom" transform="translate(30,60)">
+        <rect style="fill:none" width="30" height="30"/>
+        <rect style="fill:url(#ambient-light-shadow-bottom)" y="6" width="30" height="24"/>
+        <rect style="fill:url(#key-light-shadow-bottom)" y="6" width="30" height="24"/>
+      </g>
+      <g id="shadow-bottomright" transform="translate(60,60)">
+        <rect style="fill:none" width="30" height="30"/>
+        <path style="fill:url(#ambient-light-shadow-bottomright)" d="m 6,0 a 6,6 0 0 1 -6,6 v 24 h 30 v -30"/>
+        <path style="fill:url(#key-light-shadow-bottomright)" d="m 6,0 a 6,6 0 0 1 -6,6 v 24 h 30 v -30"/>
+      </g>
+    </g>
 
-    <rect id="hint-top-margin" x="43" y="24" width="4" height="1"/>
-    <rect id="hint-bottom-margin" x="43" y="65" width="4" height="1"/>
-    <rect id="hint-left-margin" x="24" y="43" width="1" height="4"/>
-    <rect id="hint-right-margin" x="65" y="43" width="1" height="4"/>
+    <!-- Surface -->
+    <g transform="translate(24,24)">
+      <g id="topleft">
+        <path class="Background" d="m 6,0 a 6,6 0 0 0 -6,6 h 6"/>
+        <path class="Border" d="m 6,0 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5"/>
+      </g>
+      <g id="top" transform="translate(6)">
+        <rect class="Background" width="30" height="6"/>
+        <rect class="Border" width="30" height="1"/>
+      </g>
+      <g id="topright" transform="translate(36)">
+        <path class="Background" d="m 0,0 v 6 h 6 a 6,6 0 0 0 -6,-6"/>
+        <path class="Border" d="m 0,0 v 1 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6"/>
+      </g>
+      <g id="left" transform="translate(0,6)">
+        <rect class="Background" width="6" height="30"/>
+        <rect class="Border" width="1" height="30"/>
+      </g>
+      <g id="center" transform="translate(6,6)">
+        <rect class="Background" width="30" height="30"/>
+      </g>
+      <g id="right" transform="translate(36,6)">
+        <rect class="Background" width="6" height="30"/>
+        <rect class="Border" x="5" width="1" height="30"/>
+      </g>
+      <g id="bottomleft" transform="translate(0,36)">
+        <path class="Background" d="m 0,0 a 6,6 0 0 0 6,6 v -6"/>
+        <path class="Border" d="m 0,0 a 6,6 0 0 0 6,6 v -1 a 5,5 0 0 1 -5,-5"/>
+      </g>
+      <g id="bottom" transform="translate(6,36)">
+        <rect class="Background" width="30" height="6"/>
+        <rect class="Border" y="5" width="30" height="1"/>
+      </g>
+      <g id="bottomright" transform="translate(36,36)">
+        <path class="Background" d="m 0,0 v 6 a 6,6 0 0 0 6,-6"/>
+        <path class="Border" d="m 0,6 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5"/>
+      </g>
+    </g>
 
-    <rect id="shadow-hint-top-margin" x="43" width="4" height="24"/>
-    <rect id="shadow-hint-bottom-margin" x="43" y="66" width="4" height="24"/>
-    <rect id="shadow-hint-left-margin" y="43" width="24" height="4"/>
-    <rect id="shadow-hint-right-margin" x="66" y="43" width="24" height="4"/>
+    <!-- Hints -->
+    <g class="Hint">
+      <rect id="hint-stretch-borders" width="4" height="4"/>
+
+      <rect id="hint-top-margin" x="43" y="24" width="4" height="1"/>
+      <rect id="hint-bottom-margin" x="43" y="65" width="4" height="1"/>
+      <rect id="hint-left-margin" x="24" y="43" width="1" height="4"/>
+      <rect id="hint-right-margin" x="65" y="43" width="1" height="4"/>
+
+      <rect id="shadow-hint-top-margin" x="43" width="4" height="24"/>
+      <rect id="shadow-hint-bottom-margin" x="43" y="66" width="4" height="24"/>
+      <rect id="shadow-hint-left-margin" y="43" width="24" height="4"/>
+      <rect id="shadow-hint-right-margin" x="66" y="43" width="24" height="4"/>
+    </g>
   </g>
 </svg>
