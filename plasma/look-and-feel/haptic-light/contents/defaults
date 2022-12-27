@@ -1,5 +1,5 @@
-[kdeglobals][KDE]
-widgetStyle=kvantum
+[kcminputrc][Mouse]
+cursorTheme=Google_Cursor
 
 [kdeglobals][General]
 ColorScheme=HapticLight
@@ -7,8 +7,17 @@ ColorScheme=HapticLight
 [kdeglobals][Icons]
 Theme=haptic-light
 
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kwinrc][TabBox]
+LayoutName=big_icons
+
 [plasmarc][Theme]
 name=haptic-light
 
-[kcminputrc][Mouse]
-cursorTheme=Google_Cursor
+[KSplash]
+Theme=None
+
+[Wallpaper]
+Image=Gradient
