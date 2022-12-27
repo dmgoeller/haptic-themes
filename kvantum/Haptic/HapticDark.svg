@@ -11,8 +11,8 @@
       .checkbox-checked                { fill: #C0C0C0; }
       .disabled                        { opacity: 0.375 }
       .fill-none                       { fill: none }
-      .menu                            { fill: black; fill-opacity: 0.5 }
-      .menu-overlay                    { fill: white; fill-opacity: 0.125 }
+      .menu                            { fill: white; fill-opacity: 0.125 }
+      .menu-backdrop                   { fill: black; fill-opacity: 0.5 }
       .menubaritem-toggled             { fill: #E4E4E4; fill-opacity: 0.09375 }
       .menuitem                        { fill: #E4E4E4; fill-opacity: 0.1875 }
       .menuitem-text                   { fill: white }
@@ -1843,8 +1843,8 @@
         <path style="fill:url(#key-light-shadow-6dp-topleft)" d="m 0,6 h 10 a 4,4 0 0 0 -4,4 v 2 h -6 z"/>
 
         <g id="menu-normal-topleft">
+          <path class="menu-backdrop" d="m 6,10 a 4,4 0 0 1 4,-4 h 2 v 6 h -6 z"/>
           <path class="menu" d="m 6,10 a 4,4 0 0 1 4,-4 h 2 v 6 h -6 z"/>
-          <path class="menu-overlay" d="m 6,10 a 4,4 0 0 1 4,-4 h 2 v 6 h -6 z"/>
           <path class="surface-border-top" d="m 6,10 a 4,4 0 0 1 4,-4 h 2 v 1 h -2 a 4,3 0 0 0 -4,3 z"/>
         </g>
       </g>
@@ -1853,8 +1853,8 @@
         <rect style="fill:url(#ambient-light-shadow-6dp-top)" width="12" height="6"/>
 
         <g id="menu-normal-top">
+          <rect class="menu-backdrop" y="6" width="12" height="6"/>
           <rect class="menu" y="6" width="12" height="6"/>
-          <rect class="menu-overlay" y="6" width="12" height="6"/>
           <rect class="surface-border-top" y="6" width="12" height="1"/>
         </g>
       </g>
@@ -1865,8 +1865,8 @@
         <path style="fill:url(#key-light-shadow-6dp-topright)" d="m 2,6 h 10 v 6 h -6 v -2 a 4,4 0 0 0 -4,-4 z"/>
 
         <g id="menu-normal-topright">
+          <path class="menu-backdrop" d="m 0,6 h 2 a 4,4 0 0 1 4,4 v 2 h -6 z"/>
           <path class="menu" d="m 0,6 h 2 a 4,4 0 0 1 4,4 v 2 h -6 z"/>
-          <path class="menu-overlay" d="m 0,6 h 2 a 4,4 0 0 1 4,4 v 2 h -6 z"/>
           <path class="surface-border-top" d="m 0,6 h 2 a 4,4 0 0 1 4,4 a 4,3 0 0 0 -4,-3 h -2 z"/>
         </g>
       </g>
@@ -1876,14 +1876,14 @@
         <rect style="fill:url(#key-light-shadow-6dp-left)" x="4" width="2" height="12"/>
 
         <g id="menu-normal-left" transform="translate(6)">
+          <rect class="menu-backdrop" width="6" height="12"/>
           <rect class="menu" width="6" height="12"/>
-          <rect class="menu-overlay" width="6" height="12"/>
         </g>
       </g>
 
       <g id="menu-normal" transform="translate(12,12)">
+        <rect class="menu-backdrop" height="12" width="12"/>
         <rect class="menu" height="12" width="12"/>
-        <rect class="menu-overlay" height="12" width="12"/>
       </g>
 
       <g id="menu-shadow-right" transform="translate(24,12)">
@@ -1892,8 +1892,8 @@
         <rect style="fill:url(#key-light-shadow-6dp-right)" x="6" width="6" height="12"/>
 
         <g id="menu-normal-right">
+          <rect class="menu-backdrop" width="6" height="12"/>
           <rect class="menu" width="6" height="12"/>
-          <rect class="menu-overlay" width="6" height="12"/>
         </g>
       </g>
       <g id="menu-shadow-bottomleft" transform="translate(0,24)">
@@ -1906,8 +1906,8 @@
         <rect style="fill:url(#key-light-shadow-6dp-bottom)" x="10" y="6" width="2" height="6"/>
 
         <g id="menu-normal-bottomleft">
+          <path class="menu-backdrop" d="m 6,0 h 6 v 6 h -2 a 4,4 0 0 1 -4,-4 z"/>
           <path class="menu" d="m 6,0 h 6 v 6 h -2 a 4,4 0 0 1 -4,-4 z"/>
-          <path class="menu-overlay" d="m 6,0 h 6 v 6 h -2 a 4,4 0 0 1 -4,-4 z"/>
           <path class="surface-border-bottom" d="m 6,2 a 4,3 0 0 0 4,3 h 2 v 1 h -2 a 4,4 0 0 1 -4,-4 z"/>
         </g>
       </g>
@@ -1917,8 +1917,8 @@
         <rect style="fill:url(#key-light-shadow-6dp-bottom)" y="6" width="12" height="6"/>
 
         <g id="menu-normal-bottom">
+          <rect class="menu-backdrop" width="12" height="6"/>
           <rect class="menu" width="12" height="6"/>
-          <rect class="menu-overlay" width="12" height="6"/>
           <rect class="surface-border-bottom" y="5" width="12" height="1"/>
         </g>
       </g>
@@ -1932,8 +1932,8 @@
         <rect style="fill:url(#key-light-shadow-6dp-bottom)" x="0" y="6" width="2" height="6"/>
 
         <g id="menu-normal-bottomright">
+          <path class="menu-backdrop" d="m 0,0 h 6 v 2 a 4,4 0 0 1 -4,4 h -2 z"/>
           <path class="menu" d="m 0,0 h 6 v 2 a 4,4 0 0 1 -4,4 h -2 z"/>
-          <path class="menu-overlay" d="m 0,0 h 6 v 2 a 4,4 0 0 1 -4,4 h -2 z"/>
           <path class="surface-border-bottom" d="m 0,5 h 2 a 4,3 0 0 0 4,-3 a 4,4 0 0 1 -4,4 h -2 z"/>
         </g>
       </g>
