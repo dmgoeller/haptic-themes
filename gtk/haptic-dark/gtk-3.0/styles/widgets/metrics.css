@@ -182,13 +182,13 @@ menu {
 }
 
 combobox menu {
-  padding: 1px 0;
+  padding: 0px 0;
 }
 
 menuitem,
 popover modelbutton {
-  min-height: 26px;
-  padding: 4px 8px;
+  min-height: 30px;
+  padding: 2px 8px 2px 8px;
 }
 
 menuitem:dir(ltr) > *:not(:first-child),
@@ -254,7 +254,7 @@ button {
 }
 
 button.combo:only-child {
-  min-height: 30px; /* Min total height: 34px */
+  min-height: 3px; /* Min total height: 34px */
   padding: 2px 8px;
 }
 

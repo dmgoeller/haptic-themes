@@ -235,7 +235,7 @@ label.keycap {
 }
 
 /**********************************************************************
- * (Push) buttons
+ * (Push) Buttons
  **********************************************************************/
 
 button {
@@ -369,28 +369,6 @@ headerbar button.toggle:checked,
 /* --------------------------------- */
 toolbar button:checked,
 toolbar button.toggle:checked {
-  background-color: @accent-bg-color;
-  color: @colored-button-fg-color;
-}
-
-button.flat:checked:backdrop,
-button.flat.toggle:checked:backdrop,
-/* --------------------------------- */
-actionbar button:checked:backdrop,
-actionbar button.toggle:checked:backdrop,
-/* --------------------------------- */
-headerbar button:checked:backdrop,
-headerbar button.toggle:checked:backdrop,
-/* --------------------------------- */
-toolbar button:checked:backdrop,
-toolbar button.toggle:checked:backdrop {
-  background-color: @grayed-accent-bg-color;
-}
-
-button.flat.toggle.popup:checked,
-actionbar button.toggle.popup:checked,
-headerbar button.toggle.popup:checked,
-toolbar button.toggle.popup:checked {
   background-color: alpha(@inverse-bg-color, 0.25);
   color: @flat-button-fg-color-checked;
 }
